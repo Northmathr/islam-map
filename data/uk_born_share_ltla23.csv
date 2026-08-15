@@ -1,0 +1,3171 @@
+area_code,area_name,area_type,period,faith_category,population,uk_born,uk_born_pct,suppressed
+E06000001,Hartlepool,ltla23,2021,Buddhist,180,89,,n<1000
+E06000001,Hartlepool,ltla23,2021,Christian,48496,46720,96.34,
+E06000001,Hartlepool,ltla23,2021,Does not apply,0,0,,n<1000
+E06000001,Hartlepool,ltla23,2021,Hindu,223,67,,n<1000
+E06000001,Hartlepool,ltla23,2021,Jewish,27,22,,n<1000
+E06000001,Hartlepool,ltla23,2021,Muslim,1211,494,40.79,
+E06000001,Hartlepool,ltla23,2021,No religion,36995,36321,98.18,
+E06000001,Hartlepool,ltla23,2021,Not answered,4755,4597,96.68,
+E06000001,Hartlepool,ltla23,2021,Other religion,286,262,,n<1000
+E06000001,Hartlepool,ltla23,2021,Sikh,166,102,,n<1000
+E06000002,Middlesbrough,ltla23,2021,Buddhist,437,125,,n<1000
+E06000002,Middlesbrough,ltla23,2021,Christian,66143,59529,90.0,
+E06000002,Middlesbrough,ltla23,2021,Does not apply,0,0,,n<1000
+E06000002,Middlesbrough,ltla23,2021,Hindu,1437,184,12.8,
+E06000002,Middlesbrough,ltla23,2021,Jewish,41,35,,n<1000
+E06000002,Middlesbrough,ltla23,2021,Muslim,14704,8049,54.74,
+E06000002,Middlesbrough,ltla23,2021,No religion,52413,50648,96.63,
+E06000002,Middlesbrough,ltla23,2021,Not answered,7684,6832,88.91,
+E06000002,Middlesbrough,ltla23,2021,Other religion,460,388,,n<1000
+E06000002,Middlesbrough,ltla23,2021,Sikh,606,452,,n<1000
+E06000003,Redcar and Cleveland,ltla23,2021,Buddhist,282,189,,n<1000
+E06000003,Redcar and Cleveland,ltla23,2021,Christian,72361,70466,97.38,
+E06000003,Redcar and Cleveland,ltla23,2021,Does not apply,0,0,,n<1000
+E06000003,Redcar and Cleveland,ltla23,2021,Hindu,139,52,,n<1000
+E06000003,Redcar and Cleveland,ltla23,2021,Jewish,37,25,,n<1000
+E06000003,Redcar and Cleveland,ltla23,2021,Muslim,986,399,,n<1000
+E06000003,Redcar and Cleveland,ltla23,2021,No religion,54920,53884,98.11,
+E06000003,Redcar and Cleveland,ltla23,2021,Not answered,7248,7038,97.1,
+E06000003,Redcar and Cleveland,ltla23,2021,Other religion,495,468,,n<1000
+E06000003,Redcar and Cleveland,ltla23,2021,Sikh,71,34,,n<1000
+E06000004,Stockton-on-Tees,ltla23,2021,Buddhist,532,260,,n<1000
+E06000004,Stockton-on-Tees,ltla23,2021,Christian,100420,95162,94.76,
+E06000004,Stockton-on-Tees,ltla23,2021,Does not apply,0,0,,n<1000
+E06000004,Stockton-on-Tees,ltla23,2021,Hindu,812,264,,n<1000
+E06000004,Stockton-on-Tees,ltla23,2021,Jewish,61,50,,n<1000
+E06000004,Stockton-on-Tees,ltla23,2021,Muslim,6673,3672,55.03,
+E06000004,Stockton-on-Tees,ltla23,2021,No religion,76843,74803,97.35,
+E06000004,Stockton-on-Tees,ltla23,2021,Not answered,9925,9122,91.91,
+E06000004,Stockton-on-Tees,ltla23,2021,Other religion,552,502,,n<1000
+E06000004,Stockton-on-Tees,ltla23,2021,Sikh,781,491,,n<1000
+E06000005,Darlington,ltla23,2021,Buddhist,343,151,,n<1000
+E06000005,Darlington,ltla23,2021,Christian,56194,51694,91.99,
+E06000005,Darlington,ltla23,2021,Does not apply,0,0,,n<1000
+E06000005,Darlington,ltla23,2021,Hindu,451,106,,n<1000
+E06000005,Darlington,ltla23,2021,Jewish,36,28,,n<1000
+E06000005,Darlington,ltla23,2021,Muslim,1851,865,46.73,
+E06000005,Darlington,ltla23,2021,No religion,42781,41048,95.95,
+E06000005,Darlington,ltla23,2021,Not answered,5296,4875,92.05,
+E06000005,Darlington,ltla23,2021,Other religion,405,360,,n<1000
+E06000005,Darlington,ltla23,2021,Sikh,443,246,,n<1000
+E06000006,Halton,ltla23,2021,Buddhist,291,165,,n<1000
+E06000006,Halton,ltla23,2021,Christian,75270,71723,95.29,
+E06000006,Halton,ltla23,2021,Does not apply,0,0,,n<1000
+E06000006,Halton,ltla23,2021,Hindu,329,129,,n<1000
+E06000006,Halton,ltla23,2021,Jewish,46,40,,n<1000
+E06000006,Halton,ltla23,2021,Muslim,806,230,,n<1000
+E06000006,Halton,ltla23,2021,No religion,45262,43996,97.2,
+E06000006,Halton,ltla23,2021,Not answered,5947,5594,94.06,
+E06000006,Halton,ltla23,2021,Other religion,453,419,,n<1000
+E06000006,Halton,ltla23,2021,Sikh,80,56,,n<1000
+E06000007,Warrington,ltla23,2021,Buddhist,606,283,,n<1000
+E06000007,Warrington,ltla23,2021,Christian,119650,108799,90.93,
+E06000007,Warrington,ltla23,2021,Does not apply,0,0,,n<1000
+E06000007,Warrington,ltla23,2021,Hindu,1495,512,34.25,
+E06000007,Warrington,ltla23,2021,Jewish,191,163,,n<1000
+E06000007,Warrington,ltla23,2021,Muslim,3683,1740,47.24,
+E06000007,Warrington,ltla23,2021,No religion,73042,68939,94.38,
+E06000007,Warrington,ltla23,2021,Not answered,11036,9837,89.14,
+E06000007,Warrington,ltla23,2021,Other religion,795,676,,n<1000
+E06000007,Warrington,ltla23,2021,Sikh,478,279,,n<1000
+E06000008,Blackburn with Darwen,ltla23,2021,Buddhist,262,141,,n<1000
+E06000008,Blackburn with Darwen,ltla23,2021,Christian,58793,53114,90.34,
+E06000008,Blackburn with Darwen,ltla23,2021,Does not apply,0,0,,n<1000
+E06000008,Blackburn with Darwen,ltla23,2021,Hindu,484,157,,n<1000
+E06000008,Blackburn with Darwen,ltla23,2021,Jewish,48,34,,n<1000
+E06000008,Blackburn with Darwen,ltla23,2021,Muslim,54146,34794,64.26,
+E06000008,Blackburn with Darwen,ltla23,2021,No religion,32717,31563,96.47,
+E06000008,Blackburn with Darwen,ltla23,2021,Not answered,7712,6489,84.14,
+E06000008,Blackburn with Darwen,ltla23,2021,Other religion,439,376,,n<1000
+E06000008,Blackburn with Darwen,ltla23,2021,Sikh,141,77,,n<1000
+E06000009,Blackpool,ltla23,2021,Buddhist,500,227,,n<1000
+E06000009,Blackpool,ltla23,2021,Christian,71696,65213,90.96,
+E06000009,Blackpool,ltla23,2021,Does not apply,0,0,,n<1000
+E06000009,Blackpool,ltla23,2021,Hindu,512,143,,n<1000
+E06000009,Blackpool,ltla23,2021,Jewish,226,210,,n<1000
+E06000009,Blackpool,ltla23,2021,Muslim,2004,782,39.02,
+E06000009,Blackpool,ltla23,2021,No religion,57813,55756,96.44,
+E06000009,Blackpool,ltla23,2021,Not answered,7473,6873,91.97,
+E06000009,Blackpool,ltla23,2021,Other religion,706,649,,n<1000
+E06000009,Blackpool,ltla23,2021,Sikh,108,49,,n<1000
+E06000010,Kingston upon Hull,ltla23,2021,Buddhist,745,390,,n<1000
+E06000010,Kingston upon Hull,ltla23,2021,Christian,106411,86488,81.28,
+E06000010,Kingston upon Hull,ltla23,2021,Does not apply,0,0,,n<1000
+E06000010,Kingston upon Hull,ltla23,2021,Hindu,646,194,,n<1000
+E06000010,Kingston upon Hull,ltla23,2021,Jewish,144,118,,n<1000
+E06000010,Kingston upon Hull,ltla23,2021,Muslim,9287,3601,38.77,
+E06000010,Kingston upon Hull,ltla23,2021,No religion,131425,125665,95.62,
+E06000010,Kingston upon Hull,ltla23,2021,Not answered,16957,14553,85.82,
+E06000010,Kingston upon Hull,ltla23,2021,Other religion,1123,888,79.07,
+E06000010,Kingston upon Hull,ltla23,2021,Sikh,274,156,,n<1000
+E06000011,East Riding of Yorkshire,ltla23,2021,Buddhist,888,497,,n<1000
+E06000011,East Riding of Yorkshire,ltla23,2021,Christian,182398,173305,95.01,
+E06000011,East Riding of Yorkshire,ltla23,2021,Does not apply,0,0,,n<1000
+E06000011,East Riding of Yorkshire,ltla23,2021,Hindu,760,235,,n<1000
+E06000011,East Riding of Yorkshire,ltla23,2021,Jewish,283,247,,n<1000
+E06000011,East Riding of Yorkshire,ltla23,2021,Muslim,1964,742,37.78,
+E06000011,East Riding of Yorkshire,ltla23,2021,No religion,133916,129491,96.7,
+E06000011,East Riding of Yorkshire,ltla23,2021,Not answered,20561,19463,94.66,
+E06000011,East Riding of Yorkshire,ltla23,2021,Other religion,1224,1111,90.77,
+E06000011,East Riding of Yorkshire,ltla23,2021,Sikh,227,139,,n<1000
+E06000012,North East Lincolnshire,ltla23,2021,Buddhist,417,215,,n<1000
+E06000012,North East Lincolnshire,ltla23,2021,Christian,71062,65237,91.8,
+E06000012,North East Lincolnshire,ltla23,2021,Does not apply,0,0,,n<1000
+E06000012,North East Lincolnshire,ltla23,2021,Hindu,425,132,,n<1000
+E06000012,North East Lincolnshire,ltla23,2021,Jewish,77,61,,n<1000
+E06000012,North East Lincolnshire,ltla23,2021,Muslim,1921,774,40.29,
+E06000012,North East Lincolnshire,ltla23,2021,No religion,73010,70952,97.18,
+E06000012,North East Lincolnshire,ltla23,2021,Not answered,9218,8597,93.26,
+E06000012,North East Lincolnshire,ltla23,2021,Other religion,653,597,,n<1000
+E06000012,North East Lincolnshire,ltla23,2021,Sikh,183,93,,n<1000
+E06000013,North Lincolnshire,ltla23,2021,Buddhist,406,211,,n<1000
+E06000013,North Lincolnshire,ltla23,2021,Christian,88455,78736,89.01,
+E06000013,North Lincolnshire,ltla23,2021,Does not apply,0,0,,n<1000
+E06000013,North Lincolnshire,ltla23,2021,Hindu,417,124,,n<1000
+E06000013,North Lincolnshire,ltla23,2021,Jewish,49,41,,n<1000
+E06000013,North Lincolnshire,ltla23,2021,Muslim,4201,2210,52.61,
+E06000013,North Lincolnshire,ltla23,2021,No religion,65583,63021,96.09,
+E06000013,North Lincolnshire,ltla23,2021,Not answered,9390,8525,90.79,
+E06000013,North Lincolnshire,ltla23,2021,Other religion,614,525,,n<1000
+E06000013,North Lincolnshire,ltla23,2021,Sikh,565,316,,n<1000
+E06000014,York,ltla23,2021,Buddhist,1045,432,41.34,
+E06000014,York,ltla23,2021,Christian,89019,80168,90.06,
+E06000014,York,ltla23,2021,Does not apply,0,0,,n<1000
+E06000014,York,ltla23,2021,Hindu,1044,300,28.74,
+E06000014,York,ltla23,2021,Jewish,272,200,,n<1000
+E06000014,York,ltla23,2021,Muslim,2489,844,33.91,
+E06000014,York,ltla23,2021,No religion,93577,85599,91.47,
+E06000014,York,ltla23,2021,Not answered,13931,12329,88.5,
+E06000014,York,ltla23,2021,Other religion,1266,966,76.3,
+E06000014,York,ltla23,2021,Sikh,179,126,,n<1000
+E06000015,Derby,ltla23,2021,Buddhist,828,300,,n<1000
+E06000015,Derby,ltla23,2021,Christian,104969,83438,79.49,
+E06000015,Derby,ltla23,2021,Does not apply,0,0,,n<1000
+E06000015,Derby,ltla23,2021,Hindu,3067,932,30.39,
+E06000015,Derby,ltla23,2021,Jewish,150,112,,n<1000
+E06000015,Derby,ltla23,2021,Muslim,29138,16091,55.22,
+E06000015,Derby,ltla23,2021,No religion,95638,89561,93.65,
+E06000015,Derby,ltla23,2021,Not answered,16515,13416,81.24,
+E06000015,Derby,ltla23,2021,Other religion,1295,1053,81.31,
+E06000015,Derby,ltla23,2021,Sikh,9762,5266,53.94,
+E06000016,Leicester,ltla23,2021,Buddhist,1179,414,35.11,
+E06000016,Leicester,ltla23,2021,Christian,91161,55670,61.07,
+E06000016,Leicester,ltla23,2021,Does not apply,0,0,,n<1000
+E06000016,Leicester,ltla23,2021,Hindu,65821,19392,29.46,
+E06000016,Leicester,ltla23,2021,Jewish,323,251,,n<1000
+E06000016,Leicester,ltla23,2021,Muslim,86443,42229,48.85,
+E06000016,Leicester,ltla23,2021,No religion,84607,75871,89.67,
+E06000016,Leicester,ltla23,2021,Not answered,20505,14066,68.6,
+E06000016,Leicester,ltla23,2021,Other religion,2075,1203,57.98,
+E06000016,Leicester,ltla23,2021,Sikh,16450,7981,48.52,
+E06000017,Rutland,ltla23,2021,Buddhist,148,72,,n<1000
+E06000017,Rutland,ltla23,2021,Christian,22728,20870,91.83,
+E06000017,Rutland,ltla23,2021,Does not apply,0,0,,n<1000
+E06000017,Rutland,ltla23,2021,Hindu,124,67,,n<1000
+E06000017,Rutland,ltla23,2021,Jewish,53,40,,n<1000
+E06000017,Rutland,ltla23,2021,Muslim,259,119,,n<1000
+E06000017,Rutland,ltla23,2021,No religion,15236,14231,93.4,
+E06000017,Rutland,ltla23,2021,Not answered,2231,2051,91.93,
+E06000017,Rutland,ltla23,2021,Other religion,201,164,,n<1000
+E06000017,Rutland,ltla23,2021,Sikh,67,44,,n<1000
+E06000018,Nottingham,ltla23,2021,Buddhist,1671,616,36.86,
+E06000018,Nottingham,ltla23,2021,Christian,112200,77079,68.7,
+E06000018,Nottingham,ltla23,2021,Does not apply,0,0,,n<1000
+E06000018,Nottingham,ltla23,2021,Hindu,5403,1685,31.19,
+E06000018,Nottingham,ltla23,2021,Jewish,940,797,,n<1000
+E06000018,Nottingham,ltla23,2021,Muslim,39540,19377,49.01,
+E06000018,Nottingham,ltla23,2021,No religion,133402,120957,90.67,
+E06000018,Nottingham,ltla23,2021,Not answered,24099,19217,79.74,
+E06000018,Nottingham,ltla23,2021,Other religion,2264,1655,73.1,
+E06000018,Nottingham,ltla23,2021,Sikh,4110,2750,66.91,
+E06000019,Herefordshire,ltla23,2021,Buddhist,649,382,,n<1000
+E06000019,Herefordshire,ltla23,2021,Christian,102614,92554,90.2,
+E06000019,Herefordshire,ltla23,2021,Does not apply,0,0,,n<1000
+E06000019,Herefordshire,ltla23,2021,Hindu,384,120,,n<1000
+E06000019,Herefordshire,ltla23,2021,Jewish,141,114,,n<1000
+E06000019,Herefordshire,ltla23,2021,Muslim,790,223,,n<1000
+E06000019,Herefordshire,ltla23,2021,No religion,68473,65018,94.95,
+E06000019,Herefordshire,ltla23,2021,Not answered,12962,11675,90.07,
+E06000019,Herefordshire,ltla23,2021,Other religion,903,797,,n<1000
+E06000019,Herefordshire,ltla23,2021,Sikh,117,75,,n<1000
+E06000020,Telford and Wrekin,ltla23,2021,Buddhist,596,252,,n<1000
+E06000020,Telford and Wrekin,ltla23,2021,Christian,88275,76377,86.52,
+E06000020,Telford and Wrekin,ltla23,2021,Does not apply,0,0,,n<1000
+E06000020,Telford and Wrekin,ltla23,2021,Hindu,1354,490,36.19,
+E06000020,Telford and Wrekin,ltla23,2021,Jewish,79,58,,n<1000
+E06000020,Telford and Wrekin,ltla23,2021,Muslim,5041,2758,54.71,
+E06000020,Telford and Wrekin,ltla23,2021,No religion,75967,72584,95.55,
+E06000020,Telford and Wrekin,ltla23,2021,Not answered,10447,9262,88.66,
+E06000020,Telford and Wrekin,ltla23,2021,Other religion,932,773,,n<1000
+E06000020,Telford and Wrekin,ltla23,2021,Sikh,2852,1883,66.02,
+E06000021,Stoke-on-Trent,ltla23,2021,Buddhist,811,285,,n<1000
+E06000021,Stoke-on-Trent,ltla23,2021,Christian,118434,102319,86.39,
+E06000021,Stoke-on-Trent,ltla23,2021,Does not apply,0,0,,n<1000
+E06000021,Stoke-on-Trent,ltla23,2021,Hindu,1356,394,29.06,
+E06000021,Stoke-on-Trent,ltla23,2021,Jewish,83,49,,n<1000
+E06000021,Stoke-on-Trent,ltla23,2021,Muslim,23790,13190,55.44,
+E06000021,Stoke-on-Trent,ltla23,2021,No religion,97431,93857,96.33,
+E06000021,Stoke-on-Trent,ltla23,2021,Not answered,14711,13068,88.83,
+E06000021,Stoke-on-Trent,ltla23,2021,Other religion,1150,1034,89.91,
+E06000021,Stoke-on-Trent,ltla23,2021,Sikh,602,335,,n<1000
+E06000022,Bath and North East Somerset,ltla23,2021,Buddhist,997,494,,n<1000
+E06000022,Bath and North East Somerset,ltla23,2021,Christian,81554,70763,86.77,
+E06000022,Bath and North East Somerset,ltla23,2021,Does not apply,0,0,,n<1000
+E06000022,Bath and North East Somerset,ltla23,2021,Hindu,872,268,,n<1000
+E06000022,Bath and North East Somerset,ltla23,2021,Jewish,324,220,,n<1000
+E06000022,Bath and North East Somerset,ltla23,2021,Muslim,1910,710,37.17,
+E06000022,Bath and North East Somerset,ltla23,2021,No religion,92567,84556,91.35,
+E06000022,Bath and North East Somerset,ltla23,2021,Not answered,13930,12047,86.48,
+E06000022,Bath and North East Somerset,ltla23,2021,Other religion,1094,909,83.09,
+E06000022,Bath and North East Somerset,ltla23,2021,Sikh,161,121,,n<1000
+E06000023,Bristol,ltla23,2021,Buddhist,2709,1389,51.27,
+E06000023,Bristol,ltla23,2021,Christian,152126,117928,77.52,
+E06000023,Bristol,ltla23,2021,Does not apply,0,0,,n<1000
+E06000023,Bristol,ltla23,2021,Hindu,3545,1106,31.2,
+E06000023,Bristol,ltla23,2021,Jewish,1229,961,78.19,
+E06000023,Bristol,ltla23,2021,Muslim,31777,14938,47.01,
+E06000023,Bristol,ltla23,2021,No religion,242863,216843,89.29,
+E06000023,Bristol,ltla23,2021,Not answered,32422,25940,80.01,
+E06000023,Bristol,ltla23,2021,Other religion,3546,2799,78.93,
+E06000023,Bristol,ltla23,2021,Sikh,2246,1593,70.93,
+E06000024,North Somerset,ltla23,2021,Buddhist,695,407,,n<1000
+E06000024,North Somerset,ltla23,2021,Christian,100990,90371,89.49,
+E06000024,North Somerset,ltla23,2021,Does not apply,0,0,,n<1000
+E06000024,North Somerset,ltla23,2021,Hindu,468,175,,n<1000
+E06000024,North Somerset,ltla23,2021,Jewish,166,130,,n<1000
+E06000024,North Somerset,ltla23,2021,Muslim,1346,528,39.23,
+E06000024,North Somerset,ltla23,2021,No religion,98085,93343,95.17,
+E06000024,North Somerset,ltla23,2021,Not answered,13696,12452,90.92,
+E06000024,North Somerset,ltla23,2021,Other religion,1166,1046,89.71,
+E06000024,North Somerset,ltla23,2021,Sikh,117,81,,n<1000
+E06000025,South Gloucestershire,ltla23,2021,Buddhist,1056,471,44.6,
+E06000025,South Gloucestershire,ltla23,2021,Christian,128014,112526,87.9,
+E06000025,South Gloucestershire,ltla23,2021,Does not apply,0,0,,n<1000
+E06000025,South Gloucestershire,ltla23,2021,Hindu,2899,778,26.84,
+E06000025,South Gloucestershire,ltla23,2021,Jewish,171,135,,n<1000
+E06000025,South Gloucestershire,ltla23,2021,Muslim,4721,1935,40.99,
+E06000025,South Gloucestershire,ltla23,2021,No religion,133751,126523,94.6,
+E06000025,South Gloucestershire,ltla23,2021,Not answered,17492,15576,89.05,
+E06000025,South Gloucestershire,ltla23,2021,Other religion,1318,1110,84.22,
+E06000025,South Gloucestershire,ltla23,2021,Sikh,1006,702,69.78,
+E06000026,Plymouth,ltla23,2021,Buddhist,1018,477,46.86,
+E06000026,Plymouth,ltla23,2021,Christian,112526,99926,88.8,
+E06000026,Plymouth,ltla23,2021,Does not apply,0,0,,n<1000
+E06000026,Plymouth,ltla23,2021,Hindu,812,288,,n<1000
+E06000026,Plymouth,ltla23,2021,Jewish,207,138,,n<1000
+E06000026,Plymouth,ltla23,2021,Muslim,3474,1231,35.43,
+E06000026,Plymouth,ltla23,2021,No religion,129336,122905,95.03,
+E06000026,Plymouth,ltla23,2021,Not answered,15694,13947,88.87,
+E06000026,Plymouth,ltla23,2021,Other religion,1526,1367,89.58,
+E06000026,Plymouth,ltla23,2021,Sikh,96,66,,n<1000
+E06000027,Torbay,ltla23,2021,Buddhist,553,328,,n<1000
+E06000027,Torbay,ltla23,2021,Christian,67634,61992,91.66,
+E06000027,Torbay,ltla23,2021,Does not apply,0,0,,n<1000
+E06000027,Torbay,ltla23,2021,Hindu,223,57,,n<1000
+E06000027,Torbay,ltla23,2021,Jewish,141,117,,n<1000
+E06000027,Torbay,ltla23,2021,Muslim,788,291,,n<1000
+E06000027,Torbay,ltla23,2021,No religion,60178,57687,95.86,
+E06000027,Torbay,ltla23,2021,Not answered,8767,8040,91.71,
+E06000027,Torbay,ltla23,2021,Other religion,977,880,,n<1000
+E06000027,Torbay,ltla23,2021,Sikh,60,30,,n<1000
+E06000030,Swindon,ltla23,2021,Buddhist,1698,422,24.85,
+E06000030,Swindon,ltla23,2021,Christian,108778,80131,73.66,
+E06000030,Swindon,ltla23,2021,Does not apply,0,0,,n<1000
+E06000030,Swindon,ltla23,2021,Hindu,5865,1155,19.69,
+E06000030,Swindon,ltla23,2021,Jewish,131,94,,n<1000
+E06000030,Swindon,ltla23,2021,Muslim,6315,2818,44.62,
+E06000030,Swindon,ltla23,2021,No religion,94559,88493,93.58,
+E06000030,Swindon,ltla23,2021,Not answered,13106,10769,82.17,
+E06000030,Swindon,ltla23,2021,Other religion,1513,1064,70.32,
+E06000030,Swindon,ltla23,2021,Sikh,1448,811,56.01,
+E06000031,Peterborough,ltla23,2021,Buddhist,617,219,,n<1000
+E06000031,Peterborough,ltla23,2021,Christian,99802,66331,66.46,
+E06000031,Peterborough,ltla23,2021,Does not apply,0,0,,n<1000
+E06000031,Peterborough,ltla23,2021,Hindu,3813,971,25.47,
+E06000031,Peterborough,ltla23,2021,Jewish,185,136,,n<1000
+E06000031,Peterborough,ltla23,2021,Muslim,26239,14956,57.0,
+E06000031,Peterborough,ltla23,2021,No religion,70067,61700,88.06,
+E06000031,Peterborough,ltla23,2021,Not answered,12604,8926,70.82,
+E06000031,Peterborough,ltla23,2021,Other religion,999,669,,n<1000
+E06000031,Peterborough,ltla23,2021,Sikh,1349,879,65.16,
+E06000032,Luton,ltla23,2021,Buddhist,664,202,,n<1000
+E06000032,Luton,ltla23,2021,Christian,85298,50163,58.81,
+E06000032,Luton,ltla23,2021,Does not apply,0,0,,n<1000
+E06000032,Luton,ltla23,2021,Hindu,7439,2409,32.38,
+E06000032,Luton,ltla23,2021,Jewish,246,204,,n<1000
+E06000032,Luton,ltla23,2021,Muslim,74192,40726,54.89,
+E06000032,Luton,ltla23,2021,No religion,39581,34052,86.03,
+E06000032,Luton,ltla23,2021,Not answered,13697,9043,66.02,
+E06000032,Luton,ltla23,2021,Other religion,1112,643,57.82,
+E06000032,Luton,ltla23,2021,Sikh,3033,1233,40.65,
+E06000033,Southend-on-Sea,ltla23,2021,Buddhist,953,454,,n<1000
+E06000033,Southend-on-Sea,ltla23,2021,Christian,76884,64959,84.49,
+E06000033,Southend-on-Sea,ltla23,2021,Does not apply,0,0,,n<1000
+E06000033,Southend-on-Sea,ltla23,2021,Hindu,2055,650,31.63,
+E06000033,Southend-on-Sea,ltla23,2021,Jewish,2057,1893,92.03,
+E06000033,Southend-on-Sea,ltla23,2021,Muslim,5461,2542,46.55,
+E06000033,Southend-on-Sea,ltla23,2021,No religion,81186,76986,94.83,
+E06000033,Southend-on-Sea,ltla23,2021,Not answered,10756,9507,88.39,
+E06000033,Southend-on-Sea,ltla23,2021,Other religion,1128,1001,88.74,
+E06000033,Southend-on-Sea,ltla23,2021,Sikh,203,108,,n<1000
+E06000034,Thurrock,ltla23,2021,Buddhist,701,255,,n<1000
+E06000034,Thurrock,ltla23,2021,Christian,90941,66816,73.47,
+E06000034,Thurrock,ltla23,2021,Does not apply,0,0,,n<1000
+E06000034,Thurrock,ltla23,2021,Hindu,2377,914,38.45,
+E06000034,Thurrock,ltla23,2021,Jewish,224,204,,n<1000
+E06000034,Thurrock,ltla23,2021,Muslim,8587,4207,48.99,
+E06000034,Thurrock,ltla23,2021,No religion,61042,57578,94.33,
+E06000034,Thurrock,ltla23,2021,Not answered,9196,7309,79.48,
+E06000034,Thurrock,ltla23,2021,Other religion,901,493,,n<1000
+E06000034,Thurrock,ltla23,2021,Sikh,2031,1283,63.17,
+E06000035,Medway,ltla23,2021,Buddhist,999,429,,n<1000
+E06000035,Medway,ltla23,2021,Christian,126099,104144,82.59,
+E06000035,Medway,ltla23,2021,Does not apply,0,0,,n<1000
+E06000035,Medway,ltla23,2021,Hindu,3172,1089,34.33,
+E06000035,Medway,ltla23,2021,Jewish,215,169,,n<1000
+E06000035,Medway,ltla23,2021,Muslim,7638,3483,45.6,
+E06000035,Medway,ltla23,2021,No religion,120309,114530,95.2,
+E06000035,Medway,ltla23,2021,Not answered,15272,13255,86.79,
+E06000035,Medway,ltla23,2021,Other religion,1705,1305,76.54,
+E06000035,Medway,ltla23,2021,Sikh,4363,2715,62.23,
+E06000036,Bracknell Forest,ltla23,2021,Buddhist,1038,281,27.07,
+E06000036,Bracknell Forest,ltla23,2021,Christian,59141,47512,80.34,
+E06000036,Bracknell Forest,ltla23,2021,Does not apply,0,0,,n<1000
+E06000036,Bracknell Forest,ltla23,2021,Hindu,2942,816,27.74,
+E06000036,Bracknell Forest,ltla23,2021,Jewish,190,131,,n<1000
+E06000036,Bracknell Forest,ltla23,2021,Muslim,2218,1019,45.94,
+E06000036,Bracknell Forest,ltla23,2021,No religion,50301,46241,91.93,
+E06000036,Bracknell Forest,ltla23,2021,Not answered,6979,5746,82.33,
+E06000036,Bracknell Forest,ltla23,2021,Other religion,743,474,,n<1000
+E06000036,Bracknell Forest,ltla23,2021,Sikh,1056,747,70.74,
+E06000037,West Berkshire,ltla23,2021,Buddhist,552,198,,n<1000
+E06000037,West Berkshire,ltla23,2021,Christian,79217,69045,87.16,
+E06000037,West Berkshire,ltla23,2021,Does not apply,0,0,,n<1000
+E06000037,West Berkshire,ltla23,2021,Hindu,2083,476,22.85,
+E06000037,West Berkshire,ltla23,2021,Jewish,236,166,,n<1000
+E06000037,West Berkshire,ltla23,2021,Muslim,2107,1000,47.46,
+E06000037,West Berkshire,ltla23,2021,No religion,66290,61697,93.07,
+E06000037,West Berkshire,ltla23,2021,Not answered,9891,8645,87.4,
+E06000037,West Berkshire,ltla23,2021,Other religion,704,565,,n<1000
+E06000037,West Berkshire,ltla23,2021,Sikh,368,205,,n<1000
+E06000038,Reading,ltla23,2021,Buddhist,2888,512,17.73,
+E06000038,Reading,ltla23,2021,Christian,68988,43424,62.94,
+E06000038,Reading,ltla23,2021,Does not apply,0,0,,n<1000
+E06000038,Reading,ltla23,2021,Hindu,8756,1706,19.48,
+E06000038,Reading,ltla23,2021,Jewish,330,227,,n<1000
+E06000038,Reading,ltla23,2021,Muslim,15484,7158,46.23,
+E06000038,Reading,ltla23,2021,No religion,63287,53449,84.45,
+E06000038,Reading,ltla23,2021,Not answered,12061,8123,67.35,
+E06000038,Reading,ltla23,2021,Other religion,1238,674,54.44,
+E06000038,Reading,ltla23,2021,Sikh,1194,622,52.09,
+E06000039,Slough,ltla23,2021,Buddhist,775,227,,n<1000
+E06000039,Slough,ltla23,2021,Christian,50664,27359,54.0,
+E06000039,Slough,ltla23,2021,Does not apply,0,0,,n<1000
+E06000039,Slough,ltla23,2021,Hindu,12344,4234,34.3,
+E06000039,Slough,ltla23,2021,Jewish,85,53,,n<1000
+E06000039,Slough,ltla23,2021,Muslim,46661,24252,51.97,
+E06000039,Slough,ltla23,2021,No religion,20726,17597,84.9,
+E06000039,Slough,ltla23,2021,Not answered,8543,5201,60.88,
+E06000039,Slough,ltla23,2021,Other religion,716,357,,n<1000
+E06000039,Slough,ltla23,2021,Sikh,17985,9526,52.97,
+E06000040,Windsor and Maidenhead,ltla23,2021,Buddhist,872,315,,n<1000
+E06000040,Windsor and Maidenhead,ltla23,2021,Christian,76514,61007,79.73,
+E06000040,Windsor and Maidenhead,ltla23,2021,Does not apply,0,0,,n<1000
+E06000040,Windsor and Maidenhead,ltla23,2021,Hindu,4703,1883,40.04,
+E06000040,Windsor and Maidenhead,ltla23,2021,Jewish,520,343,,n<1000
+E06000040,Windsor and Maidenhead,ltla23,2021,Muslim,8607,4886,56.77,
+E06000040,Windsor and Maidenhead,ltla23,2021,No religion,47641,41091,86.25,
+E06000040,Windsor and Maidenhead,ltla23,2021,Not answered,9426,7211,76.5,
+E06000040,Windsor and Maidenhead,ltla23,2021,Other religion,694,476,,n<1000
+E06000040,Windsor and Maidenhead,ltla23,2021,Sikh,4517,3033,67.15,
+E06000041,Wokingham,ltla23,2021,Buddhist,881,282,,n<1000
+E06000041,Wokingham,ltla23,2021,Christian,79389,65903,83.01,
+E06000041,Wokingham,ltla23,2021,Does not apply,0,0,,n<1000
+E06000041,Wokingham,ltla23,2021,Hindu,8467,2765,32.66,
+E06000041,Wokingham,ltla23,2021,Jewish,430,309,,n<1000
+E06000041,Wokingham,ltla23,2021,Muslim,8599,4283,49.81,
+E06000041,Wokingham,ltla23,2021,No religion,65428,59255,90.57,
+E06000041,Wokingham,ltla23,2021,Not answered,10543,8687,82.4,
+E06000041,Wokingham,ltla23,2021,Other religion,775,550,,n<1000
+E06000041,Wokingham,ltla23,2021,Sikh,2991,1856,62.05,
+E06000042,Milton Keynes,ltla23,2021,Buddhist,1402,516,36.8,
+E06000042,Milton Keynes,ltla23,2021,Christian,122932,84946,69.1,
+E06000042,Milton Keynes,ltla23,2021,Does not apply,0,0,,n<1000
+E06000042,Milton Keynes,ltla23,2021,Hindu,12911,4381,33.93,
+E06000042,Milton Keynes,ltla23,2021,Jewish,385,297,,n<1000
+E06000042,Milton Keynes,ltla23,2021,Muslim,20486,9599,46.86,
+E06000042,Milton Keynes,ltla23,2021,No religion,108954,98945,90.81,
+E06000042,Milton Keynes,ltla23,2021,Not answered,16473,12242,74.32,
+E06000042,Milton Keynes,ltla23,2021,Other religion,1560,1081,69.29,
+E06000042,Milton Keynes,ltla23,2021,Sikh,1959,1205,61.51,
+E06000043,Brighton and Hove,ltla23,2021,Buddhist,2454,1397,56.93,
+E06000043,Brighton and Hove,ltla23,2021,Christian,85629,65450,76.43,
+E06000043,Brighton and Hove,ltla23,2021,Does not apply,0,0,,n<1000
+E06000043,Brighton and Hove,ltla23,2021,Hindu,2101,731,34.79,
+E06000043,Brighton and Hove,ltla23,2021,Jewish,2456,1974,80.37,
+E06000043,Brighton and Hove,ltla23,2021,Muslim,8500,3109,36.58,
+E06000043,Brighton and Hove,ltla23,2021,No religion,152966,132095,86.36,
+E06000043,Brighton and Hove,ltla23,2021,Not answered,19760,15556,78.72,
+E06000043,Brighton and Hove,ltla23,2021,Other religion,2863,2154,75.24,
+E06000043,Brighton and Hove,ltla23,2021,Sikh,378,294,,n<1000
+E06000044,Portsmouth,ltla23,2021,Buddhist,1076,409,38.01,
+E06000044,Portsmouth,ltla23,2021,Christian,81938,64389,78.58,
+E06000044,Portsmouth,ltla23,2021,Does not apply,0,0,,n<1000
+E06000044,Portsmouth,ltla23,2021,Hindu,1596,477,29.89,
+E06000044,Portsmouth,ltla23,2021,Jewish,200,157,,n<1000
+E06000044,Portsmouth,ltla23,2021,Muslim,10174,4410,43.35,
+E06000044,Portsmouth,ltla23,2021,No religion,97886,90484,92.44,
+E06000044,Portsmouth,ltla23,2021,Not answered,13414,11054,82.41,
+E06000044,Portsmouth,ltla23,2021,Other religion,1261,1023,81.13,
+E06000044,Portsmouth,ltla23,2021,Sikh,458,360,,n<1000
+E06000045,Southampton,ltla23,2021,Buddhist,1334,485,36.36,
+E06000045,Southampton,ltla23,2021,Christian,99910,69765,69.83,
+E06000045,Southampton,ltla23,2021,Does not apply,0,0,,n<1000
+E06000045,Southampton,ltla23,2021,Hindu,3266,912,27.92,
+E06000045,Southampton,ltla23,2021,Jewish,253,189,,n<1000
+E06000045,Southampton,ltla23,2021,Muslim,13893,6113,44.0,
+E06000045,Southampton,ltla23,2021,No religion,107997,95166,88.12,
+E06000045,Southampton,ltla23,2021,Not answered,16412,12283,74.84,
+E06000045,Southampton,ltla23,2021,Other religion,1663,1290,77.57,
+E06000045,Southampton,ltla23,2021,Sikh,4193,2620,62.49,
+E06000046,Isle of Wight,ltla23,2021,Buddhist,502,336,,n<1000
+E06000046,Isle of Wight,ltla23,2021,Christian,67005,62210,92.84,
+E06000046,Isle of Wight,ltla23,2021,Does not apply,0,0,,n<1000
+E06000046,Isle of Wight,ltla23,2021,Hindu,257,75,,n<1000
+E06000046,Isle of Wight,ltla23,2021,Jewish,137,105,,n<1000
+E06000046,Isle of Wight,ltla23,2021,Muslim,593,214,,n<1000
+E06000046,Isle of Wight,ltla23,2021,No religion,61721,59329,96.12,
+E06000046,Isle of Wight,ltla23,2021,Not answered,9097,8536,93.83,
+E06000046,Isle of Wight,ltla23,2021,Other religion,1110,1026,92.43,
+E06000046,Isle of Wight,ltla23,2021,Sikh,39,20,,n<1000
+E06000047,County Durham,ltla23,2021,Buddhist,1293,668,51.66,
+E06000047,County Durham,ltla23,2021,Christian,285167,274912,96.4,
+E06000047,County Durham,ltla23,2021,Does not apply,0,0,,n<1000
+E06000047,County Durham,ltla23,2021,Hindu,990,288,,n<1000
+E06000047,County Durham,ltla23,2021,Jewish,286,236,,n<1000
+E06000047,County Durham,ltla23,2021,Muslim,2923,1098,37.56,
+E06000047,County Durham,ltla23,2021,No religion,201689,194408,96.39,
+E06000047,County Durham,ltla23,2021,Not answered,26690,25120,94.12,
+E06000047,County Durham,ltla23,2021,Other religion,2198,2020,91.9,
+E06000047,County Durham,ltla23,2021,Sikh,839,429,,n<1000
+E06000049,Cheshire East,ltla23,2021,Buddhist,1315,651,49.51,
+E06000049,Cheshire East,ltla23,2021,Christian,216630,197186,91.02,
+E06000049,Cheshire East,ltla23,2021,Does not apply,0,0,,n<1000
+E06000049,Cheshire East,ltla23,2021,Hindu,2048,646,31.54,
+E06000049,Cheshire East,ltla23,2021,Jewish,641,559,,n<1000
+E06000049,Cheshire East,ltla23,2021,Muslim,4140,1939,46.84,
+E06000049,Cheshire East,ltla23,2021,No religion,150258,143093,95.23,
+E06000049,Cheshire East,ltla23,2021,Not answered,21815,19924,91.33,
+E06000049,Cheshire East,ltla23,2021,Other religion,1558,1368,87.8,
+E06000049,Cheshire East,ltla23,2021,Sikh,371,271,,n<1000
+E06000050,Cheshire West and Chester,ltla23,2021,Buddhist,1073,537,50.05,
+E06000050,Cheshire West and Chester,ltla23,2021,Christian,194705,180338,92.62,
+E06000050,Cheshire West and Chester,ltla23,2021,Does not apply,0,0,,n<1000
+E06000050,Cheshire West and Chester,ltla23,2021,Hindu,1551,451,29.08,
+E06000050,Cheshire West and Chester,ltla23,2021,Jewish,289,239,,n<1000
+E06000050,Cheshire West and Chester,ltla23,2021,Muslim,3506,1362,38.85,
+E06000050,Cheshire West and Chester,ltla23,2021,No religion,135025,128868,95.44,
+E06000050,Cheshire West and Chester,ltla23,2021,Not answered,19512,17914,91.81,
+E06000050,Cheshire West and Chester,ltla23,2021,Other religion,1239,1071,86.44,
+E06000050,Cheshire West and Chester,ltla23,2021,Sikh,252,162,,n<1000
+E06000051,Shropshire,ltla23,2021,Buddhist,892,568,,n<1000
+E06000051,Shropshire,ltla23,2021,Christian,179516,168717,93.98,
+E06000051,Shropshire,ltla23,2021,Does not apply,0,0,,n<1000
+E06000051,Shropshire,ltla23,2021,Hindu,558,197,,n<1000
+E06000051,Shropshire,ltla23,2021,Jewish,182,153,,n<1000
+E06000051,Shropshire,ltla23,2021,Muslim,1707,675,39.54,
+E06000051,Shropshire,ltla23,2021,No religion,119573,114584,95.83,
+E06000051,Shropshire,ltla23,2021,Not answered,18931,17764,93.84,
+E06000051,Shropshire,ltla23,2021,Other religion,1480,1321,89.26,
+E06000051,Shropshire,ltla23,2021,Sikh,763,489,,n<1000
+E06000052,Cornwall,ltla23,2021,Buddhist,2078,1495,71.94,
+E06000052,Cornwall,ltla23,2021,Christian,259146,243727,94.05,
+E06000052,Cornwall,ltla23,2021,Does not apply,0,0,,n<1000
+E06000052,Cornwall,ltla23,2021,Hindu,548,202,,n<1000
+E06000052,Cornwall,ltla23,2021,Jewish,507,420,,n<1000
+E06000052,Cornwall,ltla23,2021,Muslim,1335,446,33.41,
+E06000052,Cornwall,ltla23,2021,No religion,264037,253584,96.04,
+E06000052,Cornwall,ltla23,2021,Not answered,38134,36109,94.69,
+E06000052,Cornwall,ltla23,2021,Other religion,4392,4080,92.9,
+E06000052,Cornwall,ltla23,2021,Sikh,130,83,,n<1000
+E06000054,Wiltshire,ltla23,2021,Buddhist,2521,1090,43.24,
+E06000054,Wiltshire,ltla23,2021,Christian,256158,227870,88.96,
+E06000054,Wiltshire,ltla23,2021,Does not apply,0,0,,n<1000
+E06000054,Wiltshire,ltla23,2021,Hindu,2670,632,23.67,
+E06000054,Wiltshire,ltla23,2021,Jewish,455,351,,n<1000
+E06000054,Wiltshire,ltla23,2021,Muslim,3506,1425,40.64,
+E06000054,Wiltshire,ltla23,2021,No religion,210600,197851,93.95,
+E06000054,Wiltshire,ltla23,2021,Not answered,30709,27708,90.23,
+E06000054,Wiltshire,ltla23,2021,Other religion,3228,2604,80.67,
+E06000054,Wiltshire,ltla23,2021,Sikh,483,271,,n<1000
+E06000055,Bedford,ltla23,2021,Buddhist,629,291,,n<1000
+E06000055,Bedford,ltla23,2021,Christian,88178,66072,74.93,
+E06000055,Bedford,ltla23,2021,Does not apply,0,0,,n<1000
+E06000055,Bedford,ltla23,2021,Hindu,3045,1404,46.11,
+E06000055,Bedford,ltla23,2021,Jewish,232,187,,n<1000
+E06000055,Bedford,ltla23,2021,Muslim,13059,7161,54.84,
+E06000055,Bedford,ltla23,2021,No religion,63243,58032,91.76,
+E06000055,Bedford,ltla23,2021,Not answered,10710,8528,79.63,
+E06000055,Bedford,ltla23,2021,Other religion,2017,1347,66.78,
+E06000055,Bedford,ltla23,2021,Sikh,4114,2564,62.32,
+E06000056,Central Bedfordshire,ltla23,2021,Buddhist,996,453,,n<1000
+E06000056,Central Bedfordshire,ltla23,2021,Christian,140903,121729,86.39,
+E06000056,Central Bedfordshire,ltla23,2021,Does not apply,0,0,,n<1000
+E06000056,Central Bedfordshire,ltla23,2021,Hindu,3036,1289,42.46,
+E06000056,Central Bedfordshire,ltla23,2021,Jewish,620,569,,n<1000
+E06000056,Central Bedfordshire,ltla23,2021,Muslim,3965,1940,48.93,
+E06000056,Central Bedfordshire,ltla23,2021,No religion,126001,119530,94.86,
+E06000056,Central Bedfordshire,ltla23,2021,Not answered,15971,14209,88.97,
+E06000056,Central Bedfordshire,ltla23,2021,Other religion,1362,1100,80.76,
+E06000056,Central Bedfordshire,ltla23,2021,Sikh,1398,944,67.53,
+E06000057,Northumberland,ltla23,2021,Buddhist,754,513,,n<1000
+E06000057,Northumberland,ltla23,2021,Christian,170669,165012,96.69,
+E06000057,Northumberland,ltla23,2021,Does not apply,0,0,,n<1000
+E06000057,Northumberland,ltla23,2021,Hindu,446,199,,n<1000
+E06000057,Northumberland,ltla23,2021,Jewish,172,143,,n<1000
+E06000057,Northumberland,ltla23,2021,Muslim,1635,757,46.3,
+E06000057,Northumberland,ltla23,2021,No religion,128706,125385,97.42,
+E06000057,Northumberland,ltla23,2021,Not answered,16183,15658,96.76,
+E06000057,Northumberland,ltla23,2021,Other religion,1353,1253,92.61,
+E06000057,Northumberland,ltla23,2021,Sikh,654,396,,n<1000
+E06000058,"Bournemouth, Christchurch and Poole",ltla23,2021,Buddhist,2023,897,44.34,
+E06000058,"Bournemouth, Christchurch and Poole",ltla23,2021,Christian,187448,154217,82.27,
+E06000058,"Bournemouth, Christchurch and Poole",ltla23,2021,Does not apply,0,0,,n<1000
+E06000058,"Bournemouth, Christchurch and Poole",ltla23,2021,Hindu,2838,679,23.93,
+E06000058,"Bournemouth, Christchurch and Poole",ltla23,2021,Jewish,1604,1351,84.23,
+E06000058,"Bournemouth, Christchurch and Poole",ltla23,2021,Muslim,6645,2436,36.66,
+E06000058,"Bournemouth, Christchurch and Poole",ltla23,2021,No religion,168852,153314,90.8,
+E06000058,"Bournemouth, Christchurch and Poole",ltla23,2021,Not answered,27572,23008,83.45,
+E06000058,"Bournemouth, Christchurch and Poole",ltla23,2021,Other religion,2945,2191,74.4,
+E06000058,"Bournemouth, Christchurch and Poole",ltla23,2021,Sikh,268,154,,n<1000
+E06000059,Dorset,ltla23,2021,Buddhist,1613,912,56.54,
+E06000059,Dorset,ltla23,2021,Christian,195677,182084,93.05,
+E06000059,Dorset,ltla23,2021,Does not apply,0,0,,n<1000
+E06000059,Dorset,ltla23,2021,Hindu,716,212,,n<1000
+E06000059,Dorset,ltla23,2021,Jewish,453,392,,n<1000
+E06000059,Dorset,ltla23,2021,Muslim,1563,631,40.37,
+E06000059,Dorset,ltla23,2021,No religion,152267,145271,95.41,
+E06000059,Dorset,ltla23,2021,Not answered,24815,23181,93.42,
+E06000059,Dorset,ltla23,2021,Other religion,2360,2100,88.98,
+E06000059,Dorset,ltla23,2021,Sikh,117,71,,n<1000
+E06000060,Buckinghamshire,ltla23,2021,Buddhist,2915,1217,41.75,
+E06000060,Buckinghamshire,ltla23,2021,Christian,260960,218607,83.77,
+E06000060,Buckinghamshire,ltla23,2021,Does not apply,0,0,,n<1000
+E06000060,Buckinghamshire,ltla23,2021,Hindu,14895,6381,42.84,
+E06000060,Buckinghamshire,ltla23,2021,Jewish,1688,1433,84.89,
+E06000060,Buckinghamshire,ltla23,2021,Muslim,38740,23379,60.35,
+E06000060,Buckinghamshire,ltla23,2021,No religion,189206,173861,91.89,
+E06000060,Buckinghamshire,ltla23,2021,Not answered,33277,27990,84.11,
+E06000060,Buckinghamshire,ltla23,2021,Other religion,2587,1951,75.42,
+E06000060,Buckinghamshire,ltla23,2021,Sikh,8811,6208,70.46,
+E06000061,North Northamptonshire,ltla23,2021,Buddhist,1095,524,47.85,
+E06000061,North Northamptonshire,ltla23,2021,Christian,172329,136145,79.0,
+E06000061,North Northamptonshire,ltla23,2021,Does not apply,0,0,,n<1000
+E06000061,North Northamptonshire,ltla23,2021,Hindu,4539,1806,39.79,
+E06000061,North Northamptonshire,ltla23,2021,Jewish,291,231,,n<1000
+E06000061,North Northamptonshire,ltla23,2021,Muslim,4372,1868,42.73,
+E06000061,North Northamptonshire,ltla23,2021,No religion,152998,144046,94.15,
+E06000061,North Northamptonshire,ltla23,2021,Not answered,20213,16812,83.17,
+E06000061,North Northamptonshire,ltla23,2021,Other religion,1896,1446,76.27,
+E06000061,North Northamptonshire,ltla23,2021,Sikh,1787,1075,60.16,
+E06000062,West Northamptonshire,ltla23,2021,Buddhist,1516,721,47.56,
+E06000062,West Northamptonshire,ltla23,2021,Christian,210555,160759,76.35,
+E06000062,West Northamptonshire,ltla23,2021,Does not apply,0,0,,n<1000
+E06000062,West Northamptonshire,ltla23,2021,Hindu,5432,1901,35.0,
+E06000062,West Northamptonshire,ltla23,2021,Jewish,433,345,,n<1000
+E06000062,West Northamptonshire,ltla23,2021,Muslim,14694,7190,48.93,
+E06000062,West Northamptonshire,ltla23,2021,No religion,162754,151308,92.97,
+E06000062,West Northamptonshire,ltla23,2021,Not answered,26153,20626,78.87,
+E06000062,West Northamptonshire,ltla23,2021,Other religion,2405,1788,74.35,
+E06000062,West Northamptonshire,ltla23,2021,Sikh,1791,1099,61.36,
+E06000063,Cumberland,ltla23,2021,Buddhist,704,381,,n<1000
+E06000063,Cumberland,ltla23,2021,Christian,159883,153148,95.79,
+E06000063,Cumberland,ltla23,2021,Does not apply,0,0,,n<1000
+E06000063,Cumberland,ltla23,2021,Hindu,475,112,,n<1000
+E06000063,Cumberland,ltla23,2021,Jewish,97,77,,n<1000
+E06000063,Cumberland,ltla23,2021,Muslim,1383,441,31.89,
+E06000063,Cumberland,ltla23,2021,No religion,94308,91117,96.62,
+E06000063,Cumberland,ltla23,2021,Not answered,15384,14654,95.25,
+E06000063,Cumberland,ltla23,2021,Other religion,951,829,,n<1000
+E06000063,Cumberland,ltla23,2021,Sikh,65,46,,n<1000
+E06000064,Westmorland and Furness,ltla23,2021,Buddhist,859,579,,n<1000
+E06000064,Westmorland and Furness,ltla23,2021,Christian,125104,118641,94.83,
+E06000064,Westmorland and Furness,ltla23,2021,Does not apply,0,0,,n<1000
+E06000064,Westmorland and Furness,ltla23,2021,Hindu,228,66,,n<1000
+E06000064,Westmorland and Furness,ltla23,2021,Jewish,140,116,,n<1000
+E06000064,Westmorland and Furness,ltla23,2021,Muslim,802,261,,n<1000
+E06000064,Westmorland and Furness,ltla23,2021,No religion,84698,81405,96.11,
+E06000064,Westmorland and Furness,ltla23,2021,Not answered,13763,12966,94.21,
+E06000064,Westmorland and Furness,ltla23,2021,Other religion,953,859,,n<1000
+E06000064,Westmorland and Furness,ltla23,2021,Sikh,39,25,,n<1000
+E06000065,North Yorkshire,ltla23,2021,Buddhist,2036,993,48.77,
+E06000065,North Yorkshire,ltla23,2021,Christian,342441,319730,93.37,
+E06000065,North Yorkshire,ltla23,2021,Does not apply,0,0,,n<1000
+E06000065,North Yorkshire,ltla23,2021,Hindu,1680,379,22.56,
+E06000065,North Yorkshire,ltla23,2021,Jewish,631,519,,n<1000
+E06000065,North Yorkshire,ltla23,2021,Muslim,2986,1220,40.86,
+E06000065,North Yorkshire,ltla23,2021,No religion,226879,216214,95.3,
+E06000065,North Yorkshire,ltla23,2021,Not answered,35758,33299,93.12,
+E06000065,North Yorkshire,ltla23,2021,Other religion,2762,2358,85.37,
+E06000065,North Yorkshire,ltla23,2021,Sikh,324,238,,n<1000
+E06000066,Somerset,ltla23,2021,Buddhist,1931,1199,62.09,
+E06000066,Somerset,ltla23,2021,Christian,286671,257255,89.74,
+E06000066,Somerset,ltla23,2021,Does not apply,0,0,,n<1000
+E06000066,Somerset,ltla23,2021,Hindu,1103,270,24.48,
+E06000066,Somerset,ltla23,2021,Jewish,451,356,,n<1000
+E06000066,Somerset,ltla23,2021,Muslim,2600,918,35.31,
+E06000066,Somerset,ltla23,2021,No religion,237262,225175,94.91,
+E06000066,Somerset,ltla23,2021,Not answered,37379,33966,90.87,
+E06000066,Somerset,ltla23,2021,Other religion,3961,3513,88.69,
+E06000066,Somerset,ltla23,2021,Sikh,189,98,,n<1000
+E07000008,Cambridge,ltla23,2021,Buddhist,1668,517,31.0,
+E07000008,Cambridge,ltla23,2021,Christian,51335,30664,59.73,
+E07000008,Cambridge,ltla23,2021,Does not apply,0,0,,n<1000
+E07000008,Cambridge,ltla23,2021,Hindu,3303,797,24.13,
+E07000008,Cambridge,ltla23,2021,Jewish,1057,551,52.13,
+E07000008,Cambridge,ltla23,2021,Muslim,7392,3395,45.93,
+E07000008,Cambridge,ltla23,2021,No religion,65159,45019,69.09,
+E07000008,Cambridge,ltla23,2021,Not answered,14315,8572,59.88,
+E07000008,Cambridge,ltla23,2021,Other religion,1123,662,58.95,
+E07000008,Cambridge,ltla23,2021,Sikh,326,211,,n<1000
+E07000009,East Cambridgeshire,ltla23,2021,Buddhist,325,144,,n<1000
+E07000009,East Cambridgeshire,ltla23,2021,Christian,42573,36754,86.33,
+E07000009,East Cambridgeshire,ltla23,2021,Does not apply,0,0,,n<1000
+E07000009,East Cambridgeshire,ltla23,2021,Hindu,326,102,,n<1000
+E07000009,East Cambridgeshire,ltla23,2021,Jewish,123,90,,n<1000
+E07000009,East Cambridgeshire,ltla23,2021,Muslim,551,225,,n<1000
+E07000009,East Cambridgeshire,ltla23,2021,No religion,37682,34826,92.42,
+E07000009,East Cambridgeshire,ltla23,2021,Not answered,5559,4796,86.27,
+E07000009,East Cambridgeshire,ltla23,2021,Other religion,497,394,,n<1000
+E07000009,East Cambridgeshire,ltla23,2021,Sikh,124,63,,n<1000
+E07000010,Fenland,ltla23,2021,Buddhist,239,134,,n<1000
+E07000010,Fenland,ltla23,2021,Christian,53356,44681,83.74,
+E07000010,Fenland,ltla23,2021,Does not apply,0,0,,n<1000
+E07000010,Fenland,ltla23,2021,Hindu,214,76,,n<1000
+E07000010,Fenland,ltla23,2021,Jewish,109,87,,n<1000
+E07000010,Fenland,ltla23,2021,Muslim,680,294,,n<1000
+E07000010,Fenland,ltla23,2021,No religion,40896,38449,94.02,
+E07000010,Fenland,ltla23,2021,Not answered,6339,5460,86.13,
+E07000010,Fenland,ltla23,2021,Other religion,515,436,,n<1000
+E07000010,Fenland,ltla23,2021,Sikh,110,74,,n<1000
+E07000011,Huntingdonshire,ltla23,2021,Buddhist,670,288,,n<1000
+E07000011,Huntingdonshire,ltla23,2021,Christian,85568,72500,84.73,
+E07000011,Huntingdonshire,ltla23,2021,Does not apply,0,0,,n<1000
+E07000011,Huntingdonshire,ltla23,2021,Hindu,970,322,,n<1000
+E07000011,Huntingdonshire,ltla23,2021,Jewish,222,177,,n<1000
+E07000011,Huntingdonshire,ltla23,2021,Muslim,2583,1299,50.29,
+E07000011,Huntingdonshire,ltla23,2021,No religion,79126,73868,93.35,
+E07000011,Huntingdonshire,ltla23,2021,Not answered,10465,9041,86.39,
+E07000011,Huntingdonshire,ltla23,2021,Other religion,898,743,,n<1000
+E07000011,Huntingdonshire,ltla23,2021,Sikh,325,192,,n<1000
+E07000012,South Cambridgeshire,ltla23,2021,Buddhist,796,303,,n<1000
+E07000012,South Cambridgeshire,ltla23,2021,Christian,73472,61414,83.59,
+E07000012,South Cambridgeshire,ltla23,2021,Does not apply,0,0,,n<1000
+E07000012,South Cambridgeshire,ltla23,2021,Hindu,2433,766,31.48,
+E07000012,South Cambridgeshire,ltla23,2021,Jewish,466,307,,n<1000
+E07000012,South Cambridgeshire,ltla23,2021,Muslim,2746,1140,41.51,
+E07000012,South Cambridgeshire,ltla23,2021,No religion,70269,62352,88.73,
+E07000012,South Cambridgeshire,ltla23,2021,Not answered,10839,8854,81.69,
+E07000012,South Cambridgeshire,ltla23,2021,Other religion,818,595,,n<1000
+E07000012,South Cambridgeshire,ltla23,2021,Sikh,282,193,,n<1000
+E07000032,Amber Valley,ltla23,2021,Buddhist,279,194,,n<1000
+E07000032,Amber Valley,ltla23,2021,Christian,57333,54710,95.42,
+E07000032,Amber Valley,ltla23,2021,Does not apply,0,0,,n<1000
+E07000032,Amber Valley,ltla23,2021,Hindu,223,106,,n<1000
+E07000032,Amber Valley,ltla23,2021,Jewish,60,53,,n<1000
+E07000032,Amber Valley,ltla23,2021,Muslim,351,167,,n<1000
+E07000032,Amber Valley,ltla23,2021,No religion,59723,58360,97.72,
+E07000032,Amber Valley,ltla23,2021,Not answered,7262,7012,96.56,
+E07000032,Amber Valley,ltla23,2021,Other religion,717,687,,n<1000
+E07000032,Amber Valley,ltla23,2021,Sikh,256,192,,n<1000
+E07000033,Bolsover,ltla23,2021,Buddhist,150,96,,n<1000
+E07000033,Bolsover,ltla23,2021,Christian,38653,35639,92.2,
+E07000033,Bolsover,ltla23,2021,Does not apply,0,0,,n<1000
+E07000033,Bolsover,ltla23,2021,Hindu,131,44,,n<1000
+E07000033,Bolsover,ltla23,2021,Jewish,38,31,,n<1000
+E07000033,Bolsover,ltla23,2021,Muslim,251,106,,n<1000
+E07000033,Bolsover,ltla23,2021,No religion,36067,35183,97.55,
+E07000033,Bolsover,ltla23,2021,Not answered,4517,4167,92.25,
+E07000033,Bolsover,ltla23,2021,Other religion,338,319,,n<1000
+E07000033,Bolsover,ltla23,2021,Sikh,126,77,,n<1000
+E07000034,Chesterfield,ltla23,2021,Buddhist,265,144,,n<1000
+E07000034,Chesterfield,ltla23,2021,Christian,49420,46792,94.68,
+E07000034,Chesterfield,ltla23,2021,Does not apply,0,0,,n<1000
+E07000034,Chesterfield,ltla23,2021,Hindu,355,91,,n<1000
+E07000034,Chesterfield,ltla23,2021,Jewish,35,31,,n<1000
+E07000034,Chesterfield,ltla23,2021,Muslim,980,441,,n<1000
+E07000034,Chesterfield,ltla23,2021,No religion,46065,44935,97.55,
+E07000034,Chesterfield,ltla23,2021,Not answered,5774,5503,95.31,
+E07000034,Chesterfield,ltla23,2021,Other religion,497,457,,n<1000
+E07000034,Chesterfield,ltla23,2021,Sikh,172,103,,n<1000
+E07000035,Derbyshire Dales,ltla23,2021,Buddhist,208,159,,n<1000
+E07000035,Derbyshire Dales,ltla23,2021,Christian,39728,38348,96.53,
+E07000035,Derbyshire Dales,ltla23,2021,Does not apply,0,0,,n<1000
+E07000035,Derbyshire Dales,ltla23,2021,Hindu,67,35,,n<1000
+E07000035,Derbyshire Dales,ltla23,2021,Jewish,54,48,,n<1000
+E07000035,Derbyshire Dales,ltla23,2021,Muslim,259,158,,n<1000
+E07000035,Derbyshire Dales,ltla23,2021,No religion,26686,25780,96.6,
+E07000035,Derbyshire Dales,ltla23,2021,Not answered,4156,3977,95.69,
+E07000035,Derbyshire Dales,ltla23,2021,Other religion,328,304,,n<1000
+E07000035,Derbyshire Dales,ltla23,2021,Sikh,53,39,,n<1000
+E07000036,Erewash,ltla23,2021,Buddhist,260,147,,n<1000
+E07000036,Erewash,ltla23,2021,Christian,48084,44793,93.16,
+E07000036,Erewash,ltla23,2021,Does not apply,0,0,,n<1000
+E07000036,Erewash,ltla23,2021,Hindu,517,241,,n<1000
+E07000036,Erewash,ltla23,2021,Jewish,40,33,,n<1000
+E07000036,Erewash,ltla23,2021,Muslim,498,227,,n<1000
+E07000036,Erewash,ltla23,2021,No religion,56356,54830,97.29,
+E07000036,Erewash,ltla23,2021,Not answered,6200,5893,95.05,
+E07000036,Erewash,ltla23,2021,Other religion,599,566,,n<1000
+E07000036,Erewash,ltla23,2021,Sikh,351,241,,n<1000
+E07000037,High Peak,ltla23,2021,Buddhist,332,208,,n<1000
+E07000037,High Peak,ltla23,2021,Christian,44125,42206,95.65,
+E07000037,High Peak,ltla23,2021,Does not apply,0,0,,n<1000
+E07000037,High Peak,ltla23,2021,Hindu,86,34,,n<1000
+E07000037,High Peak,ltla23,2021,Jewish,55,45,,n<1000
+E07000037,High Peak,ltla23,2021,Muslim,239,112,,n<1000
+E07000037,High Peak,ltla23,2021,No religion,40383,39102,96.83,
+E07000037,High Peak,ltla23,2021,Not answered,5211,4981,95.59,
+E07000037,High Peak,ltla23,2021,Other religion,488,457,,n<1000
+E07000037,High Peak,ltla23,2021,Sikh,17,12,,n<1000
+E07000038,North East Derbyshire,ltla23,2021,Buddhist,199,127,,n<1000
+E07000038,North East Derbyshire,ltla23,2021,Christian,51954,50230,96.68,
+E07000038,North East Derbyshire,ltla23,2021,Does not apply,0,0,,n<1000
+E07000038,North East Derbyshire,ltla23,2021,Hindu,123,39,,n<1000
+E07000038,North East Derbyshire,ltla23,2021,Jewish,62,51,,n<1000
+E07000038,North East Derbyshire,ltla23,2021,Muslim,302,157,,n<1000
+E07000038,North East Derbyshire,ltla23,2021,No religion,43172,42319,98.02,
+E07000038,North East Derbyshire,ltla23,2021,Not answered,5652,5445,96.34,
+E07000038,North East Derbyshire,ltla23,2021,Other religion,401,367,,n<1000
+E07000038,North East Derbyshire,ltla23,2021,Sikh,138,94,,n<1000
+E07000039,South Derbyshire,ltla23,2021,Buddhist,246,145,,n<1000
+E07000039,South Derbyshire,ltla23,2021,Christian,50806,47756,94.0,
+E07000039,South Derbyshire,ltla23,2021,Does not apply,0,0,,n<1000
+E07000039,South Derbyshire,ltla23,2021,Hindu,565,218,,n<1000
+E07000039,South Derbyshire,ltla23,2021,Jewish,40,38,,n<1000
+E07000039,South Derbyshire,ltla23,2021,Muslim,774,422,,n<1000
+E07000039,South Derbyshire,ltla23,2021,No religion,46149,44830,97.14,
+E07000039,South Derbyshire,ltla23,2021,Not answered,5874,5474,93.19,
+E07000039,South Derbyshire,ltla23,2021,Other religion,493,443,,n<1000
+E07000039,South Derbyshire,ltla23,2021,Sikh,2263,1460,64.52,
+E07000040,East Devon,ltla23,2021,Buddhist,499,291,,n<1000
+E07000040,East Devon,ltla23,2021,Christian,75618,70463,93.18,
+E07000040,East Devon,ltla23,2021,Does not apply,0,0,,n<1000
+E07000040,East Devon,ltla23,2021,Hindu,164,71,,n<1000
+E07000040,East Devon,ltla23,2021,Jewish,153,123,,n<1000
+E07000040,East Devon,ltla23,2021,Muslim,515,199,,n<1000
+E07000040,East Devon,ltla23,2021,No religion,63175,60333,95.5,
+E07000040,East Devon,ltla23,2021,Not answered,9857,9295,94.3,
+E07000040,East Devon,ltla23,2021,Other religion,810,734,,n<1000
+E07000040,East Devon,ltla23,2021,Sikh,33,20,,n<1000
+E07000041,Exeter,ltla23,2021,Buddhist,713,339,,n<1000
+E07000041,Exeter,ltla23,2021,Christian,52220,43773,83.82,
+E07000041,Exeter,ltla23,2021,Does not apply,0,0,,n<1000
+E07000041,Exeter,ltla23,2021,Hindu,697,164,,n<1000
+E07000041,Exeter,ltla23,2021,Jewish,199,143,,n<1000
+E07000041,Exeter,ltla23,2021,Muslim,2813,878,31.21,
+E07000041,Exeter,ltla23,2021,No religion,63385,56991,89.91,
+E07000041,Exeter,ltla23,2021,Not answered,9628,7965,82.73,
+E07000041,Exeter,ltla23,2021,Other religion,868,713,,n<1000
+E07000041,Exeter,ltla23,2021,Sikh,179,138,,n<1000
+E07000042,Mid Devon,ltla23,2021,Buddhist,259,185,,n<1000
+E07000042,Mid Devon,ltla23,2021,Christian,39199,36279,92.55,
+E07000042,Mid Devon,ltla23,2021,Does not apply,0,0,,n<1000
+E07000042,Mid Devon,ltla23,2021,Hindu,109,46,,n<1000
+E07000042,Mid Devon,ltla23,2021,Jewish,64,50,,n<1000
+E07000042,Mid Devon,ltla23,2021,Muslim,138,56,,n<1000
+E07000042,Mid Devon,ltla23,2021,No religion,37306,35724,95.76,
+E07000042,Mid Devon,ltla23,2021,Not answered,5251,4870,92.74,
+E07000042,Mid Devon,ltla23,2021,Other religion,506,454,,n<1000
+E07000042,Mid Devon,ltla23,2021,Sikh,29,13,,n<1000
+E07000043,North Devon,ltla23,2021,Buddhist,326,197,,n<1000
+E07000043,North Devon,ltla23,2021,Christian,46033,43187,93.82,
+E07000043,North Devon,ltla23,2021,Does not apply,0,0,,n<1000
+E07000043,North Devon,ltla23,2021,Hindu,175,48,,n<1000
+E07000043,North Devon,ltla23,2021,Jewish,90,84,,n<1000
+E07000043,North Devon,ltla23,2021,Muslim,431,133,,n<1000
+E07000043,North Devon,ltla23,2021,No religion,44491,42890,96.4,
+E07000043,North Devon,ltla23,2021,Not answered,6450,6100,94.57,
+E07000043,North Devon,ltla23,2021,Other religion,567,528,,n<1000
+E07000043,North Devon,ltla23,2021,Sikh,50,28,,n<1000
+E07000044,South Hams,ltla23,2021,Buddhist,538,416,,n<1000
+E07000044,South Hams,ltla23,2021,Christian,42009,39552,94.15,
+E07000044,South Hams,ltla23,2021,Does not apply,0,0,,n<1000
+E07000044,South Hams,ltla23,2021,Hindu,92,40,,n<1000
+E07000044,South Hams,ltla23,2021,Jewish,127,110,,n<1000
+E07000044,South Hams,ltla23,2021,Muslim,295,81,,n<1000
+E07000044,South Hams,ltla23,2021,No religion,39028,36871,94.47,
+E07000044,South Hams,ltla23,2021,Not answered,5776,5366,92.9,
+E07000044,South Hams,ltla23,2021,Other religion,741,638,,n<1000
+E07000044,South Hams,ltla23,2021,Sikh,22,13,,n<1000
+E07000045,Teignbridge,ltla23,2021,Buddhist,540,403,,n<1000
+E07000045,Teignbridge,ltla23,2021,Christian,63599,59993,94.33,
+E07000045,Teignbridge,ltla23,2021,Does not apply,0,0,,n<1000
+E07000045,Teignbridge,ltla23,2021,Hindu,109,37,,n<1000
+E07000045,Teignbridge,ltla23,2021,Jewish,117,88,,n<1000
+E07000045,Teignbridge,ltla23,2021,Muslim,390,142,,n<1000
+E07000045,Teignbridge,ltla23,2021,No religion,60422,58109,96.17,
+E07000045,Teignbridge,ltla23,2021,Not answered,8629,8138,94.31,
+E07000045,Teignbridge,ltla23,2021,Other religion,954,884,,n<1000
+E07000045,Teignbridge,ltla23,2021,Sikh,42,29,,n<1000
+E07000046,Torridge,ltla23,2021,Buddhist,212,150,,n<1000
+E07000046,Torridge,ltla23,2021,Christian,33185,31791,95.8,
+E07000046,Torridge,ltla23,2021,Does not apply,0,0,,n<1000
+E07000046,Torridge,ltla23,2021,Hindu,35,14,,n<1000
+E07000046,Torridge,ltla23,2021,Jewish,45,39,,n<1000
+E07000046,Torridge,ltla23,2021,Muslim,109,41,,n<1000
+E07000046,Torridge,ltla23,2021,No religion,29542,28578,96.74,
+E07000046,Torridge,ltla23,2021,Not answered,4536,4359,96.1,
+E07000046,Torridge,ltla23,2021,Other religion,432,397,,n<1000
+E07000046,Torridge,ltla23,2021,Sikh,16,12,,n<1000
+E07000047,West Devon,ltla23,2021,Buddhist,201,170,,n<1000
+E07000047,West Devon,ltla23,2021,Christian,28713,27022,94.11,
+E07000047,West Devon,ltla23,2021,Does not apply,0,0,,n<1000
+E07000047,West Devon,ltla23,2021,Hindu,31,16,,n<1000
+E07000047,West Devon,ltla23,2021,Jewish,63,56,,n<1000
+E07000047,West Devon,ltla23,2021,Muslim,142,64,,n<1000
+E07000047,West Devon,ltla23,2021,No religion,23754,22744,95.75,
+E07000047,West Devon,ltla23,2021,Not answered,3718,3479,93.57,
+E07000047,West Devon,ltla23,2021,Other religion,456,437,,n<1000
+E07000047,West Devon,ltla23,2021,Sikh,9,1,,n<1000
+E07000061,Eastbourne,ltla23,2021,Buddhist,568,270,,n<1000
+E07000061,Eastbourne,ltla23,2021,Christian,46675,38082,81.59,
+E07000061,Eastbourne,ltla23,2021,Does not apply,0,0,,n<1000
+E07000061,Eastbourne,ltla23,2021,Hindu,512,145,,n<1000
+E07000061,Eastbourne,ltla23,2021,Jewish,184,155,,n<1000
+E07000061,Eastbourne,ltla23,2021,Muslim,2264,823,36.35,
+E07000061,Eastbourne,ltla23,2021,No religion,43921,40517,92.25,
+E07000061,Eastbourne,ltla23,2021,Not answered,6769,5619,83.01,
+E07000061,Eastbourne,ltla23,2021,Other religion,750,608,,n<1000
+E07000061,Eastbourne,ltla23,2021,Sikh,42,19,,n<1000
+E07000062,Hastings,ltla23,2021,Buddhist,568,348,,n<1000
+E07000062,Hastings,ltla23,2021,Christian,34427,29230,84.9,
+E07000062,Hastings,ltla23,2021,Does not apply,0,0,,n<1000
+E07000062,Hastings,ltla23,2021,Hindu,468,135,,n<1000
+E07000062,Hastings,ltla23,2021,Jewish,174,135,,n<1000
+E07000062,Hastings,ltla23,2021,Muslim,1767,670,37.92,
+E07000062,Hastings,ltla23,2021,No religion,46748,44187,94.52,
+E07000062,Hastings,ltla23,2021,Not answered,5998,5241,87.38,
+E07000062,Hastings,ltla23,2021,Other religion,812,690,,n<1000
+E07000062,Hastings,ltla23,2021,Sikh,36,17,,n<1000
+E07000063,Lewes,ltla23,2021,Buddhist,560,376,,n<1000
+E07000063,Lewes,ltla23,2021,Christian,42623,38371,90.02,
+E07000063,Lewes,ltla23,2021,Does not apply,0,0,,n<1000
+E07000063,Lewes,ltla23,2021,Hindu,317,115,,n<1000
+E07000063,Lewes,ltla23,2021,Jewish,305,254,,n<1000
+E07000063,Lewes,ltla23,2021,Muslim,841,347,,n<1000
+E07000063,Lewes,ltla23,2021,No religion,48142,45186,93.86,
+E07000063,Lewes,ltla23,2021,Not answered,6304,5727,90.85,
+E07000063,Lewes,ltla23,2021,Other religion,756,650,,n<1000
+E07000063,Lewes,ltla23,2021,Sikh,63,33,,n<1000
+E07000064,Rother,ltla23,2021,Buddhist,328,212,,n<1000
+E07000064,Rother,ltla23,2021,Christian,47373,43366,91.54,
+E07000064,Rother,ltla23,2021,Does not apply,0,0,,n<1000
+E07000064,Rother,ltla23,2021,Hindu,211,66,,n<1000
+E07000064,Rother,ltla23,2021,Jewish,169,137,,n<1000
+E07000064,Rother,ltla23,2021,Muslim,517,198,,n<1000
+E07000064,Rother,ltla23,2021,No religion,37858,36025,95.16,
+E07000064,Rother,ltla23,2021,Not answered,6123,5626,91.88,
+E07000064,Rother,ltla23,2021,Other religion,514,453,,n<1000
+E07000064,Rother,ltla23,2021,Sikh,16,6,,n<1000
+E07000065,Wealden,ltla23,2021,Buddhist,531,308,,n<1000
+E07000065,Wealden,ltla23,2021,Christian,79238,72765,91.83,
+E07000065,Wealden,ltla23,2021,Does not apply,0,0,,n<1000
+E07000065,Wealden,ltla23,2021,Hindu,379,129,,n<1000
+E07000065,Wealden,ltla23,2021,Jewish,312,228,,n<1000
+E07000065,Wealden,ltla23,2021,Muslim,803,342,,n<1000
+E07000065,Wealden,ltla23,2021,No religion,67387,63930,94.87,
+E07000065,Wealden,ltla23,2021,Not answered,10149,9328,91.91,
+E07000065,Wealden,ltla23,2021,Other religion,1297,923,71.16,
+E07000065,Wealden,ltla23,2021,Sikh,54,34,,n<1000
+E07000066,Basildon,ltla23,2021,Buddhist,556,230,,n<1000
+E07000066,Basildon,ltla23,2021,Christian,87238,73090,83.78,
+E07000066,Basildon,ltla23,2021,Does not apply,0,0,,n<1000
+E07000066,Basildon,ltla23,2021,Hindu,2326,720,30.95,
+E07000066,Basildon,ltla23,2021,Jewish,403,364,,n<1000
+E07000066,Basildon,ltla23,2021,Muslim,3381,1535,45.4,
+E07000066,Basildon,ltla23,2021,No religion,82780,79924,96.55,
+E07000066,Basildon,ltla23,2021,Not answered,9800,8688,88.65,
+E07000066,Basildon,ltla23,2021,Other religion,731,605,,n<1000
+E07000066,Basildon,ltla23,2021,Sikh,355,251,,n<1000
+E07000067,Braintree,ltla23,2021,Buddhist,417,211,,n<1000
+E07000067,Braintree,ltla23,2021,Christian,73056,66233,90.66,
+E07000067,Braintree,ltla23,2021,Does not apply,0,0,,n<1000
+E07000067,Braintree,ltla23,2021,Hindu,589,220,,n<1000
+E07000067,Braintree,ltla23,2021,Jewish,282,260,,n<1000
+E07000067,Braintree,ltla23,2021,Muslim,1019,459,45.04,
+E07000067,Braintree,ltla23,2021,No religion,69930,67553,96.6,
+E07000067,Braintree,ltla23,2021,Not answered,9188,8477,92.26,
+E07000067,Braintree,ltla23,2021,Other religion,672,591,,n<1000
+E07000067,Braintree,ltla23,2021,Sikh,111,73,,n<1000
+E07000068,Brentwood,ltla23,2021,Buddhist,302,127,,n<1000
+E07000068,Brentwood,ltla23,2021,Christian,43179,38286,88.67,
+E07000068,Brentwood,ltla23,2021,Does not apply,0,0,,n<1000
+E07000068,Brentwood,ltla23,2021,Hindu,1371,528,38.51,
+E07000068,Brentwood,ltla23,2021,Jewish,330,303,,n<1000
+E07000068,Brentwood,ltla23,2021,Muslim,1222,615,50.33,
+E07000068,Brentwood,ltla23,2021,No religion,25656,24164,94.18,
+E07000068,Brentwood,ltla23,2021,Not answered,4335,3859,89.02,
+E07000068,Brentwood,ltla23,2021,Other religion,261,200,,n<1000
+E07000068,Brentwood,ltla23,2021,Sikh,395,311,,n<1000
+E07000069,Castle Point,ltla23,2021,Buddhist,237,118,,n<1000
+E07000069,Castle Point,ltla23,2021,Christian,43545,41220,94.66,
+E07000069,Castle Point,ltla23,2021,Does not apply,0,0,,n<1000
+E07000069,Castle Point,ltla23,2021,Hindu,435,152,,n<1000
+E07000069,Castle Point,ltla23,2021,Jewish,660,581,,n<1000
+E07000069,Castle Point,ltla23,2021,Muslim,712,346,,n<1000
+E07000069,Castle Point,ltla23,2021,No religion,38988,38138,97.82,
+E07000069,Castle Point,ltla23,2021,Not answered,4592,4385,95.49,
+E07000069,Castle Point,ltla23,2021,Other religion,338,316,,n<1000
+E07000069,Castle Point,ltla23,2021,Sikh,78,46,,n<1000
+E07000070,Chelmsford,ltla23,2021,Buddhist,874,352,,n<1000
+E07000070,Chelmsford,ltla23,2021,Christian,87181,75712,86.84,
+E07000070,Chelmsford,ltla23,2021,Does not apply,0,0,,n<1000
+E07000070,Chelmsford,ltla23,2021,Hindu,3084,980,31.78,
+E07000070,Chelmsford,ltla23,2021,Jewish,386,346,,n<1000
+E07000070,Chelmsford,ltla23,2021,Muslim,3666,1665,45.42,
+E07000070,Chelmsford,ltla23,2021,No religion,74741,70743,94.65,
+E07000070,Chelmsford,ltla23,2021,Not answered,10545,9291,88.11,
+E07000070,Chelmsford,ltla23,2021,Other religion,757,616,,n<1000
+E07000070,Chelmsford,ltla23,2021,Sikh,284,209,,n<1000
+E07000071,Colchester,ltla23,2021,Buddhist,1321,494,37.4,
+E07000071,Colchester,ltla23,2021,Christian,85605,71158,83.12,
+E07000071,Colchester,ltla23,2021,Does not apply,0,0,,n<1000
+E07000071,Colchester,ltla23,2021,Hindu,2546,706,27.73,
+E07000071,Colchester,ltla23,2021,Jewish,323,273,,n<1000
+E07000071,Colchester,ltla23,2021,Muslim,4023,1574,39.13,
+E07000071,Colchester,ltla23,2021,No religion,85486,79386,92.86,
+E07000071,Colchester,ltla23,2021,Not answered,12037,10114,84.02,
+E07000071,Colchester,ltla23,2021,Other religion,1144,842,73.6,
+E07000071,Colchester,ltla23,2021,Sikh,233,161,,n<1000
+E07000072,Epping Forest,ltla23,2021,Buddhist,514,239,,n<1000
+E07000072,Epping Forest,ltla23,2021,Christian,66732,57168,85.67,
+E07000072,Epping Forest,ltla23,2021,Does not apply,0,0,,n<1000
+E07000072,Epping Forest,ltla23,2021,Hindu,2850,1548,54.32,
+E07000072,Epping Forest,ltla23,2021,Jewish,4376,4152,94.88,
+E07000072,Epping Forest,ltla23,2021,Muslim,4699,2576,54.82,
+E07000072,Epping Forest,ltla23,2021,No religion,44976,41838,93.02,
+E07000072,Epping Forest,ltla23,2021,Not answered,8120,6883,84.77,
+E07000072,Epping Forest,ltla23,2021,Other religion,868,559,,n<1000
+E07000072,Epping Forest,ltla23,2021,Sikh,1847,1314,71.14,
+E07000073,Harlow,ltla23,2021,Buddhist,371,168,,n<1000
+E07000073,Harlow,ltla23,2021,Christian,41730,30803,73.82,
+E07000073,Harlow,ltla23,2021,Does not apply,0,0,,n<1000
+E07000073,Harlow,ltla23,2021,Hindu,890,273,,n<1000
+E07000073,Harlow,ltla23,2021,Jewish,320,304,,n<1000
+E07000073,Harlow,ltla23,2021,Muslim,3737,1676,44.85,
+E07000073,Harlow,ltla23,2021,No religion,40505,38398,94.8,
+E07000073,Harlow,ltla23,2021,Not answered,5081,4163,81.93,
+E07000073,Harlow,ltla23,2021,Other religion,608,407,,n<1000
+E07000073,Harlow,ltla23,2021,Sikh,84,63,,n<1000
+E07000074,Maldon,ltla23,2021,Buddhist,197,117,,n<1000
+E07000074,Maldon,ltla23,2021,Christian,32797,31135,94.93,
+E07000074,Maldon,ltla23,2021,Does not apply,0,0,,n<1000
+E07000074,Maldon,ltla23,2021,Hindu,129,56,,n<1000
+E07000074,Maldon,ltla23,2021,Jewish,128,119,,n<1000
+E07000074,Maldon,ltla23,2021,Muslim,295,144,,n<1000
+E07000074,Maldon,ltla23,2021,No religion,28753,27986,97.33,
+E07000074,Maldon,ltla23,2021,Not answered,3588,3420,95.32,
+E07000074,Maldon,ltla23,2021,Other religion,274,246,,n<1000
+E07000074,Maldon,ltla23,2021,Sikh,47,31,,n<1000
+E07000075,Rochford,ltla23,2021,Buddhist,206,116,,n<1000
+E07000075,Rochford,ltla23,2021,Christian,40777,38884,95.36,
+E07000075,Rochford,ltla23,2021,Does not apply,0,0,,n<1000
+E07000075,Rochford,ltla23,2021,Hindu,366,140,,n<1000
+E07000075,Rochford,ltla23,2021,Jewish,293,278,,n<1000
+E07000075,Rochford,ltla23,2021,Muslim,415,200,,n<1000
+E07000075,Rochford,ltla23,2021,No religion,38496,37698,97.93,
+E07000075,Rochford,ltla23,2021,Not answered,4730,4549,96.17,
+E07000075,Rochford,ltla23,2021,Other religion,330,311,,n<1000
+E07000075,Rochford,ltla23,2021,Sikh,43,26,,n<1000
+E07000076,Tendring,ltla23,2021,Buddhist,418,239,,n<1000
+E07000076,Tendring,ltla23,2021,Christian,73062,68588,93.88,
+E07000076,Tendring,ltla23,2021,Does not apply,0,0,,n<1000
+E07000076,Tendring,ltla23,2021,Hindu,350,116,,n<1000
+E07000076,Tendring,ltla23,2021,Jewish,224,208,,n<1000
+E07000076,Tendring,ltla23,2021,Muslim,650,280,,n<1000
+E07000076,Tendring,ltla23,2021,No religion,64075,62378,97.35,
+E07000076,Tendring,ltla23,2021,Not answered,8758,8334,95.16,
+E07000076,Tendring,ltla23,2021,Other religion,696,636,,n<1000
+E07000076,Tendring,ltla23,2021,Sikh,63,42,,n<1000
+E07000077,Uttlesford,ltla23,2021,Buddhist,368,158,,n<1000
+E07000077,Uttlesford,ltla23,2021,Christian,45850,41453,90.41,
+E07000077,Uttlesford,ltla23,2021,Does not apply,0,0,,n<1000
+E07000077,Uttlesford,ltla23,2021,Hindu,418,160,,n<1000
+E07000077,Uttlesford,ltla23,2021,Jewish,351,320,,n<1000
+E07000077,Uttlesford,ltla23,2021,Muslim,670,300,,n<1000
+E07000077,Uttlesford,ltla23,2021,No religion,37913,35847,94.55,
+E07000077,Uttlesford,ltla23,2021,Not answered,5289,4782,90.41,
+E07000077,Uttlesford,ltla23,2021,Other religion,378,305,,n<1000
+E07000077,Uttlesford,ltla23,2021,Sikh,100,72,,n<1000
+E07000078,Cheltenham,ltla23,2021,Buddhist,558,240,,n<1000
+E07000078,Cheltenham,ltla23,2021,Christian,54073,44839,82.92,
+E07000078,Cheltenham,ltla23,2021,Does not apply,0,0,,n<1000
+E07000078,Cheltenham,ltla23,2021,Hindu,1193,412,34.53,
+E07000078,Cheltenham,ltla23,2021,Jewish,198,136,,n<1000
+E07000078,Cheltenham,ltla23,2021,Muslim,1744,650,37.27,
+E07000078,Cheltenham,ltla23,2021,No religion,52734,48312,91.61,
+E07000078,Cheltenham,ltla23,2021,Not answered,7536,6324,83.92,
+E07000078,Cheltenham,ltla23,2021,Other religion,621,516,,n<1000
+E07000078,Cheltenham,ltla23,2021,Sikh,181,112,,n<1000
+E07000079,Cotswold,ltla23,2021,Buddhist,332,179,,n<1000
+E07000079,Cotswold,ltla23,2021,Christian,50595,45964,90.85,
+E07000079,Cotswold,ltla23,2021,Does not apply,0,0,,n<1000
+E07000079,Cotswold,ltla23,2021,Hindu,237,57,,n<1000
+E07000079,Cotswold,ltla23,2021,Jewish,159,127,,n<1000
+E07000079,Cotswold,ltla23,2021,Muslim,235,87,,n<1000
+E07000079,Cotswold,ltla23,2021,No religion,33311,31051,93.22,
+E07000079,Cotswold,ltla23,2021,Not answered,5471,4972,90.88,
+E07000079,Cotswold,ltla23,2021,Other religion,421,348,,n<1000
+E07000079,Cotswold,ltla23,2021,Sikh,65,45,,n<1000
+E07000080,Forest of Dean,ltla23,2021,Buddhist,218,126,,n<1000
+E07000080,Forest of Dean,ltla23,2021,Christian,43970,41458,94.29,
+E07000080,Forest of Dean,ltla23,2021,Does not apply,0,0,,n<1000
+E07000080,Forest of Dean,ltla23,2021,Hindu,104,30,,n<1000
+E07000080,Forest of Dean,ltla23,2021,Jewish,57,51,,n<1000
+E07000080,Forest of Dean,ltla23,2021,Muslim,239,96,,n<1000
+E07000080,Forest of Dean,ltla23,2021,No religion,36236,34985,96.55,
+E07000080,Forest of Dean,ltla23,2021,Not answered,5593,5317,95.07,
+E07000080,Forest of Dean,ltla23,2021,Other religion,518,463,,n<1000
+E07000080,Forest of Dean,ltla23,2021,Sikh,68,43,,n<1000
+E07000081,Gloucester,ltla23,2021,Buddhist,402,190,,n<1000
+E07000081,Gloucester,ltla23,2021,Christian,63145,52429,83.03,
+E07000081,Gloucester,ltla23,2021,Does not apply,0,0,,n<1000
+E07000081,Gloucester,ltla23,2021,Hindu,1283,352,27.44,
+E07000081,Gloucester,ltla23,2021,Jewish,65,50,,n<1000
+E07000081,Gloucester,ltla23,2021,Muslim,6200,3170,51.13,
+E07000081,Gloucester,ltla23,2021,No religion,52507,49709,94.67,
+E07000081,Gloucester,ltla23,2021,Not answered,7909,6784,85.78,
+E07000081,Gloucester,ltla23,2021,Other religion,652,550,,n<1000
+E07000081,Gloucester,ltla23,2021,Sikh,257,109,,n<1000
+E07000082,Stroud,ltla23,2021,Buddhist,530,367,,n<1000
+E07000082,Stroud,ltla23,2021,Christian,57485,53427,92.94,
+E07000082,Stroud,ltla23,2021,Does not apply,0,0,,n<1000
+E07000082,Stroud,ltla23,2021,Hindu,277,125,,n<1000
+E07000082,Stroud,ltla23,2021,Jewish,141,110,,n<1000
+E07000082,Stroud,ltla23,2021,Muslim,409,197,,n<1000
+E07000082,Stroud,ltla23,2021,No religion,53424,50746,94.99,
+E07000082,Stroud,ltla23,2021,Not answered,7863,7351,93.49,
+E07000082,Stroud,ltla23,2021,Other religion,897,787,,n<1000
+E07000082,Stroud,ltla23,2021,Sikh,81,51,,n<1000
+E07000083,Tewkesbury,ltla23,2021,Buddhist,340,147,,n<1000
+E07000083,Tewkesbury,ltla23,2021,Christian,48342,44045,91.11,
+E07000083,Tewkesbury,ltla23,2021,Does not apply,0,0,,n<1000
+E07000083,Tewkesbury,ltla23,2021,Hindu,685,223,,n<1000
+E07000083,Tewkesbury,ltla23,2021,Jewish,68,52,,n<1000
+E07000083,Tewkesbury,ltla23,2021,Muslim,523,240,,n<1000
+E07000083,Tewkesbury,ltla23,2021,No religion,38746,36840,95.08,
+E07000083,Tewkesbury,ltla23,2021,Not answered,5667,5179,91.39,
+E07000083,Tewkesbury,ltla23,2021,Other religion,399,325,,n<1000
+E07000083,Tewkesbury,ltla23,2021,Sikh,112,67,,n<1000
+E07000084,Basingstoke and Deane,ltla23,2021,Buddhist,1583,393,24.83,
+E07000084,Basingstoke and Deane,ltla23,2021,Christian,84092,70100,83.36,
+E07000084,Basingstoke and Deane,ltla23,2021,Does not apply,0,0,,n<1000
+E07000084,Basingstoke and Deane,ltla23,2021,Hindu,4099,896,21.86,
+E07000084,Basingstoke and Deane,ltla23,2021,Jewish,168,126,,n<1000
+E07000084,Basingstoke and Deane,ltla23,2021,Muslim,2801,1125,40.16,
+E07000084,Basingstoke and Deane,ltla23,2021,No religion,80443,74986,93.22,
+E07000084,Basingstoke and Deane,ltla23,2021,Not answered,10325,8826,85.48,
+E07000084,Basingstoke and Deane,ltla23,2021,Other religion,1139,738,64.79,
+E07000084,Basingstoke and Deane,ltla23,2021,Sikh,505,312,,n<1000
+E07000085,East Hampshire,ltla23,2021,Buddhist,403,195,,n<1000
+E07000085,East Hampshire,ltla23,2021,Christian,64199,57204,89.1,
+E07000085,East Hampshire,ltla23,2021,Does not apply,0,0,,n<1000
+E07000085,East Hampshire,ltla23,2021,Hindu,361,127,,n<1000
+E07000085,East Hampshire,ltla23,2021,Jewish,213,173,,n<1000
+E07000085,East Hampshire,ltla23,2021,Muslim,751,314,,n<1000
+E07000085,East Hampshire,ltla23,2021,No religion,51488,48239,93.69,
+E07000085,East Hampshire,ltla23,2021,Not answered,7657,6921,90.39,
+E07000085,East Hampshire,ltla23,2021,Other religion,593,512,,n<1000
+E07000085,East Hampshire,ltla23,2021,Sikh,83,52,,n<1000
+E07000086,Eastleigh,ltla23,2021,Buddhist,515,215,,n<1000
+E07000086,Eastleigh,ltla23,2021,Christian,62367,55832,89.52,
+E07000086,Eastleigh,ltla23,2021,Does not apply,0,0,,n<1000
+E07000086,Eastleigh,ltla23,2021,Hindu,1356,413,30.46,
+E07000086,Eastleigh,ltla23,2021,Jewish,114,84,,n<1000
+E07000086,Eastleigh,ltla23,2021,Muslim,1406,651,46.3,
+E07000086,Eastleigh,ltla23,2021,No religion,61378,58307,95.0,
+E07000086,Eastleigh,ltla23,2021,Not answered,7659,6972,91.03,
+E07000086,Eastleigh,ltla23,2021,Other religion,630,534,,n<1000
+E07000086,Eastleigh,ltla23,2021,Sikh,1023,707,69.11,
+E07000087,Fareham,ltla23,2021,Buddhist,341,175,,n<1000
+E07000087,Fareham,ltla23,2021,Christian,56248,52010,92.47,
+E07000087,Fareham,ltla23,2021,Does not apply,0,0,,n<1000
+E07000087,Fareham,ltla23,2021,Hindu,400,122,,n<1000
+E07000087,Fareham,ltla23,2021,Jewish,66,55,,n<1000
+E07000087,Fareham,ltla23,2021,Muslim,714,325,,n<1000
+E07000087,Fareham,ltla23,2021,No religion,49987,47858,95.74,
+E07000087,Fareham,ltla23,2021,Not answered,6177,5707,92.39,
+E07000087,Fareham,ltla23,2021,Other religion,491,425,,n<1000
+E07000087,Fareham,ltla23,2021,Sikh,88,60,,n<1000
+E07000088,Gosport,ltla23,2021,Buddhist,272,117,,n<1000
+E07000088,Gosport,ltla23,2021,Christian,36558,33185,90.77,
+E07000088,Gosport,ltla23,2021,Does not apply,0,0,,n<1000
+E07000088,Gosport,ltla23,2021,Hindu,226,81,,n<1000
+E07000088,Gosport,ltla23,2021,Jewish,37,26,,n<1000
+E07000088,Gosport,ltla23,2021,Muslim,454,162,,n<1000
+E07000088,Gosport,ltla23,2021,No religion,39663,38060,95.96,
+E07000088,Gosport,ltla23,2021,Not answered,4194,3883,92.58,
+E07000088,Gosport,ltla23,2021,Other religion,518,464,,n<1000
+E07000088,Gosport,ltla23,2021,Sikh,29,17,,n<1000
+E07000089,Hart,ltla23,2021,Buddhist,633,197,,n<1000
+E07000089,Hart,ltla23,2021,Christian,49461,43446,87.84,
+E07000089,Hart,ltla23,2021,Does not apply,0,0,,n<1000
+E07000089,Hart,ltla23,2021,Hindu,1187,340,28.64,
+E07000089,Hart,ltla23,2021,Jewish,117,82,,n<1000
+E07000089,Hart,ltla23,2021,Muslim,807,347,,n<1000
+E07000089,Hart,ltla23,2021,No religion,40898,37876,92.61,
+E07000089,Hart,ltla23,2021,Not answered,5576,4957,88.9,
+E07000089,Hart,ltla23,2021,Other religion,404,303,,n<1000
+E07000089,Hart,ltla23,2021,Sikh,323,222,,n<1000
+E07000090,Havant,ltla23,2021,Buddhist,357,198,,n<1000
+E07000090,Havant,ltla23,2021,Christian,56317,51562,91.56,
+E07000090,Havant,ltla23,2021,Does not apply,0,0,,n<1000
+E07000090,Havant,ltla23,2021,Hindu,339,117,,n<1000
+E07000090,Havant,ltla23,2021,Jewish,97,87,,n<1000
+E07000090,Havant,ltla23,2021,Muslim,657,293,,n<1000
+E07000090,Havant,ltla23,2021,No religion,58868,56917,96.69,
+E07000090,Havant,ltla23,2021,Not answered,6855,6403,93.41,
+E07000090,Havant,ltla23,2021,Other religion,620,570,,n<1000
+E07000090,Havant,ltla23,2021,Sikh,98,54,,n<1000
+E07000091,New Forest,ltla23,2021,Buddhist,536,292,,n<1000
+E07000091,New Forest,ltla23,2021,Christian,90769,83736,92.25,
+E07000091,New Forest,ltla23,2021,Does not apply,0,0,,n<1000
+E07000091,New Forest,ltla23,2021,Hindu,284,93,,n<1000
+E07000091,New Forest,ltla23,2021,Jewish,234,201,,n<1000
+E07000091,New Forest,ltla23,2021,Muslim,589,243,,n<1000
+E07000091,New Forest,ltla23,2021,No religion,71539,68203,95.34,
+E07000091,New Forest,ltla23,2021,Not answered,10742,9957,92.69,
+E07000091,New Forest,ltla23,2021,Other religion,1006,911,90.56,
+E07000091,New Forest,ltla23,2021,Sikh,87,52,,n<1000
+E07000092,Rushmoor,ltla23,2021,Buddhist,4731,645,13.63,
+E07000092,Rushmoor,ltla23,2021,Christian,42172,33851,80.27,
+E07000092,Rushmoor,ltla23,2021,Does not apply,0,0,,n<1000
+E07000092,Rushmoor,ltla23,2021,Hindu,5707,870,15.24,
+E07000092,Rushmoor,ltla23,2021,Jewish,60,46,,n<1000
+E07000092,Rushmoor,ltla23,2021,Muslim,2462,1111,45.13,
+E07000092,Rushmoor,ltla23,2021,No religion,37856,34684,91.62,
+E07000092,Rushmoor,ltla23,2021,Not answered,5325,4163,78.18,
+E07000092,Rushmoor,ltla23,2021,Other religion,1245,483,38.8,
+E07000092,Rushmoor,ltla23,2021,Sikh,197,113,,n<1000
+E07000093,Test Valley,ltla23,2021,Buddhist,618,222,,n<1000
+E07000093,Test Valley,ltla23,2021,Christian,65872,57773,87.7,
+E07000093,Test Valley,ltla23,2021,Does not apply,0,0,,n<1000
+E07000093,Test Valley,ltla23,2021,Hindu,1015,302,29.75,
+E07000093,Test Valley,ltla23,2021,Jewish,114,89,,n<1000
+E07000093,Test Valley,ltla23,2021,Muslim,1180,497,42.12,
+E07000093,Test Valley,ltla23,2021,No religion,53032,49519,93.38,
+E07000093,Test Valley,ltla23,2021,Not answered,7486,6691,89.38,
+E07000093,Test Valley,ltla23,2021,Other religion,599,497,,n<1000
+E07000093,Test Valley,ltla23,2021,Sikh,580,392,,n<1000
+E07000094,Winchester,ltla23,2021,Buddhist,789,279,,n<1000
+E07000094,Winchester,ltla23,2021,Christian,61948,55041,88.85,
+E07000094,Winchester,ltla23,2021,Does not apply,0,0,,n<1000
+E07000094,Winchester,ltla23,2021,Hindu,948,246,,n<1000
+E07000094,Winchester,ltla23,2021,Jewish,219,158,,n<1000
+E07000094,Winchester,ltla23,2021,Muslim,905,408,,n<1000
+E07000094,Winchester,ltla23,2021,No religion,53752,49534,92.15,
+E07000094,Winchester,ltla23,2021,Not answered,8023,7122,88.77,
+E07000094,Winchester,ltla23,2021,Other religion,671,556,,n<1000
+E07000094,Winchester,ltla23,2021,Sikh,189,131,,n<1000
+E07000095,Broxbourne,ltla23,2021,Buddhist,476,221,,n<1000
+E07000095,Broxbourne,ltla23,2021,Christian,52492,42202,80.4,
+E07000095,Broxbourne,ltla23,2021,Does not apply,0,0,,n<1000
+E07000095,Broxbourne,ltla23,2021,Hindu,1148,548,47.74,
+E07000095,Broxbourne,ltla23,2021,Jewish,365,342,,n<1000
+E07000095,Broxbourne,ltla23,2021,Muslim,4249,2103,49.49,
+E07000095,Broxbourne,ltla23,2021,No religion,32714,30212,92.35,
+E07000095,Broxbourne,ltla23,2021,Not answered,5802,4798,82.7,
+E07000095,Broxbourne,ltla23,2021,Other religion,1601,775,48.41,
+E07000095,Broxbourne,ltla23,2021,Sikh,156,109,,n<1000
+E07000096,Dacorum,ltla23,2021,Buddhist,726,319,,n<1000
+E07000096,Dacorum,ltla23,2021,Christian,71954,59791,83.1,
+E07000096,Dacorum,ltla23,2021,Does not apply,0,0,,n<1000
+E07000096,Dacorum,ltla23,2021,Hindu,2547,1102,43.27,
+E07000096,Dacorum,ltla23,2021,Jewish,896,776,,n<1000
+E07000096,Dacorum,ltla23,2021,Muslim,4871,2624,53.87,
+E07000096,Dacorum,ltla23,2021,No religion,63681,59507,93.45,
+E07000096,Dacorum,ltla23,2021,Not answered,9350,7953,85.06,
+E07000096,Dacorum,ltla23,2021,Other religion,747,596,,n<1000
+E07000096,Dacorum,ltla23,2021,Sikh,311,213,,n<1000
+E07000098,Hertsmere,ltla23,2021,Buddhist,622,225,,n<1000
+E07000098,Hertsmere,ltla23,2021,Christian,45022,32476,72.13,
+E07000098,Hertsmere,ltla23,2021,Does not apply,0,0,,n<1000
+E07000098,Hertsmere,ltla23,2021,Hindu,5338,2672,50.06,
+E07000098,Hertsmere,ltla23,2021,Jewish,18346,16831,91.74,
+E07000098,Hertsmere,ltla23,2021,Muslim,4061,1791,44.1,
+E07000098,Hertsmere,ltla23,2021,No religion,26094,22911,87.8,
+E07000098,Hertsmere,ltla23,2021,Not answered,6982,5451,78.07,
+E07000098,Hertsmere,ltla23,2021,Other religion,1117,633,56.67,
+E07000098,Hertsmere,ltla23,2021,Sikh,248,161,,n<1000
+E07000099,North Hertfordshire,ltla23,2021,Buddhist,660,326,,n<1000
+E07000099,North Hertfordshire,ltla23,2021,Christian,58323,50905,87.28,
+E07000099,North Hertfordshire,ltla23,2021,Does not apply,0,0,,n<1000
+E07000099,North Hertfordshire,ltla23,2021,Hindu,1453,611,42.05,
+E07000099,North Hertfordshire,ltla23,2021,Jewish,369,322,,n<1000
+E07000099,North Hertfordshire,ltla23,2021,Muslim,2064,1014,49.13,
+E07000099,North Hertfordshire,ltla23,2021,No religion,59315,55441,93.47,
+E07000099,North Hertfordshire,ltla23,2021,Not answered,8016,7194,89.75,
+E07000099,North Hertfordshire,ltla23,2021,Other religion,731,581,,n<1000
+E07000099,North Hertfordshire,ltla23,2021,Sikh,2278,1402,61.55,
+E07000102,Three Rivers,ltla23,2021,Buddhist,485,167,,n<1000
+E07000102,Three Rivers,ltla23,2021,Christian,44655,36928,82.7,
+E07000102,Three Rivers,ltla23,2021,Does not apply,0,0,,n<1000
+E07000102,Three Rivers,ltla23,2021,Hindu,7791,3780,48.52,
+E07000102,Three Rivers,ltla23,2021,Jewish,1464,1296,88.52,
+E07000102,Three Rivers,ltla23,2021,Muslim,3458,1806,52.23,
+E07000102,Three Rivers,ltla23,2021,No religion,28923,26622,92.04,
+E07000102,Three Rivers,ltla23,2021,Not answered,5285,4275,80.89,
+E07000102,Three Rivers,ltla23,2021,Other religion,870,495,,n<1000
+E07000102,Three Rivers,ltla23,2021,Sikh,846,585,,n<1000
+E07000103,Watford,ltla23,2021,Buddhist,1021,273,26.74,
+E07000103,Watford,ltla23,2021,Christian,45447,29034,63.89,
+E07000103,Watford,ltla23,2021,Does not apply,0,0,,n<1000
+E07000103,Watford,ltla23,2021,Hindu,8397,3380,40.25,
+E07000103,Watford,ltla23,2021,Jewish,944,865,,n<1000
+E07000103,Watford,ltla23,2021,Muslim,13261,7115,53.65,
+E07000103,Watford,ltla23,2021,No religion,25340,21666,85.5,
+E07000103,Watford,ltla23,2021,Not answered,6311,4266,67.6,
+E07000103,Watford,ltla23,2021,Other religion,858,501,,n<1000
+E07000103,Watford,ltla23,2021,Sikh,664,427,,n<1000
+E07000105,Ashford,ltla23,2021,Buddhist,1341,318,23.71,
+E07000105,Ashford,ltla23,2021,Christian,63197,55005,87.04,
+E07000105,Ashford,ltla23,2021,Does not apply,0,0,,n<1000
+E07000105,Ashford,ltla23,2021,Hindu,2720,547,20.11,
+E07000105,Ashford,ltla23,2021,Jewish,142,110,,n<1000
+E07000105,Ashford,ltla23,2021,Muslim,2110,820,38.86,
+E07000105,Ashford,ltla23,2021,No religion,54002,50927,94.31,
+E07000105,Ashford,ltla23,2021,Not answered,7557,6549,86.66,
+E07000105,Ashford,ltla23,2021,Other religion,1533,571,37.25,
+E07000105,Ashford,ltla23,2021,Sikh,147,95,,n<1000
+E07000106,Canterbury,ltla23,2021,Buddhist,961,433,,n<1000
+E07000106,Canterbury,ltla23,2021,Christian,73413,63829,86.95,
+E07000106,Canterbury,ltla23,2021,Does not apply,0,0,,n<1000
+E07000106,Canterbury,ltla23,2021,Hindu,1296,522,40.28,
+E07000106,Canterbury,ltla23,2021,Jewish,310,225,,n<1000
+E07000106,Canterbury,ltla23,2021,Muslim,2874,1116,38.83,
+E07000106,Canterbury,ltla23,2021,No religion,66084,60581,91.67,
+E07000106,Canterbury,ltla23,2021,Not answered,11062,9371,84.71,
+E07000106,Canterbury,ltla23,2021,Other religion,1144,844,73.78,
+E07000106,Canterbury,ltla23,2021,Sikh,278,207,,n<1000
+E07000107,Dartford,ltla23,2021,Buddhist,689,248,,n<1000
+E07000107,Dartford,ltla23,2021,Christian,56172,43357,77.19,
+E07000107,Dartford,ltla23,2021,Does not apply,0,0,,n<1000
+E07000107,Dartford,ltla23,2021,Hindu,4433,1534,34.6,
+E07000107,Dartford,ltla23,2021,Jewish,91,57,,n<1000
+E07000107,Dartford,ltla23,2021,Muslim,4100,1783,43.49,
+E07000107,Dartford,ltla23,2021,No religion,42582,39954,93.83,
+E07000107,Dartford,ltla23,2021,Not answered,6205,5097,82.14,
+E07000107,Dartford,ltla23,2021,Other religion,467,350,,n<1000
+E07000107,Dartford,ltla23,2021,Sikh,2016,1397,69.3,
+E07000108,Dover,ltla23,2021,Buddhist,591,290,,n<1000
+E07000108,Dover,ltla23,2021,Christian,57768,52246,90.44,
+E07000108,Dover,ltla23,2021,Does not apply,0,0,,n<1000
+E07000108,Dover,ltla23,2021,Hindu,723,209,,n<1000
+E07000108,Dover,ltla23,2021,Jewish,113,82,,n<1000
+E07000108,Dover,ltla23,2021,Muslim,734,297,,n<1000
+E07000108,Dover,ltla23,2021,No religion,49300,46967,95.27,
+E07000108,Dover,ltla23,2021,Not answered,6457,5885,91.14,
+E07000108,Dover,ltla23,2021,Other religion,647,556,,n<1000
+E07000108,Dover,ltla23,2021,Sikh,74,43,,n<1000
+E07000109,Gravesham,ltla23,2021,Buddhist,347,137,,n<1000
+E07000109,Gravesham,ltla23,2021,Christian,52565,41881,79.67,
+E07000109,Gravesham,ltla23,2021,Does not apply,0,0,,n<1000
+E07000109,Gravesham,ltla23,2021,Hindu,1492,545,36.53,
+E07000109,Gravesham,ltla23,2021,Jewish,77,48,,n<1000
+E07000109,Gravesham,ltla23,2021,Muslim,3326,1540,46.3,
+E07000109,Gravesham,ltla23,2021,No religion,34353,32284,93.98,
+E07000109,Gravesham,ltla23,2021,Not answered,5515,4559,82.67,
+E07000109,Gravesham,ltla23,2021,Other religion,665,459,,n<1000
+E07000109,Gravesham,ltla23,2021,Sikh,8561,4876,56.96,
+E07000110,Maidstone,ltla23,2021,Buddhist,1341,391,29.16,
+E07000110,Maidstone,ltla23,2021,Christian,86589,73146,84.47,
+E07000110,Maidstone,ltla23,2021,Does not apply,0,0,,n<1000
+E07000110,Maidstone,ltla23,2021,Hindu,2478,609,24.58,
+E07000110,Maidstone,ltla23,2021,Jewish,161,117,,n<1000
+E07000110,Maidstone,ltla23,2021,Muslim,3330,1280,38.44,
+E07000110,Maidstone,ltla23,2021,No religion,70502,66308,94.05,
+E07000110,Maidstone,ltla23,2021,Not answered,9981,8512,85.28,
+E07000110,Maidstone,ltla23,2021,Other religion,1122,695,61.94,
+E07000110,Maidstone,ltla23,2021,Sikh,270,179,,n<1000
+E07000111,Sevenoaks,ltla23,2021,Buddhist,462,217,,n<1000
+E07000111,Sevenoaks,ltla23,2021,Christian,62479,54993,88.02,
+E07000111,Sevenoaks,ltla23,2021,Does not apply,0,0,,n<1000
+E07000111,Sevenoaks,ltla23,2021,Hindu,806,289,,n<1000
+E07000111,Sevenoaks,ltla23,2021,Jewish,234,175,,n<1000
+E07000111,Sevenoaks,ltla23,2021,Muslim,1089,480,44.08,
+E07000111,Sevenoaks,ltla23,2021,No religion,47638,44209,92.8,
+E07000111,Sevenoaks,ltla23,2021,Not answered,7102,6315,88.92,
+E07000111,Sevenoaks,ltla23,2021,Other religion,413,336,,n<1000
+E07000111,Sevenoaks,ltla23,2021,Sikh,288,221,,n<1000
+E07000112,Folkestone and Hythe,ltla23,2021,Buddhist,1075,322,29.95,
+E07000112,Folkestone and Hythe,ltla23,2021,Christian,52653,47609,90.42,
+E07000112,Folkestone and Hythe,ltla23,2021,Does not apply,0,0,,n<1000
+E07000112,Folkestone and Hythe,ltla23,2021,Hindu,1624,320,19.7,
+E07000112,Folkestone and Hythe,ltla23,2021,Jewish,146,124,,n<1000
+E07000112,Folkestone and Hythe,ltla23,2021,Muslim,1105,414,37.47,
+E07000112,Folkestone and Hythe,ltla23,2021,No religion,45892,43279,94.31,
+E07000112,Folkestone and Hythe,ltla23,2021,Not answered,6242,5588,89.52,
+E07000112,Folkestone and Hythe,ltla23,2021,Other religion,973,606,,n<1000
+E07000112,Folkestone and Hythe,ltla23,2021,Sikh,47,18,,n<1000
+E07000113,Swale,ltla23,2021,Buddhist,406,258,,n<1000
+E07000113,Swale,ltla23,2021,Christian,71564,63947,89.36,
+E07000113,Swale,ltla23,2021,Does not apply,0,0,,n<1000
+E07000113,Swale,ltla23,2021,Hindu,587,199,,n<1000
+E07000113,Swale,ltla23,2021,Jewish,118,93,,n<1000
+E07000113,Swale,ltla23,2021,Muslim,1530,668,43.66,
+E07000113,Swale,ltla23,2021,No religion,68784,66557,96.76,
+E07000113,Swale,ltla23,2021,Not answered,7812,7074,90.55,
+E07000113,Swale,ltla23,2021,Other religion,672,603,,n<1000
+E07000113,Swale,ltla23,2021,Sikh,208,135,,n<1000
+E07000114,Thanet,ltla23,2021,Buddhist,596,361,,n<1000
+E07000114,Thanet,ltla23,2021,Christian,65654,58262,88.74,
+E07000114,Thanet,ltla23,2021,Does not apply,0,0,,n<1000
+E07000114,Thanet,ltla23,2021,Hindu,804,243,,n<1000
+E07000114,Thanet,ltla23,2021,Jewish,268,231,,n<1000
+E07000114,Thanet,ltla23,2021,Muslim,2128,815,38.3,
+E07000114,Thanet,ltla23,2021,No religion,62053,58934,94.97,
+E07000114,Thanet,ltla23,2021,Not answered,8115,7199,88.71,
+E07000114,Thanet,ltla23,2021,Other religion,866,758,,n<1000
+E07000114,Thanet,ltla23,2021,Sikh,101,59,,n<1000
+E07000115,Tonbridge and Malling,ltla23,2021,Buddhist,452,194,,n<1000
+E07000115,Tonbridge and Malling,ltla23,2021,Christian,64403,58200,90.37,
+E07000115,Tonbridge and Malling,ltla23,2021,Does not apply,0,0,,n<1000
+E07000115,Tonbridge and Malling,ltla23,2021,Hindu,1168,339,29.02,
+E07000115,Tonbridge and Malling,ltla23,2021,Jewish,163,120,,n<1000
+E07000115,Tonbridge and Malling,ltla23,2021,Muslim,1380,594,43.04,
+E07000115,Tonbridge and Malling,ltla23,2021,No religion,56516,53655,94.94,
+E07000115,Tonbridge and Malling,ltla23,2021,Not answered,7371,6620,89.81,
+E07000115,Tonbridge and Malling,ltla23,2021,Other religion,508,443,,n<1000
+E07000115,Tonbridge and Malling,ltla23,2021,Sikh,240,188,,n<1000
+E07000116,Tunbridge Wells,ltla23,2021,Buddhist,483,222,,n<1000
+E07000116,Tunbridge Wells,ltla23,2021,Christian,57258,48775,85.18,
+E07000116,Tunbridge Wells,ltla23,2021,Does not apply,0,0,,n<1000
+E07000116,Tunbridge Wells,ltla23,2021,Hindu,1116,319,28.58,
+E07000116,Tunbridge Wells,ltla23,2021,Jewish,224,176,,n<1000
+E07000116,Tunbridge Wells,ltla23,2021,Muslim,1904,797,41.86,
+E07000116,Tunbridge Wells,ltla23,2021,No religion,46480,42685,91.84,
+E07000116,Tunbridge Wells,ltla23,2021,Not answered,7207,6227,86.4,
+E07000116,Tunbridge Wells,ltla23,2021,Other religion,557,472,,n<1000
+E07000116,Tunbridge Wells,ltla23,2021,Sikh,81,54,,n<1000
+E07000117,Burnley,ltla23,2021,Buddhist,228,114,,n<1000
+E07000117,Burnley,ltla23,2021,Christian,45610,41300,90.55,
+E07000117,Burnley,ltla23,2021,Does not apply,0,0,,n<1000
+E07000117,Burnley,ltla23,2021,Hindu,173,58,,n<1000
+E07000117,Burnley,ltla23,2021,Jewish,33,28,,n<1000
+E07000117,Burnley,ltla23,2021,Muslim,13253,7499,56.58,
+E07000117,Burnley,ltla23,2021,No religion,29822,28753,96.42,
+E07000117,Burnley,ltla23,2021,Not answered,5118,4496,87.85,
+E07000117,Burnley,ltla23,2021,Other religion,356,309,,n<1000
+E07000117,Burnley,ltla23,2021,Sikh,53,23,,n<1000
+E07000118,Chorley,ltla23,2021,Buddhist,286,195,,n<1000
+E07000118,Chorley,ltla23,2021,Christian,72436,69161,95.48,
+E07000118,Chorley,ltla23,2021,Does not apply,0,0,,n<1000
+E07000118,Chorley,ltla23,2021,Hindu,335,170,,n<1000
+E07000118,Chorley,ltla23,2021,Jewish,59,50,,n<1000
+E07000118,Chorley,ltla23,2021,Muslim,1645,939,57.08,
+E07000118,Chorley,ltla23,2021,No religion,36383,35188,96.72,
+E07000118,Chorley,ltla23,2021,Not answered,5990,5660,94.49,
+E07000118,Chorley,ltla23,2021,Other religion,534,493,,n<1000
+E07000118,Chorley,ltla23,2021,Sikh,59,46,,n<1000
+E07000119,Fylde,ltla23,2021,Buddhist,276,154,,n<1000
+E07000119,Fylde,ltla23,2021,Christian,50137,47456,94.65,
+E07000119,Fylde,ltla23,2021,Does not apply,0,0,,n<1000
+E07000119,Fylde,ltla23,2021,Hindu,234,95,,n<1000
+E07000119,Fylde,ltla23,2021,Jewish,289,264,,n<1000
+E07000119,Fylde,ltla23,2021,Muslim,576,265,,n<1000
+E07000119,Fylde,ltla23,2021,No religion,25389,24141,95.08,
+E07000119,Fylde,ltla23,2021,Not answered,4082,3803,93.17,
+E07000119,Fylde,ltla23,2021,Other religion,330,306,,n<1000
+E07000119,Fylde,ltla23,2021,Sikh,64,46,,n<1000
+E07000120,Hyndburn,ltla23,2021,Buddhist,152,103,,n<1000
+E07000120,Hyndburn,ltla23,2021,Christian,41949,39631,94.47,
+E07000120,Hyndburn,ltla23,2021,Does not apply,0,0,,n<1000
+E07000120,Hyndburn,ltla23,2021,Hindu,84,31,,n<1000
+E07000120,Hyndburn,ltla23,2021,Jewish,26,22,,n<1000
+E07000120,Hyndburn,ltla23,2021,Muslim,12049,8123,67.42,
+E07000120,Hyndburn,ltla23,2021,No religion,23361,22727,97.29,
+E07000120,Hyndburn,ltla23,2021,Not answered,4242,3896,91.84,
+E07000120,Hyndburn,ltla23,2021,Other religion,342,323,,n<1000
+E07000120,Hyndburn,ltla23,2021,Sikh,30,16,,n<1000
+E07000121,Lancaster,ltla23,2021,Buddhist,604,365,,n<1000
+E07000121,Lancaster,ltla23,2021,Christian,74106,67765,91.44,
+E07000121,Lancaster,ltla23,2021,Does not apply,0,0,,n<1000
+E07000121,Lancaster,ltla23,2021,Hindu,602,184,,n<1000
+E07000121,Lancaster,ltla23,2021,Jewish,145,107,,n<1000
+E07000121,Lancaster,ltla23,2021,Muslim,2663,1226,46.04,
+E07000121,Lancaster,ltla23,2021,No religion,54430,50646,93.05,
+E07000121,Lancaster,ltla23,2021,Not answered,9421,8265,87.73,
+E07000121,Lancaster,ltla23,2021,Other religion,811,687,,n<1000
+E07000121,Lancaster,ltla23,2021,Sikh,147,101,,n<1000
+E07000122,Pendle,ltla23,2021,Buddhist,220,123,,n<1000
+E07000122,Pendle,ltla23,2021,Christian,37525,33400,89.01,
+E07000122,Pendle,ltla23,2021,Does not apply,0,0,,n<1000
+E07000122,Pendle,ltla23,2021,Hindu,70,19,,n<1000
+E07000122,Pendle,ltla23,2021,Jewish,32,30,,n<1000
+E07000122,Pendle,ltla23,2021,Muslim,24900,14043,56.4,
+E07000122,Pendle,ltla23,2021,No religion,27522,26582,96.58,
+E07000122,Pendle,ltla23,2021,Not answered,5089,4320,84.89,
+E07000122,Pendle,ltla23,2021,Other religion,358,318,,n<1000
+E07000122,Pendle,ltla23,2021,Sikh,34,16,,n<1000
+E07000123,Preston,ltla23,2021,Buddhist,435,214,,n<1000
+E07000123,Preston,ltla23,2021,Christian,70425,59426,84.38,
+E07000123,Preston,ltla23,2021,Does not apply,0,0,,n<1000
+E07000123,Preston,ltla23,2021,Hindu,4398,1477,33.58,
+E07000123,Preston,ltla23,2021,Jewish,76,56,,n<1000
+E07000123,Preston,ltla23,2021,Muslim,23825,14218,59.68,
+E07000123,Preston,ltla23,2021,No religion,38931,36045,92.59,
+E07000123,Preston,ltla23,2021,Not answered,8044,6587,81.89,
+E07000123,Preston,ltla23,2021,Other religion,610,514,,n<1000
+E07000123,Preston,ltla23,2021,Sikh,1091,804,73.69,
+E07000124,Ribble Valley,ltla23,2021,Buddhist,131,80,,n<1000
+E07000124,Ribble Valley,ltla23,2021,Christian,40857,39426,96.5,
+E07000124,Ribble Valley,ltla23,2021,Does not apply,0,0,,n<1000
+E07000124,Ribble Valley,ltla23,2021,Hindu,178,56,,n<1000
+E07000124,Ribble Valley,ltla23,2021,Jewish,23,19,,n<1000
+E07000124,Ribble Valley,ltla23,2021,Muslim,796,530,,n<1000
+E07000124,Ribble Valley,ltla23,2021,No religion,16144,15604,96.66,
+E07000124,Ribble Valley,ltla23,2021,Not answered,3249,3093,95.2,
+E07000124,Ribble Valley,ltla23,2021,Other religion,162,148,,n<1000
+E07000124,Ribble Valley,ltla23,2021,Sikh,24,16,,n<1000
+E07000125,Rossendale,ltla23,2021,Buddhist,184,111,,n<1000
+E07000125,Rossendale,ltla23,2021,Christian,34610,33310,96.24,
+E07000125,Rossendale,ltla23,2021,Does not apply,0,0,,n<1000
+E07000125,Rossendale,ltla23,2021,Hindu,103,40,,n<1000
+E07000125,Rossendale,ltla23,2021,Jewish,65,64,,n<1000
+E07000125,Rossendale,ltla23,2021,Muslim,3476,2178,62.66,
+E07000125,Rossendale,ltla23,2021,No religion,28412,27799,97.84,
+E07000125,Rossendale,ltla23,2021,Not answered,3655,3494,95.6,
+E07000125,Rossendale,ltla23,2021,Other religion,332,313,,n<1000
+E07000125,Rossendale,ltla23,2021,Sikh,33,19,,n<1000
+E07000126,South Ribble,ltla23,2021,Buddhist,232,130,,n<1000
+E07000126,South Ribble,ltla23,2021,Christian,68622,65449,95.38,
+E07000126,South Ribble,ltla23,2021,Does not apply,0,0,,n<1000
+E07000126,South Ribble,ltla23,2021,Hindu,776,432,,n<1000
+E07000126,South Ribble,ltla23,2021,Jewish,59,53,,n<1000
+E07000126,South Ribble,ltla23,2021,Muslim,1027,621,60.47,
+E07000126,South Ribble,ltla23,2021,No religion,34241,33100,96.67,
+E07000126,South Ribble,ltla23,2021,Not answered,5581,5305,95.05,
+E07000126,South Ribble,ltla23,2021,Other religion,379,347,,n<1000
+E07000126,South Ribble,ltla23,2021,Sikh,117,83,,n<1000
+E07000127,West Lancashire,ltla23,2021,Buddhist,260,160,,n<1000
+E07000127,West Lancashire,ltla23,2021,Christian,72268,68076,94.2,
+E07000127,West Lancashire,ltla23,2021,Does not apply,0,0,,n<1000
+E07000127,West Lancashire,ltla23,2021,Hindu,243,63,,n<1000
+E07000127,West Lancashire,ltla23,2021,Jewish,70,59,,n<1000
+E07000127,West Lancashire,ltla23,2021,Muslim,509,218,,n<1000
+E07000127,West Lancashire,ltla23,2021,No religion,37018,35381,95.58,
+E07000127,West Lancashire,ltla23,2021,Not answered,6612,6102,92.29,
+E07000127,West Lancashire,ltla23,2021,Other religion,357,316,,n<1000
+E07000127,West Lancashire,ltla23,2021,Sikh,93,65,,n<1000
+E07000128,Wyre,ltla23,2021,Buddhist,293,171,,n<1000
+E07000128,Wyre,ltla23,2021,Christian,66973,64574,96.42,
+E07000128,Wyre,ltla23,2021,Does not apply,0,0,,n<1000
+E07000128,Wyre,ltla23,2021,Hindu,186,69,,n<1000
+E07000128,Wyre,ltla23,2021,Jewish,85,74,,n<1000
+E07000128,Wyre,ltla23,2021,Muslim,453,153,,n<1000
+E07000128,Wyre,ltla23,2021,No religion,37718,36720,97.35,
+E07000128,Wyre,ltla23,2021,Not answered,5731,5521,96.34,
+E07000128,Wyre,ltla23,2021,Other religion,477,446,,n<1000
+E07000128,Wyre,ltla23,2021,Sikh,28,19,,n<1000
+E07000129,Blaby,ltla23,2021,Buddhist,264,130,,n<1000
+E07000129,Blaby,ltla23,2021,Christian,44686,40460,90.54,
+E07000129,Blaby,ltla23,2021,Does not apply,0,0,,n<1000
+E07000129,Blaby,ltla23,2021,Hindu,3825,2128,55.63,
+E07000129,Blaby,ltla23,2021,Jewish,57,44,,n<1000
+E07000129,Blaby,ltla23,2021,Muslim,1420,656,46.2,
+E07000129,Blaby,ltla23,2021,No religion,43850,42494,96.91,
+E07000129,Blaby,ltla23,2021,Not answered,5490,4992,90.93,
+E07000129,Blaby,ltla23,2021,Other religion,410,343,,n<1000
+E07000129,Blaby,ltla23,2021,Sikh,2926,1781,60.87,
+E07000130,Charnwood,ltla23,2021,Buddhist,643,266,,n<1000
+E07000130,Charnwood,ltla23,2021,Christian,76327,68040,89.14,
+E07000130,Charnwood,ltla23,2021,Does not apply,0,0,,n<1000
+E07000130,Charnwood,ltla23,2021,Hindu,12280,6363,51.82,
+E07000130,Charnwood,ltla23,2021,Jewish,150,119,,n<1000
+E07000130,Charnwood,ltla23,2021,Muslim,5703,2935,51.46,
+E07000130,Charnwood,ltla23,2021,No religion,74902,70551,94.19,
+E07000130,Charnwood,ltla23,2021,Not answered,10971,9601,87.51,
+E07000130,Charnwood,ltla23,2021,Other religion,955,748,,n<1000
+E07000130,Charnwood,ltla23,2021,Sikh,2042,1234,60.43,
+E07000131,Harborough,ltla23,2021,Buddhist,256,163,,n<1000
+E07000131,Harborough,ltla23,2021,Christian,49047,45845,93.47,
+E07000131,Harborough,ltla23,2021,Does not apply,0,0,,n<1000
+E07000131,Harborough,ltla23,2021,Hindu,2474,1546,62.49,
+E07000131,Harborough,ltla23,2021,Jewish,121,85,,n<1000
+E07000131,Harborough,ltla23,2021,Muslim,1118,632,56.53,
+E07000131,Harborough,ltla23,2021,No religion,37480,36037,96.15,
+E07000131,Harborough,ltla23,2021,Not answered,5281,4875,92.31,
+E07000131,Harborough,ltla23,2021,Other religion,382,339,,n<1000
+E07000131,Harborough,ltla23,2021,Sikh,1466,1095,74.69,
+E07000132,Hinckley and Bosworth,ltla23,2021,Buddhist,265,147,,n<1000
+E07000132,Hinckley and Bosworth,ltla23,2021,Christian,56634,52929,93.46,
+E07000132,Hinckley and Bosworth,ltla23,2021,Does not apply,0,0,,n<1000
+E07000132,Hinckley and Bosworth,ltla23,2021,Hindu,1251,684,54.68,
+E07000132,Hinckley and Bosworth,ltla23,2021,Jewish,39,25,,n<1000
+E07000132,Hinckley and Bosworth,ltla23,2021,Muslim,795,385,,n<1000
+E07000132,Hinckley and Bosworth,ltla23,2021,No religion,47368,45836,96.77,
+E07000132,Hinckley and Bosworth,ltla23,2021,Not answered,5988,5547,92.64,
+E07000132,Hinckley and Bosworth,ltla23,2021,Other religion,558,501,,n<1000
+E07000132,Hinckley and Bosworth,ltla23,2021,Sikh,738,535,,n<1000
+E07000133,Melton,ltla23,2021,Buddhist,148,86,,n<1000
+E07000133,Melton,ltla23,2021,Christian,27770,25760,92.76,
+E07000133,Melton,ltla23,2021,Does not apply,0,0,,n<1000
+E07000133,Melton,ltla23,2021,Hindu,201,101,,n<1000
+E07000133,Melton,ltla23,2021,Jewish,26,24,,n<1000
+E07000133,Melton,ltla23,2021,Muslim,130,45,,n<1000
+E07000133,Melton,ltla23,2021,No religion,20361,19627,96.4,
+E07000133,Melton,ltla23,2021,Not answered,2861,2658,92.9,
+E07000133,Melton,ltla23,2021,Other religion,181,167,,n<1000
+E07000133,Melton,ltla23,2021,Sikh,70,45,,n<1000
+E07000134,North West Leicestershire,ltla23,2021,Buddhist,220,119,,n<1000
+E07000134,North West Leicestershire,ltla23,2021,Christian,51428,47626,92.61,
+E07000134,North West Leicestershire,ltla23,2021,Does not apply,0,0,,n<1000
+E07000134,North West Leicestershire,ltla23,2021,Hindu,476,241,,n<1000
+E07000134,North West Leicestershire,ltla23,2021,Jewish,45,34,,n<1000
+E07000134,North West Leicestershire,ltla23,2021,Muslim,420,193,,n<1000
+E07000134,North West Leicestershire,ltla23,2021,No religion,45988,44508,96.78,
+E07000134,North West Leicestershire,ltla23,2021,Not answered,5361,5032,93.86,
+E07000134,North West Leicestershire,ltla23,2021,Other religion,461,391,,n<1000
+E07000134,North West Leicestershire,ltla23,2021,Sikh,304,178,,n<1000
+E07000135,Oadby and Wigston,ltla23,2021,Buddhist,185,78,,n<1000
+E07000135,Oadby and Wigston,ltla23,2021,Christian,19995,17638,88.21,
+E07000135,Oadby and Wigston,ltla23,2021,Does not apply,0,0,,n<1000
+E07000135,Oadby and Wigston,ltla23,2021,Hindu,5745,2866,49.89,
+E07000135,Oadby and Wigston,ltla23,2021,Jewish,94,88,,n<1000
+E07000135,Oadby and Wigston,ltla23,2021,Muslim,6480,3660,56.48,
+E07000135,Oadby and Wigston,ltla23,2021,No religion,17443,16602,95.18,
+E07000135,Oadby and Wigston,ltla23,2021,Not answered,3128,2695,86.16,
+E07000135,Oadby and Wigston,ltla23,2021,Other religion,333,227,,n<1000
+E07000135,Oadby and Wigston,ltla23,2021,Sikh,4345,2714,62.46,
+E07000136,Boston,ltla23,2021,Buddhist,164,73,,n<1000
+E07000136,Boston,ltla23,2021,Christian,42171,30313,71.88,
+E07000136,Boston,ltla23,2021,Does not apply,0,0,,n<1000
+E07000136,Boston,ltla23,2021,Hindu,236,50,,n<1000
+E07000136,Boston,ltla23,2021,Jewish,41,27,,n<1000
+E07000136,Boston,ltla23,2021,Muslim,967,284,,n<1000
+E07000136,Boston,ltla23,2021,No religion,22034,19562,88.78,
+E07000136,Boston,ltla23,2021,Not answered,4573,3289,71.92,
+E07000136,Boston,ltla23,2021,Other religion,283,213,,n<1000
+E07000136,Boston,ltla23,2021,Sikh,33,19,,n<1000
+E07000137,East Lindsey,ltla23,2021,Buddhist,324,177,,n<1000
+E07000137,East Lindsey,ltla23,2021,Christian,76662,73362,95.7,
+E07000137,East Lindsey,ltla23,2021,Does not apply,0,0,,n<1000
+E07000137,East Lindsey,ltla23,2021,Hindu,194,69,,n<1000
+E07000137,East Lindsey,ltla23,2021,Jewish,84,72,,n<1000
+E07000137,East Lindsey,ltla23,2021,Muslim,458,166,,n<1000
+E07000137,East Lindsey,ltla23,2021,No religion,55197,53592,97.09,
+E07000137,East Lindsey,ltla23,2021,Not answered,8602,8285,96.31,
+E07000137,East Lindsey,ltla23,2021,Other religion,689,647,,n<1000
+E07000137,East Lindsey,ltla23,2021,Sikh,86,50,,n<1000
+E07000138,Lincoln,ltla23,2021,Buddhist,355,168,,n<1000
+E07000138,Lincoln,ltla23,2021,Christian,43897,34970,79.66,
+E07000138,Lincoln,ltla23,2021,Does not apply,0,0,,n<1000
+E07000138,Lincoln,ltla23,2021,Hindu,456,133,,n<1000
+E07000138,Lincoln,ltla23,2021,Jewish,71,54,,n<1000
+E07000138,Lincoln,ltla23,2021,Muslim,1896,689,36.34,
+E07000138,Lincoln,ltla23,2021,No religion,48940,45352,92.67,
+E07000138,Lincoln,ltla23,2021,Not answered,7302,6089,83.39,
+E07000138,Lincoln,ltla23,2021,Other religion,794,642,,n<1000
+E07000138,Lincoln,ltla23,2021,Sikh,102,54,,n<1000
+E07000139,North Kesteven,ltla23,2021,Buddhist,214,118,,n<1000
+E07000139,North Kesteven,ltla23,2021,Christian,63147,59138,93.65,
+E07000139,North Kesteven,ltla23,2021,Does not apply,0,0,,n<1000
+E07000139,North Kesteven,ltla23,2021,Hindu,244,89,,n<1000
+E07000139,North Kesteven,ltla23,2021,Jewish,67,59,,n<1000
+E07000139,North Kesteven,ltla23,2021,Muslim,528,225,,n<1000
+E07000139,North Kesteven,ltla23,2021,No religion,46640,44426,95.25,
+E07000139,North Kesteven,ltla23,2021,Not answered,6595,6219,94.3,
+E07000139,North Kesteven,ltla23,2021,Other religion,545,504,,n<1000
+E07000139,North Kesteven,ltla23,2021,Sikh,91,56,,n<1000
+E07000140,South Holland,ltla23,2021,Buddhist,171,86,,n<1000
+E07000140,South Holland,ltla23,2021,Christian,56025,46081,82.25,
+E07000140,South Holland,ltla23,2021,Does not apply,0,0,,n<1000
+E07000140,South Holland,ltla23,2021,Hindu,217,84,,n<1000
+E07000140,South Holland,ltla23,2021,Jewish,62,57,,n<1000
+E07000140,South Holland,ltla23,2021,Muslim,446,186,,n<1000
+E07000140,South Holland,ltla23,2021,No religion,31439,29074,92.48,
+E07000140,South Holland,ltla23,2021,Not answered,6229,5219,83.79,
+E07000140,South Holland,ltla23,2021,Other religion,416,364,,n<1000
+E07000140,South Holland,ltla23,2021,Sikh,115,62,,n<1000
+E07000141,South Kesteven,ltla23,2021,Buddhist,373,173,,n<1000
+E07000141,South Kesteven,ltla23,2021,Christian,78625,71062,90.38,
+E07000141,South Kesteven,ltla23,2021,Does not apply,0,0,,n<1000
+E07000141,South Kesteven,ltla23,2021,Hindu,852,285,,n<1000
+E07000141,South Kesteven,ltla23,2021,Jewish,127,89,,n<1000
+E07000141,South Kesteven,ltla23,2021,Muslim,731,287,,n<1000
+E07000141,South Kesteven,ltla23,2021,No religion,53837,50770,94.3,
+E07000141,South Kesteven,ltla23,2021,Not answered,8166,7368,90.23,
+E07000141,South Kesteven,ltla23,2021,Other religion,574,505,,n<1000
+E07000141,South Kesteven,ltla23,2021,Sikh,117,77,,n<1000
+E07000142,West Lindsey,ltla23,2021,Buddhist,224,120,,n<1000
+E07000142,West Lindsey,ltla23,2021,Christian,52061,49508,95.1,
+E07000142,West Lindsey,ltla23,2021,Does not apply,0,0,,n<1000
+E07000142,West Lindsey,ltla23,2021,Hindu,291,110,,n<1000
+E07000142,West Lindsey,ltla23,2021,Jewish,45,35,,n<1000
+E07000142,West Lindsey,ltla23,2021,Muslim,383,172,,n<1000
+E07000142,West Lindsey,ltla23,2021,No religion,36111,34832,96.46,
+E07000142,West Lindsey,ltla23,2021,Not answered,5430,5153,94.9,
+E07000142,West Lindsey,ltla23,2021,Other religion,484,446,,n<1000
+E07000142,West Lindsey,ltla23,2021,Sikh,130,93,,n<1000
+E07000143,Breckland,ltla23,2021,Buddhist,401,230,,n<1000
+E07000143,Breckland,ltla23,2021,Christian,70710,60957,86.21,
+E07000143,Breckland,ltla23,2021,Does not apply,0,0,,n<1000
+E07000143,Breckland,ltla23,2021,Hindu,210,82,,n<1000
+E07000143,Breckland,ltla23,2021,Jewish,146,116,,n<1000
+E07000143,Breckland,ltla23,2021,Muslim,652,317,,n<1000
+E07000143,Breckland,ltla23,2021,No religion,59619,55983,93.9,
+E07000143,Breckland,ltla23,2021,Not answered,8874,7808,87.99,
+E07000143,Breckland,ltla23,2021,Other religion,801,652,,n<1000
+E07000143,Breckland,ltla23,2021,Sikh,62,32,,n<1000
+E07000144,Broadland,ltla23,2021,Buddhist,391,198,,n<1000
+E07000144,Broadland,ltla23,2021,Christian,62766,58753,93.61,
+E07000144,Broadland,ltla23,2021,Does not apply,0,0,,n<1000
+E07000144,Broadland,ltla23,2021,Hindu,372,136,,n<1000
+E07000144,Broadland,ltla23,2021,Jewish,157,137,,n<1000
+E07000144,Broadland,ltla23,2021,Muslim,648,293,,n<1000
+E07000144,Broadland,ltla23,2021,No religion,58584,56529,96.49,
+E07000144,Broadland,ltla23,2021,Not answered,8139,7685,94.42,
+E07000144,Broadland,ltla23,2021,Other religion,574,511,,n<1000
+E07000144,Broadland,ltla23,2021,Sikh,89,54,,n<1000
+E07000145,Great Yarmouth,ltla23,2021,Buddhist,266,118,,n<1000
+E07000145,Great Yarmouth,ltla23,2021,Christian,46563,40408,86.78,
+E07000145,Great Yarmouth,ltla23,2021,Does not apply,0,0,,n<1000
+E07000145,Great Yarmouth,ltla23,2021,Hindu,351,74,,n<1000
+E07000145,Great Yarmouth,ltla23,2021,Jewish,62,58,,n<1000
+E07000145,Great Yarmouth,ltla23,2021,Muslim,721,204,,n<1000
+E07000145,Great Yarmouth,ltla23,2021,No religion,45085,43178,95.77,
+E07000145,Great Yarmouth,ltla23,2021,Not answered,6119,5460,89.23,
+E07000145,Great Yarmouth,ltla23,2021,Other religion,536,473,,n<1000
+E07000145,Great Yarmouth,ltla23,2021,Sikh,39,20,,n<1000
+E07000146,King's Lynn and West Norfolk,ltla23,2021,Buddhist,475,245,,n<1000
+E07000146,King's Lynn and West Norfolk,ltla23,2021,Christian,80869,70679,87.4,
+E07000146,King's Lynn and West Norfolk,ltla23,2021,Does not apply,0,0,,n<1000
+E07000146,King's Lynn and West Norfolk,ltla23,2021,Hindu,428,114,,n<1000
+E07000146,King's Lynn and West Norfolk,ltla23,2021,Jewish,154,124,,n<1000
+E07000146,King's Lynn and West Norfolk,ltla23,2021,Muslim,804,234,,n<1000
+E07000146,King's Lynn and West Norfolk,ltla23,2021,No religion,60898,57532,94.47,
+E07000146,King's Lynn and West Norfolk,ltla23,2021,Not answered,9782,8706,89.0,
+E07000146,King's Lynn and West Norfolk,ltla23,2021,Other religion,795,677,,n<1000
+E07000146,King's Lynn and West Norfolk,ltla23,2021,Sikh,119,63,,n<1000
+E07000147,North Norfolk,ltla23,2021,Buddhist,372,247,,n<1000
+E07000147,North Norfolk,ltla23,2021,Christian,53825,51069,94.88,
+E07000147,North Norfolk,ltla23,2021,Does not apply,0,0,,n<1000
+E07000147,North Norfolk,ltla23,2021,Hindu,75,37,,n<1000
+E07000147,North Norfolk,ltla23,2021,Jewish,130,112,,n<1000
+E07000147,North Norfolk,ltla23,2021,Muslim,173,60,,n<1000
+E07000147,North Norfolk,ltla23,2021,No religion,40804,39547,96.92,
+E07000147,North Norfolk,ltla23,2021,Not answered,6942,6625,95.43,
+E07000147,North Norfolk,ltla23,2021,Other religion,641,584,,n<1000
+E07000147,North Norfolk,ltla23,2021,Sikh,17,10,,n<1000
+E07000148,Norwich,ltla23,2021,Buddhist,985,485,,n<1000
+E07000148,Norwich,ltla23,2021,Christian,48398,36738,75.91,
+E07000148,Norwich,ltla23,2021,Does not apply,0,0,,n<1000
+E07000148,Norwich,ltla23,2021,Hindu,1719,329,19.14,
+E07000148,Norwich,ltla23,2021,Jewish,332,242,,n<1000
+E07000148,Norwich,ltla23,2021,Muslim,4292,1607,37.44,
+E07000148,Norwich,ltla23,2021,No religion,76973,70049,91.0,
+E07000148,Norwich,ltla23,2021,Not answered,9760,7968,81.64,
+E07000148,Norwich,ltla23,2021,Other religion,1279,1043,81.55,
+E07000148,Norwich,ltla23,2021,Sikh,185,139,,n<1000
+E07000149,South Norfolk,ltla23,2021,Buddhist,524,302,,n<1000
+E07000149,South Norfolk,ltla23,2021,Christian,67307,61835,91.87,
+E07000149,South Norfolk,ltla23,2021,Does not apply,0,0,,n<1000
+E07000149,South Norfolk,ltla23,2021,Hindu,543,199,,n<1000
+E07000149,South Norfolk,ltla23,2021,Jewish,196,160,,n<1000
+E07000149,South Norfolk,ltla23,2021,Muslim,860,306,,n<1000
+E07000149,South Norfolk,ltla23,2021,No religion,62980,60305,95.75,
+E07000149,South Norfolk,ltla23,2021,Not answered,8820,8210,93.08,
+E07000149,South Norfolk,ltla23,2021,Other religion,665,597,,n<1000
+E07000149,South Norfolk,ltla23,2021,Sikh,56,36,,n<1000
+E07000170,Ashfield,ltla23,2021,Buddhist,250,122,,n<1000
+E07000170,Ashfield,ltla23,2021,Christian,53094,48883,92.07,
+E07000170,Ashfield,ltla23,2021,Does not apply,0,0,,n<1000
+E07000170,Ashfield,ltla23,2021,Hindu,420,138,,n<1000
+E07000170,Ashfield,ltla23,2021,Jewish,39,30,,n<1000
+E07000170,Ashfield,ltla23,2021,Muslim,761,291,,n<1000
+E07000170,Ashfield,ltla23,2021,No religion,63479,61940,97.58,
+E07000170,Ashfield,ltla23,2021,Not answered,7367,6937,94.16,
+E07000170,Ashfield,ltla23,2021,Other religion,596,551,,n<1000
+E07000170,Ashfield,ltla23,2021,Sikh,292,196,,n<1000
+E07000171,Bassetlaw,ltla23,2021,Buddhist,251,142,,n<1000
+E07000171,Bassetlaw,ltla23,2021,Christian,65122,59936,92.04,
+E07000171,Bassetlaw,ltla23,2021,Does not apply,0,0,,n<1000
+E07000171,Bassetlaw,ltla23,2021,Hindu,272,86,,n<1000
+E07000171,Bassetlaw,ltla23,2021,Jewish,46,41,,n<1000
+E07000171,Bassetlaw,ltla23,2021,Muslim,734,346,,n<1000
+E07000171,Bassetlaw,ltla23,2021,No religion,44233,42706,96.55,
+E07000171,Bassetlaw,ltla23,2021,Not answered,6491,6086,93.76,
+E07000171,Bassetlaw,ltla23,2021,Other religion,472,434,,n<1000
+E07000171,Bassetlaw,ltla23,2021,Sikh,185,118,,n<1000
+E07000172,Broxtowe,ltla23,2021,Buddhist,475,207,,n<1000
+E07000172,Broxtowe,ltla23,2021,Christian,46643,42001,90.05,
+E07000172,Broxtowe,ltla23,2021,Does not apply,0,0,,n<1000
+E07000172,Broxtowe,ltla23,2021,Hindu,1214,475,39.13,
+E07000172,Broxtowe,ltla23,2021,Jewish,121,99,,n<1000
+E07000172,Broxtowe,ltla23,2021,Muslim,2545,1128,44.32,
+E07000172,Broxtowe,ltla23,2021,No religion,51966,48871,94.04,
+E07000172,Broxtowe,ltla23,2021,Not answered,6396,5658,88.46,
+E07000172,Broxtowe,ltla23,2021,Other religion,541,465,,n<1000
+E07000172,Broxtowe,ltla23,2021,Sikh,1037,686,66.15,
+E07000173,Gedling,ltla23,2021,Buddhist,365,218,,n<1000
+E07000173,Gedling,ltla23,2021,Christian,49698,45233,91.02,
+E07000173,Gedling,ltla23,2021,Does not apply,0,0,,n<1000
+E07000173,Gedling,ltla23,2021,Hindu,774,329,,n<1000
+E07000173,Gedling,ltla23,2021,Jewish,97,76,,n<1000
+E07000173,Gedling,ltla23,2021,Muslim,2478,1402,56.58,
+E07000173,Gedling,ltla23,2021,No religion,55881,53932,96.51,
+E07000173,Gedling,ltla23,2021,Not answered,6471,5967,92.21,
+E07000173,Gedling,ltla23,2021,Other religion,550,473,,n<1000
+E07000173,Gedling,ltla23,2021,Sikh,952,708,,n<1000
+E07000174,Mansfield,ltla23,2021,Buddhist,305,138,,n<1000
+E07000174,Mansfield,ltla23,2021,Christian,51384,43682,85.01,
+E07000174,Mansfield,ltla23,2021,Does not apply,0,0,,n<1000
+E07000174,Mansfield,ltla23,2021,Hindu,376,125,,n<1000
+E07000174,Mansfield,ltla23,2021,Jewish,36,26,,n<1000
+E07000174,Mansfield,ltla23,2021,Muslim,1239,482,38.9,
+E07000174,Mansfield,ltla23,2021,No religion,50398,48248,95.73,
+E07000174,Mansfield,ltla23,2021,Not answered,6013,5333,88.69,
+E07000174,Mansfield,ltla23,2021,Other religion,489,405,,n<1000
+E07000174,Mansfield,ltla23,2021,Sikh,238,129,,n<1000
+E07000175,Newark and Sherwood,ltla23,2021,Buddhist,289,163,,n<1000
+E07000175,Newark and Sherwood,ltla23,2021,Christian,63220,57694,91.26,
+E07000175,Newark and Sherwood,ltla23,2021,Does not apply,0,0,,n<1000
+E07000175,Newark and Sherwood,ltla23,2021,Hindu,229,81,,n<1000
+E07000175,Newark and Sherwood,ltla23,2021,Jewish,90,78,,n<1000
+E07000175,Newark and Sherwood,ltla23,2021,Muslim,750,356,,n<1000
+E07000175,Newark and Sherwood,ltla23,2021,No religion,50655,48584,95.91,
+E07000175,Newark and Sherwood,ltla23,2021,Not answered,7043,6470,91.86,
+E07000175,Newark and Sherwood,ltla23,2021,Other religion,514,471,,n<1000
+E07000175,Newark and Sherwood,ltla23,2021,Sikh,166,131,,n<1000
+E07000176,Rushcliffe,ltla23,2021,Buddhist,401,219,,n<1000
+E07000176,Rushcliffe,ltla23,2021,Christian,52466,48648,92.72,
+E07000176,Rushcliffe,ltla23,2021,Does not apply,0,0,,n<1000
+E07000176,Rushcliffe,ltla23,2021,Hindu,1856,869,46.82,
+E07000176,Rushcliffe,ltla23,2021,Jewish,280,237,,n<1000
+E07000176,Rushcliffe,ltla23,2021,Muslim,2677,1517,56.67,
+E07000176,Rushcliffe,ltla23,2021,No religion,52917,50256,94.97,
+E07000176,Rushcliffe,ltla23,2021,Not answered,6720,6103,90.82,
+E07000176,Rushcliffe,ltla23,2021,Other religion,587,474,,n<1000
+E07000176,Rushcliffe,ltla23,2021,Sikh,1167,851,72.92,
+E07000177,Cherwell,ltla23,2021,Buddhist,900,308,,n<1000
+E07000177,Cherwell,ltla23,2021,Christian,80987,64917,80.16,
+E07000177,Cherwell,ltla23,2021,Does not apply,0,0,,n<1000
+E07000177,Cherwell,ltla23,2021,Hindu,1242,411,33.09,
+E07000177,Cherwell,ltla23,2021,Jewish,200,144,,n<1000
+E07000177,Cherwell,ltla23,2021,Muslim,5207,2813,54.02,
+E07000177,Cherwell,ltla23,2021,No religion,61284,55196,90.07,
+E07000177,Cherwell,ltla23,2021,Not answered,9753,7914,81.14,
+E07000177,Cherwell,ltla23,2021,Other religion,819,620,,n<1000
+E07000177,Cherwell,ltla23,2021,Sikh,622,362,,n<1000
+E07000178,Oxford,ltla23,2021,Buddhist,1196,388,32.44,
+E07000178,Oxford,ltla23,2021,Christian,61751,37841,61.28,
+E07000178,Oxford,ltla23,2021,Does not apply,0,0,,n<1000
+E07000178,Oxford,ltla23,2021,Hindu,2523,654,25.92,
+E07000178,Oxford,ltla23,2021,Jewish,1120,621,55.45,
+E07000178,Oxford,ltla23,2021,Muslim,14096,7004,49.69,
+E07000178,Oxford,ltla23,2021,No religion,63202,47004,74.37,
+E07000178,Oxford,ltla23,2021,Not answered,16110,10728,66.59,
+E07000178,Oxford,ltla23,2021,Other religion,1447,774,53.49,
+E07000178,Oxford,ltla23,2021,Sikh,599,373,,n<1000
+E07000179,South Oxfordshire,ltla23,2021,Buddhist,619,248,,n<1000
+E07000179,South Oxfordshire,ltla23,2021,Christian,74332,64158,86.31,
+E07000179,South Oxfordshire,ltla23,2021,Does not apply,0,0,,n<1000
+E07000179,South Oxfordshire,ltla23,2021,Hindu,1095,362,33.06,
+E07000179,South Oxfordshire,ltla23,2021,Jewish,342,263,,n<1000
+E07000179,South Oxfordshire,ltla23,2021,Muslim,1441,602,41.78,
+E07000179,South Oxfordshire,ltla23,2021,No religion,61345,56144,91.52,
+E07000179,South Oxfordshire,ltla23,2021,Not answered,8988,7693,85.59,
+E07000179,South Oxfordshire,ltla23,2021,Other religion,671,505,,n<1000
+E07000179,South Oxfordshire,ltla23,2021,Sikh,253,162,,n<1000
+E07000180,Vale of White Horse,ltla23,2021,Buddhist,755,279,,n<1000
+E07000180,Vale of White Horse,ltla23,2021,Christian,67444,57517,85.28,
+E07000180,Vale of White Horse,ltla23,2021,Does not apply,0,0,,n<1000
+E07000180,Vale of White Horse,ltla23,2021,Hindu,1193,400,33.53,
+E07000180,Vale of White Horse,ltla23,2021,Jewish,267,196,,n<1000
+E07000180,Vale of White Horse,ltla23,2021,Muslim,1981,878,44.32,
+E07000180,Vale of White Horse,ltla23,2021,No religion,57897,52246,90.24,
+E07000180,Vale of White Horse,ltla23,2021,Not answered,8442,7107,84.19,
+E07000180,Vale of White Horse,ltla23,2021,Other religion,687,455,,n<1000
+E07000180,Vale of White Horse,ltla23,2021,Sikh,251,167,,n<1000
+E07000181,West Oxfordshire,ltla23,2021,Buddhist,432,216,,n<1000
+E07000181,West Oxfordshire,ltla23,2021,Christian,58802,51965,88.37,
+E07000181,West Oxfordshire,ltla23,2021,Does not apply,0,0,,n<1000
+E07000181,West Oxfordshire,ltla23,2021,Hindu,276,91,,n<1000
+E07000181,West Oxfordshire,ltla23,2021,Jewish,190,134,,n<1000
+E07000181,West Oxfordshire,ltla23,2021,Muslim,756,327,,n<1000
+E07000181,West Oxfordshire,ltla23,2021,No religion,46394,42944,92.56,
+E07000181,West Oxfordshire,ltla23,2021,Not answered,6719,5931,88.27,
+E07000181,West Oxfordshire,ltla23,2021,Other religion,604,480,,n<1000
+E07000181,West Oxfordshire,ltla23,2021,Sikh,60,37,,n<1000
+E07000192,Cannock Chase,ltla23,2021,Buddhist,222,104,,n<1000
+E07000192,Cannock Chase,ltla23,2021,Christian,52706,50695,96.18,
+E07000192,Cannock Chase,ltla23,2021,Does not apply,0,0,,n<1000
+E07000192,Cannock Chase,ltla23,2021,Hindu,163,67,,n<1000
+E07000192,Cannock Chase,ltla23,2021,Jewish,30,25,,n<1000
+E07000192,Cannock Chase,ltla23,2021,Muslim,347,178,,n<1000
+E07000192,Cannock Chase,ltla23,2021,No religion,41294,40464,97.99,
+E07000192,Cannock Chase,ltla23,2021,Not answered,4936,4729,95.81,
+E07000192,Cannock Chase,ltla23,2021,Other religion,445,415,,n<1000
+E07000192,Cannock Chase,ltla23,2021,Sikh,379,243,,n<1000
+E07000193,East Staffordshire,ltla23,2021,Buddhist,334,183,,n<1000
+E07000193,East Staffordshire,ltla23,2021,Christian,62560,54044,86.39,
+E07000193,East Staffordshire,ltla23,2021,Does not apply,0,0,,n<1000
+E07000193,East Staffordshire,ltla23,2021,Hindu,361,136,,n<1000
+E07000193,East Staffordshire,ltla23,2021,Jewish,38,30,,n<1000
+E07000193,East Staffordshire,ltla23,2021,Muslim,10775,6256,58.06,
+E07000193,East Staffordshire,ltla23,2021,No religion,42017,39410,93.8,
+E07000193,East Staffordshire,ltla23,2021,Not answered,6986,5961,85.33,
+E07000193,East Staffordshire,ltla23,2021,Other religion,544,466,,n<1000
+E07000193,East Staffordshire,ltla23,2021,Sikh,402,274,,n<1000
+E07000194,Lichfield,ltla23,2021,Buddhist,245,130,,n<1000
+E07000194,Lichfield,ltla23,2021,Christian,57684,55022,95.39,
+E07000194,Lichfield,ltla23,2021,Does not apply,0,0,,n<1000
+E07000194,Lichfield,ltla23,2021,Hindu,457,220,,n<1000
+E07000194,Lichfield,ltla23,2021,Jewish,61,52,,n<1000
+E07000194,Lichfield,ltla23,2021,Muslim,725,412,,n<1000
+E07000194,Lichfield,ltla23,2021,No religion,40559,39338,96.99,
+E07000194,Lichfield,ltla23,2021,Not answered,5336,5040,94.45,
+E07000194,Lichfield,ltla23,2021,Other religion,444,404,,n<1000
+E07000194,Lichfield,ltla23,2021,Sikh,924,690,,n<1000
+E07000195,Newcastle-under-Lyme,ltla23,2021,Buddhist,474,191,,n<1000
+E07000195,Newcastle-under-Lyme,ltla23,2021,Christian,63931,59594,93.22,
+E07000195,Newcastle-under-Lyme,ltla23,2021,Does not apply,0,0,,n<1000
+E07000195,Newcastle-under-Lyme,ltla23,2021,Hindu,698,272,,n<1000
+E07000195,Newcastle-under-Lyme,ltla23,2021,Jewish,66,54,,n<1000
+E07000195,Newcastle-under-Lyme,ltla23,2021,Muslim,2224,1110,49.91,
+E07000195,Newcastle-under-Lyme,ltla23,2021,No religion,48009,46459,96.77,
+E07000195,Newcastle-under-Lyme,ltla23,2021,Not answered,7116,6611,92.9,
+E07000195,Newcastle-under-Lyme,ltla23,2021,Other religion,529,474,,n<1000
+E07000195,Newcastle-under-Lyme,ltla23,2021,Sikh,251,162,,n<1000
+E07000196,South Staffordshire,ltla23,2021,Buddhist,273,191,,n<1000
+E07000196,South Staffordshire,ltla23,2021,Christian,65385,63685,97.4,
+E07000196,South Staffordshire,ltla23,2021,Does not apply,0,0,,n<1000
+E07000196,South Staffordshire,ltla23,2021,Hindu,441,259,,n<1000
+E07000196,South Staffordshire,ltla23,2021,Jewish,42,32,,n<1000
+E07000196,South Staffordshire,ltla23,2021,Muslim,862,587,,n<1000
+E07000196,South Staffordshire,ltla23,2021,No religion,35933,35205,97.97,
+E07000196,South Staffordshire,ltla23,2021,Not answered,5357,5156,96.25,
+E07000196,South Staffordshire,ltla23,2021,Other religion,462,425,,n<1000
+E07000196,South Staffordshire,ltla23,2021,Sikh,1716,1300,75.76,
+E07000197,Stafford,ltla23,2021,Buddhist,571,247,,n<1000
+E07000197,Stafford,ltla23,2021,Christian,74360,69132,92.97,
+E07000197,Stafford,ltla23,2021,Does not apply,0,0,,n<1000
+E07000197,Stafford,ltla23,2021,Hindu,1264,324,25.63,
+E07000197,Stafford,ltla23,2021,Jewish,61,50,,n<1000
+E07000197,Stafford,ltla23,2021,Muslim,1486,641,43.14,
+E07000197,Stafford,ltla23,2021,No religion,50479,48480,96.04,
+E07000197,Stafford,ltla23,2021,Not answered,7359,6831,92.83,
+E07000197,Stafford,ltla23,2021,Other religion,684,556,,n<1000
+E07000197,Stafford,ltla23,2021,Sikh,605,366,,n<1000
+E07000198,Staffordshire Moorlands,ltla23,2021,Buddhist,181,116,,n<1000
+E07000198,Staffordshire Moorlands,ltla23,2021,Christian,56838,55432,97.53,
+E07000198,Staffordshire Moorlands,ltla23,2021,Does not apply,0,0,,n<1000
+E07000198,Staffordshire Moorlands,ltla23,2021,Hindu,115,42,,n<1000
+E07000198,Staffordshire Moorlands,ltla23,2021,Jewish,35,29,,n<1000
+E07000198,Staffordshire Moorlands,ltla23,2021,Muslim,262,148,,n<1000
+E07000198,Staffordshire Moorlands,ltla23,2021,No religion,32466,31837,98.06,
+E07000198,Staffordshire Moorlands,ltla23,2021,Not answered,5493,5363,97.63,
+E07000198,Staffordshire Moorlands,ltla23,2021,Other religion,394,380,,n<1000
+E07000198,Staffordshire Moorlands,ltla23,2021,Sikh,62,43,,n<1000
+E07000199,Tamworth,ltla23,2021,Buddhist,194,98,,n<1000
+E07000199,Tamworth,ltla23,2021,Christian,38595,34994,90.67,
+E07000199,Tamworth,ltla23,2021,Does not apply,0,0,,n<1000
+E07000199,Tamworth,ltla23,2021,Hindu,216,93,,n<1000
+E07000199,Tamworth,ltla23,2021,Jewish,15,14,,n<1000
+E07000199,Tamworth,ltla23,2021,Muslim,352,155,,n<1000
+E07000199,Tamworth,ltla23,2021,No religion,34849,33988,97.53,
+E07000199,Tamworth,ltla23,2021,Not answered,3894,3553,91.24,
+E07000199,Tamworth,ltla23,2021,Other religion,309,287,,n<1000
+E07000199,Tamworth,ltla23,2021,Sikh,221,157,,n<1000
+E07000200,Babergh,ltla23,2021,Buddhist,243,150,,n<1000
+E07000200,Babergh,ltla23,2021,Christian,45764,42827,93.58,
+E07000200,Babergh,ltla23,2021,Does not apply,0,0,,n<1000
+E07000200,Babergh,ltla23,2021,Hindu,156,50,,n<1000
+E07000200,Babergh,ltla23,2021,Jewish,127,113,,n<1000
+E07000200,Babergh,ltla23,2021,Muslim,432,177,,n<1000
+E07000200,Babergh,ltla23,2021,No religion,39638,38147,96.24,
+E07000200,Babergh,ltla23,2021,Not answered,5551,5214,93.93,
+E07000200,Babergh,ltla23,2021,Other religion,400,364,,n<1000
+E07000200,Babergh,ltla23,2021,Sikh,26,16,,n<1000
+E07000202,Ipswich,ltla23,2021,Buddhist,596,278,,n<1000
+E07000202,Ipswich,ltla23,2021,Christian,58900,44605,75.73,
+E07000202,Ipswich,ltla23,2021,Does not apply,0,0,,n<1000
+E07000202,Ipswich,ltla23,2021,Hindu,1342,287,21.39,
+E07000202,Ipswich,ltla23,2021,Jewish,101,84,,n<1000
+E07000202,Ipswich,ltla23,2021,Muslim,5431,2405,44.28,
+E07000202,Ipswich,ltla23,2021,No religion,63257,59011,93.29,
+E07000202,Ipswich,ltla23,2021,Not answered,8721,7125,81.7,
+E07000202,Ipswich,ltla23,2021,Other religion,836,679,,n<1000
+E07000202,Ipswich,ltla23,2021,Sikh,454,387,,n<1000
+E07000203,Mid Suffolk,ltla23,2021,Buddhist,327,180,,n<1000
+E07000203,Mid Suffolk,ltla23,2021,Christian,50674,47458,93.65,
+E07000203,Mid Suffolk,ltla23,2021,Does not apply,0,0,,n<1000
+E07000203,Mid Suffolk,ltla23,2021,Hindu,165,65,,n<1000
+E07000203,Mid Suffolk,ltla23,2021,Jewish,86,77,,n<1000
+E07000203,Mid Suffolk,ltla23,2021,Muslim,254,89,,n<1000
+E07000203,Mid Suffolk,ltla23,2021,No religion,44718,42993,96.14,
+E07000203,Mid Suffolk,ltla23,2021,Not answered,6023,5654,93.87,
+E07000203,Mid Suffolk,ltla23,2021,Other religion,427,382,,n<1000
+E07000203,Mid Suffolk,ltla23,2021,Sikh,26,12,,n<1000
+E07000207,Elmbridge,ltla23,2021,Buddhist,750,259,,n<1000
+E07000207,Elmbridge,ltla23,2021,Christian,72135,56122,77.8,
+E07000207,Elmbridge,ltla23,2021,Does not apply,0,0,,n<1000
+E07000207,Elmbridge,ltla23,2021,Hindu,2218,1011,45.58,
+E07000207,Elmbridge,ltla23,2021,Jewish,750,531,,n<1000
+E07000207,Elmbridge,ltla23,2021,Muslim,3533,1434,40.59,
+E07000207,Elmbridge,ltla23,2021,No religion,49119,41982,85.47,
+E07000207,Elmbridge,ltla23,2021,Not answered,8899,6812,76.55,
+E07000207,Elmbridge,ltla23,2021,Other religion,609,397,,n<1000
+E07000207,Elmbridge,ltla23,2021,Sikh,745,501,,n<1000
+E07000208,Epsom and Ewell,ltla23,2021,Buddhist,548,172,,n<1000
+E07000208,Epsom and Ewell,ltla23,2021,Christian,38957,30535,78.38,
+E07000208,Epsom and Ewell,ltla23,2021,Does not apply,0,0,,n<1000
+E07000208,Epsom and Ewell,ltla23,2021,Hindu,2891,1131,39.12,
+E07000208,Epsom and Ewell,ltla23,2021,Jewish,207,145,,n<1000
+E07000208,Epsom and Ewell,ltla23,2021,Muslim,3928,1692,43.08,
+E07000208,Epsom and Ewell,ltla23,2021,No religion,28904,25673,88.82,
+E07000208,Epsom and Ewell,ltla23,2021,Not answered,4948,3832,77.45,
+E07000208,Epsom and Ewell,ltla23,2021,Other religion,334,227,,n<1000
+E07000208,Epsom and Ewell,ltla23,2021,Sikh,222,134,,n<1000
+E07000209,Guildford,ltla23,2021,Buddhist,991,295,,n<1000
+E07000209,Guildford,ltla23,2021,Christian,69233,55667,80.41,
+E07000209,Guildford,ltla23,2021,Does not apply,0,0,,n<1000
+E07000209,Guildford,ltla23,2021,Hindu,1974,594,30.09,
+E07000209,Guildford,ltla23,2021,Jewish,382,265,,n<1000
+E07000209,Guildford,ltla23,2021,Muslim,3105,1231,39.65,
+E07000209,Guildford,ltla23,2021,No religion,56969,49564,87.0,
+E07000209,Guildford,ltla23,2021,Not answered,10003,7845,78.43,
+E07000209,Guildford,ltla23,2021,Other religion,677,477,,n<1000
+E07000209,Guildford,ltla23,2021,Sikh,317,222,,n<1000
+E07000210,Mole Valley,ltla23,2021,Buddhist,345,161,,n<1000
+E07000210,Mole Valley,ltla23,2021,Christian,45616,39638,86.89,
+E07000210,Mole Valley,ltla23,2021,Does not apply,0,0,,n<1000
+E07000210,Mole Valley,ltla23,2021,Hindu,646,259,,n<1000
+E07000210,Mole Valley,ltla23,2021,Jewish,215,165,,n<1000
+E07000210,Mole Valley,ltla23,2021,Muslim,1045,470,44.98,
+E07000210,Mole Valley,ltla23,2021,No religion,33561,30751,91.63,
+E07000210,Mole Valley,ltla23,2021,Not answered,5477,4767,87.04,
+E07000210,Mole Valley,ltla23,2021,Other religion,360,296,,n<1000
+E07000210,Mole Valley,ltla23,2021,Sikh,118,70,,n<1000
+E07000211,Reigate and Banstead,ltla23,2021,Buddhist,696,264,,n<1000
+E07000211,Reigate and Banstead,ltla23,2021,Christian,73992,60917,82.33,
+E07000211,Reigate and Banstead,ltla23,2021,Does not apply,0,0,,n<1000
+E07000211,Reigate and Banstead,ltla23,2021,Hindu,3640,1205,33.1,
+E07000211,Reigate and Banstead,ltla23,2021,Jewish,364,292,,n<1000
+E07000211,Reigate and Banstead,ltla23,2021,Muslim,4639,2150,46.35,
+E07000211,Reigate and Banstead,ltla23,2021,No religion,57451,52986,92.23,
+E07000211,Reigate and Banstead,ltla23,2021,Not answered,9108,7709,84.64,
+E07000211,Reigate and Banstead,ltla23,2021,Other religion,636,472,,n<1000
+E07000211,Reigate and Banstead,ltla23,2021,Sikh,315,221,,n<1000
+E07000212,Runnymede,ltla23,2021,Buddhist,458,142,,n<1000
+E07000212,Runnymede,ltla23,2021,Christian,44416,35298,79.47,
+E07000212,Runnymede,ltla23,2021,Does not apply,0,0,,n<1000
+E07000212,Runnymede,ltla23,2021,Hindu,2029,810,39.92,
+E07000212,Runnymede,ltla23,2021,Jewish,223,146,,n<1000
+E07000212,Runnymede,ltla23,2021,Muslim,2519,1201,47.68,
+E07000212,Runnymede,ltla23,2021,No religion,30653,26974,88.0,
+E07000212,Runnymede,ltla23,2021,Not answered,6063,4727,77.96,
+E07000212,Runnymede,ltla23,2021,Other religion,451,325,,n<1000
+E07000212,Runnymede,ltla23,2021,Sikh,1267,928,73.24,
+E07000213,Spelthorne,ltla23,2021,Buddhist,702,198,,n<1000
+E07000213,Spelthorne,ltla23,2021,Christian,52432,41953,80.01,
+E07000213,Spelthorne,ltla23,2021,Does not apply,0,0,,n<1000
+E07000213,Spelthorne,ltla23,2021,Hindu,4372,1554,35.54,
+E07000213,Spelthorne,ltla23,2021,Jewish,175,139,,n<1000
+E07000213,Spelthorne,ltla23,2021,Muslim,4146,1896,45.73,
+E07000213,Spelthorne,ltla23,2021,No religion,32112,29160,90.81,
+E07000213,Spelthorne,ltla23,2021,Not answered,5882,4657,79.17,
+E07000213,Spelthorne,ltla23,2021,Other religion,520,349,,n<1000
+E07000213,Spelthorne,ltla23,2021,Sikh,2611,1562,59.82,
+E07000214,Surrey Heath,ltla23,2021,Buddhist,948,216,,n<1000
+E07000214,Surrey Heath,ltla23,2021,Christian,45262,37646,83.17,
+E07000214,Surrey Heath,ltla23,2021,Does not apply,0,0,,n<1000
+E07000214,Surrey Heath,ltla23,2021,Hindu,2017,691,34.26,
+E07000214,Surrey Heath,ltla23,2021,Jewish,140,106,,n<1000
+E07000214,Surrey Heath,ltla23,2021,Muslim,2828,1346,47.6,
+E07000214,Surrey Heath,ltla23,2021,No religion,32543,29710,91.29,
+E07000214,Surrey Heath,ltla23,2021,Not answered,5151,4296,83.4,
+E07000214,Surrey Heath,ltla23,2021,Other religion,495,296,,n<1000
+E07000214,Surrey Heath,ltla23,2021,Sikh,1054,716,67.93,
+E07000215,Tandridge,ltla23,2021,Buddhist,339,147,,n<1000
+E07000215,Tandridge,ltla23,2021,Christian,44958,39675,88.25,
+E07000215,Tandridge,ltla23,2021,Does not apply,0,0,,n<1000
+E07000215,Tandridge,ltla23,2021,Hindu,1012,457,45.16,
+E07000215,Tandridge,ltla23,2021,Jewish,152,119,,n<1000
+E07000215,Tandridge,ltla23,2021,Muslim,1156,536,46.37,
+E07000215,Tandridge,ltla23,2021,No religion,34191,31990,93.56,
+E07000215,Tandridge,ltla23,2021,Not answered,5630,4943,87.8,
+E07000215,Tandridge,ltla23,2021,Other religion,344,278,,n<1000
+E07000215,Tandridge,ltla23,2021,Sikh,88,48,,n<1000
+E07000216,Waverley,ltla23,2021,Buddhist,564,267,,n<1000
+E07000216,Waverley,ltla23,2021,Christian,66605,57868,86.88,
+E07000216,Waverley,ltla23,2021,Does not apply,0,0,,n<1000
+E07000216,Waverley,ltla23,2021,Hindu,453,197,,n<1000
+E07000216,Waverley,ltla23,2021,Jewish,265,201,,n<1000
+E07000216,Waverley,ltla23,2021,Muslim,1506,582,38.65,
+E07000216,Waverley,ltla23,2021,No religion,49987,45167,90.36,
+E07000216,Waverley,ltla23,2021,Not answered,8130,7057,86.8,
+E07000216,Waverley,ltla23,2021,Other religion,601,476,,n<1000
+E07000216,Waverley,ltla23,2021,Sikh,118,86,,n<1000
+E07000217,Woking,ltla23,2021,Buddhist,641,171,,n<1000
+E07000217,Woking,ltla23,2021,Christian,49465,37379,75.57,
+E07000217,Woking,ltla23,2021,Does not apply,0,0,,n<1000
+E07000217,Woking,ltla23,2021,Hindu,2488,693,27.85,
+E07000217,Woking,ltla23,2021,Jewish,225,154,,n<1000
+E07000217,Woking,ltla23,2021,Muslim,9730,5282,54.29,
+E07000217,Woking,ltla23,2021,No religion,34573,30018,86.82,
+E07000217,Woking,ltla23,2021,Not answered,6034,4587,76.02,
+E07000217,Woking,ltla23,2021,Other religion,500,315,,n<1000
+E07000217,Woking,ltla23,2021,Sikh,285,200,,n<1000
+E07000218,North Warwickshire,ltla23,2021,Buddhist,138,92,,n<1000
+E07000218,North Warwickshire,ltla23,2021,Christian,35777,34057,95.19,
+E07000218,North Warwickshire,ltla23,2021,Does not apply,0,0,,n<1000
+E07000218,North Warwickshire,ltla23,2021,Hindu,188,92,,n<1000
+E07000218,North Warwickshire,ltla23,2021,Jewish,26,21,,n<1000
+E07000218,North Warwickshire,ltla23,2021,Muslim,258,147,,n<1000
+E07000218,North Warwickshire,ltla23,2021,No religion,24801,24236,97.72,
+E07000218,North Warwickshire,ltla23,2021,Not answered,3268,3114,95.29,
+E07000218,North Warwickshire,ltla23,2021,Other religion,269,256,,n<1000
+E07000218,North Warwickshire,ltla23,2021,Sikh,304,218,,n<1000
+E07000219,Nuneaton and Bedworth,ltla23,2021,Buddhist,726,192,,n<1000
+E07000219,Nuneaton and Bedworth,ltla23,2021,Christian,65044,57678,88.68,
+E07000219,Nuneaton and Bedworth,ltla23,2021,Does not apply,0,0,,n<1000
+E07000219,Nuneaton and Bedworth,ltla23,2021,Hindu,2185,737,33.73,
+E07000219,Nuneaton and Bedworth,ltla23,2021,Jewish,40,29,,n<1000
+E07000219,Nuneaton and Bedworth,ltla23,2021,Muslim,3980,2373,59.62,
+E07000219,Nuneaton and Bedworth,ltla23,2021,No religion,50779,48832,96.17,
+E07000219,Nuneaton and Bedworth,ltla23,2021,Not answered,7069,6202,87.74,
+E07000219,Nuneaton and Bedworth,ltla23,2021,Other religion,848,524,,n<1000
+E07000219,Nuneaton and Bedworth,ltla23,2021,Sikh,3529,2190,62.06,
+E07000220,Rugby,ltla23,2021,Buddhist,442,152,,n<1000
+E07000220,Rugby,ltla23,2021,Christian,57728,46158,79.96,
+E07000220,Rugby,ltla23,2021,Does not apply,0,0,,n<1000
+E07000220,Rugby,ltla23,2021,Hindu,3758,1522,40.5,
+E07000220,Rugby,ltla23,2021,Jewish,68,54,,n<1000
+E07000220,Rugby,ltla23,2021,Muslim,2109,969,45.95,
+E07000220,Rugby,ltla23,2021,No religion,41331,37776,91.4,
+E07000220,Rugby,ltla23,2021,Not answered,6780,5292,78.05,
+E07000220,Rugby,ltla23,2021,Other religion,597,422,,n<1000
+E07000220,Rugby,ltla23,2021,Sikh,1553,1125,72.44,
+E07000221,Stratford-on-Avon,ltla23,2021,Buddhist,398,204,,n<1000
+E07000221,Stratford-on-Avon,ltla23,2021,Christian,75936,69389,91.38,
+E07000221,Stratford-on-Avon,ltla23,2021,Does not apply,0,0,,n<1000
+E07000221,Stratford-on-Avon,ltla23,2021,Hindu,617,260,,n<1000
+E07000221,Stratford-on-Avon,ltla23,2021,Jewish,177,143,,n<1000
+E07000221,Stratford-on-Avon,ltla23,2021,Muslim,646,271,,n<1000
+E07000221,Stratford-on-Avon,ltla23,2021,No religion,48340,45515,94.16,
+E07000221,Stratford-on-Avon,ltla23,2021,Not answered,7469,6707,89.8,
+E07000221,Stratford-on-Avon,ltla23,2021,Other religion,568,478,,n<1000
+E07000221,Stratford-on-Avon,ltla23,2021,Sikh,573,391,,n<1000
+E07000222,Warwick,ltla23,2021,Buddhist,599,239,,n<1000
+E07000222,Warwick,ltla23,2021,Christian,66223,56501,85.32,
+E07000222,Warwick,ltla23,2021,Does not apply,0,0,,n<1000
+E07000222,Warwick,ltla23,2021,Hindu,3743,1141,30.48,
+E07000222,Warwick,ltla23,2021,Jewish,278,189,,n<1000
+E07000222,Warwick,ltla23,2021,Muslim,2246,959,42.7,
+E07000222,Warwick,ltla23,2021,No religion,59337,53282,89.8,
+E07000222,Warwick,ltla23,2021,Not answered,8961,7324,81.73,
+E07000222,Warwick,ltla23,2021,Other religion,775,552,,n<1000
+E07000222,Warwick,ltla23,2021,Sikh,6299,4081,64.79,
+E07000223,Adur,ltla23,2021,Buddhist,275,164,,n<1000
+E07000223,Adur,ltla23,2021,Christian,27836,25238,90.67,
+E07000223,Adur,ltla23,2021,Does not apply,0,0,,n<1000
+E07000223,Adur,ltla23,2021,Hindu,209,83,,n<1000
+E07000223,Adur,ltla23,2021,Jewish,250,235,,n<1000
+E07000223,Adur,ltla23,2021,Muslim,841,339,,n<1000
+E07000223,Adur,ltla23,2021,No religion,30894,29383,95.11,
+E07000223,Adur,ltla23,2021,Not answered,3821,3507,91.78,
+E07000223,Adur,ltla23,2021,Other religion,393,333,,n<1000
+E07000223,Adur,ltla23,2021,Sikh,34,18,,n<1000
+E07000224,Arun,ltla23,2021,Buddhist,502,292,,n<1000
+E07000224,Arun,ltla23,2021,Christian,85924,74513,86.72,
+E07000224,Arun,ltla23,2021,Does not apply,0,0,,n<1000
+E07000224,Arun,ltla23,2021,Hindu,391,129,,n<1000
+E07000224,Arun,ltla23,2021,Jewish,259,222,,n<1000
+E07000224,Arun,ltla23,2021,Muslim,1156,477,41.26,
+E07000224,Arun,ltla23,2021,No religion,65762,62075,94.39,
+E07000224,Arun,ltla23,2021,Not answered,9950,8717,87.61,
+E07000224,Arun,ltla23,2021,Other religion,861,742,,n<1000
+E07000224,Arun,ltla23,2021,Sikh,78,50,,n<1000
+E07000225,Chichester,ltla23,2021,Buddhist,609,318,,n<1000
+E07000225,Chichester,ltla23,2021,Christian,65910,58450,88.68,
+E07000225,Chichester,ltla23,2021,Does not apply,0,0,,n<1000
+E07000225,Chichester,ltla23,2021,Hindu,310,102,,n<1000
+E07000225,Chichester,ltla23,2021,Jewish,226,184,,n<1000
+E07000225,Chichester,ltla23,2021,Muslim,685,253,,n<1000
+E07000225,Chichester,ltla23,2021,No religion,47979,44896,93.57,
+E07000225,Chichester,ltla23,2021,Not answered,7640,6795,88.94,
+E07000225,Chichester,ltla23,2021,Other religion,666,552,,n<1000
+E07000225,Chichester,ltla23,2021,Sikh,44,28,,n<1000
+E07000226,Crawley,ltla23,2021,Buddhist,529,183,,n<1000
+E07000226,Crawley,ltla23,2021,Christian,50497,34882,69.08,
+E07000226,Crawley,ltla23,2021,Does not apply,0,0,,n<1000
+E07000226,Crawley,ltla23,2021,Hindu,6090,2152,35.34,
+E07000226,Crawley,ltla23,2021,Jewish,96,63,,n<1000
+E07000226,Crawley,ltla23,2021,Muslim,11521,5732,49.75,
+E07000226,Crawley,ltla23,2021,No religion,41555,37885,91.17,
+E07000226,Crawley,ltla23,2021,Not answered,6720,4989,74.24,
+E07000226,Crawley,ltla23,2021,Other religion,637,443,,n<1000
+E07000226,Crawley,ltla23,2021,Sikh,853,417,,n<1000
+E07000227,Horsham,ltla23,2021,Buddhist,581,286,,n<1000
+E07000227,Horsham,ltla23,2021,Christian,72324,64130,88.67,
+E07000227,Horsham,ltla23,2021,Does not apply,0,0,,n<1000
+E07000227,Horsham,ltla23,2021,Hindu,814,263,,n<1000
+E07000227,Horsham,ltla23,2021,Jewish,271,231,,n<1000
+E07000227,Horsham,ltla23,2021,Muslim,1271,591,46.5,
+E07000227,Horsham,ltla23,2021,No religion,61763,57525,93.14,
+E07000227,Horsham,ltla23,2021,Not answered,8989,8029,89.32,
+E07000227,Horsham,ltla23,2021,Other religion,657,563,,n<1000
+E07000227,Horsham,ltla23,2021,Sikh,106,56,,n<1000
+E07000228,Mid Sussex,ltla23,2021,Buddhist,577,264,,n<1000
+E07000228,Mid Sussex,ltla23,2021,Christian,73109,63559,86.94,
+E07000228,Mid Sussex,ltla23,2021,Does not apply,0,0,,n<1000
+E07000228,Mid Sussex,ltla23,2021,Hindu,1573,398,25.3,
+E07000228,Mid Sussex,ltla23,2021,Jewish,329,271,,n<1000
+E07000228,Mid Sussex,ltla23,2021,Muslim,1841,772,41.93,
+E07000228,Mid Sussex,ltla23,2021,No religion,64207,59754,93.06,
+E07000228,Mid Sussex,ltla23,2021,Not answered,9662,8510,88.08,
+E07000228,Mid Sussex,ltla23,2021,Other religion,1120,769,68.66,
+E07000228,Mid Sussex,ltla23,2021,Sikh,147,98,,n<1000
+E07000229,Worthing,ltla23,2021,Buddhist,704,338,,n<1000
+E07000229,Worthing,ltla23,2021,Christian,48897,41819,85.52,
+E07000229,Worthing,ltla23,2021,Does not apply,0,0,,n<1000
+E07000229,Worthing,ltla23,2021,Hindu,739,198,,n<1000
+E07000229,Worthing,ltla23,2021,Jewish,275,241,,n<1000
+E07000229,Worthing,ltla23,2021,Muslim,1914,816,42.63,
+E07000229,Worthing,ltla23,2021,No religion,50898,47626,93.57,
+E07000229,Worthing,ltla23,2021,Not answered,7013,6085,86.77,
+E07000229,Worthing,ltla23,2021,Other religion,778,658,,n<1000
+E07000229,Worthing,ltla23,2021,Sikh,124,66,,n<1000
+E07000234,Bromsgrove,ltla23,2021,Buddhist,283,149,,n<1000
+E07000234,Bromsgrove,ltla23,2021,Christian,53077,50741,95.6,
+E07000234,Bromsgrove,ltla23,2021,Does not apply,0,0,,n<1000
+E07000234,Bromsgrove,ltla23,2021,Hindu,670,371,,n<1000
+E07000234,Bromsgrove,ltla23,2021,Jewish,94,77,,n<1000
+E07000234,Bromsgrove,ltla23,2021,Muslim,859,505,,n<1000
+E07000234,Bromsgrove,ltla23,2021,No religion,37140,35998,96.93,
+E07000234,Bromsgrove,ltla23,2021,Not answered,5518,5273,95.56,
+E07000234,Bromsgrove,ltla23,2021,Other religion,392,351,,n<1000
+E07000234,Bromsgrove,ltla23,2021,Sikh,1153,914,79.27,
+E07000235,Malvern Hills,ltla23,2021,Buddhist,286,190,,n<1000
+E07000235,Malvern Hills,ltla23,2021,Christian,42846,40444,94.39,
+E07000235,Malvern Hills,ltla23,2021,Does not apply,0,0,,n<1000
+E07000235,Malvern Hills,ltla23,2021,Hindu,143,55,,n<1000
+E07000235,Malvern Hills,ltla23,2021,Jewish,65,59,,n<1000
+E07000235,Malvern Hills,ltla23,2021,Muslim,384,189,,n<1000
+E07000235,Malvern Hills,ltla23,2021,No religion,30310,28907,95.37,
+E07000235,Malvern Hills,ltla23,2021,Not answered,4955,4597,92.77,
+E07000235,Malvern Hills,ltla23,2021,Other religion,407,374,,n<1000
+E07000235,Malvern Hills,ltla23,2021,Sikh,86,55,,n<1000
+E07000236,Redditch,ltla23,2021,Buddhist,185,97,,n<1000
+E07000236,Redditch,ltla23,2021,Christian,42549,36726,86.31,
+E07000236,Redditch,ltla23,2021,Does not apply,0,0,,n<1000
+E07000236,Redditch,ltla23,2021,Hindu,308,109,,n<1000
+E07000236,Redditch,ltla23,2021,Jewish,50,44,,n<1000
+E07000236,Redditch,ltla23,2021,Muslim,3628,2162,59.59,
+E07000236,Redditch,ltla23,2021,No religion,34836,33306,95.61,
+E07000236,Redditch,ltla23,2021,Not answered,4786,4122,86.13,
+E07000236,Redditch,ltla23,2021,Other religion,385,338,,n<1000
+E07000236,Redditch,ltla23,2021,Sikh,309,195,,n<1000
+E07000237,Worcester,ltla23,2021,Buddhist,368,187,,n<1000
+E07000237,Worcester,ltla23,2021,Christian,50753,43343,85.4,
+E07000237,Worcester,ltla23,2021,Does not apply,0,0,,n<1000
+E07000237,Worcester,ltla23,2021,Hindu,435,129,,n<1000
+E07000237,Worcester,ltla23,2021,Jewish,51,32,,n<1000
+E07000237,Worcester,ltla23,2021,Muslim,4230,2352,55.6,
+E07000237,Worcester,ltla23,2021,No religion,41084,38524,93.77,
+E07000237,Worcester,ltla23,2021,Not answered,6335,5523,87.18,
+E07000237,Worcester,ltla23,2021,Other religion,452,383,,n<1000
+E07000237,Worcester,ltla23,2021,Sikh,168,115,,n<1000
+E07000238,Wychavon,ltla23,2021,Buddhist,334,179,,n<1000
+E07000238,Wychavon,ltla23,2021,Christian,76484,69210,90.49,
+E07000238,Wychavon,ltla23,2021,Does not apply,0,0,,n<1000
+E07000238,Wychavon,ltla23,2021,Hindu,204,100,,n<1000
+E07000238,Wychavon,ltla23,2021,Jewish,111,95,,n<1000
+E07000238,Wychavon,ltla23,2021,Muslim,725,354,,n<1000
+E07000238,Wychavon,ltla23,2021,No religion,46361,44300,95.55,
+E07000238,Wychavon,ltla23,2021,Not answered,7379,6723,91.11,
+E07000238,Wychavon,ltla23,2021,Other religion,554,495,,n<1000
+E07000238,Wychavon,ltla23,2021,Sikh,342,231,,n<1000
+E07000239,Wyre Forest,ltla23,2021,Buddhist,234,127,,n<1000
+E07000239,Wyre Forest,ltla23,2021,Christian,54180,51251,94.59,
+E07000239,Wyre Forest,ltla23,2021,Does not apply,0,0,,n<1000
+E07000239,Wyre Forest,ltla23,2021,Hindu,126,51,,n<1000
+E07000239,Wyre Forest,ltla23,2021,Jewish,42,34,,n<1000
+E07000239,Wyre Forest,ltla23,2021,Muslim,1058,631,59.64,
+E07000239,Wyre Forest,ltla23,2021,No religion,39254,38197,97.31,
+E07000239,Wyre Forest,ltla23,2021,Not answered,5988,5647,94.31,
+E07000239,Wyre Forest,ltla23,2021,Other religion,472,448,,n<1000
+E07000239,Wyre Forest,ltla23,2021,Sikh,256,169,,n<1000
+E07000240,St Albans,ltla23,2021,Buddhist,736,284,,n<1000
+E07000240,St Albans,ltla23,2021,Christian,70246,58169,82.81,
+E07000240,St Albans,ltla23,2021,Does not apply,0,0,,n<1000
+E07000240,St Albans,ltla23,2021,Hindu,2743,1307,47.65,
+E07000240,St Albans,ltla23,2021,Jewish,2235,2023,90.51,
+E07000240,St Albans,ltla23,2021,Muslim,6916,3767,54.47,
+E07000240,St Albans,ltla23,2021,No religion,55020,49006,89.07,
+E07000240,St Albans,ltla23,2021,Not answered,9034,7473,82.72,
+E07000240,St Albans,ltla23,2021,Other religion,710,512,,n<1000
+E07000240,St Albans,ltla23,2021,Sikh,537,422,,n<1000
+E07000241,Welwyn Hatfield,ltla23,2021,Buddhist,891,312,,n<1000
+E07000241,Welwyn Hatfield,ltla23,2021,Christian,56536,42097,74.46,
+E07000241,Welwyn Hatfield,ltla23,2021,Does not apply,0,0,,n<1000
+E07000241,Welwyn Hatfield,ltla23,2021,Hindu,3807,1333,35.01,
+E07000241,Welwyn Hatfield,ltla23,2021,Jewish,1097,984,89.7,
+E07000241,Welwyn Hatfield,ltla23,2021,Muslim,3925,1740,44.33,
+E07000241,Welwyn Hatfield,ltla23,2021,No religion,44307,40012,90.31,
+E07000241,Welwyn Hatfield,ltla23,2021,Not answered,8011,6143,76.68,
+E07000241,Welwyn Hatfield,ltla23,2021,Other religion,819,525,,n<1000
+E07000241,Welwyn Hatfield,ltla23,2021,Sikh,450,322,,n<1000
+E07000242,East Hertfordshire,ltla23,2021,Buddhist,546,243,,n<1000
+E07000242,East Hertfordshire,ltla23,2021,Christian,73733,64796,87.88,
+E07000242,East Hertfordshire,ltla23,2021,Does not apply,0,0,,n<1000
+E07000242,East Hertfordshire,ltla23,2021,Hindu,922,393,,n<1000
+E07000242,East Hertfordshire,ltla23,2021,Jewish,560,493,,n<1000
+E07000242,East Hertfordshire,ltla23,2021,Muslim,1756,799,45.5,
+E07000242,East Hertfordshire,ltla23,2021,No religion,62815,58613,93.31,
+E07000242,East Hertfordshire,ltla23,2021,Not answered,8949,7872,87.97,
+E07000242,East Hertfordshire,ltla23,2021,Other religion,653,523,,n<1000
+E07000242,East Hertfordshire,ltla23,2021,Sikh,222,160,,n<1000
+E07000243,Stevenage,ltla23,2021,Buddhist,399,158,,n<1000
+E07000243,Stevenage,ltla23,2021,Christian,38712,30001,77.5,
+E07000243,Stevenage,ltla23,2021,Does not apply,0,0,,n<1000
+E07000243,Stevenage,ltla23,2021,Hindu,1397,359,25.7,
+E07000243,Stevenage,ltla23,2021,Jewish,163,149,,n<1000
+E07000243,Stevenage,ltla23,2021,Muslim,2822,1204,42.66,
+E07000243,Stevenage,ltla23,2021,No religion,40158,38093,94.86,
+E07000243,Stevenage,ltla23,2021,Not answered,5014,4195,83.67,
+E07000243,Stevenage,ltla23,2021,Other religion,522,397,,n<1000
+E07000243,Stevenage,ltla23,2021,Sikh,308,187,,n<1000
+E07000244,East Suffolk,ltla23,2021,Buddhist,816,505,,n<1000
+E07000244,East Suffolk,ltla23,2021,Christian,115942,108131,93.26,
+E07000244,East Suffolk,ltla23,2021,Does not apply,0,0,,n<1000
+E07000244,East Suffolk,ltla23,2021,Hindu,691,207,,n<1000
+E07000244,East Suffolk,ltla23,2021,Jewish,266,227,,n<1000
+E07000244,East Suffolk,ltla23,2021,Muslim,1293,588,45.48,
+E07000244,East Suffolk,ltla23,2021,No religion,110436,106402,96.35,
+E07000244,East Suffolk,ltla23,2021,Not answered,15076,14051,93.2,
+E07000244,East Suffolk,ltla23,2021,Other religion,1386,1185,85.5,
+E07000244,East Suffolk,ltla23,2021,Sikh,152,91,,n<1000
+E07000245,West Suffolk,ltla23,2021,Buddhist,815,387,,n<1000
+E07000245,West Suffolk,ltla23,2021,Christian,87174,69619,79.86,
+E07000245,West Suffolk,ltla23,2021,Does not apply,0,0,,n<1000
+E07000245,West Suffolk,ltla23,2021,Hindu,671,188,,n<1000
+E07000245,West Suffolk,ltla23,2021,Jewish,197,133,,n<1000
+E07000245,West Suffolk,ltla23,2021,Muslim,1867,641,34.33,
+E07000245,West Suffolk,ltla23,2021,No religion,76597,68475,89.4,
+E07000245,West Suffolk,ltla23,2021,Not answered,11555,9104,78.79,
+E07000245,West Suffolk,ltla23,2021,Other religion,967,709,,n<1000
+E07000245,West Suffolk,ltla23,2021,Sikh,110,70,,n<1000
+E08000001,Bolton,ltla23,2021,Buddhist,576,280,,n<1000
+E08000001,Bolton,ltla23,2021,Christian,139144,125946,90.51,
+E08000001,Bolton,ltla23,2021,Does not apply,0,0,,n<1000
+E08000001,Bolton,ltla23,2021,Hindu,5887,2672,45.39,
+E08000001,Bolton,ltla23,2021,Jewish,159,130,,n<1000
+E08000001,Bolton,ltla23,2021,Muslim,58997,30903,52.38,
+E08000001,Bolton,ltla23,2021,No religion,76244,73247,96.07,
+E08000001,Bolton,ltla23,2021,Not answered,13758,11801,85.78,
+E08000001,Bolton,ltla23,2021,Other religion,979,838,,n<1000
+E08000001,Bolton,ltla23,2021,Sikh,219,90,,n<1000
+E08000002,Bury,ltla23,2021,Buddhist,508,252,,n<1000
+E08000002,Bury,ltla23,2021,Christian,94669,86303,91.16,
+E08000002,Bury,ltla23,2021,Does not apply,0,0,,n<1000
+E08000002,Bury,ltla23,2021,Hindu,874,380,,n<1000
+E08000002,Bury,ltla23,2021,Jewish,10733,9592,89.37,
+E08000002,Bury,ltla23,2021,Muslim,19243,10351,53.79,
+E08000002,Bury,ltla23,2021,No religion,57008,54241,95.15,
+E08000002,Bury,ltla23,2021,Not answered,9589,8410,87.7,
+E08000002,Bury,ltla23,2021,Other religion,648,558,,n<1000
+E08000002,Bury,ltla23,2021,Sikh,575,356,,n<1000
+E08000003,Manchester,ltla23,2021,Buddhist,3219,1234,38.33,
+E08000003,Manchester,ltla23,2021,Christian,199873,140302,70.2,
+E08000003,Manchester,ltla23,2021,Does not apply,0,0,,n<1000
+E08000003,Manchester,ltla23,2021,Hindu,6047,1601,26.48,
+E08000003,Manchester,ltla23,2021,Jewish,2634,2102,79.8,
+E08000003,Manchester,ltla23,2021,Muslim,122962,53742,43.71,
+E08000003,Manchester,ltla23,2021,No religion,179038,153121,85.52,
+E08000003,Manchester,ltla23,2021,Not answered,32713,23014,70.35,
+E08000003,Manchester,ltla23,2021,Other religion,2736,1900,69.44,
+E08000003,Manchester,ltla23,2021,Sikh,2718,1714,63.06,
+E08000004,Oldham,ltla23,2021,Buddhist,468,255,,n<1000
+E08000004,Oldham,ltla23,2021,Christian,108720,97366,89.56,
+E08000004,Oldham,ltla23,2021,Does not apply,0,0,,n<1000
+E08000004,Oldham,ltla23,2021,Hindu,1222,545,44.6,
+E08000004,Oldham,ltla23,2021,Jewish,146,128,,n<1000
+E08000004,Oldham,ltla23,2021,Muslim,59031,34947,59.2,
+E08000004,Oldham,ltla23,2021,No religion,60505,58272,96.31,
+E08000004,Oldham,ltla23,2021,Not answered,11271,9732,86.35,
+E08000004,Oldham,ltla23,2021,Other religion,590,505,,n<1000
+E08000004,Oldham,ltla23,2021,Sikh,132,73,,n<1000
+E08000005,Rochdale,ltla23,2021,Buddhist,398,198,,n<1000
+E08000005,Rochdale,ltla23,2021,Christian,104841,92478,88.21,
+E08000005,Rochdale,ltla23,2021,Does not apply,0,0,,n<1000
+E08000005,Rochdale,ltla23,2021,Hindu,613,228,,n<1000
+E08000005,Rochdale,ltla23,2021,Jewish,218,196,,n<1000
+E08000005,Rochdale,ltla23,2021,Muslim,42122,24538,58.25,
+E08000005,Rochdale,ltla23,2021,No religion,64351,61878,96.16,
+E08000005,Rochdale,ltla23,2021,Not answered,10369,8946,86.28,
+E08000005,Rochdale,ltla23,2021,Other religion,674,580,,n<1000
+E08000005,Rochdale,ltla23,2021,Sikh,192,80,,n<1000
+E08000006,Salford,ltla23,2021,Buddhist,1022,424,41.49,
+E08000006,Salford,ltla23,2021,Christian,128786,103501,80.37,
+E08000006,Salford,ltla23,2021,Does not apply,0,0,,n<1000
+E08000006,Salford,ltla23,2021,Hindu,2114,658,31.13,
+E08000006,Salford,ltla23,2021,Jewish,10373,7994,77.07,
+E08000006,Salford,ltla23,2021,Muslim,13542,4995,36.89,
+E08000006,Salford,ltla23,2021,No religion,96140,87292,90.8,
+E08000006,Salford,ltla23,2021,Not answered,16151,12534,77.61,
+E08000006,Salford,ltla23,2021,Other religion,1068,829,77.62,
+E08000006,Salford,ltla23,2021,Sikh,728,390,,n<1000
+E08000007,Stockport,ltla23,2021,Buddhist,965,469,,n<1000
+E08000007,Stockport,ltla23,2021,Christian,139949,129274,92.37,
+E08000007,Stockport,ltla23,2021,Does not apply,0,0,,n<1000
+E08000007,Stockport,ltla23,2021,Hindu,2388,926,38.78,
+E08000007,Stockport,ltla23,2021,Jewish,1234,1040,84.28,
+E08000007,Stockport,ltla23,2021,Muslim,16332,8881,54.38,
+E08000007,Stockport,ltla23,2021,No religion,116749,111154,95.21,
+E08000007,Stockport,ltla23,2021,Not answered,15445,13883,89.89,
+E08000007,Stockport,ltla23,2021,Other religion,1207,927,76.8,
+E08000007,Stockport,ltla23,2021,Sikh,503,365,,n<1000
+E08000008,Tameside,ltla23,2021,Buddhist,589,271,,n<1000
+E08000008,Tameside,ltla23,2021,Christian,110537,101439,91.77,
+E08000008,Tameside,ltla23,2021,Does not apply,0,0,,n<1000
+E08000008,Tameside,ltla23,2021,Hindu,3096,1287,41.57,
+E08000008,Tameside,ltla23,2021,Jewish,89,72,,n<1000
+E08000008,Tameside,ltla23,2021,Muslim,16945,8485,50.07,
+E08000008,Tameside,ltla23,2021,No religion,87910,84924,96.6,
+E08000008,Tameside,ltla23,2021,Not answered,10846,9842,90.74,
+E08000008,Tameside,ltla23,2021,Other religion,879,767,,n<1000
+E08000008,Tameside,ltla23,2021,Sikh,182,116,,n<1000
+E08000009,Trafford,ltla23,2021,Buddhist,956,394,,n<1000
+E08000009,Trafford,ltla23,2021,Christian,113712,100921,88.75,
+E08000009,Trafford,ltla23,2021,Does not apply,0,0,,n<1000
+E08000009,Trafford,ltla23,2021,Hindu,4655,1534,32.95,
+E08000009,Trafford,ltla23,2021,Jewish,2408,2212,91.86,
+E08000009,Trafford,ltla23,2021,Muslim,20549,11109,54.06,
+E08000009,Trafford,ltla23,2021,No religion,77864,71397,91.69,
+E08000009,Trafford,ltla23,2021,Not answered,12006,10271,85.55,
+E08000009,Trafford,ltla23,2021,Other religion,914,667,,n<1000
+E08000009,Trafford,ltla23,2021,Sikh,1984,1612,81.25,
+E08000010,Wigan,ltla23,2021,Buddhist,832,394,,n<1000
+E08000010,Wigan,ltla23,2021,Christian,206868,194886,94.21,
+E08000010,Wigan,ltla23,2021,Does not apply,0,0,,n<1000
+E08000010,Wigan,ltla23,2021,Hindu,996,385,,n<1000
+E08000010,Wigan,ltla23,2021,Jewish,85,72,,n<1000
+E08000010,Wigan,ltla23,2021,Muslim,4155,1594,38.36,
+E08000010,Wigan,ltla23,2021,No religion,99787,96204,96.41,
+E08000010,Wigan,ltla23,2021,Not answered,15390,14271,92.73,
+E08000010,Wigan,ltla23,2021,Other religion,1099,992,90.26,
+E08000010,Wigan,ltla23,2021,Sikh,122,61,,n<1000
+E08000011,Knowsley,ltla23,2021,Buddhist,260,147,,n<1000
+E08000011,Knowsley,ltla23,2021,Christian,102929,97850,95.07,
+E08000011,Knowsley,ltla23,2021,Does not apply,0,0,,n<1000
+E08000011,Knowsley,ltla23,2021,Hindu,456,154,,n<1000
+E08000011,Knowsley,ltla23,2021,Jewish,86,69,,n<1000
+E08000011,Knowsley,ltla23,2021,Muslim,967,308,,n<1000
+E08000011,Knowsley,ltla23,2021,No religion,41999,40689,96.88,
+E08000011,Knowsley,ltla23,2021,Not answered,7468,7062,94.56,
+E08000011,Knowsley,ltla23,2021,Other religion,283,240,,n<1000
+E08000011,Knowsley,ltla23,2021,Sikh,65,29,,n<1000
+E08000012,Liverpool,ltla23,2021,Buddhist,2128,947,44.5,
+E08000012,Liverpool,ltla23,2021,Christian,278329,246301,88.49,
+E08000012,Liverpool,ltla23,2021,Does not apply,0,0,,n<1000
+E08000012,Liverpool,ltla23,2021,Hindu,3804,1245,32.73,
+E08000012,Liverpool,ltla23,2021,Jewish,1806,1617,89.53,
+E08000012,Liverpool,ltla23,2021,Muslim,25755,9997,38.82,
+E08000012,Liverpool,ltla23,2021,No religion,142992,127640,89.26,
+E08000012,Liverpool,ltla23,2021,Not answered,28638,23976,83.72,
+E08000012,Liverpool,ltla23,2021,Other religion,1991,1435,72.07,
+E08000012,Liverpool,ltla23,2021,Sikh,641,478,,n<1000
+E08000013,St. Helens,ltla23,2021,Buddhist,504,220,,n<1000
+E08000013,St. Helens,ltla23,2021,Christian,114200,108982,95.43,
+E08000013,St. Helens,ltla23,2021,Does not apply,0,0,,n<1000
+E08000013,St. Helens,ltla23,2021,Hindu,597,212,,n<1000
+E08000013,St. Helens,ltla23,2021,Jewish,63,56,,n<1000
+E08000013,St. Helens,ltla23,2021,Muslim,1341,462,34.45,
+E08000013,St. Helens,ltla23,2021,No religion,57188,55339,96.77,
+E08000013,St. Helens,ltla23,2021,Not answered,8656,8162,94.29,
+E08000013,St. Helens,ltla23,2021,Other religion,652,598,,n<1000
+E08000013,St. Helens,ltla23,2021,Sikh,54,27,,n<1000
+E08000014,Sefton,ltla23,2021,Buddhist,680,380,,n<1000
+E08000014,Sefton,ltla23,2021,Christian,179805,169113,94.05,
+E08000014,Sefton,ltla23,2021,Does not apply,0,0,,n<1000
+E08000014,Sefton,ltla23,2021,Hindu,1098,432,39.34,
+E08000014,Sefton,ltla23,2021,Jewish,364,331,,n<1000
+E08000014,Sefton,ltla23,2021,Muslim,2255,829,36.76,
+E08000014,Sefton,ltla23,2021,No religion,79908,76213,95.38,
+E08000014,Sefton,ltla23,2021,Not answered,14012,13045,93.1,
+E08000014,Sefton,ltla23,2021,Other religion,980,870,,n<1000
+E08000014,Sefton,ltla23,2021,Sikh,133,51,,n<1000
+E08000015,Wirral,ltla23,2021,Buddhist,1015,554,54.58,
+E08000015,Wirral,ltla23,2021,Christian,176158,167452,95.06,
+E08000015,Wirral,ltla23,2021,Does not apply,0,0,,n<1000
+E08000015,Wirral,ltla23,2021,Hindu,1407,452,32.13,
+E08000015,Wirral,ltla23,2021,Jewish,256,226,,n<1000
+E08000015,Wirral,ltla23,2021,Muslim,3257,1360,41.76,
+E08000015,Wirral,ltla23,2021,No religion,119448,115279,96.51,
+E08000015,Wirral,ltla23,2021,Not answered,17092,16119,94.31,
+E08000015,Wirral,ltla23,2021,Other religion,1257,1142,90.85,
+E08000015,Wirral,ltla23,2021,Sikh,311,205,,n<1000
+E08000016,Barnsley,ltla23,2021,Buddhist,435,217,,n<1000
+E08000016,Barnsley,ltla23,2021,Christian,125506,115125,91.73,
+E08000016,Barnsley,ltla23,2021,Does not apply,0,0,,n<1000
+E08000016,Barnsley,ltla23,2021,Hindu,416,147,,n<1000
+E08000016,Barnsley,ltla23,2021,Jewish,63,47,,n<1000
+E08000016,Barnsley,ltla23,2021,Muslim,1400,522,37.29,
+E08000016,Barnsley,ltla23,2021,No religion,102906,100107,97.28,
+E08000016,Barnsley,ltla23,2021,Not answered,12728,11767,92.45,
+E08000016,Barnsley,ltla23,2021,Other religion,866,760,,n<1000
+E08000016,Barnsley,ltla23,2021,Sikh,257,150,,n<1000
+E08000017,Doncaster,ltla23,2021,Buddhist,821,374,,n<1000
+E08000017,Doncaster,ltla23,2021,Christian,156747,136966,87.38,
+E08000017,Doncaster,ltla23,2021,Does not apply,0,0,,n<1000
+E08000017,Doncaster,ltla23,2021,Hindu,1292,436,33.75,
+E08000017,Doncaster,ltla23,2021,Jewish,112,85,,n<1000
+E08000017,Doncaster,ltla23,2021,Muslim,6897,3286,47.64,
+E08000017,Doncaster,ltla23,2021,No religion,122646,117994,96.21,
+E08000017,Doncaster,ltla23,2021,Not answered,16470,14565,88.43,
+E08000017,Doncaster,ltla23,2021,Other religion,1722,1238,71.89,
+E08000017,Doncaster,ltla23,2021,Sikh,1389,1039,74.8,
+E08000018,Rotherham,ltla23,2021,Buddhist,541,265,,n<1000
+E08000018,Rotherham,ltla23,2021,Christian,130148,121792,93.58,
+E08000018,Rotherham,ltla23,2021,Does not apply,0,0,,n<1000
+E08000018,Rotherham,ltla23,2021,Hindu,666,206,,n<1000
+E08000018,Rotherham,ltla23,2021,Jewish,81,55,,n<1000
+E08000018,Rotherham,ltla23,2021,Muslim,13466,8248,61.25,
+E08000018,Rotherham,ltla23,2021,No religion,105820,103232,97.55,
+E08000018,Rotherham,ltla23,2021,Not answered,13694,12759,93.17,
+E08000018,Rotherham,ltla23,2021,Other religion,932,837,,n<1000
+E08000018,Rotherham,ltla23,2021,Sikh,461,221,,n<1000
+E08000019,Sheffield,ltla23,2021,Buddhist,2215,1045,47.18,
+E08000019,Sheffield,ltla23,2021,Christian,214136,183795,85.83,
+E08000019,Sheffield,ltla23,2021,Does not apply,0,0,,n<1000
+E08000019,Sheffield,ltla23,2021,Hindu,3757,1134,30.18,
+E08000019,Sheffield,ltla23,2021,Jewish,648,523,,n<1000
+E08000019,Sheffield,ltla23,2021,Muslim,57043,29678,52.03,
+E08000019,Sheffield,ltla23,2021,No religion,241555,225446,93.33,
+E08000019,Sheffield,ltla23,2021,Not answered,33600,28967,86.21,
+E08000019,Sheffield,ltla23,2021,Other religion,2634,2135,81.06,
+E08000019,Sheffield,ltla23,2021,Sikh,927,590,,n<1000
+E08000021,Newcastle upon Tyne,ltla23,2021,Buddhist,1353,511,37.77,
+E08000021,Newcastle upon Tyne,ltla23,2021,Christian,124008,104766,84.48,
+E08000021,Newcastle upon Tyne,ltla23,2021,Does not apply,0,0,,n<1000
+E08000021,Newcastle upon Tyne,ltla23,2021,Hindu,4212,1135,26.95,
+E08000021,Newcastle upon Tyne,ltla23,2021,Jewish,573,466,,n<1000
+E08000021,Newcastle upon Tyne,ltla23,2021,Muslim,26896,12568,46.73,
+E08000021,Newcastle upon Tyne,ltla23,2021,No religion,122485,111823,91.3,
+E08000021,Newcastle upon Tyne,ltla23,2021,Not answered,17869,14674,82.12,
+E08000021,Newcastle upon Tyne,ltla23,2021,Other religion,1281,944,73.69,
+E08000021,Newcastle upon Tyne,ltla23,2021,Sikh,1451,905,62.37,
+E08000022,North Tyneside,ltla23,2021,Buddhist,587,323,,n<1000
+E08000022,North Tyneside,ltla23,2021,Christian,97335,91876,94.39,
+E08000022,North Tyneside,ltla23,2021,Does not apply,0,0,,n<1000
+E08000022,North Tyneside,ltla23,2021,Hindu,821,241,,n<1000
+E08000022,North Tyneside,ltla23,2021,Jewish,127,107,,n<1000
+E08000022,North Tyneside,ltla23,2021,Muslim,2517,1161,46.13,
+E08000022,North Tyneside,ltla23,2021,No religion,96410,93429,96.91,
+E08000022,North Tyneside,ltla23,2021,Not answered,9954,9359,94.02,
+E08000022,North Tyneside,ltla23,2021,Other religion,774,677,,n<1000
+E08000022,North Tyneside,ltla23,2021,Sikh,439,257,,n<1000
+E08000023,South Tyneside,ltla23,2021,Buddhist,264,151,,n<1000
+E08000023,South Tyneside,ltla23,2021,Christian,77785,75230,96.72,
+E08000023,South Tyneside,ltla23,2021,Does not apply,0,0,,n<1000
+E08000023,South Tyneside,ltla23,2021,Hindu,260,65,,n<1000
+E08000023,South Tyneside,ltla23,2021,Jewish,36,31,,n<1000
+E08000023,South Tyneside,ltla23,2021,Muslim,3736,1760,47.11,
+E08000023,South Tyneside,ltla23,2021,No religion,58045,56894,98.02,
+E08000023,South Tyneside,ltla23,2021,Not answered,6674,6338,94.97,
+E08000023,South Tyneside,ltla23,2021,Other religion,519,477,,n<1000
+E08000023,South Tyneside,ltla23,2021,Sikh,459,281,,n<1000
+E08000024,Sunderland,ltla23,2021,Buddhist,539,249,,n<1000
+E08000024,Sunderland,ltla23,2021,Christian,145804,138540,95.02,
+E08000024,Sunderland,ltla23,2021,Does not apply,0,0,,n<1000
+E08000024,Sunderland,ltla23,2021,Hindu,611,148,,n<1000
+E08000024,Sunderland,ltla23,2021,Jewish,87,73,,n<1000
+E08000024,Sunderland,ltla23,2021,Muslim,4843,2594,53.56,
+E08000024,Sunderland,ltla23,2021,No religion,108261,105831,97.76,
+E08000024,Sunderland,ltla23,2021,Not answered,12273,11520,93.86,
+E08000024,Sunderland,ltla23,2021,Other religion,835,751,,n<1000
+E08000024,Sunderland,ltla23,2021,Sikh,915,484,,n<1000
+E08000025,Birmingham,ltla23,2021,Buddhist,4340,1771,40.81,
+E08000025,Birmingham,ltla23,2021,Christian,389406,301051,77.31,
+E08000025,Birmingham,ltla23,2021,Does not apply,0,0,,n<1000
+E08000025,Birmingham,ltla23,2021,Hindu,21996,9087,41.31,
+E08000025,Birmingham,ltla23,2021,Jewish,1687,1404,83.22,
+E08000025,Birmingham,ltla23,2021,Muslim,341811,196485,57.48,
+E08000025,Birmingham,ltla23,2021,No religion,276327,250614,90.69,
+E08000025,Birmingham,ltla23,2021,Not answered,69857,53743,76.93,
+E08000025,Birmingham,ltla23,2021,Other religion,6368,4434,69.63,
+E08000025,Birmingham,ltla23,2021,Sikh,33126,20370,61.49,
+E08000026,Coventry,ltla23,2021,Buddhist,1255,443,35.3,
+E08000026,Coventry,ltla23,2021,Christian,151577,108017,71.26,
+E08000026,Coventry,ltla23,2021,Does not apply,0,0,,n<1000
+E08000026,Coventry,ltla23,2021,Hindu,13722,4634,33.77,
+E08000026,Coventry,ltla23,2021,Jewish,259,200,,n<1000
+E08000026,Coventry,ltla23,2021,Muslim,35801,17235,48.14,
+E08000026,Coventry,ltla23,2021,No religion,102338,91258,89.17,
+E08000026,Coventry,ltla23,2021,Not answered,21166,15625,73.82,
+E08000026,Coventry,ltla23,2021,Other religion,1908,1288,67.51,
+E08000026,Coventry,ltla23,2021,Sikh,17297,10292,59.5,
+E08000027,Dudley,ltla23,2021,Buddhist,799,370,,n<1000
+E08000027,Dudley,ltla23,2021,Christian,159461,149693,93.87,
+E08000027,Dudley,ltla23,2021,Does not apply,0,0,,n<1000
+E08000027,Dudley,ltla23,2021,Hindu,2193,1085,49.48,
+E08000027,Dudley,ltla23,2021,Jewish,82,67,,n<1000
+E08000027,Dudley,ltla23,2021,Muslim,19978,11855,59.34,
+E08000027,Dudley,ltla23,2021,No religion,116403,113684,97.66,
+E08000027,Dudley,ltla23,2021,Not answered,17792,16441,92.41,
+E08000027,Dudley,ltla23,2021,Other religion,1463,1312,89.68,
+E08000027,Dudley,ltla23,2021,Sikh,5315,3423,64.4,
+E08000028,Sandwell,ltla23,2021,Buddhist,941,342,,n<1000
+E08000028,Sandwell,ltla23,2021,Christian,136354,110389,80.96,
+E08000028,Sandwell,ltla23,2021,Does not apply,0,0,,n<1000
+E08000028,Sandwell,ltla23,2021,Hindu,9447,4057,42.94,
+E08000028,Sandwell,ltla23,2021,Jewish,77,61,,n<1000
+E08000028,Sandwell,ltla23,2021,Muslim,45763,25704,56.17,
+E08000028,Sandwell,ltla23,2021,No religion,89100,84669,95.03,
+E08000028,Sandwell,ltla23,2021,Not answered,18465,14905,80.72,
+E08000028,Sandwell,ltla23,2021,Other religion,2430,1681,69.18,
+E08000028,Sandwell,ltla23,2021,Sikh,39253,19405,49.44,
+E08000029,Solihull,ltla23,2021,Buddhist,593,273,,n<1000
+E08000029,Solihull,ltla23,2021,Christian,109707,101190,92.24,
+E08000029,Solihull,ltla23,2021,Does not apply,0,0,,n<1000
+E08000029,Solihull,ltla23,2021,Hindu,6036,2669,44.22,
+E08000029,Solihull,ltla23,2021,Jewish,283,250,,n<1000
+E08000029,Solihull,ltla23,2021,Muslim,11532,7219,62.6,
+E08000029,Solihull,ltla23,2021,No religion,71065,67940,95.6,
+E08000029,Solihull,ltla23,2021,Not answered,11174,9977,89.29,
+E08000029,Solihull,ltla23,2021,Other religion,821,654,,n<1000
+E08000029,Solihull,ltla23,2021,Sikh,5029,3818,75.92,
+E08000030,Walsall,ltla23,2021,Buddhist,531,260,,n<1000
+E08000030,Walsall,ltla23,2021,Christian,126921,111847,88.12,
+E08000030,Walsall,ltla23,2021,Does not apply,0,0,,n<1000
+E08000030,Walsall,ltla23,2021,Hindu,5096,2505,49.16,
+E08000030,Walsall,ltla23,2021,Jewish,74,54,,n<1000
+E08000030,Walsall,ltla23,2021,Muslim,32107,19643,61.18,
+E08000030,Walsall,ltla23,2021,No religion,85816,83289,97.06,
+E08000030,Walsall,ltla23,2021,Not answered,14769,12917,87.46,
+E08000030,Walsall,ltla23,2021,Other religion,1658,1276,76.96,
+E08000030,Walsall,ltla23,2021,Sikh,17146,10371,60.49,
+E08000031,Wolverhampton,ltla23,2021,Buddhist,914,445,,n<1000
+E08000031,Wolverhampton,ltla23,2021,Christian,115640,91489,79.12,
+E08000031,Wolverhampton,ltla23,2021,Does not apply,0,0,,n<1000
+E08000031,Wolverhampton,ltla23,2021,Hindu,9884,4624,46.78,
+E08000031,Wolverhampton,ltla23,2021,Jewish,92,70,,n<1000
+E08000031,Wolverhampton,ltla23,2021,Muslim,14488,7216,49.81,
+E08000031,Wolverhampton,ltla23,2021,No religion,73318,69361,94.6,
+E08000031,Wolverhampton,ltla23,2021,Not answered,14465,11806,81.62,
+E08000031,Wolverhampton,ltla23,2021,Other religion,3158,1895,60.01,
+E08000031,Wolverhampton,ltla23,2021,Sikh,31769,16405,51.64,
+E08000032,Bradford,ltla23,2021,Buddhist,959,517,,n<1000
+E08000032,Bradford,ltla23,2021,Christian,182563,156747,85.86,
+E08000032,Bradford,ltla23,2021,Does not apply,0,0,,n<1000
+E08000032,Bradford,ltla23,2021,Hindu,4757,1618,34.01,
+E08000032,Bradford,ltla23,2021,Jewish,254,200,,n<1000
+E08000032,Bradford,ltla23,2021,Muslim,166844,108334,64.93,
+E08000032,Bradford,ltla23,2021,No religion,154305,147542,95.62,
+E08000032,Bradford,ltla23,2021,Not answered,29818,24984,83.79,
+E08000032,Bradford,ltla23,2021,Other religion,2076,1720,82.85,
+E08000032,Bradford,ltla23,2021,Sikh,4834,2815,58.23,
+E08000033,Calderdale,ltla23,2021,Buddhist,630,438,,n<1000
+E08000033,Calderdale,ltla23,2021,Christian,85679,79680,93.0,
+E08000033,Calderdale,ltla23,2021,Does not apply,0,0,,n<1000
+E08000033,Calderdale,ltla23,2021,Hindu,1172,290,24.74,
+E08000033,Calderdale,ltla23,2021,Jewish,154,124,,n<1000
+E08000033,Calderdale,ltla23,2021,Muslim,19648,12880,65.55,
+E08000033,Calderdale,ltla23,2021,No religion,86787,84162,96.98,
+E08000033,Calderdale,ltla23,2021,Not answered,11129,10256,92.16,
+E08000033,Calderdale,ltla23,2021,Other religion,1043,933,89.45,
+E08000033,Calderdale,ltla23,2021,Sikh,387,276,,n<1000
+E08000034,Kirklees,ltla23,2021,Buddhist,996,543,,n<1000
+E08000034,Kirklees,ltla23,2021,Christian,170577,155601,91.22,
+E08000034,Kirklees,ltla23,2021,Does not apply,0,0,,n<1000
+E08000034,Kirklees,ltla23,2021,Hindu,1723,640,37.14,
+E08000034,Kirklees,ltla23,2021,Jewish,187,156,,n<1000
+E08000034,Kirklees,ltla23,2021,Muslim,80046,51776,64.68,
+E08000034,Kirklees,ltla23,2021,No religion,150596,145223,96.43,
+E08000034,Kirklees,ltla23,2021,Not answered,23948,21229,88.65,
+E08000034,Kirklees,ltla23,2021,Other religion,1662,1432,86.16,
+E08000034,Kirklees,ltla23,2021,Sikh,3477,2108,60.63,
+E08000035,Leeds,ltla23,2021,Buddhist,2873,1306,45.46,
+E08000035,Leeds,ltla23,2021,Christian,343311,286897,83.57,
+E08000035,Leeds,ltla23,2021,Does not apply,0,0,,n<1000
+E08000035,Leeds,ltla23,2021,Hindu,9221,3219,34.91,
+E08000035,Leeds,ltla23,2021,Jewish,6268,5802,92.57,
+E08000035,Leeds,ltla23,2021,Muslim,63055,33627,53.33,
+E08000035,Leeds,ltla23,2021,No religion,326232,303654,93.08,
+E08000035,Leeds,ltla23,2021,Not answered,47313,39752,84.02,
+E08000035,Leeds,ltla23,2021,Other religion,3636,2929,80.56,
+E08000035,Leeds,ltla23,2021,Sikh,10047,6496,64.66,
+E08000036,Wakefield,ltla23,2021,Buddhist,797,368,,n<1000
+E08000036,Wakefield,ltla23,2021,Christian,173069,156831,90.62,
+E08000036,Wakefield,ltla23,2021,Does not apply,0,0,,n<1000
+E08000036,Wakefield,ltla23,2021,Hindu,1271,438,34.46,
+E08000036,Wakefield,ltla23,2021,Jewish,128,102,,n<1000
+E08000036,Wakefield,ltla23,2021,Muslim,11279,6006,53.25,
+E08000036,Wakefield,ltla23,2021,No religion,145951,140730,96.42,
+E08000036,Wakefield,ltla23,2021,Not answered,18971,17248,90.92,
+E08000036,Wakefield,ltla23,2021,Other religion,1404,1248,88.89,
+E08000036,Wakefield,ltla23,2021,Sikh,502,325,,n<1000
+E08000037,Gateshead,ltla23,2021,Buddhist,469,231,,n<1000
+E08000037,Gateshead,ltla23,2021,Christian,99572,92987,93.39,
+E08000037,Gateshead,ltla23,2021,Does not apply,0,0,,n<1000
+E08000037,Gateshead,ltla23,2021,Hindu,523,164,,n<1000
+E08000037,Gateshead,ltla23,2021,Jewish,2905,2364,81.38,
+E08000037,Gateshead,ltla23,2021,Muslim,4125,1463,35.47,
+E08000037,Gateshead,ltla23,2021,No religion,78573,75435,96.01,
+E08000037,Gateshead,ltla23,2021,Not answered,8804,8042,91.34,
+E08000037,Gateshead,ltla23,2021,Other religion,797,680,,n<1000
+E08000037,Gateshead,ltla23,2021,Sikh,384,212,,n<1000
+E09000001,City of London,ltla23,2021,Buddhist,95,22,,n<1000
+E09000001,City of London,ltla23,2021,Christian,2975,1501,50.45,
+E09000001,City of London,ltla23,2021,Does not apply,0,0,,n<1000
+E09000001,City of London,ltla23,2021,Hindu,203,57,,n<1000
+E09000001,City of London,ltla23,2021,Jewish,176,103,,n<1000
+E09000001,City of London,ltla23,2021,Muslim,540,245,,n<1000
+E09000001,City of London,ltla23,2021,No religion,3763,2027,53.87,
+E09000001,City of London,ltla23,2021,Not answered,767,348,,n<1000
+E09000001,City of London,ltla23,2021,Other religion,55,21,,n<1000
+E09000001,City of London,ltla23,2021,Sikh,8,3,,n<1000
+E09000002,Barking and Dagenham,ltla23,2021,Buddhist,821,258,,n<1000
+E09000002,Barking and Dagenham,ltla23,2021,Christian,99342,52892,53.24,
+E09000002,Barking and Dagenham,ltla23,2021,Does not apply,0,0,,n<1000
+E09000002,Barking and Dagenham,ltla23,2021,Hindu,6598,2112,32.01,
+E09000002,Barking and Dagenham,ltla23,2021,Jewish,272,220,,n<1000
+E09000002,Barking and Dagenham,ltla23,2021,Muslim,53389,27131,50.82,
+E09000002,Barking and Dagenham,ltla23,2021,No religion,41193,35705,86.68,
+E09000002,Barking and Dagenham,ltla23,2021,Not answered,11991,7386,61.6,
+E09000002,Barking and Dagenham,ltla23,2021,Other religion,982,581,,n<1000
+E09000002,Barking and Dagenham,ltla23,2021,Sikh,4284,2198,51.31,
+E09000003,Barnet,ltla23,2021,Buddhist,4157,1016,24.44,
+E09000003,Barnet,ltla23,2021,Christian,142323,73617,51.73,
+E09000003,Barnet,ltla23,2021,Does not apply,0,0,,n<1000
+E09000003,Barnet,ltla23,2021,Hindu,22105,8721,39.45,
+E09000003,Barnet,ltla23,2021,Jewish,56616,45032,79.54,
+E09000003,Barnet,ltla23,2021,Muslim,47687,19717,41.35,
+E09000003,Barnet,ltla23,2021,No religion,78684,51705,65.71,
+E09000003,Barnet,ltla23,2021,Not answered,31056,18341,59.06,
+E09000003,Barnet,ltla23,2021,Other religion,5191,2170,41.8,
+E09000003,Barnet,ltla23,2021,Sikh,1524,975,63.98,
+E09000004,Bexley,ltla23,2021,Buddhist,2050,620,30.24,
+E09000004,Bexley,ltla23,2021,Christian,123907,95469,77.05,
+E09000004,Bexley,ltla23,2021,Does not apply,0,0,,n<1000
+E09000004,Bexley,ltla23,2021,Hindu,7516,2692,35.82,
+E09000004,Bexley,ltla23,2021,Jewish,217,162,,n<1000
+E09000004,Bexley,ltla23,2021,Muslim,9721,4314,44.38,
+E09000004,Bexley,ltla23,2021,No religion,82816,76375,92.22,
+E09000004,Bexley,ltla23,2021,Not answered,13985,11317,80.92,
+E09000004,Bexley,ltla23,2021,Other religion,988,706,,n<1000
+E09000004,Bexley,ltla23,2021,Sikh,5272,3059,58.02,
+E09000005,Brent,ltla23,2021,Buddhist,3117,716,22.97,
+E09000005,Brent,ltla23,2021,Christian,131914,53792,40.78,
+E09000005,Brent,ltla23,2021,Does not apply,0,0,,n<1000
+E09000005,Brent,ltla23,2021,Hindu,52876,16951,32.06,
+E09000005,Brent,ltla23,2021,Jewish,3720,2875,77.28,
+E09000005,Brent,ltla23,2021,Muslim,72575,32007,44.1,
+E09000005,Brent,ltla23,2021,No religion,46154,28688,62.16,
+E09000005,Brent,ltla23,2021,Not answered,23505,11785,50.14,
+E09000005,Brent,ltla23,2021,Other religion,4424,1621,36.64,
+E09000005,Brent,ltla23,2021,Sikh,1529,804,52.58,
+E09000006,Bromley,ltla23,2021,Buddhist,2100,748,35.62,
+E09000006,Bromley,ltla23,2021,Christian,159454,125525,78.72,
+E09000006,Bromley,ltla23,2021,Does not apply,0,0,,n<1000
+E09000006,Bromley,ltla23,2021,Hindu,9646,3251,33.7,
+E09000006,Bromley,ltla23,2021,Jewish,965,769,,n<1000
+E09000006,Bromley,ltla23,2021,Muslim,10876,5040,46.34,
+E09000006,Bromley,ltla23,2021,No religion,122943,108940,88.61,
+E09000006,Bromley,ltla23,2021,Not answered,21240,16957,79.84,
+E09000006,Bromley,ltla23,2021,Other religion,1707,1132,66.32,
+E09000006,Bromley,ltla23,2021,Sikh,1068,690,64.61,
+E09000007,Camden,ltla23,2021,Buddhist,2410,655,27.18,
+E09000007,Camden,ltla23,2021,Christian,65981,34735,52.64,
+E09000007,Camden,ltla23,2021,Does not apply,0,0,,n<1000
+E09000007,Camden,ltla23,2021,Hindu,3990,1480,37.09,
+E09000007,Camden,ltla23,2021,Jewish,10079,6766,67.13,
+E09000007,Camden,ltla23,2021,Muslim,33827,16592,49.05,
+E09000007,Camden,ltla23,2021,No religion,72779,43229,59.4,
+E09000007,Camden,ltla23,2021,Not answered,18741,9914,52.9,
+E09000007,Camden,ltla23,2021,Other religion,1842,960,52.12,
+E09000007,Camden,ltla23,2021,Sikh,487,317,,n<1000
+E09000008,Croydon,ltla23,2021,Buddhist,2371,812,34.25,
+E09000008,Croydon,ltla23,2021,Christian,190880,119518,62.61,
+E09000008,Croydon,ltla23,2021,Does not apply,0,0,,n<1000
+E09000008,Croydon,ltla23,2021,Hindu,23145,8019,34.65,
+E09000008,Croydon,ltla23,2021,Jewish,609,442,,n<1000
+E09000008,Croydon,ltla23,2021,Muslim,40717,19171,47.08,
+E09000008,Croydon,ltla23,2021,No religion,101120,85093,84.15,
+E09000008,Croydon,ltla23,2021,Not answered,27035,18784,69.48,
+E09000008,Croydon,ltla23,2021,Other religion,3189,1865,58.48,
+E09000008,Croydon,ltla23,2021,Sikh,1654,832,50.3,
+E09000009,Ealing,ltla23,2021,Buddhist,4002,834,20.84,
+E09000009,Ealing,ltla23,2021,Christian,138935,67383,48.5,
+E09000009,Ealing,ltla23,2021,Does not apply,0,0,,n<1000
+E09000009,Ealing,ltla23,2021,Hindu,28241,9696,34.33,
+E09000009,Ealing,ltla23,2021,Jewish,1041,765,73.49,
+E09000009,Ealing,ltla23,2021,Muslim,68909,29245,42.44,
+E09000009,Ealing,ltla23,2021,No religion,70231,47195,67.2,
+E09000009,Ealing,ltla23,2021,Not answered,24533,12815,52.24,
+E09000009,Ealing,ltla23,2021,Other religion,2735,1231,45.01,
+E09000009,Ealing,ltla23,2021,Sikh,28491,11397,40.0,
+E09000010,Enfield,ltla23,2021,Buddhist,1716,547,31.88,
+E09000010,Enfield,ltla23,2021,Christian,153014,91033,59.49,
+E09000010,Enfield,ltla23,2021,Does not apply,0,0,,n<1000
+E09000010,Enfield,ltla23,2021,Hindu,10231,4172,40.78,
+E09000010,Enfield,ltla23,2021,Jewish,3713,3318,89.36,
+E09000010,Enfield,ltla23,2021,Muslim,61478,28080,45.67,
+E09000010,Enfield,ltla23,2021,No religion,65241,50424,77.29,
+E09000010,Enfield,ltla23,2021,Not answered,23041,14246,61.83,
+E09000010,Enfield,ltla23,2021,Other religion,10351,4183,40.41,
+E09000010,Enfield,ltla23,2021,Sikh,1199,821,68.47,
+E09000011,Greenwich,ltla23,2021,Buddhist,5034,1120,22.25,
+E09000011,Greenwich,ltla23,2021,Christian,129112,75329,58.34,
+E09000011,Greenwich,ltla23,2021,Does not apply,0,0,,n<1000
+E09000011,Greenwich,ltla23,2021,Hindu,11647,3073,26.38,
+E09000011,Greenwich,ltla23,2021,Jewish,602,361,,n<1000
+E09000011,Greenwich,ltla23,2021,Muslim,24714,11439,46.29,
+E09000011,Greenwich,ltla23,2021,No religion,94208,74805,79.4,
+E09000011,Greenwich,ltla23,2021,Not answered,18715,11746,62.76,
+E09000011,Greenwich,ltla23,2021,Other religion,1803,991,54.96,
+E09000011,Greenwich,ltla23,2021,Sikh,3232,1714,53.03,
+E09000012,Hackney,ltla23,2021,Buddhist,2345,900,38.38,
+E09000012,Hackney,ltla23,2021,Christian,79499,43107,54.22,
+E09000012,Hackney,ltla23,2021,Does not apply,0,0,,n<1000
+E09000012,Hackney,ltla23,2021,Hindu,2001,798,39.88,
+E09000012,Hackney,ltla23,2021,Jewish,17426,13048,74.88,
+E09000012,Hackney,ltla23,2021,Muslim,34578,17291,50.01,
+E09000012,Hackney,ltla23,2021,No religion,94113,62967,66.91,
+E09000012,Hackney,ltla23,2021,Not answered,22443,14493,64.58,
+E09000012,Hackney,ltla23,2021,Other religion,4879,2158,44.23,
+E09000012,Hackney,ltla23,2021,Sikh,1867,1457,78.04,
+E09000013,Hammersmith and Fulham,ltla23,2021,Buddhist,1726,459,26.59,
+E09000013,Hammersmith and Fulham,ltla23,2021,Christian,83673,45750,54.68,
+E09000013,Hammersmith and Fulham,ltla23,2021,Does not apply,0,0,,n<1000
+E09000013,Hammersmith and Fulham,ltla23,2021,Hindu,2209,802,36.31,
+E09000013,Hammersmith and Fulham,ltla23,2021,Jewish,1230,711,57.8,
+E09000013,Hammersmith and Fulham,ltla23,2021,Muslim,21290,9321,43.78,
+E09000013,Hammersmith and Fulham,ltla23,2021,No religion,56059,33879,60.43,
+E09000013,Hammersmith and Fulham,ltla23,2021,Not answered,15298,7958,52.02,
+E09000013,Hammersmith and Fulham,ltla23,2021,Other religion,1225,658,53.71,
+E09000013,Hammersmith and Fulham,ltla23,2021,Sikh,450,282,,n<1000
+E09000014,Haringey,ltla23,2021,Buddhist,2456,847,34.49,
+E09000014,Haringey,ltla23,2021,Christian,103943,46568,44.8,
+E09000014,Haringey,ltla23,2021,Does not apply,0,0,,n<1000
+E09000014,Haringey,ltla23,2021,Hindu,3530,1358,38.47,
+E09000014,Haringey,ltla23,2021,Jewish,9397,7309,77.78,
+E09000014,Haringey,ltla23,2021,Muslim,33294,13896,41.74,
+E09000014,Haringey,ltla23,2021,No religion,83532,58207,69.68,
+E09000014,Haringey,ltla23,2021,Not answered,21027,11843,56.32,
+E09000014,Haringey,ltla23,2021,Other religion,6162,2447,39.71,
+E09000014,Haringey,ltla23,2021,Sikh,891,641,,n<1000
+E09000015,Harrow,ltla23,2021,Buddhist,2812,697,24.79,
+E09000015,Harrow,ltla23,2021,Christian,88602,43220,48.78,
+E09000015,Harrow,ltla23,2021,Does not apply,0,0,,n<1000
+E09000015,Harrow,ltla23,2021,Hindu,67392,26393,39.16,
+E09000015,Harrow,ltla23,2021,Jewish,7303,6438,88.16,
+E09000015,Harrow,ltla23,2021,Muslim,41501,17744,42.76,
+E09000015,Harrow,ltla23,2021,No religion,27748,20330,73.27,
+E09000015,Harrow,ltla23,2021,Not answered,15404,8527,55.36,
+E09000015,Harrow,ltla23,2021,Other religion,7695,2712,35.24,
+E09000015,Harrow,ltla23,2021,Sikh,2743,1549,56.47,
+E09000016,Havering,ltla23,2021,Buddhist,1092,382,34.98,
+E09000016,Havering,ltla23,2021,Christian,136765,107607,78.68,
+E09000016,Havering,ltla23,2021,Does not apply,0,0,,n<1000
+E09000016,Havering,ltla23,2021,Hindu,6454,2915,45.17,
+E09000016,Havering,ltla23,2021,Jewish,1305,1258,96.4,
+E09000016,Havering,ltla23,2021,Muslim,16135,8289,51.37,
+E09000016,Havering,ltla23,2021,No religion,80235,75105,93.61,
+E09000016,Havering,ltla23,2021,Not answered,14510,11753,81.0,
+E09000016,Havering,ltla23,2021,Other religion,1056,752,71.21,
+E09000016,Havering,ltla23,2021,Sikh,4498,3105,69.03,
+E09000017,Hillingdon,ltla23,2021,Buddhist,2621,629,24.0,
+E09000017,Hillingdon,ltla23,2021,Christian,119434,78266,65.53,
+E09000017,Hillingdon,ltla23,2021,Does not apply,0,0,,n<1000
+E09000017,Hillingdon,ltla23,2021,Hindu,33020,13564,41.08,
+E09000017,Hillingdon,ltla23,2021,Jewish,1392,1181,84.84,
+E09000017,Hillingdon,ltla23,2021,Muslim,44077,19875,45.09,
+E09000017,Hillingdon,ltla23,2021,No religion,59214,49786,84.08,
+E09000017,Hillingdon,ltla23,2021,Not answered,17129,11131,64.98,
+E09000017,Hillingdon,ltla23,2021,Other religion,2684,1433,53.39,
+E09000017,Hillingdon,ltla23,2021,Sikh,26339,12396,47.06,
+E09000018,Hounslow,ltla23,2021,Buddhist,3932,852,21.67,
+E09000018,Hounslow,ltla23,2021,Christian,110267,53211,48.26,
+E09000018,Hounslow,ltla23,2021,Does not apply,0,0,,n<1000
+E09000018,Hounslow,ltla23,2021,Hindu,27361,7714,28.19,
+E09000018,Hounslow,ltla23,2021,Jewish,621,416,,n<1000
+E09000018,Hounslow,ltla23,2021,Muslim,48029,21428,44.61,
+E09000018,Hounslow,ltla23,2021,No religion,53503,40516,75.73,
+E09000018,Hounslow,ltla23,2021,Not answered,17469,9473,54.23,
+E09000018,Hounslow,ltla23,2021,Other religion,2322,936,40.31,
+E09000018,Hounslow,ltla23,2021,Sikh,24678,11011,44.62,
+E09000019,Islington,ltla23,2021,Buddhist,1813,657,36.24,
+E09000019,Islington,ltla23,2021,Christian,75130,44551,59.3,
+E09000019,Islington,ltla23,2021,Does not apply,0,0,,n<1000
+E09000019,Islington,ltla23,2021,Hindu,2194,770,35.1,
+E09000019,Islington,ltla23,2021,Jewish,2713,1769,65.2,
+E09000019,Islington,ltla23,2021,Muslim,25840,12415,48.05,
+E09000019,Islington,ltla23,2021,No religion,88468,58442,66.06,
+E09000019,Islington,ltla23,2021,Not answered,16902,9716,57.48,
+E09000019,Islington,ltla23,2021,Other religion,2930,1416,48.33,
+E09000019,Islington,ltla23,2021,Sikh,601,477,,n<1000
+E09000020,Kensington and Chelsea,ltla23,2021,Buddhist,1608,348,21.64,
+E09000020,Kensington and Chelsea,ltla23,2021,Christian,69334,32198,46.44,
+E09000020,Kensington and Chelsea,ltla23,2021,Does not apply,0,0,,n<1000
+E09000020,Kensington and Chelsea,ltla23,2021,Hindu,1583,442,27.92,
+E09000020,Kensington and Chelsea,ltla23,2021,Jewish,2680,1241,46.31,
+E09000020,Kensington and Chelsea,ltla23,2021,Muslim,16864,6693,39.69,
+E09000020,Kensington and Chelsea,ltla23,2021,No religion,35610,18048,50.68,
+E09000020,Kensington and Chelsea,ltla23,2021,Not answered,14309,6405,44.76,
+E09000020,Kensington and Chelsea,ltla23,2021,Other religion,1068,499,46.72,
+E09000020,Kensington and Chelsea,ltla23,2021,Sikh,319,189,,n<1000
+E09000021,Kingston upon Thames,ltla23,2021,Buddhist,1728,465,26.91,
+E09000021,Kingston upon Thames,ltla23,2021,Christian,71667,47498,66.28,
+E09000021,Kingston upon Thames,ltla23,2021,Does not apply,0,0,,n<1000
+E09000021,Kingston upon Thames,ltla23,2021,Hindu,8459,2912,34.42,
+E09000021,Kingston upon Thames,ltla23,2021,Jewish,695,494,,n<1000
+E09000021,Kingston upon Thames,ltla23,2021,Muslim,13365,5318,39.79,
+E09000021,Kingston upon Thames,ltla23,2021,No religion,57643,45646,79.19,
+E09000021,Kingston upon Thames,ltla23,2021,Not answered,11966,7843,65.54,
+E09000021,Kingston upon Thames,ltla23,2021,Other religion,1117,605,54.16,
+E09000021,Kingston upon Thames,ltla23,2021,Sikh,1428,632,44.26,
+E09000022,Lambeth,ltla23,2021,Buddhist,2437,897,36.81,
+E09000022,Lambeth,ltla23,2021,Christian,138714,75357,54.33,
+E09000022,Lambeth,ltla23,2021,Does not apply,0,0,,n<1000
+E09000022,Lambeth,ltla23,2021,Hindu,3179,1148,36.11,
+E09000022,Lambeth,ltla23,2021,Jewish,1344,921,68.53,
+E09000022,Lambeth,ltla23,2021,Muslim,25872,12730,49.2,
+E09000022,Lambeth,ltla23,2021,No religion,119123,87154,73.16,
+E09000022,Lambeth,ltla23,2021,Not answered,24110,15195,63.02,
+E09000022,Lambeth,ltla23,2021,Other religion,2349,1356,57.73,
+E09000022,Lambeth,ltla23,2021,Sikh,527,333,,n<1000
+E09000023,Lewisham,ltla23,2021,Buddhist,3271,1191,36.41,
+E09000023,Lewisham,ltla23,2021,Christian,131709,75802,57.55,
+E09000023,Lewisham,ltla23,2021,Does not apply,0,0,,n<1000
+E09000023,Lewisham,ltla23,2021,Hindu,6459,2097,32.47,
+E09000023,Lewisham,ltla23,2021,Jewish,824,566,,n<1000
+E09000023,Lewisham,ltla23,2021,Muslim,22264,10187,45.76,
+E09000023,Lewisham,ltla23,2021,No religion,110379,86430,78.3,
+E09000023,Lewisham,ltla23,2021,Not answered,22661,15272,67.39,
+E09000023,Lewisham,ltla23,2021,Other religion,2269,1385,61.04,
+E09000023,Lewisham,ltla23,2021,Sikh,718,556,,n<1000
+E09000024,Merton,ltla23,2021,Buddhist,1902,462,24.29,
+E09000024,Merton,ltla23,2021,Christian,101321,57517,56.77,
+E09000024,Merton,ltla23,2021,Does not apply,0,0,,n<1000
+E09000024,Merton,ltla23,2021,Hindu,12612,4328,34.32,
+E09000024,Merton,ltla23,2021,Jewish,754,516,,n<1000
+E09000024,Merton,ltla23,2021,Muslim,21673,9193,42.42,
+E09000024,Merton,ltla23,2021,No religion,60224,45279,75.18,
+E09000024,Merton,ltla23,2021,Not answered,14888,8981,60.32,
+E09000024,Merton,ltla23,2021,Other religion,1202,677,56.32,
+E09000024,Merton,ltla23,2021,Sikh,612,292,,n<1000
+E09000025,Newham,ltla23,2021,Buddhist,2161,559,25.87,
+E09000025,Newham,ltla23,2021,Christian,123745,49735,40.19,
+E09000025,Newham,ltla23,2021,Does not apply,0,0,,n<1000
+E09000025,Newham,ltla23,2021,Hindu,21405,5924,27.68,
+E09000025,Newham,ltla23,2021,Jewish,448,305,,n<1000
+E09000025,Newham,ltla23,2021,Muslim,122148,58027,47.51,
+E09000025,Newham,ltla23,2021,No religion,50795,32568,64.12,
+E09000025,Newham,ltla23,2021,Not answered,22933,11504,50.16,
+E09000025,Newham,ltla23,2021,Other religion,1766,860,48.7,
+E09000025,Newham,ltla23,2021,Sikh,5638,2965,52.59,
+E09000026,Redbridge,ltla23,2021,Buddhist,1612,509,31.58,
+E09000026,Redbridge,ltla23,2021,Christian,94472,52751,55.84,
+E09000026,Redbridge,ltla23,2021,Does not apply,0,0,,n<1000
+E09000026,Redbridge,ltla23,2021,Hindu,34372,12116,35.25,
+E09000026,Redbridge,ltla23,2021,Jewish,6412,6004,93.64,
+E09000026,Redbridge,ltla23,2021,Muslim,97067,50648,52.18,
+E09000026,Redbridge,ltla23,2021,No religion,38999,31103,79.75,
+E09000026,Redbridge,ltla23,2021,Not answered,17675,10984,62.14,
+E09000026,Redbridge,ltla23,2021,Other religion,2029,1060,52.24,
+E09000026,Redbridge,ltla23,2021,Sikh,17622,9789,55.55,
+E09000027,Richmond upon Thames,ltla23,2021,Buddhist,1592,575,36.12,
+E09000027,Richmond upon Thames,ltla23,2021,Christian,88556,63360,71.55,
+E09000027,Richmond upon Thames,ltla23,2021,Does not apply,0,0,,n<1000
+E09000027,Richmond upon Thames,ltla23,2021,Hindu,4186,1662,39.7,
+E09000027,Richmond upon Thames,ltla23,2021,Jewish,1261,835,66.22,
+E09000027,Richmond upon Thames,ltla23,2021,Muslim,8492,3310,38.98,
+E09000027,Richmond upon Thames,ltla23,2021,No religion,74076,58067,78.39,
+E09000027,Richmond upon Thames,ltla23,2021,Not answered,13854,9367,67.61,
+E09000027,Richmond upon Thames,ltla23,2021,Other religion,1272,710,55.82,
+E09000027,Richmond upon Thames,ltla23,2021,Sikh,1986,1167,58.76,
+E09000028,Southwark,ltla23,2021,Buddhist,2966,1042,35.13,
+E09000028,Southwark,ltla23,2021,Christian,133298,71667,53.76,
+E09000028,Southwark,ltla23,2021,Does not apply,0,0,,n<1000
+E09000028,Southwark,ltla23,2021,Hindu,3445,1259,36.55,
+E09000028,Southwark,ltla23,2021,Jewish,1242,690,55.56,
+E09000028,Southwark,ltla23,2021,Muslim,29633,13818,46.63,
+E09000028,Southwark,ltla23,2021,No religion,111935,78846,70.44,
+E09000028,Southwark,ltla23,2021,Not answered,22338,13382,59.91,
+E09000028,Southwark,ltla23,2021,Other religion,2150,1250,58.14,
+E09000028,Southwark,ltla23,2021,Sikh,634,439,,n<1000
+E09000029,Sutton,ltla23,2021,Buddhist,1819,533,29.3,
+E09000029,Sutton,ltla23,2021,Christian,95960,69628,72.56,
+E09000029,Sutton,ltla23,2021,Does not apply,0,0,,n<1000
+E09000029,Sutton,ltla23,2021,Hindu,14666,4997,34.07,
+E09000029,Sutton,ltla23,2021,Jewish,407,325,,n<1000
+E09000029,Sutton,ltla23,2021,Muslim,14736,6240,42.35,
+E09000029,Sutton,ltla23,2021,No religion,67769,59300,87.5,
+E09000029,Sutton,ltla23,2021,Not answered,12588,9360,74.36,
+E09000029,Sutton,ltla23,2021,Other religion,1243,806,64.84,
+E09000029,Sutton,ltla23,2021,Sikh,447,259,,n<1000
+E09000030,Tower Hamlets,ltla23,2021,Buddhist,2961,811,27.39,
+E09000030,Tower Hamlets,ltla23,2021,Christian,69223,35508,51.3,
+E09000030,Tower Hamlets,ltla23,2021,Does not apply,0,0,,n<1000
+E09000030,Tower Hamlets,ltla23,2021,Hindu,6298,1344,21.34,
+E09000030,Tower Hamlets,ltla23,2021,Jewish,1339,833,62.21,
+E09000030,Tower Hamlets,ltla23,2021,Muslim,123911,67664,54.61,
+E09000030,Tower Hamlets,ltla23,2021,No religion,82638,46683,56.49,
+E09000030,Tower Hamlets,ltla23,2021,Not answered,21319,10803,50.67,
+E09000030,Tower Hamlets,ltla23,2021,Other religion,1653,736,44.53,
+E09000030,Tower Hamlets,ltla23,2021,Sikh,969,701,,n<1000
+E09000031,Waltham Forest,ltla23,2021,Buddhist,1832,716,39.08,
+E09000031,Waltham Forest,ltla23,2021,Christian,108632,59284,54.57,
+E09000031,Waltham Forest,ltla23,2021,Does not apply,0,0,,n<1000
+E09000031,Waltham Forest,ltla23,2021,Hindu,5158,2015,39.07,
+E09000031,Waltham Forest,ltla23,2021,Jewish,1271,1076,84.66,
+E09000031,Waltham Forest,ltla23,2021,Muslim,60157,32309,53.71,
+E09000031,Waltham Forest,ltla23,2021,No religion,77739,61365,78.94,
+E09000031,Waltham Forest,ltla23,2021,Not answered,19548,12067,61.73,
+E09000031,Waltham Forest,ltla23,2021,Other religion,2809,1410,50.2,
+E09000031,Waltham Forest,ltla23,2021,Sikh,1285,830,64.59,
+E09000032,Wandsworth,ltla23,2021,Buddhist,2276,679,29.83,
+E09000032,Wandsworth,ltla23,2021,Christian,139656,84009,60.15,
+E09000032,Wandsworth,ltla23,2021,Does not apply,0,0,,n<1000
+E09000032,Wandsworth,ltla23,2021,Hindu,6418,2250,35.06,
+E09000032,Wandsworth,ltla23,2021,Jewish,1753,1087,62.01,
+E09000032,Wandsworth,ltla23,2021,Muslim,32519,13299,40.9,
+E09000032,Wandsworth,ltla23,2021,No religion,118543,86240,72.75,
+E09000032,Wandsworth,ltla23,2021,Not answered,23502,14215,60.48,
+E09000032,Wandsworth,ltla23,2021,Other religion,1870,990,52.94,
+E09000032,Wandsworth,ltla23,2021,Sikh,967,555,,n<1000
+E09000033,Westminster,ltla23,2021,Buddhist,2603,520,19.98,
+E09000033,Westminster,ltla23,2021,Christian,76245,34420,45.14,
+E09000033,Westminster,ltla23,2021,Does not apply,0,0,,n<1000
+E09000033,Westminster,ltla23,2021,Hindu,4456,1155,25.92,
+E09000033,Westminster,ltla23,2021,Jewish,5628,3291,58.48,
+E09000033,Westminster,ltla23,2021,Muslim,40873,16883,41.31,
+E09000033,Westminster,ltla23,2021,No religion,52936,25406,47.99,
+E09000033,Westminster,ltla23,2021,Not answered,19179,8016,41.8,
+E09000033,Westminster,ltla23,2021,Other religion,1742,698,40.07,
+E09000033,Westminster,ltla23,2021,Sikh,573,313,,n<1000
+W06000001,Isle of Anglesey,ltla23,2021,Buddhist,153,108,,n<1000
+W06000001,Isle of Anglesey,ltla23,2021,Christian,35487,34376,96.87,
+W06000001,Isle of Anglesey,ltla23,2021,Does not apply,0,0,,n<1000
+W06000001,Isle of Anglesey,ltla23,2021,Hindu,62,21,,n<1000
+W06000001,Isle of Anglesey,ltla23,2021,Jewish,30,25,,n<1000
+W06000001,Isle of Anglesey,ltla23,2021,Muslim,328,122,,n<1000
+W06000001,Isle of Anglesey,ltla23,2021,No religion,28066,27357,97.47,
+W06000001,Isle of Anglesey,ltla23,2021,Not answered,4446,4290,96.49,
+W06000001,Isle of Anglesey,ltla23,2021,Other religion,277,265,,n<1000
+W06000001,Isle of Anglesey,ltla23,2021,Sikh,30,20,,n<1000
+W06000002,Gwynedd,ltla23,2021,Buddhist,426,266,,n<1000
+W06000002,Gwynedd,ltla23,2021,Christian,54250,51643,95.19,
+W06000002,Gwynedd,ltla23,2021,Does not apply,0,0,,n<1000
+W06000002,Gwynedd,ltla23,2021,Hindu,255,75,,n<1000
+W06000002,Gwynedd,ltla23,2021,Jewish,59,47,,n<1000
+W06000002,Gwynedd,ltla23,2021,Muslim,1138,337,29.61,
+W06000002,Gwynedd,ltla23,2021,No religion,51940,49986,96.24,
+W06000002,Gwynedd,ltla23,2021,Not answered,8512,7967,93.6,
+W06000002,Gwynedd,ltla23,2021,Other religion,767,692,,n<1000
+W06000002,Gwynedd,ltla23,2021,Sikh,46,21,,n<1000
+W06000003,Conwy,ltla23,2021,Buddhist,376,228,,n<1000
+W06000003,Conwy,ltla23,2021,Christian,58286,55164,94.64,
+W06000003,Conwy,ltla23,2021,Does not apply,0,0,,n<1000
+W06000003,Conwy,ltla23,2021,Hindu,253,75,,n<1000
+W06000003,Conwy,ltla23,2021,Jewish,62,51,,n<1000
+W06000003,Conwy,ltla23,2021,Muslim,843,347,,n<1000
+W06000003,Conwy,ltla23,2021,No religion,46946,45358,96.62,
+W06000003,Conwy,ltla23,2021,Not answered,7324,6963,95.07,
+W06000003,Conwy,ltla23,2021,Other religion,622,591,,n<1000
+W06000003,Conwy,ltla23,2021,Sikh,33,25,,n<1000
+W06000004,Denbighshire,ltla23,2021,Buddhist,319,171,,n<1000
+W06000004,Denbighshire,ltla23,2021,Christian,47226,44891,95.06,
+W06000004,Denbighshire,ltla23,2021,Does not apply,0,0,,n<1000
+W06000004,Denbighshire,ltla23,2021,Hindu,209,62,,n<1000
+W06000004,Denbighshire,ltla23,2021,Jewish,48,39,,n<1000
+W06000004,Denbighshire,ltla23,2021,Muslim,740,279,,n<1000
+W06000004,Denbighshire,ltla23,2021,No religion,40298,39244,97.38,
+W06000004,Denbighshire,ltla23,2021,Not answered,6456,6147,95.21,
+W06000004,Denbighshire,ltla23,2021,Other religion,483,444,,n<1000
+W06000004,Denbighshire,ltla23,2021,Sikh,38,28,,n<1000
+W06000005,Flintshire,ltla23,2021,Buddhist,398,221,,n<1000
+W06000005,Flintshire,ltla23,2021,Christian,79849,73453,91.99,
+W06000005,Flintshire,ltla23,2021,Does not apply,0,0,,n<1000
+W06000005,Flintshire,ltla23,2021,Hindu,321,103,,n<1000
+W06000005,Flintshire,ltla23,2021,Jewish,60,46,,n<1000
+W06000005,Flintshire,ltla23,2021,Muslim,739,282,,n<1000
+W06000005,Flintshire,ltla23,2021,No religion,62995,60990,96.82,
+W06000005,Flintshire,ltla23,2021,Not answered,10105,9410,93.12,
+W06000005,Flintshire,ltla23,2021,Other religion,473,430,,n<1000
+W06000005,Flintshire,ltla23,2021,Sikh,23,17,,n<1000
+W06000006,Wrexham,ltla23,2021,Buddhist,404,206,,n<1000
+W06000006,Wrexham,ltla23,2021,Christian,66880,60416,90.33,
+W06000006,Wrexham,ltla23,2021,Does not apply,0,0,,n<1000
+W06000006,Wrexham,ltla23,2021,Hindu,332,90,,n<1000
+W06000006,Wrexham,ltla23,2021,Jewish,51,44,,n<1000
+W06000006,Wrexham,ltla23,2021,Muslim,1538,576,37.45,
+W06000006,Wrexham,ltla23,2021,No religion,56479,54564,96.61,
+W06000006,Wrexham,ltla23,2021,Not answered,8841,8091,91.52,
+W06000006,Wrexham,ltla23,2021,Other religion,512,448,,n<1000
+W06000006,Wrexham,ltla23,2021,Sikh,77,39,,n<1000
+W06000008,Ceredigion,ltla23,2021,Buddhist,377,230,,n<1000
+W06000008,Ceredigion,ltla23,2021,Christian,33413,31269,93.58,
+W06000008,Ceredigion,ltla23,2021,Does not apply,0,0,,n<1000
+W06000008,Ceredigion,ltla23,2021,Hindu,159,57,,n<1000
+W06000008,Ceredigion,ltla23,2021,Jewish,77,52,,n<1000
+W06000008,Ceredigion,ltla23,2021,Muslim,515,146,,n<1000
+W06000008,Ceredigion,ltla23,2021,No religion,30745,29021,94.39,
+W06000008,Ceredigion,ltla23,2021,Not answered,5479,5025,91.71,
+W06000008,Ceredigion,ltla23,2021,Other religion,675,610,,n<1000
+W06000008,Ceredigion,ltla23,2021,Sikh,34,21,,n<1000
+W06000009,Pembrokeshire,ltla23,2021,Buddhist,460,298,,n<1000
+W06000009,Pembrokeshire,ltla23,2021,Christian,60174,57144,94.96,
+W06000009,Pembrokeshire,ltla23,2021,Does not apply,0,0,,n<1000
+W06000009,Pembrokeshire,ltla23,2021,Hindu,161,39,,n<1000
+W06000009,Pembrokeshire,ltla23,2021,Jewish,58,46,,n<1000
+W06000009,Pembrokeshire,ltla23,2021,Muslim,582,224,,n<1000
+W06000009,Pembrokeshire,ltla23,2021,No religion,52998,51226,96.66,
+W06000009,Pembrokeshire,ltla23,2021,Not answered,8144,7741,95.05,
+W06000009,Pembrokeshire,ltla23,2021,Other religion,746,679,,n<1000
+W06000009,Pembrokeshire,ltla23,2021,Sikh,32,9,,n<1000
+W06000010,Carmarthenshire,ltla23,2021,Buddhist,555,351,,n<1000
+W06000010,Carmarthenshire,ltla23,2021,Christian,89378,84060,94.05,
+W06000010,Carmarthenshire,ltla23,2021,Does not apply,0,0,,n<1000
+W06000010,Carmarthenshire,ltla23,2021,Hindu,417,141,,n<1000
+W06000010,Carmarthenshire,ltla23,2021,Jewish,103,89,,n<1000
+W06000010,Carmarthenshire,ltla23,2021,Muslim,1025,345,33.66,
+W06000010,Carmarthenshire,ltla23,2021,No religion,83409,81166,97.31,
+W06000010,Carmarthenshire,ltla23,2021,Not answered,11701,11131,95.13,
+W06000010,Carmarthenshire,ltla23,2021,Other religion,1129,1002,88.75,
+W06000010,Carmarthenshire,ltla23,2021,Sikh,177,100,,n<1000
+W06000011,Swansea,ltla23,2021,Buddhist,940,487,,n<1000
+W06000011,Swansea,ltla23,2021,Christian,98493,88776,90.13,
+W06000011,Swansea,ltla23,2021,Does not apply,0,0,,n<1000
+W06000011,Swansea,ltla23,2021,Hindu,1007,298,29.59,
+W06000011,Swansea,ltla23,2021,Jewish,159,95,,n<1000
+W06000011,Swansea,ltla23,2021,Muslim,7694,3137,40.77,
+W06000011,Swansea,ltla23,2021,No religion,112687,107713,95.59,
+W06000011,Swansea,ltla23,2021,Not answered,15985,14327,89.63,
+W06000011,Swansea,ltla23,2021,Other religion,1172,1002,85.49,
+W06000011,Swansea,ltla23,2021,Sikh,346,182,,n<1000
+W06000012,Neath Port Talbot,ltla23,2021,Buddhist,380,203,,n<1000
+W06000012,Neath Port Talbot,ltla23,2021,Christian,59974,57658,96.14,
+W06000012,Neath Port Talbot,ltla23,2021,Does not apply,0,0,,n<1000
+W06000012,Neath Port Talbot,ltla23,2021,Hindu,400,95,,n<1000
+W06000012,Neath Port Talbot,ltla23,2021,Jewish,32,25,,n<1000
+W06000012,Neath Port Talbot,ltla23,2021,Muslim,1063,482,45.34,
+W06000012,Neath Port Talbot,ltla23,2021,No religion,70944,69688,98.23,
+W06000012,Neath Port Talbot,ltla23,2021,Not answered,8715,8288,95.1,
+W06000012,Neath Port Talbot,ltla23,2021,Other religion,629,593,,n<1000
+W06000012,Neath Port Talbot,ltla23,2021,Sikh,151,83,,n<1000
+W06000013,Bridgend,ltla23,2021,Buddhist,398,228,,n<1000
+W06000013,Bridgend,ltla23,2021,Christian,58773,55367,94.2,
+W06000013,Bridgend,ltla23,2021,Does not apply,0,0,,n<1000
+W06000013,Bridgend,ltla23,2021,Hindu,340,103,,n<1000
+W06000013,Bridgend,ltla23,2021,Jewish,38,29,,n<1000
+W06000013,Bridgend,ltla23,2021,Muslim,799,408,,n<1000
+W06000013,Bridgend,ltla23,2021,No religion,76141,74536,97.89,
+W06000013,Bridgend,ltla23,2021,Not answered,8204,7838,95.54,
+W06000013,Bridgend,ltla23,2021,Other religion,692,661,,n<1000
+W06000013,Bridgend,ltla23,2021,Sikh,98,53,,n<1000
+W06000014,Vale of Glamorgan,ltla23,2021,Buddhist,419,238,,n<1000
+W06000014,Vale of Glamorgan,ltla23,2021,Christian,58235,54645,93.84,
+W06000014,Vale of Glamorgan,ltla23,2021,Does not apply,0,0,,n<1000
+W06000014,Vale of Glamorgan,ltla23,2021,Hindu,437,180,,n<1000
+W06000014,Vale of Glamorgan,ltla23,2021,Jewish,143,111,,n<1000
+W06000014,Vale of Glamorgan,ltla23,2021,Muslim,1206,598,49.59,
+W06000014,Vale of Glamorgan,ltla23,2021,No religion,63164,60750,96.18,
+W06000014,Vale of Glamorgan,ltla23,2021,Not answered,7544,7114,94.3,
+W06000014,Vale of Glamorgan,ltla23,2021,Other religion,641,590,,n<1000
+W06000014,Vale of Glamorgan,ltla23,2021,Sikh,146,89,,n<1000
+W06000015,Cardiff,ltla23,2021,Buddhist,1629,679,41.68,
+W06000015,Cardiff,ltla23,2021,Christian,138885,118483,85.31,
+W06000015,Cardiff,ltla23,2021,Does not apply,0,0,,n<1000
+W06000015,Cardiff,ltla23,2021,Hindu,5434,1664,30.62,
+W06000015,Cardiff,ltla23,2021,Jewish,690,547,,n<1000
+W06000015,Cardiff,ltla23,2021,Muslim,33648,15622,46.43,
+W06000015,Cardiff,ltla23,2021,No religion,155589,143646,92.32,
+W06000015,Cardiff,ltla23,2021,Not answered,22890,19154,83.68,
+W06000015,Cardiff,ltla23,2021,Other religion,2026,1606,79.27,
+W06000015,Cardiff,ltla23,2021,Sikh,1517,1059,69.81,
+W06000016,Rhondda Cynon Taf,ltla23,2021,Buddhist,588,291,,n<1000
+W06000016,Rhondda Cynon Taf,ltla23,2021,Christian,86473,82242,95.11,
+W06000016,Rhondda Cynon Taf,ltla23,2021,Does not apply,0,0,,n<1000
+W06000016,Rhondda Cynon Taf,ltla23,2021,Hindu,496,123,,n<1000
+W06000016,Rhondda Cynon Taf,ltla23,2021,Jewish,72,62,,n<1000
+W06000016,Rhondda Cynon Taf,ltla23,2021,Muslim,1378,477,34.62,
+W06000016,Rhondda Cynon Taf,ltla23,2021,No religion,133485,131094,98.21,
+W06000016,Rhondda Cynon Taf,ltla23,2021,Not answered,13825,13314,96.3,
+W06000016,Rhondda Cynon Taf,ltla23,2021,Other religion,1086,1022,94.11,
+W06000016,Rhondda Cynon Taf,ltla23,2021,Sikh,248,133,,n<1000
+W06000018,Caerphilly,ltla23,2021,Buddhist,322,201,,n<1000
+W06000018,Caerphilly,ltla23,2021,Christian,63998,61495,96.09,
+W06000018,Caerphilly,ltla23,2021,Does not apply,0,0,,n<1000
+W06000018,Caerphilly,ltla23,2021,Hindu,246,83,,n<1000
+W06000018,Caerphilly,ltla23,2021,Jewish,84,71,,n<1000
+W06000018,Caerphilly,ltla23,2021,Muslim,594,238,,n<1000
+W06000018,Caerphilly,ltla23,2021,No religion,99767,98205,98.43,
+W06000018,Caerphilly,ltla23,2021,Not answered,9966,9662,96.95,
+W06000018,Caerphilly,ltla23,2021,Other religion,765,711,,n<1000
+W06000018,Caerphilly,ltla23,2021,Sikh,209,106,,n<1000
+W06000019,Blaenau Gwent,ltla23,2021,Buddhist,119,80,,n<1000
+W06000019,Blaenau Gwent,ltla23,2021,Christian,24392,23252,95.33,
+W06000019,Blaenau Gwent,ltla23,2021,Does not apply,0,0,,n<1000
+W06000019,Blaenau Gwent,ltla23,2021,Hindu,74,33,,n<1000
+W06000019,Blaenau Gwent,ltla23,2021,Jewish,10,8,,n<1000
+W06000019,Blaenau Gwent,ltla23,2021,Muslim,286,104,,n<1000
+W06000019,Blaenau Gwent,ltla23,2021,No religion,37706,37181,98.61,
+W06000019,Blaenau Gwent,ltla23,2021,Not answered,3898,3769,96.69,
+W06000019,Blaenau Gwent,ltla23,2021,Other religion,309,285,,n<1000
+W06000019,Blaenau Gwent,ltla23,2021,Sikh,108,45,,n<1000
+W06000020,Torfaen,ltla23,2021,Buddhist,260,116,,n<1000
+W06000020,Torfaen,ltla23,2021,Christian,38326,36777,95.96,
+W06000020,Torfaen,ltla23,2021,Does not apply,0,0,,n<1000
+W06000020,Torfaen,ltla23,2021,Hindu,256,40,,n<1000
+W06000020,Torfaen,ltla23,2021,Jewish,14,11,,n<1000
+W06000020,Torfaen,ltla23,2021,Muslim,364,153,,n<1000
+W06000020,Torfaen,ltla23,2021,No religion,46872,46035,98.21,
+W06000020,Torfaen,ltla23,2021,Not answered,5631,5416,96.18,
+W06000020,Torfaen,ltla23,2021,Other religion,492,404,,n<1000
+W06000020,Torfaen,ltla23,2021,Sikh,60,36,,n<1000
+W06000021,Monmouthshire,ltla23,2021,Buddhist,339,215,,n<1000
+W06000021,Monmouthshire,ltla23,2021,Christian,45250,42776,94.53,
+W06000021,Monmouthshire,ltla23,2021,Does not apply,0,0,,n<1000
+W06000021,Monmouthshire,ltla23,2021,Hindu,200,52,,n<1000
+W06000021,Monmouthshire,ltla23,2021,Jewish,77,59,,n<1000
+W06000021,Monmouthshire,ltla23,2021,Muslim,435,183,,n<1000
+W06000021,Monmouthshire,ltla23,2021,No religion,40310,38661,95.91,
+W06000021,Monmouthshire,ltla23,2021,Not answered,5720,5384,94.13,
+W06000021,Monmouthshire,ltla23,2021,Other religion,519,457,,n<1000
+W06000021,Monmouthshire,ltla23,2021,Sikh,101,55,,n<1000
+W06000022,Newport,ltla23,2021,Buddhist,481,256,,n<1000
+W06000022,Newport,ltla23,2021,Christian,68287,58916,86.28,
+W06000022,Newport,ltla23,2021,Does not apply,0,0,,n<1000
+W06000022,Newport,ltla23,2021,Hindu,760,201,,n<1000
+W06000022,Newport,ltla23,2021,Jewish,90,71,,n<1000
+W06000022,Newport,ltla23,2021,Muslim,11280,6310,55.94,
+W06000022,Newport,ltla23,2021,No religion,68562,65797,95.97,
+W06000022,Newport,ltla23,2021,Not answered,8976,7821,87.13,
+W06000022,Newport,ltla23,2021,Other religion,736,580,,n<1000
+W06000022,Newport,ltla23,2021,Sikh,414,221,,n<1000
+W06000023,Powys,ltla23,2021,Buddhist,593,360,,n<1000
+W06000023,Powys,ltla23,2021,Christian,65134,62013,95.21,
+W06000023,Powys,ltla23,2021,Does not apply,0,0,,n<1000
+W06000023,Powys,ltla23,2021,Hindu,307,80,,n<1000
+W06000023,Powys,ltla23,2021,Jewish,81,65,,n<1000
+W06000023,Powys,ltla23,2021,Muslim,462,165,,n<1000
+W06000023,Powys,ltla23,2021,No religion,55970,54037,96.55,
+W06000023,Powys,ltla23,2021,Not answered,9611,9138,95.08,
+W06000023,Powys,ltla23,2021,Other religion,935,806,,n<1000
+W06000023,Powys,ltla23,2021,Sikh,72,47,,n<1000
+W06000024,Merthyr Tydfil,ltla23,2021,Buddhist,127,66,,n<1000
+W06000024,Merthyr Tydfil,ltla23,2021,Christian,23614,21455,90.86,
+W06000024,Merthyr Tydfil,ltla23,2021,Does not apply,0,0,,n<1000
+W06000024,Merthyr Tydfil,ltla23,2021,Hindu,110,16,,n<1000
+W06000024,Merthyr Tydfil,ltla23,2021,Jewish,5,5,,n<1000
+W06000024,Merthyr Tydfil,ltla23,2021,Muslim,289,124,,n<1000
+W06000024,Merthyr Tydfil,ltla23,2021,No religion,31324,30776,98.25,
+W06000024,Merthyr Tydfil,ltla23,2021,Not answered,3061,2861,93.47,
+W06000024,Merthyr Tydfil,ltla23,2021,Other religion,230,211,,n<1000
+W06000024,Merthyr Tydfil,ltla23,2021,Sikh,82,40,,n<1000

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Islam in Britain — Census Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=1786794106">
+</head>
+<body>
+
+<header id="topbar">
+  <div class="brand">
+    <h1>Islam in Britain</h1>
+    <span class="sub">Census 2021 · local authority district · England &amp; Wales</span>
+  </div>
+  <div class="controls">
+    <label class="ctl">
+      <span>Metric</span>
+      <select id="metric"></select>
+    </label>
+    <label class="ctl">
+      <span>Render</span>
+      <div class="segmented" id="render">
+        <button data-mode="choropleth" class="on">Choropleth</button>
+        <button data-mode="dots">Dot density</button>
+        <button data-mode="heat">Heat</button>
+      </div>
+    </label>
+  </div>
+</header>
+
+<main>
+  <aside id="rail">
+    <div class="rail-head">
+      <h2>Filters</h2>
+      <button id="reset" title="Clear all filters">Reset</button>
+    </div>
+    <p class="rail-note">Districts outside the ranges dim rather than disappear, so
+      the spatial context survives.</p>
+    <div id="sliders"></div>
+    <div class="rail-foot">
+      <div class="count"><strong id="shown">318</strong> of 318 districts</div>
+    </div>
+  </aside>
+
+  <div id="stage">
+    <div id="mapwrap">
+      <canvas id="dots"></canvas>
+      <svg id="map"></svg>
+      <div id="legend"></div>
+      <div id="zoomctl">
+        <button data-z="1.6">+</button>
+        <button data-z="0.625">−</button>
+        <button data-z="reset" title="Reset view">⟲</button>
+      </div>
+    </div>
+    <div id="scrubber">
+      <span class="scrub-label">Census</span>
+      <div class="segmented" id="period">
+        <button data-period="2011">2011</button>
+        <button data-period="2021" class="on">2021</button>
+      </div>
+      <div id="basis">
+        <span class="scrub-label">Share basis</span>
+        <div class="segmented" id="basisbtn">
+          <button data-basis="sr" class="on">Respondents</button>
+          <button data-basis="sa">All residents</button>
+        </div>
+      </div>
+      <p class="method" id="method"></p>
+    </div>
+  </div>
+
+  <aside id="panel" class="empty">
+    <div id="panel-body"></div>
+  </aside>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="app.js?v=1786794106"></script>
+</body>
+</html>
