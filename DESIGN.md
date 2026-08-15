@@ -138,6 +138,62 @@ means nothing until it sits next to "40."
 
 ---
 
+## Navigation model: how three phases share one screen
+
+The three phases are three *subjects*, and they differ on every axis that
+matters:
+
+| | Subject | Geometry | Time | Reliability |
+|---|---|---|---|---|
+| Phase 1 | people | district areas | decennial | near-complete |
+| Phase 2 | buildings | points | no clean series | undercounts, unevenly |
+| Phase 3 | events | points | continuous | flaky feed, fuzzy text |
+
+Adding provision and activity metrics to the Phase 1 metric list would not just
+crowd it, it would be a category error: "Muslims per mosque" is not an
+alternative to "Median age". So the UI is organised around **lenses**.
+
+- **Lens** (People / Provision / Activity) reconfigures the metric list, which
+  filter group is open, the time axis, and the default panel tab. It swaps the
+  workspace rather than adding to it, so the visible control count stays flat.
+- **Selection and filters persist across lenses.** Filter to districts above 20%
+  share in People, switch to Provision, and the filter still applies to the same
+  selected district. That persistence is what makes this one tool instead of
+  three, and it is what makes cross-subject questions answerable.
+- **Point data are overlays, not lens-exclusive.** Mosques and applications
+  toggle independently in *any* lens, following the asylum map's marker
+  precedent — visually distinct, never blended into the choropleth. This matters
+  because mosque points over the demographic choropleth is likely the most
+  useful single view in the product, and a lens-exclusive design would make it
+  impossible to construct.
+- **The detail panel is where the subjects actually meet**, tabbed
+  Demography / Provision / Activity with a sticky header carrying district name,
+  population and Muslim count. The map can only show one variable; the panel can
+  show all three for one district.
+- **Two time axes, deliberately not unified.** Census years for People and
+  Provision, a rolling month window for Activity. One scrubber that means
+  "census year" sometimes and "month" other times is worse than two controls.
+
+Lenses without data ship visible but inert, with an empty state naming the
+source that will fill them — the structure gets proven before the data lands.
+
+### Reliability has to be visible without more chrome
+
+Census is near-complete; mosque registers undercount unevenly; planning
+classification is fuzzy. Rather than a second legend, one reused convention: a
+hatch on any choropleth derived from an incomplete register, and a source-tier
+chip (`register` / `OSM` / `directory`) on panel figures.
+
+### There is no reliable mosque stock time series
+
+Registers do not publish clean historical snapshots, so a count difference
+between two register pulls would mostly measure changes in *registration
+behaviour*. What is honestly measurable is flow: planning outcomes over time.
+"Change" in the Provision lens is therefore cumulative planning outcomes,
+labelled as such — never a stock delta presented as one.
+
+---
+
 ## Phase 1 — Verified Census Map
 
 **Goal:** A working map on census data alone, England, Wales and Scotland at

@@ -100,6 +100,18 @@ cd web && python3 -m http.server 8777
 
 Then open <http://localhost:8777>. Static files only — no build step.
 
+**Three lenses** — People, Provision, Activity — because the project covers three
+subjects that differ in geometry, time axis and reliability. A lens swaps the
+metric list, the open filter group, the time axis and the panel tab rather than
+adding controls, so the interface does not grow as phases land. Selection and
+filters persist across lenses. Provision and Activity are visible but inert
+until Phase 2/3 data is ingested; their empty states name the source that will
+fill them. Keys `1` / `2` / `3` switch lens.
+
+**Overlays** (mosque points, planning applications) are available in *every*
+lens rather than locked to one — mosque points over the demographic choropleth
+is the view worth building the whole thing for.
+
 **Three renders**, because a choropleth alone misleads here: it shades land, and
 English districts vary enormously in physical size, so sparse rural areas read
 as significant and dense urban ones vanish.
@@ -121,10 +133,12 @@ the ranges dim rather than vanish, so spatial context survives.
 **Scrubber** — 2011 / 2021. Only population and Muslim count/share have a 2011
 equivalent; other metrics say so rather than silently showing 2021 data.
 
-**Detail panel** — count, both share bases, non-response, change in both pp and
-relative terms, median age / under-16 / UK-born each against its national
-baseline, ethnic composition of the district's Muslim population, all religions
-as a stacked bar, and the source table for every figure.
+**Detail panel** — tabbed Demography / Provision / Activity with a sticky header
+so switching tab never loses the district. Demography carries count, both share
+bases, non-response, change in both pp and relative terms, median age /
+under-16 / UK-born each against its national baseline, ethnic composition of the
+district's Muslim population, all religions as a stacked bar, and the source
+table for every figure.
 
 ## Layout
 
