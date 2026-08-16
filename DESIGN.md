@@ -1,6 +1,6 @@
 # Design: Islam in Britain — Interactive Census Map
 
-Status: DRAFT — Phase 1 built (ingestion + map); Phases 2 and 3 not started
+Status: DRAFT — initial working build; all three phases ingested and live
 Owner: Matthias
 Type: Personal project, intended as a public journalism/civic-tech tool
 Sibling project: `mer2-scatter-map` (UK Asylum Dispersal Situation Map) — shares
@@ -174,8 +174,9 @@ alternative to "Median age". So the UI is organised around **lenses**.
   Provision, a rolling month window for Activity. One scrubber that means
   "census year" sometimes and "month" other times is worse than two controls.
 
-Lenses without data ship visible but inert, with an empty state naming the
-source that will fill them — the structure gets proven before the data lands.
+All three lenses now carry data. Provision is an OpenStreetMap floor rather than
+a register, and Activity is a periodic snapshot rather than a live feed; both
+say so in the interface rather than in a footnote.
 
 ### Reliability has to be visible without more chrome
 

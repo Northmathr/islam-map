@@ -1,12 +1,12 @@
 # islam-census-map
 
 Interactive census map of the Muslim population of Britain: where it is, how it
-has changed since 2011, how old it is, where it was born, and (later) how mosque
-provision tracks against it. Local authority district level, England and Wales
+has changed since 2011, how old it is, where it was born, how mosque provision
+tracks against it, and what is currently in planning. Local authority district level, England and Wales
 so far. See [DESIGN.md](DESIGN.md) for the full design.
 
-**Status:** Phase 1 complete — ingestion and map. Phases 2 (mosque provision) and
-3 (planning applications) not started.
+**Status:** Initial working build. All three phases ingested and live —
+census demography, mosque provision, and planning applications.
 
 ## Two things to know before reading the numbers
 
@@ -37,6 +37,19 @@ and looks exactly like disclosure blocking.
 - **Religion × age**, 2021, custom-dataset API `resident_age_23a` — 23 bands,
   preferred over Nomis RM118's 9. Under-16 share is exact; median age is
   interpolated within the containing band and labelled as banded-derived.
+- **Places of worship**, OpenStreetMap via Overpass — every faith from the same
+  query, which is what makes the provision ratio meaningful. **A floor, not a
+  register**: 1,336 mosques and 35,737 churches placed, against a commonly cited
+  UK mosque estimate nearer 1,800, so coverage is roughly three quarters and the
+  undercount is not uniform across faiths. Every row carries `source_tier`.
+- **Planning applications**, PlanIt aggregation of local planning authority
+  registers — 677 applications since 2014 across 127 districts. Ingested to a
+  local snapshot on demand; the map never reads the feed live, because it is not
+  reliable enough to sit in the render path.
+
+Points from both are placed into districts by **point-in-polygon on coordinates**
+(`ingest/geo.py`), never by the name the source supplies — PlanIt's `area_name`
+is the planning authority, which is not always the district.
 
 Disclosure control perturbs individual cells, so reconciliation checks assert a
 small tolerance rather than equality — summing the 318 districts gives a 2021
@@ -52,6 +65,25 @@ population of 59,597,567 against a published 59,597,540.
 | UK-born | 51.0% | 83.6% | 92.0% |
 
 Change 2011→2021: 2,706,066 → 3,868,130, up 1,162,064 (+42.9%).
+
+**Provision**, England & Wales: 2,944 Muslims per mosque against 821 Christians
+per church. Both from the same OSM query, both undercounts.
+
+**Planning**, 677 applications since 2014:
+
+| Kind | n |
+|---|---|
+| New build or replacement | 206 |
+| Conditions / amendments *(excluded from net)* | 119 |
+| Extension / alteration | 105 |
+| Change of use to worship | 101 |
+| Other / unclassified | 72 |
+| Change of use away from worship | 49 |
+| Demolition without replacement | 25 |
+
+500 approved, 64 pending, 57 withdrawn, 56 refused. 595 of 677 matched the
+search in the description rather than only the address; the weaker matches are
+rendered faded and flagged in the panel.
 
 ## Run
 
@@ -74,7 +106,17 @@ cd ingest && ../.venv/bin/python fetch_age.py
 cd ingest && ../.venv/bin/python fetch_religion_cob.py
 ```
 
-Each script prints its reconciliation check and exits non-zero if a national
+```bash
+cd ingest && ../.venv/bin/python fetch_mosques.py
+```
+
+```bash
+cd ingest && ../.venv/bin/python fetch_planning.py
+```
+
+Overpass responses are cached under `ingest/.overpass_cache/`, so a run
+interrupted by a 504 resumes rather than refetching. Delete it to force a
+refresh. Each census script prints its reconciliation check and exits non-zero if a national
 total drifts outside tolerance.
 
 ## Output
@@ -88,6 +130,10 @@ Written to `data/`:
 | `age_by_religion_ltla23.csv` | Median age and under-16 share per district per faith |
 | `religion_cob_ltla23.csv` | Religion × country of birth, 8 world regions |
 | `uk_born_share_ltla23.csv` | Derived UK-born share per district per faith |
+| `places_of_worship.csv` | Every mapped place of worship with faith, coordinates and source tier |
+| `provision_ltla23.csv` | Counts per district per faith |
+| `planning_applications.csv` | Every application with kind, status, confidence and link |
+| `planning_ltla23.csv` | Per-district planning rollup |
 
 Rates are suppressed where the population is under 1,000, and for the Isles of
 Scilly and City of London, which are too small for a meaningful rate.
@@ -104,13 +150,13 @@ Then open <http://localhost:8777>. Static files only — no build step.
 subjects that differ in geometry, time axis and reliability. A lens swaps the
 metric list, the open filter group, the time axis and the panel tab rather than
 adding controls, so the interface does not grow as phases land. Selection and
-filters persist across lenses. Provision and Activity are visible but inert
-until Phase 2/3 data is ingested; their empty states name the source that will
-fill them. Keys `1` / `2` / `3` switch lens.
+filters persist across lenses.
+Keys `1` / `2` / `3` switch lens.
 
-**Overlays** (mosque points, planning applications) are available in *every*
-lens rather than locked to one — mosque points over the demographic choropleth
-is the view worth building the whole thing for.
+**Overlays** — mosque points and planning applications — are available in *every*
+lens rather than locked to one, so mosque provision can be read directly against
+the demographic choropleth. Applications are drawn as diamonds coloured by
+status, faded where the search matched only the address.
 
 **Three renders**, because a choropleth alone misleads here: it shades land, and
 English districts vary enormously in physical size, so sparse rural areas read
@@ -130,8 +176,10 @@ people live and coloured by a district-level figure.
 change since 2011, median age, UK-born share and non-response. Districts outside
 the ranges dim rather than vanish, so spatial context survives.
 
-**Scrubber** — 2011 / 2021. Only population and Muslim count/share have a 2011
-equivalent; other metrics say so rather than silently showing 2021 data.
+**Two time axes.** People and Provision use the 2011 / 2021 census toggle — only
+population and Muslim count/share have a 2011 equivalent. Activity uses a rolling
+12 / 24 / 60-month window over the planning snapshot, aggregated in the browser
+so the control is live.
 
 **Detail panel** — tabbed Demography / Provision / Activity with a sticky header
 so switching tab never loses the district. Demography carries count, both share
@@ -147,8 +195,9 @@ ingest/
   http_util.py   HTTP with certifi (mirrors mer2-scatter-map)
   nomis.py       Nomis bulk tables, verified dataset IDs, paging
   ons_api.py     ONS custom-dataset API — paging, blocked-area reporting
-  arcgis.py      ONS Open Geography FeatureServer paging
   lgr.py         Local government reorganisation successor map
+  geo.py         Point-in-polygon assignment of points to districts
+  arcgis.py      ONS Open Geography FeatureServer paging
   fetch_*.py     One script per source
   build_web_data.py  Merges the CSVs into web/data/districts.json
 data/            CSV output
@@ -158,7 +207,7 @@ web/             The map — index.html, app.js, style.css, data/
 Rebuild the whole thing:
 
 ```bash
-cd ingest && for s in religion age religion_cob ethnicity geography; do ../.venv/bin/python fetch_$s.py; done && ../.venv/bin/python build_web_data.py
+cd ingest && for s in religion age religion_cob ethnicity geography mosques planning; do ../.venv/bin/python fetch_$s.py; done && ../.venv/bin/python build_web_data.py
 ```
 
 ## Related

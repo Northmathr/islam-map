@@ -76,11 +76,6 @@ select {
 }
 select:focus-visible, button:focus-visible { outline: 1px solid var(--accent); }
 
-/* lens buttons carry a dot when the lens has no data yet */
-#lens button .dot, #panel-tabs button .dot {
-  display: inline-block; width: 4px; height: 4px; border-radius: 50%;
-  background: var(--warn); margin-left: 6px; vertical-align: middle; opacity: .8;
-}
 
 .chips { display: flex; gap: 6px; }
 .chip {
@@ -94,11 +89,6 @@ select:focus-visible, button:focus-visible { outline: 1px solid var(--accent); }
 }
 .chip.on { border-color: var(--accent-dim); color: var(--ink); }
 .chip.on .sw { background: var(--accent); border-color: var(--accent); }
-.chip.pending { opacity: .5; cursor: not-allowed; }
-.chip em, .soon {
-  font-style: normal; font-family: var(--mono); font-size: 8.5px;
-  letter-spacing: .06em; text-transform: uppercase; color: var(--warn); opacity: .85;
-}
 
 .segmented { display: flex; border: 1px solid var(--line); border-radius: 3px; overflow: hidden; }
 .segmented button {
@@ -160,10 +150,8 @@ main {
   margin-left: auto; font-family: var(--mono); font-size: 9px;
   background: var(--accent-dim); color: #eafffe; border-radius: 8px; padding: 1px 6px;
 }
-.group-head .soon { margin-left: auto; }
 .group-body { display: none; padding: 2px 16px 10px; }
 .group.open .group-body { display: block; }
-.pending-note { margin: 0; font-size: 11px; line-height: 1.5; color: var(--ink-faint); }
 
 .slider { margin-bottom: 16px; }
 .slider .head {
@@ -214,25 +202,6 @@ main {
 
 #mapwrap { position: relative; flex: 1; overflow: hidden; }
 
-/* empty state for a lens whose data has not been ingested */
-#empty-state {
-  position: absolute; inset: 0; z-index: 4;
-  display: flex; align-items: center; justify-content: center;
-  background: rgba(8,10,14,.55); backdrop-filter: blur(1.5px);
-  pointer-events: none;
-}
-.es-card {
-  max-width: 400px; padding: 18px 20px; pointer-events: auto;
-  background: var(--bg-raised); border: 1px solid var(--line);
-  border-left: 2px solid var(--warn); border-radius: 4px;
-}
-.es-card h3 { margin: 0 0 8px; font-size: 13px; font-weight: 600; color: var(--warn); }
-.es-card p { margin: 0 0 8px; font-size: 11.5px; line-height: 1.55; color: var(--ink-dim); }
-.es-foot { color: var(--ink-faint) !important; font-size: 10.5px !important;
-  border-top: 1px solid var(--line-soft); padding-top: 7px; margin-bottom: 0 !important; }
-
-/* a pending lens keeps the geography readable but visibly inert */
-#map.pending .district { fill: #10151c !important; }
 #map, #dots { position: absolute; inset: 0; width: 100%; height: 100%; }
 /* dots sit above the district fills (which are opaque) but stay click-through,
    so the SVG underneath still receives selection */
@@ -412,3 +381,53 @@ main {
 @media (max-width: 700px) {
   .brand { display: none; }
 }
+
+/* ---------- provision + activity ---------- */
+
+/* provision is derived from an incomplete register, so its choropleth is
+   hatched — one reused convention rather than a second legend */
+#mapwrap:has(#map.derived)::after {
+  content: ""; position: absolute; inset: 0; z-index: 3; pointer-events: none;
+  background: repeating-linear-gradient(45deg,
+    rgba(255,255,255,.014) 0 1px, transparent 1px 9px);
+}
+
+.tier {
+  font-family: var(--mono); font-size: 8.5px; letter-spacing: .07em;
+  text-transform: uppercase; color: var(--warn); opacity: .85;
+  border: 1px solid rgba(224,160,58,.35); border-radius: 2px;
+  padding: 1px 4px; margin-left: 6px;
+}
+#legend .ln.tier {
+  display: block; border: 0; padding: 0; margin-left: 0; margin-top: 7px;
+  text-transform: none; letter-spacing: 0; font-size: 10px; opacity: 1;
+}
+#legend .k-mq, #legend .k-app {
+  display: inline-block; width: 7px; height: 7px; margin-right: 4px;
+  vertical-align: middle;
+}
+#legend .k-mq { border-radius: 50%; background: #fff4d6; }
+#legend .k-app { transform: rotate(45deg); }
+
+.apps { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
+.app {
+  border: 1px solid var(--line-soft); border-radius: 3px;
+  padding: 8px 9px; background: rgba(255,255,255,.012);
+}
+.app-top { display: flex; align-items: center; gap: 7px; margin-bottom: 5px; }
+.app-date { font-family: var(--mono); font-size: 10px; color: var(--ink-faint); }
+.pill {
+  font-family: var(--mono); font-size: 9px; letter-spacing: .05em;
+  text-transform: uppercase; border-radius: 2px; padding: 1px 5px;
+}
+.pill.weak {
+  background: none; border: 1px solid var(--line);
+  color: var(--ink-faint); margin-left: auto;
+}
+.app-kind { font-size: 11px; color: var(--ink-dim); margin-bottom: 3px; }
+.app-desc { font-size: 11px; line-height: 1.45; color: var(--ink-faint); }
+.app-link {
+  display: inline-block; margin-top: 6px; font-size: 10.5px;
+  color: var(--accent); text-decoration: none;
+}
+.app-link:hover { text-decoration: underline; }
