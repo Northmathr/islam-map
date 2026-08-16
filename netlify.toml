@@ -1,0 +1,21 @@
+# The repo root holds the ingest pipeline, the raw CSVs and the design docs.
+# Only web/ is the site — deploying from the root publishes 30-odd files with no
+# index.html at the top level, which is a "successful" deploy of nothing.
+[build]
+  publish = "web"
+  # Stamp asset URLs with the commit SHA so browsers never mix old and new files
+  command = 'sed -i "s/__BUILD__/${COMMIT_REF:0:12}/g" web/index.html'
+
+# The JSON payloads are regenerated whenever the pipeline re-runs, and a stale
+# districts.json fails as a missing key deep inside a render rather than as an
+# obvious load error. Revalidate rather than serve blind from cache.
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
