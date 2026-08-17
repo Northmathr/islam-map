@@ -3,86 +3,71 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Islam in Britain — Census Map</title>
+<title>Mosques in England &amp; Wales</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=__BUILD__">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=1786990186">
+<script>
+  // set the theme before first paint so there is no flash of the wrong palette
+  document.documentElement.dataset.theme =
+    localStorage.getItem("theme") ||
+    (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+</script>
 </head>
 <body>
 
 <header id="topbar">
   <div class="brand">
-    <h1>Islam in Britain</h1>
-    <span class="sub">Census 2021 · local authority district · England &amp; Wales</span>
+    <h1>Mosques in England &amp; Wales</h1>
+    <p class="sub">Where they are, how the number has changed, and what is in planning</p>
   </div>
-  <div class="controls">
-    <label class="ctl">
-      <span>Lens</span>
-      <div class="segmented" id="lens"></div>
-    </label>
-    <label class="ctl">
-      <span>Show</span>
-      <div class="chips" id="overlays"></div>
-    </label>
-  </div>
+  <button id="theme" aria-label="Switch between light and dark"><span></span></button>
 </header>
 
-<main>
-  <aside id="rail">
-    <div class="rail-head">
-      <h2>Filters</h2>
-      <button id="reset" title="Clear all filters">Reset</button>
-    </div>
-    <p class="rail-note">Districts outside the ranges dim rather than disappear.
-      Filters persist when you change lens.</p>
-    <div id="sliders"></div>
-    <div class="rail-foot">
-      <div class="count"><strong id="shown">318</strong> of 318 districts</div>
-    </div>
-  </aside>
+<section id="stats"></section>
 
+<main>
   <div id="stage">
     <div id="maptools">
       <label class="ctl">
-        <span>Metric</span>
+        <span>Colour the map by</span>
         <select id="metric"></select>
       </label>
-      <label class="ctl">
-        <span>Render</span>
-        <div class="segmented" id="render">
-          <button data-mode="choropleth" class="on">Choropleth</button>
-          <button data-mode="dots">Dot density</button>
-          <button data-mode="heat">Heat</button>
-        </div>
-      </label>
+      <div class="ctl">
+        <span>Show on the map</span>
+        <div class="chips" id="overlays"></div>
+      </div>
     </div>
 
     <div id="mapwrap">
       <canvas id="dots"></canvas>
       <svg id="map"></svg>
-      <div id="empty-state" hidden></div>
       <div id="legend"></div>
       <div id="zoomctl">
-        <button data-z="1.6">+</button>
-        <button data-z="0.625">−</button>
-        <button data-z="reset" title="Reset view">⟲</button>
+        <button data-z="1.6" aria-label="Zoom in">+</button>
+        <button data-z="0.625" aria-label="Zoom out">−</button>
+        <button data-z="reset" aria-label="Reset view">⟲</button>
       </div>
     </div>
 
-    <div id="scrubber">
-      <div id="timeaxis"></div>
-      <p class="method" id="method"></p>
+    <div id="timebar">
+      <button id="play" aria-label="Play through the years">▶</button>
+      <div class="track-wrap">
+        <input type="range" id="year" step="1">
+        <div id="ticks"></div>
+      </div>
+      <output id="yearlabel"></output>
     </div>
+    <p class="method" id="method"></p>
   </div>
 
   <aside id="panel" class="empty">
-    <div id="panel-head"></div>
-    <div id="panel-tabs"></div>
     <div id="panel-body"></div>
   </aside>
 </main>
 
 <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-<script src="app.js?v=__BUILD__"></script>
+<script src="app.js?v=1786990186"></script>
 </body>
 </html>

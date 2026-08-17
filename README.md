@@ -1,21 +1,26 @@
 # islam-census-map
 
-Interactive census map of the Muslim population of Britain: where it is, how it
-has changed since 2011, how old it is, where it was born, how mosque provision
-tracks against it, and what is currently in planning. Local authority district level, England and Wales
-so far. See [DESIGN.md](DESIGN.md) for the full design.
+**Mosques in England &amp; Wales** — an interactive map answering three counting
+questions:
 
-**Status:** Initial working build. All three phases ingested and live —
-census demography, mosque provision, and planning applications.
+1. **How many mosques are there, and where?**
+2. **How has that changed over time?**
+3. **What is in planning now?**
+
+Census population sits underneath as context. Local authority district level.
+See [DESIGN.md](DESIGN.md) for the full design.
+
+**Status:** Working build, reframed around the three questions above. One map
+render, raw counts, a year slider, light and dark themes.
 
 ## Two things to know before reading the numbers
 
-**Shares are computed against those who answered the religion question**, not
-all residents. Religion is the census's only voluntary question and roughly 6%
-skipped it. Both bases are in the output, because they differ by enough to
-matter — nationally 6.49% (all residents) vs 6.91% (respondents), and the gap is
-widest in the highest-share districts (Tower Hamlets 39.9% → 42.9%). Anything
-user-facing shows both.
+**The interface shows raw counts, not shares.** The question is "how many", and
+percentage-of-respondents versus percentage-of-all-residents answered a question
+nobody was asking while doubling the ways to misread the map. Both bases are
+still computed in `data/religion_ltla23.csv` for anyone doing analysis — they
+differ by enough to matter (nationally 6.49% vs 6.91%) — they are just not the
+product.
 
 **Join on GSS code, never on name.** Nomis and the ONS custom-dataset API use
 different names for the same districts — "Bristol, City of" vs "Bristol",
@@ -43,9 +48,11 @@ and looks exactly like disclosure blocking.
   UK mosque estimate nearer 1,800, so coverage is roughly three quarters and the
   undercount is not uniform across faiths. Every row carries `source_tier`.
 - **Planning applications**, PlanIt aggregation of local planning authority
-  registers — 677 applications since 2014 across 127 districts. Ingested to a
-  local snapshot on demand; the map never reads the feed live, because it is not
-  reliable enough to sit in the render path.
+  registers — **1,668 applications since 2000 across 162 districts**. Ingested
+  to a local snapshot; the map never reads the feed live, because it is not
+  reliable enough to sit in the render path. Coverage improves over time, so
+  earlier years are thinner as a matter of record-keeping rather than activity —
+  the map says so rather than implying a trend.
 
 Points from both are placed into districts by **point-in-polygon on coordinates**
 (`ingest/geo.py`), never by the name the source supplies — PlanIt's `area_name`
@@ -69,21 +76,21 @@ Change 2011→2021: 2,706,066 → 3,868,130, up 1,162,064 (+42.9%).
 **Provision**, England & Wales: 2,944 Muslims per mosque against 821 Christians
 per church. Both from the same OSM query, both undercounts.
 
-**Planning**, 677 applications since 2014:
+**Planning**, 1,668 applications since 2000:
 
 | Kind | n |
 |---|---|
-| New build or replacement | 206 |
-| Conditions / amendments *(excluded from net)* | 119 |
-| Extension / alteration | 105 |
-| Change of use to worship | 101 |
-| Other / unclassified | 72 |
-| Change of use away from worship | 49 |
-| Demolition without replacement | 25 |
+| New build or replacement | 541 |
+| Change of use to worship | 313 |
+| Extension / alteration *(does not change the count)* | 259 |
+| Conditions / amendments *(does not change the count)* | 199 |
+| Other / unclassified | 191 |
+| Change of use away from worship | 108 |
+| Demolition without replacement | 57 |
 
-500 approved, 64 pending, 57 withdrawn, 56 refused. 595 of 677 matched the
-search in the description rather than only the address; the weaker matches are
-rendered faded and flagged in the panel.
+1,203 approved, 214 refused, 178 withdrawn, 73 awaiting a decision. Net effect
+of approved decisions: **+503 mosques**. 1,442 of 1,668 matched the search in
+the description rather than only the address.
 
 ## Run
 
@@ -146,47 +153,30 @@ cd web && python3 -m http.server 8777
 
 Then open <http://localhost:8777>. Static files only — no build step.
 
-**Three lenses** — People, Provision, Activity — because the project covers three
-subjects that differ in geometry, time axis and reliability. A lens swaps the
-metric list, the open filter group, the time axis and the panel tab rather than
-adding controls, so the interface does not grow as phases land. Selection and
-filters persist across lenses.
-Keys `1` / `2` / `3` switch lens.
+**Three headline figures** across the top answer the three questions directly
+and update with the year slider.
 
-**Overlays** — mosque points and planning applications — are available in *every*
-lens rather than locked to one, so mosque provision can be read directly against
-the demographic choropleth. Applications are drawn as diamonds coloured by
-status, faded where the search matched only the address.
+**Light and dark themes**, following the system setting and remembered per
+browser. Warm paper base, serif headings, one restrained accent — a research
+publication rather than an operations console.
 
-**Three renders**, because a choropleth alone misleads here: it shades land, and
-English districts vary enormously in physical size, so sparse rural areas read
-as significant and dense urban ones vanish.
+**A year slider, 2000–2026**, with a play button. It drives the planning
+series: applications that year, and the running total of approved mosque gains.
+Arrow keys step a year at a time.
 
-- **Choropleth** — the conventional view, kept for familiarity.
-- **Dot density** — one dot ≈ 150 people, placed against LSOA
-  population-weighted centroids so marks land where people actually live. This
-  is the honest default.
-- **Heat** — the same surface, smoothed.
+**One render — choropleth.** Dot density and heat were removed along with the
+lens switcher: with the scope narrowed to counting mosques, they were options
+rather than answers.
 
-Dot placement uses sub-district *population* only. No religion data below
-district level is fetched, stored, or shipped; dots are positioned by where
-people live and coloured by a district-level figure.
+**Two overlays**, both on by default: every mapped mosque, and planning
+applications coloured by decision. Applications accumulate up to the selected
+year, with that year's highlighted.
 
-**Filter rail** — dual-handle ranges over population, Muslim population, share,
-change since 2011, median age, UK-born share and non-response. Districts outside
-the ranges dim rather than vanish, so spatial context survives.
-
-**Two time axes.** People and Provision use the 2011 / 2021 census toggle — only
-population and Muslim count/share have a 2011 equivalent. Activity uses a rolling
-12 / 24 / 60-month window over the planning snapshot, aggregated in the browser
-so the control is live.
-
-**Detail panel** — tabbed Demography / Provision / Activity with a sticky header
-so switching tab never loses the district. Demography carries count, both share
-bases, non-response, change in both pp and relative terms, median age /
-under-16 / UK-born each against its national baseline, ethnic composition of the
-district's Muslim population, all religions as a stacked bar, and the source
-table for every figure.
+**Detail panel** — plain-language answers for the selected district: mosques,
+residents per mosque, net change, a per-year sparkline, what is awaiting a
+decision, and the recent applications with links to the planning record. Muslim
+residents for 2011 and 2021 sit at the bottom as context, with the voluntary
+nature of the census question stated inline.
 
 ## Layout
 

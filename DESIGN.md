@@ -1,6 +1,6 @@
 # Design: Islam in Britain — Interactive Census Map
 
-Status: DRAFT — initial working build; all three phases ingested and live
+Status: DRAFT — working build, reframed around three counting questions
 Owner: Matthias
 Type: Personal project, intended as a public journalism/civic-tech tool
 Sibling project: `mer2-scatter-map` (UK Asylum Dispersal Situation Map) — shares
@@ -138,60 +138,53 @@ means nothing until it sits next to "40."
 
 ---
 
-## Navigation model: how three phases share one screen
+## Navigation model: three questions, one screen
 
-The three phases are three *subjects*, and they differ on every axis that
-matters:
+The three phases turned out to be three ways of answering the same question,
+not three separate products, so the lens switcher was removed. What the map
+answers, in this order:
 
-| | Subject | Geometry | Time | Reliability |
-|---|---|---|---|---|
-| Phase 1 | people | district areas | decennial | near-complete |
-| Phase 2 | buildings | points | no clean series | undercounts, unevenly |
-| Phase 3 | events | points | continuous | flaky feed, fuzzy text |
+1. **How many mosques are there, and where?** — the count, from OpenStreetMap.
+2. **How has that changed?** — the running total of approved planning outcomes.
+3. **What is in planning now?** — applications awaiting a decision.
 
-Adding provision and activity metrics to the Phase 1 metric list would not just
-crowd it, it would be a category error: "Muslims per mosque" is not an
-alternative to "Median age". So the UI is organised around **lenses**.
+Those three sit as headline figures above the map and update with the year
+slider, so the answer is legible before anyone touches a control.
 
-- **Lens** (People / Provision / Activity) reconfigures the metric list, which
-  filter group is open, the time axis, and the default panel tab. It swaps the
-  workspace rather than adding to it, so the visible control count stays flat.
-- **Selection and filters persist across lenses.** Filter to districts above 20%
-  share in People, switch to Provision, and the filter still applies to the same
-  selected district. That persistence is what makes this one tool instead of
-  three, and it is what makes cross-subject questions answerable.
-- **Point data are overlays, not lens-exclusive.** Mosques and applications
-  toggle independently in *any* lens, following the asylum map's marker
-  precedent — visually distinct, never blended into the choropleth. This matters
-  because mosque points over the demographic choropleth is likely the most
-  useful single view in the product, and a lens-exclusive design would make it
-  impossible to construct.
-- **The detail panel is where the subjects actually meet**, tabbed
-  Demography / Provision / Activity with a sticky header carrying district name,
-  population and Muslim count. The map can only show one variable; the panel can
-  show all three for one district.
-- **Two time axes, deliberately not unified.** Census years for People and
-  Provision, a rolling month window for Activity. One scrubber that means
-  "census year" sometimes and "month" other times is worse than two controls.
+**One render.** Dot density and the heat surface were the right call when the
+subject was population, where shading land misrepresents where people are. For
+counting buildings the choropleth plus a point overlay is both sufficient and
+easier to read, and the alternatives had become options rather than answers.
 
-All three lenses now carry data. Provision is an OpenStreetMap floor rather than
-a register, and Activity is a periodic snapshot rather than a live feed; both
-say so in the interface rather than in a footnote.
+**Raw counts, not shares.** Percentage-of-respondents versus
+percentage-of-all-residents was a carefully-reasoned answer to a question the
+audience was not asking, and it doubled the ways to misread the map. Both bases
+are still computed and remain in the CSV outputs for analysis; they are simply
+not what the interface leads with.
 
-### Reliability has to be visible without more chrome
+**A year slider is the only exploration mode.** Filters, lenses and tabs all
+went. The slider drives the planning series and nothing else pretends to move
+with it — the census is decennial and the OSM count is a snapshot, and the
+interface says so rather than animating figures that cannot change.
 
-Census is near-complete; mosque registers undercount unevenly; planning
-classification is fuzzy. Rather than a second legend, one reused convention: a
-hatch on any choropleth derived from an incomplete register, and a source-tier
-chip (`register` / `OSM` / `directory`) on panel figures.
+**Two overlays, both on by default**: mosque locations, and applications
+coloured by decision status. Refused and withdrawn stay visible.
 
-### There is no reliable mosque stock time series
+### Colour carries no verdict
 
-Registers do not publish clean historical snapshots, so a count difference
-between two register pulls would mostly measure changes in *registration
-behaviour*. What is honestly measurable is flow: planning outcomes over time.
-"Change" in the Provision lens is therefore cumulative planning outcomes,
-labelled as such — never a stock delta presented as one.
+Counts are rendered in the default ink with a sign, never in green-for-good or
+red-for-bad. Colour is reserved for the diverging map scale and for planning
+decision status, where it is categorical rather than evaluative. On this subject
+a palette that congratulates or alarms is doing editorial work the data does not
+support.
+
+### There is still no register of mosques over time
+
+Nobody publishes a historical count, so "change over time" means approved
+planning outcomes accumulated year by year. That is a real measurement of a real
+process and it is labelled as exactly that — never presented as a total stock.
+Extensions and administrative amendments are excluded from the net, because they
+do not change how many mosques exist.
 
 ---
 
