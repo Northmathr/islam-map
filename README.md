@@ -42,11 +42,16 @@ and looks exactly like disclosure blocking.
 - **Religion × age**, 2021, custom-dataset API `resident_age_23a` — 23 bands,
   preferred over Nomis RM118's 9. Under-16 share is exact; median age is
   interpolated within the containing band and labelled as banded-derived.
+- **Mosque register** — a merge of three sources, deduplicated at 150 m, giving
+  **1,741 distinct locations**, of which 522 are corroborated by more than one.
+  See "Why not just OpenStreetMap" below.
 - **Places of worship**, OpenStreetMap via Overpass — every faith from the same
-  query, which is what makes the provision ratio meaningful. **A floor, not a
-  register**: 1,336 mosques and 35,737 churches placed, against a commonly cited
-  UK mosque estimate nearer 1,800, so coverage is roughly three quarters and the
-  undercount is not uniform across faiths. Every row carries `source_tier`.
+  query, which is what makes the church comparison possible. 1,336 mosques and
+  35,737 churches placed.
+- **Mosque charities**, Charity Commission bulk register — 884 name-matched
+  registered charities, 820 geocoded via postcodes.io. Official and citable by
+  charity number, but the postcode is a *contact* address, which for some is a
+  trustee or accountant rather than the building.
 - **Planning applications**, PlanIt aggregation of local planning authority
   registers — **1,668 applications since 2000 across 162 districts**. Ingested
   to a local snapshot; the map never reads the feed live, because it is not
@@ -61,6 +66,38 @@ is the planning authority, which is not always the district.
 Disclosure control perturbs individual cells, so reconciliation checks assert a
 small tolerance rather than equality — summing the 318 districts gives a 2021
 population of 59,597,567 against a published 59,597,540.
+
+## Why not just OpenStreetMap
+
+OSM alone reports 1,336 mosques in England and Wales, well short of the ~1,800
+usually cited for the UK. Two independent checks, both reproducible from this
+repo, show the gap is coverage rather than a bad query — widening the Overpass
+query to include relations, `building=mosque` and name matching adds only 55
+elements:
+
+| Check | Result |
+|---|---|
+| Planning applications approved to build or convert a mosque | only **73%** have an OSM mosque within 250 m |
+| Mosque charities on the Charity Commission register | only **58%** have an OSM mosque within 300 m |
+
+So OSM holds roughly 60–75% of mosques. Triangulating three sources that miss
+different things gives 1,741 locations:
+
+| Sources vouching for a location | n |
+|---|---|
+| OSM only | 720 |
+| Charity register only | 388 |
+| Charity register + OSM | 246 |
+| OSM + planning | 126 |
+| Planning only | 112 |
+| All three | 107 |
+| Charity register + planning | 43 |
+
+**There is still no single true number**, and not only because of coverage:
+"mosque" is not a fixed category. Purpose-built mosques, converted terraces,
+industrial units and university prayer rooms are counted differently by
+different sources, and that definitional spread is a real part of the gap
+between published estimates.
 
 ## Headline figures produced
 

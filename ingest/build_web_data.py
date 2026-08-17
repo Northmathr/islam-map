@@ -41,6 +41,8 @@ def main():
     cob = read("uk_born_share_ltla23.csv")
     eth = read("ethnicity_by_religion_ltla23.csv")
     prov = {r["area_code"]: r for r in read("provision_ltla23.csv")}
+    # merged three-source register supersedes the OSM-only count
+    mreg = {r["area_code"]: r for r in read("mosque_counts_ltla23.csv")}
 
     age_idx = {(r["area_code"], r["faith_category"]): r for r in age}
     cob_idx = {(r["area_code"], r["faith_category"]): r for r in cob}
@@ -62,7 +64,9 @@ def main():
         a = age_idx.get((code, FOCUS), {})
         c = cob_idx.get((code, FOCUS), {})
         p = prov.get(code, {})
-        n_mq = int(p.get("n_muslim", 0) or 0)
+        mr = mreg.get(code, {})
+        n_mq = int(mr.get("mosques", 0) or 0)
+        n_conf = int(mr.get("corroborated", 0) or 0)
         n_ch = int(p.get("n_christian", 0) or 0)
         muslims = int(r["count"])
         districts[code] = {
@@ -90,6 +94,7 @@ def main():
             # provision. Counts are an OSM floor, not a register census, so the
             # ratio is suppressed on tiny denominators rather than shown precise.
             "mq": n_mq,
+            "mqc": n_conf,
             "mqch": n_ch,
             "ratio": round(muslims / n_mq) if n_mq else None,
             "mq100": round(n_mq / muslims * 1e5, 1) if muslims >= 1000 else None,
@@ -131,14 +136,16 @@ def main():
         "faiths": {f: national(f) for f in [FOCUS] + COMPARISON},
     }
     tot_mq = sum(d["mq"] for d in districts.values())
+    tot_conf = sum(d["mqc"] for d in districts.values())
     tot_ch = sum(d["mqch"] for d in districts.values())
     tot_christian = sum(int(d["f"].get("Christian", 0)) for d in districts.values())
     baselines["prov"] = {
         "mq": tot_mq,
+        "mqc": tot_conf,
         "ratio": round(tot_focus / tot_mq) if tot_mq else None,
         "ch": tot_ch,
         "chratio": round(tot_christian / tot_ch) if tot_ch else None,
-        "tier": "osm",
+        "tier": "merged",
     }
     # Median age is banded-derived; recompute nationally from the district file
     # would double-count, so take it from the focus faith's national age run.

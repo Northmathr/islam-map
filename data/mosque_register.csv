@@ -1,0 +1,1742 @@
+area_code,area_name,name,lon,lat,sources,n_sources,refs
+E07000240,St Albans,Jamie Mosque and Bangladesh Islamic Centre,-0.32122,51.75227,charity_register+osm,2,285054
+E08000003,Manchester,Khanqah Naqshbandia,-2.20882,53.43296,osm,1,
+E09000024,Merton,Wimbledon Mosque,-0.19725,51.43649,charity_register+osm,2,1108474
+E06000060,Buckinghamshire,Aylesbury Mosque,-0.81033,51.82138,charity_register+osm,2,288864
+E08000025,Birmingham,Ghausia Mosque Trust,-1.85623,52.51628,osm,1,
+E06000016,Leicester,Masjid Al Ansar,-1.09548,52.65257,osm,1,
+E06000016,Leicester,Darul Ihsaan,-1.06839,52.6402,osm,1,
+E08000019,Sheffield,Masjid Umar,-1.45653,53.40444,charity_register+osm+planning,3,1138560;Sheffield/24/01233/FUL;Sheffield/22/00042/FUL;Sheffield/16/00149/FUL
+E08000025,Birmingham,Jami Madina Ashiful Loom Masjid,-1.8494,52.4884,osm,1,
+E09000032,Wandsworth,Balham Mosque,-0.14917,51.44653,charity_register+osm+planning,3,271538;Wandsworth/2015/0794;Wandsworth/2012/2491
+E09000028,Southwark,Camberwell Islamic Centre,-0.0944,51.47873,osm,1,
+E09000007,Camden,Shahjalal Jame Masjid Euston Mosque,-0.13745,51.5273,charity_register+osm+planning,3,1018891;1204585;Camden/2004/3347/P
+E08000003,Manchester,Qadria Jilania Islamic (S+E) Centre,-2.20297,53.45697,osm,1,
+E08000035,Leeds,Al Madina Jamia Mosque,-1.56796,53.8113,osm,1,
+E08000032,Bradford,Jamia Mosque Tabligh-ul-Islam,-1.77082,53.79103,osm,1,
+E08000021,Newcastle upon Tyne,Kotku Mosque,-1.64863,54.97057,osm,1,
+E08000019,Sheffield,Noor Al Hadi Mosque,-1.42744,53.38968,osm,1,
+E07000123,Preston,"THE PRESTON GUJRATI MUSLIM SOCIETY, MADINA MOSQUE",-2.67905,53.76131,charity_register+osm+planning,3,515393;518795;Preston/06/2001/0828;Preston/06/2008/0925
+E06000039,Slough,Jamia Masjid Ghausia,-0.57864,51.50989,osm+planning,2,Slough/P/01303/020;Slough/P/01303/013
+E06000042,Milton Keynes,Al Karam Trust Mosque,-0.78921,52.06524,osm,1,
+E06000018,Nottingham,Shah Jahan Mosque,-1.16807,52.9656,osm,1,
+E09000028,Southwark,Nasrul-Lahi-i-Fathi Society of Nigeria,-0.0802,51.49451,osm,1,
+E09000007,Camden,King's Cross Mosque and Islamic Centre,-0.12122,51.5282,osm,1,
+E06000008,Blackburn with Darwen,,-2.46342,53.75499,osm,1,
+E07000081,Gloucester,Masjid-e-Noor,-2.23676,51.85758,charity_register+osm,2,256774
+E07000081,Gloucester,Khoja Shi'a Muslim Community,-2.27543,51.83238,osm,1,
+E06000060,Buckinghamshire,MIcklefield Mosque,-0.71193,51.63055,osm,1,
+E07000109,Gravesham,Gravesend Shahjalal Masjid,0.38942,51.42653,osm,1,
+E07000011,Huntingdonshire,Jamia Masjid St Ives Mosque,-0.06861,52.3251,charity_register+osm,2,1206121
+E06000018,Nottingham,Lenton Muslim Centre,-1.1718,52.95446,osm,1,
+E06000009,Blackpool,Blackpool Central Mosque,-3.04499,53.80835,charity_register+osm,2,702932
+E06000033,Southend-on-Sea,Faisal al-Madinah,0.70064,51.53938,osm,1,
+E08000003,Manchester,Jaffria Islamic Centre,-2.23377,53.45765,osm+planning,2,Manchester/093550/FO/2010/S1;Manchester/072522/FO/2004/S1
+E06000025,South Gloucestershire,Kingswood Masjid,-2.50747,51.46182,osm,1,
+E07000120,Hyndburn,Madressa Islamia Mosque,-2.40665,53.7839,charity_register+osm,2,1189225
+E07000120,Hyndburn,Ghousia Masjid mosque,-2.39863,53.78569,osm,1,
+E08000025,Birmingham,Fountain of Knowledge Islamic Centre,-1.87813,52.45268,osm,1,
+E06000004,Stockton-on-Tees,Thornaby Mosque,-1.29876,54.55292,osm,1,
+E06000022,Bath and North East Somerset,Bath Islamic Centre and Mosque,-2.35733,51.38,osm,1,
+E08000029,Solihull,Manarat Foundation,-1.79225,52.45396,osm,1,
+E06000005,Darlington,Jamie Mosque & Islamic Society of Darlington,-1.55658,54.52974,osm,1,
+E08000030,Walsall,Central Mosque,-1.97045,52.58323,charity_register+osm+planning,3,1143026;Walsall/13/1090/FL
+E09000030,Tower Hamlets,Baitul Aman Mosque,-0.05274,51.52508,charity_register+osm+planning,3,1093925;TowerHamlets/PA/11/00987;TowerHamlets/PA/11/00987/A1
+E08000025,Birmingham,Faizan -e-Mustafa Educational Centre,-1.85816,52.45621,osm,1,
+E08000006,Salford,The Eccles and Salford Islamic Society,-2.34525,53.48303,osm+planning,2,Salford/07/54640/FUL
+E08000003,Manchester,Muslim Youth Foundation (MYF),-2.23744,53.48398,osm,1,
+E09000007,Camden,Somers Town Islamic Cultural and Education Centre,-0.13069,51.5296,charity_register+osm+planning,3,1133473;Camden/2021/1773/P
+E06000055,Bedford,Jamia Masjid Gulshani Baghdad,-0.48329,52.13261,charity_register+osm,2,1067104;1142200
+E06000045,Southampton,Shahjahal Mosque and Islamic Centre Southampton,-1.39962,50.90939,charity_register+osm+planning,3,1070647;1108096;Southampton/11/00745/FUL
+E06000035,Medway,Chatham Mosque,0.53572,51.37839,charity_register+osm,2,1123477
+E06000035,Medway,Imam Ali Centre,0.50633,51.37891,osm,1,
+E09000032,Wandsworth,Battersea Mosque,-0.17024,51.46765,osm,1,
+E06000062,West Northamptonshire,Gulzare Medina Masjid Islamic Welfare Trust,-0.84934,52.2583,osm,1,
+E09000013,Hammersmith and Fulham,Ezzeitouna,-0.24982,51.51403,osm,1,
+E09000020,Kensington and Chelsea,Mosque of the Embassy of Qatar,-0.18769,51.49245,osm,1,
+E08000009,Trafford,Faizan E Islam Centre,-2.28354,53.45592,osm+planning,2,Trafford/75863/FULL/2010
+E09000032,Wandsworth,Tooting Islamic Centre,-0.16265,51.4317,osm,1,
+E08000034,Kirklees,Jamia Masjid Abu-Bakr & Islamic Centre,-1.80713,53.64301,osm,1,
+E08000034,Kirklees,Jam-E-Masjid-Bilal,-1.8026,53.63585,osm,1,
+E08000005,Rochdale,DARUL IHSAN ISLAMIC CENTRE,-2.14726,53.61916,charity_register+osm+planning,3,1147679;1183972;Rochdale/10/D53786;Rochdale/14/00787/FUL
+E08000035,Leeds,The Green Room,-1.55311,53.804,osm,1,
+E08000003,Manchester,Khizra mosque,-2.23762,53.50556,charity_register+osm,2,515778
+E08000003,Manchester,Jamia Mosque,-2.2432,53.51055,osm+planning,2,Manchester/122802/FO/2019;Manchester/099150/FO/2012/N1;Manchester/091701/FO/2009/N1
+E06000060,Buckinghamshire,Wycombe Mosque,-0.76695,51.6334,charity_register+osm+planning,3,1169492;Wycombe/07/07505/FUL
+E06000045,Southampton,Muslim Prayer Room,-1.39796,50.93504,osm,1,
+E08000012,Liverpool,Prayer Room,-2.96383,53.40259,osm,1,
+E06000016,Leicester,Al Ma’rifah Academy,-1.06052,52.64825,osm,1,
+E09000030,Tower Hamlets,Limehouse Mosque,-0.02815,51.5101,osm+planning,2,TowerHamlets/PA/15/03148/NC;TowerHamlets/PA/15/03148;TowerHamlets/PA/10/01826/NC;TowerHamlets/PA/10/01826
+E06000018,Nottingham,Shah Jalal Masjiid,-1.16974,52.96332,charity_register+osm,2,1105265
+E09000009,Ealing,Bilal Masjid Trust (Greenford),-0.33109,51.55042,osm,1,
+E06000021,Stoke-on-Trent,Madina Tul Quran,-2.18861,52.99954,osm,1,
+E07000178,Oxford,Bangladesh Islamic Education Centre,-1.24118,51.74912,osm,1,
+E09000030,Tower Hamlets,,-0.04368,51.51138,osm,1,
+E06000064,Westmorland and Furness,Islamic Prayer Room,-2.75416,54.66523,osm,1,
+E09000022,Lambeth,Brixton Hill Islamic Centre,-0.12403,51.44875,charity_register+osm,2,1106351
+E06000060,Buckinghamshire,Wycombe Islamic Society,-0.73626,51.63036,osm,1,
+E08000003,Manchester,Darus-salam,-2.19654,53.45194,charity_register+osm+planning,3,1181237;Manchester/095018/FO/2010/N2;Manchester/082103/FO/2007/N2;Manchester/074536/FO/2005/N2
+E07000136,Boston,Boston Mosque & Islamic Centre,-0.01878,52.98467,osm,1,
+E08000025,Birmingham,Jamiat-ul-Muslimin,-1.84865,52.46385,osm,1,
+E08000035,Leeds,Lincoln Green Mosque,-1.52823,53.80448,osm,1,
+E07000070,Chelmsford,Chelmsford Mosque,0.47404,51.73065,osm,1,
+E08000003,Manchester,Manchester Islamic Centre,-2.17314,53.49932,osm,1,
+E06000060,Buckinghamshire,HSJ Outreach Centre,-0.70092,51.6131,osm,1,
+E09000028,Southwark,Peckham High Street Islamic Centre,-0.06774,51.47375,osm,1,
+S12000049,Glasgow City,Al Furqan Mosque,-4.27189,55.87147,osm+planning,2,Glasgow/04/01649/DC;Glasgow/03/03126/DC
+E09000022,Lambeth,North Brixton Islamic Cultural Centre,-0.11304,51.47397,osm,1,
+E06000033,Southend-on-Sea,The UK Islamic Mission Southend Mosque,0.69983,51.54666,osm,1,
+E09000030,Tower Hamlets,Coventry Cross Mosque,-0.01466,51.52287,charity_register+osm,2,1051765
+E09000019,Islington,Al-Nehar Mosque & Education Centre,-0.11957,51.53265,osm,1,
+E07000036,Erewash,Long Eaton Masjid,-1.27723,52.90106,osm,1,
+E06000016,Leicester,Gulzar e Madina,-1.11501,52.6352,osm,1,
+E09000025,Newham,Islamic Centre Upton Park,0.02452,51.53386,charity_register+osm,2,1041977
+E06000018,Nottingham,Karimia Masjid & Institute,-1.16426,52.97066,charity_register+osm,2,1070245
+E08000025,Birmingham,Spiritual Centre Maddrassa Naqshbandiyya Nawabiyya Aslamiyya Birmingham,-1.85751,52.47635,osm,1,
+E08000025,Birmingham,Maktaba Tul Madina Dawat-E-Islami,-1.85632,52.47892,osm,1,
+E06000018,Nottingham,,-1.14927,52.98934,osm,1,
+E06000016,Leicester,Madani,-1.09877,52.62785,osm,1,
+E06000016,Leicester,Masjid Fatima Zahra,-1.1053,52.62715,charity_register+osm,2,1200939
+E06000018,Nottingham,Jamia Masjid Sultania,-1.12594,52.95199,osm+planning,2,Nottingham/11/01486/PFUL3;Nottingham/10/01643/PFUL3
+E08000034,Kirklees,Markazi Jamia Masjid Riza Islamic Centre,-1.78632,53.65923,charity_register+osm,2,1149039
+E06000021,Stoke-on-Trent,Masjid al Furqan,-2.21154,53.05973,charity_register+osm,2,1124664
+E08000025,Birmingham,ARRAHMA ISLAMIC CENTRE,-1.86382,52.47022,charity_register+osm,2,1181445
+E06000045,Southampton,Taqwah Mosque,-1.38729,50.91126,charity_register+osm,2,1216548
+E06000018,Nottingham,Muslim Prayer Room,-1.15603,52.98981,osm,1,
+E07000121,Lancaster,Raza Mosque,-2.80531,54.04548,osm,1,
+E08000007,Stockport,Elaf Masjid,-2.18375,53.40494,osm,1,
+E08000021,Newcastle upon Tyne,Newcastle Tawheed Islamic Centre,-1.6454,54.97015,osm,1,
+E08000025,Birmingham,Madrassa-tul-Madina Aston,-1.88995,52.51002,charity_register+osm,2,516543
+E06000042,Milton Keynes,Hazrath Shahjahal Jamie Masjid,-0.72166,51.98935,charity_register+osm,2,1171119
+E09000024,Merton,Makkah Masjid Mitcham,-0.16412,51.40749,osm,1,
+E09000024,Merton,Al-Madina Mitcham Islamic Centre,-0.15179,51.41672,osm,1,
+E09000032,Wandsworth,Al Muzzamil Mosque,-0.16762,51.43025,charity_register+osm,2,1070603
+E06000008,Blackburn with Darwen,Masjid-al-Momineen,-2.4677,53.75841,charity_register+osm,2,1081557
+E08000003,Manchester,Minhaj-ul-Qur'an Central Mosque,-2.25801,53.45239,osm,1,
+E06000061,North Northamptonshire,Kettering Muslim Association,-0.72746,52.38852,charity_register+osm,2,1108873
+E07000106,Canterbury,Laud Worship Rooms,1.09001,51.27922,osm,1,
+E09000010,Enfield,Mevlana Rumi,-0.06232,51.62068,osm,1,
+E06000018,Nottingham,QMC Prayer Room Level 3,-1.18545,52.94415,osm,1,
+E07000034,Chesterfield,Chesterfield Muslim Association,-1.42837,53.23973,charity_register+osm,2,702879
+E07000178,Oxford,Oxford University Islamic Society Prayer Room,-1.25602,51.75897,osm,1,
+E07000211,Reigate and Banstead,Gatwick Muslim Centre,-0.16119,51.17323,osm,1,
+E06000062,West Northamptonshire,Northampton Central Mosque,-0.87702,52.24758,charity_register+osm,2,1085667
+E06000056,Central Bedfordshire,Cranfield University Mosque,-0.62708,52.07438,osm,1,
+E06000016,Leicester,Masjid al Quba,-1.12128,52.63904,charity_register+osm,2,1135604;1194673
+E06000016,Leicester,Beaumont Leys Muslims,-1.15238,52.66158,osm,1,
+E09000033,Westminster,Muslim World League - London Office,-0.13591,51.51946,osm+planning,2,Camden/2015/0916/P;Camden/2014/2017/P;Camden/2013/2750/P
+E09000012,Hackney,Hackney Central Masjid,-0.04692,51.54431,charity_register+osm,2,1104697
+E09000012,Hackney,Hoxton Islah,-0.08368,51.5295,osm,1,
+E06000060,Buckinghamshire,Muslim Education Centre,-0.72888,51.63789,osm,1,
+E09000005,Brent,Islamic Cultural Centre Neasden,-0.25049,51.55957,osm,1,
+E08000035,Leeds,UKIM Iqra Centre Leeds,-1.54984,53.83579,osm,1,
+E06000018,Nottingham,Masjid Noor,-1.17985,52.96254,osm,1,
+E06000055,Bedford,South Bedford Islamic Centre,-0.46562,52.12384,osm+planning,2,Bedford/12/02524/FUL
+E07000209,Guildford,Islamic Prayer Room,-0.58875,51.24301,osm,1,
+E06000004,Stockton-on-Tees,Jamia Masjid Usman-e-Ghani,-1.3195,54.558,osm+planning,2,Stockton/08/1298/COU
+E08000025,Birmingham,Madrassa At Tawhad,-1.84564,52.47094,osm,1,
+E06000051,Shropshire,CRAVEN  ARMS  ISLAMIC CENTRE,-2.83199,52.43958,charity_register+osm,2,1181960
+E08000025,Birmingham,Sultan Bahu Centre,-1.8227,52.49207,osm,1,
+E06000016,Leicester,Darul Arqam,-1.08138,52.64836,osm,1,
+E06000016,Leicester,DMU Prayer room,-1.1406,52.63051,osm,1,
+E06000016,Leicester,Knighton Education Centre,-1.12448,52.61271,osm,1,
+E06000016,Leicester,Muhaddith e Azam Community Centre,-1.1077,52.64461,osm,1,
+E06000032,Luton,Al-Jalal Masjid,-0.43227,51.89572,osm+planning,2,Luton/16/00085/AMEND;Luton/13/01578/FUL;Luton/01/00908/FUL
+E06000032,Luton,Baitul Abraar Jami Masjir,-0.43843,51.8949,osm,1,
+E08000003,Manchester,49 Beresford Road Manchester M13 0GT,-2.20143,53.45441,osm+planning,2,Manchester/134270/FO/2022;Manchester/119368/FO/2018;Manchester/099548/FO/2012/N2
+E08000003,Manchester,,-2.1907,53.45685,osm,1,
+E08000022,North Tyneside,North Tyneside Bangladeshi Community Association & Mosque,-1.44087,55.04264,osm,1,
+E09000012,Hackney,Al-Hudaa Islamic Prayer Group,-0.04422,51.54797,osm,1,
+E06000043,Brighton and Hove,University of Sussex Mosque,-0.08848,50.86472,osm,1,
+E09000030,Tower Hamlets,Bow Central Mosque,-0.01452,51.5292,osm+planning,2,TowerHamlets/PA/02/01039
+E09000013,Hammersmith and Fulham,White City Musalla,-0.23467,51.51211,osm,1,
+E09000013,Hammersmith and Fulham,Masjid Almukhbiteen,-0.2339,51.5066,charity_register+osm,2,1195563
+E09000032,Wandsworth,Taj Daar e Madina,-0.16539,51.42606,osm,1,
+W06000022,Newport,IQRA Community Centre,-2.97811,51.58465,osm,1,
+E09000030,Tower Hamlets,As Sabr,-0.03927,51.51753,charity_register+osm,2,1079423
+E09000025,Newham,Masjid Ilyas,0.00294,51.52907,osm,1,
+E06000039,Slough,Al-Madani Masjid,-0.65039,51.52184,osm,1,
+E08000021,Newcastle upon Tyne,Shahjal Mosque,-1.63841,54.97124,charity_register+osm+planning,3,1207285;NewcastleUponTyne/2020/0714/01/DET;NewcastleUponTyne/2002/0279/02/DCC;NewcastleUponTyne/2001/1450/02/DCC
+W06000022,Newport,Alevi Cultural Centre,-2.99012,51.59108,osm,1,
+W06000022,Newport,Newport Central Jam'e Masjid,-2.99691,51.58489,osm,1,
+E08000007,Stockport,Stockport Islamic Centre,-2.15738,53.40121,charity_register+osm+planning,3,1148457;Stockport/DC/012629
+E06000046,Isle of Wight,Isle of Wight Jami Mosque,-1.29583,50.69804,osm,1,
+E08000025,Birmingham,Masjid Salafi,-1.85838,52.47034,charity_register+osm,2,1152044
+W06000022,Newport,Jamia Masjid,-2.99173,51.58113,charity_register+osm,2,1140778
+E09000014,Haringey,Said Nursi Camii,-0.05423,51.60511,osm,1,
+E08000003,Manchester,Al Murtaza Trust,-2.23597,53.49297,osm,1,
+E06000055,Bedford,Bedford Al Falaah Islamic Centre,-0.4745,52.13699,charity_register+osm,2,1081598
+E06000055,Bedford,Bangladesh Islamic Mission & Jamee Mosjid,-0.47368,52.1342,osm,1,
+E08000003,Manchester,Markaz Dar-ul-ehsan Manchester,-2.24142,53.49595,osm,1,
+E08000003,Manchester,Manchester Islamic Centre,-2.23712,53.47115,osm,1,
+E07000222,Warwick,Masjid Albirr,-1.52924,52.28584,osm,1,
+E06000032,Luton,Masjid Bilal,-0.45306,51.90317,osm+planning,2,Luton/17/01895/COU
+E06000032,Luton,Madinah Masjid,-0.43335,51.88446,osm,1,
+E06000032,Luton,Luton Turkish Community Centre,-0.4209,51.87664,osm,1,
+E09000018,Hounslow,,-0.36347,51.46348,osm,1,
+E07000212,Runnymede,Muslim Prayer Room,-0.56906,51.42625,osm,1,
+E09000025,Newham,Masjid & Imambargah Shuhdae Karbala,0.02171,51.52369,osm,1,
+E09000025,Newham,Central Park Community Centre,0.05759,51.52303,osm,1,
+E09000025,Newham,Masjid Bilal & Islamic Centre,0.05132,51.53269,osm+planning,2,Newham/02/1889
+E09000025,Newham,Jamia Masjid,0.0438,51.53109,osm,1,
+E08000004,Oldham,European Islamic Centre & Mosque,-2.13483,53.52826,osm,1,
+E08000021,Newcastle upon Tyne,Gosforth Prayer Hall,-1.61461,55.00978,osm,1,
+E07000009,East Cambridgeshire,Ely Islamic Centre,0.26741,52.39681,charity_register+osm,2,1187894
+E08000025,Birmingham,Stechford Mosque,-1.81287,52.48013,charity_register+osm+planning,3,1102307;Birmingham/2012/05463/PA
+E09000018,Hounslow,Baitun Noor Mosque,-0.38509,51.46442,osm,1,
+E09000030,Tower Hamlets,Docklands Community Centre,-0.02122,51.49686,osm,1,
+E09000030,Tower Hamlets,Globe Town Mosque,-0.04662,51.52936,charity_register+osm,2,1138270;1193903
+E09000030,Tower Hamlets,"18-22 Damien Street, London, E1 2HX",-0.057,51.51593,osm+planning,2,TowerHamlets/PA/12/00133;TowerHamlets/PA/12/00133/A1
+E08000003,Manchester,Arrahman ManchesterIslamic Cultural Association,-2.24851,53.45437,osm,1,
+E09000022,Lambeth,Lambeth Masjid Progressive Community Centre,-0.10113,51.46651,osm,1,
+E09000003,Barnet,Hendon Mosque & Islamic Centre,-0.23909,51.57769,charity_register+osm,2,289834
+E09000026,Redbridge,Chadwell Heath Muslim Centre,0.1245,51.5696,osm,1,
+W06000022,Newport,East Newport Islamic Cultural Centre,-2.98746,51.59005,osm,1,
+E08000029,Solihull,SIEA Highlands Mosque,-1.80642,52.39903,osm,1,
+E06000018,Nottingham,Prayer Room,-1.18544,52.95165,osm,1,
+E08000003,Manchester,Cavendish Prayer Rooms,-2.23944,53.46957,osm,1,
+E08000003,Manchester,Hough End Hall Academy,-2.26512,53.43575,osm,1,
+E08000003,Manchester,Abu Bakar Mosque,-2.22169,53.47086,osm,1,
+E08000025,Birmingham,Shah Jalal Mosque,-1.85561,52.48995,osm,1,
+E08000004,Oldham,Westwood Mosque,-2.13309,53.54398,osm,1,
+S12000049,Glasgow City,Zia Ul Quran Centre,-4.27367,55.83937,osm,1,
+W06000008,Ceredigion,Lampeter Campus Mosque,-4.07711,52.11486,osm,1,
+E08000003,Manchester,Markaz Al-Takwa,-2.2136,53.46132,osm,1,
+E09000005,Brent,Iqraa Ethiopian Muslim Centre,-0.2508,51.53918,osm,1,
+W06000022,Newport,Newport Diyanet Education Community Centre,-2.99046,51.57282,osm,1,
+E07000107,Dartford,Dartford Masjid,0.21573,51.44655,charity_register+osm,2,1192212
+W06000022,Newport,Dawat-e-Islami Faizan-e-Madina,-2.98339,51.59083,osm,1,
+E06000016,Leicester,The Hamilton Hub,-1.06792,52.65349,osm,1,
+W06000022,Newport,Jaima Ala Abba Community Center,-2.97981,51.58968,osm,1,
+E06000060,Buckinghamshire,,-0.77946,51.62929,osm,1,
+S12000026,Scottish Borders,Borders Islamic Society,-2.81288,55.6187,osm,1,
+E07000137,East Lindsey,Skegness Mosque,0.33862,53.14706,osm,1,
+E09000005,Brent,Indonesian Islamic Centre,-0.24693,51.55783,osm,1,
+E06000031,Peterborough,Masjid Khadijah and Islamic Centre,-0.24806,52.58345,osm+planning,2,Peterborough/00/00864/FUL
+E07000208,Epsom and Ewell,Epsom & Ewell Islamic Society,-0.26681,51.33883,osm,1,
+E07000143,Breckland,,0.74924,52.41436,osm,1,
+E08000032,Bradford,Madrassa Mahmoodia,-1.76306,53.78999,osm,1,
+E08000032,Bradford,Madinat Al-Zahra Grand Mosque,-1.79007,53.77849,osm,1,
+E08000032,Bradford,Al-Mustafa Centre,-1.78964,53.79773,osm+planning,2,Bradford/23/03178/FUL;Bradford/23/00050/FUL
+E06000065,North Yorkshire,Harrogate Islamic Association,-1.53824,53.98965,osm,1,
+E06000002,Middlesbrough,New Abu Bakr Mosque,-1.24817,54.57623,osm,1,
+E08000019,Sheffield,Jamia Mosque Gulzar-e-Habib,-1.42248,53.38728,osm,1,
+E08000019,Sheffield,Masjid Al Khair,-1.43348,53.40774,osm,1,
+E08000035,Leeds,Leeds Swahili Cultural Community,-1.49957,53.79642,osm,1,
+E08000032,Bradford,Shipley Masjid Association,-1.78141,53.83522,osm,1,
+E08000035,Leeds,Al-Towbah Islamic Centre,-1.5215,53.81331,osm,1,
+E08000034,Kirklees,Makki Madani Masjid,-1.63279,53.68672,charity_register+osm,2,1157666
+E08000033,Calderdale,Faizan-e-Madina,-1.88147,53.72262,osm,1,
+E08000034,Kirklees,Healey Musallah,-1.66032,53.70958,osm,1,
+E08000034,Kirklees,Faizan e Madinah,-1.79295,53.65121,osm,1,
+E08000035,Leeds,Jami al-Imam Ahmed Raza Khan Barelwi,-1.53352,53.81482,osm,1,
+E08000034,Kirklees,Baitut Tawheed Masjid,-1.66141,53.67789,osm,1,
+E08000034,Kirklees,Madni Masjid,-1.63037,53.69342,charity_register+osm,2,1167193
+E08000034,Kirklees,Darul Ilm,-1.6369,53.67468,charity_register+osm+planning,3,1142589;Kirklees/2000/93549
+E08000034,Kirklees,Masjid Ar-Rashideen,-1.6432,53.71982,osm,1,
+E08000035,Leeds,The Al Noor,-1.51034,53.8093,osm,1,
+E08000034,Kirklees,Shah Jalal Masjid,-1.79544,53.6366,osm,1,
+E08000034,Kirklees,Faizan-e-Madinah,-1.66512,53.67826,osm,1,
+E08000034,Kirklees,Masjid As-Salaam,-1.61263,53.68736,osm,1,
+E08000035,Leeds,Al-Rahmah Faith Centre,-1.53567,53.81044,osm,1,
+E08000035,Leeds,Al Madina Jam-e Masjid,-1.54444,53.77575,charity_register+osm+planning,3,1201561;Leeds/21/99/01/FU
+E08000033,Calderdale,Islam Halifax,-1.8693,53.7236,osm,1,
+E08000034,Kirklees,Al-Hashim Academy,-1.63331,53.71242,charity_register+osm,2,1191268
+E08000034,Kirklees,Islamic Tarbiyah Academy,-1.64114,53.69093,osm,1,
+E08000025,Birmingham,Faizan e Medina,-1.81418,52.47806,osm,1,
+W06000004,Denbighshire,Denbigh Mosque,-3.41821,53.18367,osm,1,
+N09000002,"Armagh City, Banbridge and Craigavon",Craigavon Mosque,-6.37156,54.44865,osm,1,
+E07000181,West Oxfordshire,Witney Mosque (Elsharkawy Islamic Culture Centre),-1.48701,51.77681,osm,1,
+E06000062,West Northamptonshire,Imambargah Dua-e-Zahra AGHA UK,-0.89428,52.2445,osm,1,
+E06000016,Leicester,Tawakul,-1.10202,52.63127,osm,1,
+E06000032,Luton,Suffa-tul-islam,-0.46678,51.88849,osm,1,
+E09000028,Southwark,Walworth Road Mosque,-0.09665,51.49016,osm,1,
+E09000003,Barnet,High Barnet Islamic Centre,-0.2012,51.65637,osm,1,
+E09000026,Redbridge,Samr Centre,0.05937,51.5944,osm,1,
+E09000030,Tower Hamlets,Poplar Central Mosque,-0.00975,51.51099,charity_register+osm+planning,3,1130260;1136509;TowerHamlets/PA/11/02343/NC;TowerHamlets/PA/11/02343
+E09000004,Bexley,Frank's Uthman Masjid,0.16243,51.4883,osm,1,
+E06000018,Nottingham,UoN Prayer Room Portland Building,-1.19433,52.93816,osm,1,
+E06000018,Nottingham,NTU Prayer Room,-1.15682,52.95777,osm,1,
+E09000022,Lambeth,West Norwood Islamic Centre,-0.10169,51.42996,osm,1,
+E07000065,Wealden,,0.09999,50.96578,osm,1,
+E09000025,Newham,,0.04802,51.55043,osm,1,
+E06000045,Southampton,Al-Hayat Centre,-1.39275,50.91961,osm,1,
+E07000217,Woking,Masjid Al-Birr,-0.55018,51.32173,osm,1,
+E06000032,Luton,Masjid e Noor,-0.42227,51.88685,osm+planning,2,Luton/16/01062/FUL
+E06000032,Luton,Masjid Al Huda,-0.43271,51.89088,osm,1,
+S12000049,Glasgow City,,-4.26111,55.85345,osm,1,
+E09000033,Westminster,Edgware Road Mosque,-0.16645,51.51844,charity_register+osm,2,1216424
+E09000028,Southwark,S.R.I.C.C Baitul Rahman Masjid,-0.0836,51.49236,osm,1,
+E09000028,Southwark,BECA East Street Islamic Centre,-0.08149,51.49079,osm,1,
+E07000071,Colchester,Colchester Jamiah Masjid,0.90261,51.88778,charity_register+osm,2,1183932
+E07000067,Braintree,Al-Falah Braintree Islamic Centre,0.55124,51.87644,osm,1,
+E07000070,Chelmsford,Hamptons Centre,0.48921,51.71708,osm,1,
+E09000031,Waltham Forest,Noor Ul Islam,-0.00866,51.57228,osm+planning,2,WalthamForest/120037;WalthamForest/050377
+E06000038,Reading,Al-Majid Centre,-0.96227,51.43394,osm,1,
+E06000008,Blackburn with Darwen,Masjid E Vali,-2.51013,53.75168,osm,1,
+E09000003,Barnet,London Fatwa Council,-0.25149,51.58828,osm,1,
+E09000026,Redbridge,Clayhall Islamic Centre,0.06203,51.59435,osm,1,
+E08000011,Knowsley,Jummah Salah in Sanctuary,-2.78557,53.42121,osm,1,
+E07000224,Arun,The Shahjahal Muslim Society & Islamic Centre,-0.67302,50.7886,osm,1,
+E06000008,Blackburn with Darwen,Musalla Maryam,-2.48716,53.76002,osm,1,
+E09000033,Westminster,London Central Mosque,-0.16505,51.52896,charity_register+osm+planning,3,231920;Westminster/09/04624/TCA;Westminster/14/00919/FULL;Westminster/04/05088/FULL
+E09000018,Hounslow,Hounslow Jamia Masjid & Islamic Centre,-0.37492,51.4592,charity_register+osm+planning,3,264824;Hounslow/P/2002/2868;Hounslow/P/2011/0556;Hounslow/P/2011/0554
+E09000018,Hounslow,Feltham Masjid,-0.41417,51.44306,osm,1,
+E08000034,Kirklees,Masjid e Mahmoodiya,-1.63124,53.70922,charity_register+osm+planning,3,1002703;1199172;Kirklees/2004/90613
+W06000015,Cardiff,Baitur Raheem Mosque,-3.21369,51.47943,osm,1,
+E09000031,Waltham Forest,Leytonstone Mosque,0.01284,51.56825,charity_register+osm,2,1133328
+E09000024,Merton,Baitul Futuh Mosque,-0.19928,51.39671,osm,1,
+E08000035,Leeds,Abu Huraira Masjid,-1.55332,53.77646,charity_register+osm,2,514037
+E09000033,Westminster,Islamic Centre of England,-0.18899,51.53543,charity_register+osm+planning,3,1058998;Camden/2006/3401/L
+E06000042,Milton Keynes,Al-Rawdha Mosque,-0.75869,52.03682,osm,1,
+E06000018,Nottingham,Nottingham Islamic Centre,-1.14274,52.95761,charity_register+osm,2,507119
+E09000028,Southwark,Peckham Islamic Centre,-0.06961,51.46742,osm,1,
+E06000042,Milton Keynes,Zainabiya Islamic Centre,-0.74304,52.01146,osm,1,
+E09000009,Ealing,Husseini mosque,-0.36397,51.54266,charity_register+osm,2,1087244
+N09000003,Belfast,Belfast Islamic Centre,-5.93616,54.58731,osm,1,
+E08000034,Kirklees,Masjid Uthman,-1.64906,53.69808,charity_register+osm,2,1172052
+E06000040,Windsor and Maidenhead,Maidenhead Central Mosque,-0.71681,51.52552,osm,1,
+E07000113,Swale,Sittingbourne Islamic Cultural Centre,0.72884,51.34191,osm+planning,2,MidKent/SW/09/0508
+E08000025,Birmingham,Jame Masjid,-1.90083,52.50832,charity_register+osm+planning,3,1188915;Birmingham/2006/02979/PA;Birmingham/2003/02530/PA
+E09000007,Camden,Holborn Muslim Community & Welfare Association,-0.11143,51.51932,charity_register+osm,2,1052483
+E06000015,Derby,Jamia Mosque Derby,-1.47644,52.9101,charity_register+osm,2,511758
+E06000015,Derby,Masjid Al-Farooq,-1.48056,52.91374,osm+planning,2,Derby/08/11/00945
+W06000011,Swansea,,-3.97742,51.60998,osm,1,
+E06000015,Derby,Islamic Centre Derby,-1.47631,52.91724,osm+planning,2,Derby/20/00669/FUL
+E09000019,Islington,Finsbury Park Mosque,-0.10729,51.56374,charity_register+osm,2,271680;299884
+E06000015,Derby,Masjid Salaam,-1.4783,52.90789,osm,1,
+E08000030,Walsall,Zia-E-Medina,-2.02682,52.57033,charity_register+osm+planning,3,515551;Walsall/16/0022
+E08000025,Birmingham,Ghamkol Sharif,-1.85846,52.46493,charity_register+osm+planning,3,1205036;Birmingham/2007/05027/PA
+E09000012,Hackney,Madina Masjid,-0.0547,51.55822,charity_register+osm+planning,3,291089;Hackney/2004/2299
+E06000015,Derby,Derby Jamia Mosque,-1.48594,52.89903,osm,1,
+E07000210,Mole Valley,Dorking Mosque,-0.32983,51.23399,charity_register+osm,2,1179425
+E08000025,Birmingham,Birmingham Central Mosque,-1.89058,52.46459,charity_register+osm,2,259545
+E06000020,Telford and Wrekin,Telford Central Mosque,-2.51716,52.69873,osm,1,
+E09000005,Brent,Mosque and Islamic Centre of Brent,-0.21648,51.55567,charity_register+osm,2,272500
+E07000113,Swale,Sheppey Islamic Cultural Centre,0.77808,51.4224,osm,1,
+E08000030,Walsall,Jamia Masjid Ghausia & Community Centre,-1.99164,52.5876,charity_register+osm,2,510845
+E08000036,Wakefield,Abu Bakr Siddique Masjid,-1.49672,53.67345,osm,1,
+E06000018,Nottingham,Meadows Muslim Centre,-1.14399,52.9374,osm,1,
+E09000005,Brent,UK Albanian Muslim Community & Cultural Centre,-0.20123,51.53279,charity_register+osm,2,1057193
+E09000028,Southwark,Gousul Azzam Mosque,-0.07262,51.45739,charity_register+osm,2,1041876
+E09000005,Brent,The Lebanese Welfare Community,-0.19592,51.53737,osm,1,
+E08000025,Birmingham,Jamatia Islamic Centre,-1.86046,52.44312,osm,1,
+E08000029,Solihull,The Hub,-1.77547,52.42235,osm,1,
+E08000025,Birmingham,Masjid Hamza,-1.88286,52.44938,osm,1,
+E08000019,Sheffield,Medina Mosque,-1.47337,53.36415,charity_register+osm+planning,3,1110135;1134376;Sheffield/03/02079/FUL
+E06000015,Derby,Jamiat Ahl-e-Hadith & Al-Furquan Education Centre,-1.48909,52.90693,osm,1,
+E08000030,Walsall,Minhaj-ul-Quran,-2.0066,52.5775,osm+planning,2,Walsall/12/1008/FL;Walsall/04/1321/FL/W3
+E08000025,Birmingham,Hazrat Mujaddid Alf-e Sanni,-1.87393,52.45209,osm,1,
+E07000108,Dover,Dover Masjid,1.30935,51.12907,osm,1,
+E07000178,Oxford,Central Oxford Mosque,-1.23076,51.74766,charity_register+osm+planning,3,1029645;Oxford/13/01694/VAR
+E08000025,Birmingham,Jamia Mosque Amir-e-Millat,-1.86596,52.45539,osm+planning,2,Birmingham/2014/06165/PA
+E08000025,Birmingham,Amanah Masjid,-1.87662,52.4673,osm,1,
+E09000028,Southwark,New Peckham Mosque,-0.07615,51.48446,charity_register+osm,2,1178045
+E08000025,Birmingham,Ukim Jamia Masjid,-1.86303,52.46269,osm,1,
+E08000025,Birmingham,Masjid Umar,-1.86676,52.45952,osm+planning,2,Birmingham/2012/04167/PA
+E09000005,Brent,Imam Khoei Islamic Centre,-0.20986,51.53941,charity_register+osm,2,1135814
+E08000025,Birmingham,,-1.91793,52.4879,osm,1,
+E09000005,Brent,Central Mosque of Brent,-0.22383,51.54988,charity_register+osm+planning,3,290494;Brent/08/2583
+E08000025,Birmingham,Raza Mosque,-1.88068,52.50811,osm,1,
+E08000025,Birmingham,Muslim Students House Masjid,-1.88561,52.45628,charity_register+osm+planning,3,289331;702283;1122264;Birmingham/2020/01669/PA
+E08000025,Birmingham,Zia ul Quran Jamia Mosque,-1.85453,52.48496,osm+planning,2,Birmingham/2009/01139/PA
+E09000033,Westminster,Harrow Road Jamme Mosque,-0.20531,51.5285,osm,1,
+E08000025,Birmingham,Darul Barkaat Mosque,-1.86513,52.47683,osm,1,
+E08000025,Birmingham,,-1.85529,52.49765,osm,1,
+E08000025,Birmingham,Khalm-e-Nubudwat Educational Centre,-1.87084,52.47734,osm,1,
+E08000025,Birmingham,Jami-a-Masjid Idara Minhaj-ul-Quran,-1.84552,52.48878,osm,1,
+E08000025,Birmingham,Jakia Masjid Naqsbandia Aslamia & Community Centre,-1.83538,52.49477,osm,1,
+E06000015,Derby,Derby Jamia Mosque,-1.47124,52.9071,osm,1,
+E08000035,Leeds,Leeds Grand Mosque,-1.56814,53.80647,osm,1,
+E09000017,Hillingdon,Northwood Hills Masjid and Commnity Centre,-0.41085,51.59765,osm,1,
+E08000025,Birmingham,,-1.86637,52.47156,osm,1,
+E08000025,Birmingham,Green Lane Masjid,-1.86414,52.4731,charity_register+osm,2,1125833
+E08000003,Manchester,Manchester Central Mosque & Islamic Cultural Centre,-2.21898,53.45571,osm+planning,2,Manchester/109939/FO/2015/S1
+E08000025,Birmingham,Jami Masjid & Islamic Centre,-1.85721,52.46892,charity_register+osm+planning,3,1000355;1083080;Birmingham/2019/05981/PA
+E09000005,Brent,Central Mosque Wembley,-0.29789,51.55036,charity_register+osm+planning,3,285630;Brent/12/2878;Brent/12/2933;Brent/09/3245
+E08000025,Birmingham,Masjid e Subshamallah,-1.8415,52.46959,charity_register+osm,2,1155457;1199141
+S12000049,Glasgow City,Al-Tawheed Mosque,-4.17773,55.84178,osm,1,
+E06000016,Leicester,Masjid Ul Imam Il Bukhari,-1.12182,52.65786,charity_register+osm,2,1131563
+E07000076,Tendring,Tendring Deen Education Centre,1.14977,51.79163,osm,1,
+E08000025,Birmingham,Masjid Taqw,-1.88152,52.46244,osm,1,
+E09000014,Haringey,Masjid Ayesha,-0.07848,51.58776,charity_register+osm+planning,3,1130982;Haringey/HGY/2005/0824
+E08000025,Birmingham,Jamia Mosque Bilal,-1.89603,52.4556,charity_register+osm,2,1152856
+E08000025,Birmingham,Nimab Trust Mosque,-1.87336,52.48889,osm,1,
+E06000041,Wokingham,Aisha Masjid & Islamic Centre,-0.93646,51.45494,osm+planning,2,Reading/PL/13/1443;Reading/131443
+E07000123,Preston,Masjid-e-Noor,-2.69598,53.76586,charity_register+osm+planning,3,1138795;Preston/06/2002/0515;Preston/06/2007/0660
+E07000123,Preston,Noorani Masjid,-2.71075,53.77732,osm,1,
+E07000123,Preston,Masjid e Salaam,-2.70187,53.77793,osm+planning,2,Preston/06/2009/0625;Preston/06/2008/0660;Preston/06/2008/0661;Preston/06/2008/0086
+E09000014,Haringey,London Islamic Cultural Society,-0.10925,51.5873,osm+planning,2,Haringey/HGY/2011/1123
+E08000025,Birmingham,Mosque Noor-ul-Uloom,-1.85076,52.46991,charity_register+osm,2,1067639
+E08000025,Birmingham,150 Adderley Road Zakaria Mosque Trust Saltley B8 1EH,-1.86161,52.48817,osm+planning,2,Birmingham/2005/02304/PA
+E08000025,Birmingham,Witton Islamic Centre,-1.88786,52.51057,charity_register+osm+planning,3,1162653;Birmingham/2025/04061/PA
+E08000036,Wakefield,Wakefield Central Mosque,-1.48758,53.67998,charity_register+osm+planning,3,1015593;Wakefield/02/99/45551/E
+E08000036,Wakefield,Jamia Sawafia Mosque,-1.486,53.6815,charity_register+osm+planning,3,1167300;Wakefield/24/01223/FUL
+E08000025,Birmingham,Aston Mosque & Community Centre,-1.8879,52.50292,charity_register+osm,2,1091611
+E08000025,Birmingham,Masjid E Noor,-1.88567,52.50164,osm,1,
+E08000025,Birmingham,Al-Hijrah Mosque,-1.83927,52.47421,osm,1,
+E08000025,Birmingham,Qamarul Islam Mosque,-1.83231,52.47175,osm,1,
+E09000012,Hackney,Shacklewell Lane Mosque,-0.07404,51.54992,osm,1,
+E08000036,Wakefield,Jamia Mosque,-1.49243,53.68763,charity_register+osm,2,1143382
+E06000038,Reading,Jamme Masjid Reading,-0.95226,51.44823,charity_register+osm,2,276994
+E08000029,Solihull,Solihull Central Masjid and Community Centre,-1.76139,52.40899,charity_register+osm,2,1200650
+E08000029,Solihull,The Olton Project,-1.80915,52.43699,osm,1,
+W06000015,Cardiff,Imam Ali Centre,-3.16708,51.46551,osm,1,
+E06000033,Southend-on-Sea,Essex Jamme Masjid Trust,0.7033,51.5459,charity_register+osm,2,298705
+E09000026,Redbridge,Qurani Murkuz,0.02861,51.59293,osm,1,
+E08000019,Sheffield,Wybourn Islamic Centre,-1.447,53.38313,osm,1,
+E09000031,Waltham Forest,Masjid-e-Umer,-0.02328,51.57845,charity_register+osm+planning,3,1083652;WalthamForest/001025
+E08000031,Wolverhampton,JAMIA MASJID BILAL AND COMMUNITY CENTRE,-2.14667,52.59359,charity_register+osm,2,1039448
+E08000019,Sheffield,Makki Jamia Mosque,-1.47312,53.35867,charity_register+osm,2,509078
+E06000023,"Bristol, City of",Easton Jamia Masjid,-2.56455,51.46721,charity_register+osm+planning,3,1174320;Bristol/11/02615/F
+E06000038,Reading,Jamia Masjid Ghousia Reading Islamic Centre,-0.96408,51.45239,charity_register+osm+planning,3,295423;Reading/PL/01/0049;Reading/010049
+W06000015,Cardiff,Bilal Mosque,-3.20028,51.4837,osm,1,
+E06000038,Reading,Central Jamme Masjid (Reading),-0.98164,51.4541,osm,1,
+E07000074,Maldon,Maldon District Islamic Cultural Association,0.68588,51.72886,osm+planning,2,Maldon/16/00601/FUL;Maldon/13/00865/FUL
+E09000007,Camden,Kentish Town Baitul Aman Masjid,-0.15051,51.55008,charity_register+osm+planning,3,1092673;Camden/2020/2634/P
+E09000030,Tower Hamlets,Markazi Mosque,-0.06435,51.5117,osm,1,
+E08000034,Kirklees,Upper Soothill Islamic Centre,-1.59367,53.71593,osm,1,
+E07000148,Norwich,Norwich and Norfolk Community Centre,1.26683,52.63541,charity_register+osm,2,1056974
+E08000034,Kirklees,Masjid Salahuddin,-1.62598,53.69363,charity_register+osm,2,1203666;1216001
+E08000019,Sheffield,Aaliyah Mosque,-1.43266,53.39145,charity_register+osm,2,1214976
+E08000019,Sheffield,Jamia Mosque,-1.43074,53.39424,osm,1,
+E07000122,Pendle,,-2.2114,53.83361,osm,1,
+E07000172,Broxtowe,Masjid Taybah,-1.20494,52.91891,osm,1,
+E08000025,Birmingham,Masjid Esa Ibn Maryam,-1.84815,52.42285,osm,1,
+E06000035,Medway,Jamia Mosque,0.54477,51.3843,charity_register+osm,2,1117731
+W06000015,Cardiff,Noor El Islam Mosque,-3.17329,51.47281,charity_register+osm,2,701689
+E08000019,Sheffield,Al-Huda Academy,-1.4239,53.38935,osm+planning,2,Sheffield/18/02915/FUL
+E09000025,Newham,Masjid Taha,-0.00424,51.53704,osm,1,
+E08000019,Sheffield,Markazi Jamia,-1.41606,53.39,charity_register+osm,2,1216219
+E09000005,Brent,Dar al-Islam Foundation,-0.21703,51.55355,osm,1,
+E08000019,Sheffield,Madani Education Centre,-1.39795,53.41401,osm,1,
+E08000019,Sheffield,Hanfia Masjid,-1.3982,53.41645,osm+planning,2,Sheffield/25/00345/FUL
+E08000019,Sheffield,Yorkshire Muslim Academy,-1.43793,53.40455,osm,1,
+E08000019,Sheffield,Masjid Abu Bakr,-1.39611,53.41097,charity_register+osm,2,1204077
+E06000018,Nottingham,Abu Bakr As-Saddique Mosque,-1.17181,52.952,osm,1,
+E07000148,Norwich,Al-Madinah Muslim Community Centre,1.29675,52.60512,osm,1,
+E06000038,Reading,Zain Abiya,-1.03769,51.46096,osm,1,
+E06000058,"Bournemouth, Christchurch and Poole",Bournemouth Islamic Centre & Central Mosque,-1.88009,50.72182,osm,1,
+E08000025,Birmingham,Mohammadi Mosque 24-36 Hartopp Road Corner of Clodeshall Road/Hartopp Road Saltl,-1.85054,52.4861,osm+planning,2,Birmingham/2010/01643/PA
+E08000019,Sheffield,Grimesthorpe Academy,-1.45456,53.39792,osm,1,
+E08000019,Sheffield,Fatima Community Centre,-1.46081,53.3926,osm+planning,2,Sheffield/24/01746/FUL;Sheffield/21/02410/FUL;Sheffield/20/00551/FUL
+E08000019,Sheffield,Dar Ul Aloom Saddiqia,-1.45784,53.3932,charity_register+osm+planning,3,1137195;Sheffield/18/02568/FUL
+E08000025,Birmingham,Masjid Noor-Us-Sunnah,-1.84014,52.47632,charity_register+osm,2,1136241
+E08000034,Kirklees,Masjid E Madani,-1.65395,53.68775,charity_register+osm+planning,3,1200983;Kirklees/2017/93625
+E09000002,Barking and Dagenham,Madina Foundation Dagenham East Islamic Centre,0.16513,51.54576,osm,1,
+E08000019,Sheffield,Jamia Dar Ul Uloom Qadiria Jillania Centre,-1.45295,53.40631,osm,1,
+E06000038,Reading,Abu Bakr Masjid,-0.99592,51.45696,charity_register+osm+planning,3,1041828;1064014;Reading/011492;Reading/PL/01/1492
+E06000023,"Bristol, City of",Bristol Jamia Mosque,-2.58156,51.44216,charity_register+osm,2,258450
+E08000025,Birmingham,Jamia Masjid Haroonia,-1.83111,52.48907,charity_register+osm,2,1156213
+E09000030,Tower Hamlets,Brick Lane Jamme Masjid,-0.07205,51.51945,charity_register+osm+planning,3,1142561;TowerHamlets/PA/04/00672;TowerHamlets/PA/04/00673
+E08000019,Sheffield,Madrassa Tul Madinah,-1.44424,53.41287,osm,1,
+E06000054,Wiltshire,Trowbridge Mosque,-2.20269,51.31602,osm,1,
+E06000066,Somerset,Bridgwater Islamic Centre,-3.00362,51.12697,osm,1,
+E08000025,Birmingham,Bangladeshi Islamic Centre & Jami Mosque,-1.91182,52.50126,charity_register+osm,2,1187515
+E08000025,Birmingham,Jalalabad Sunni Jame Masjid & Islamic Community Centre,-1.8963,52.50342,charity_register+osm+planning,3,1126912;Birmingham/2017/10792/PA
+E08000025,Birmingham,Aston Masjid,-1.89964,52.50449,osm+planning,2,Birmingham/2019/02727/PA;Birmingham/2008/03618/PA
+E08000025,Birmingham,Shahjalal (R:) Sunnia Mosque & Islamic Community Centre,-1.89324,52.50477,osm,1,
+E08000025,Birmingham,FAIZUL QURAN JAMIA MOSQUE,-1.91372,52.50325,charity_register+osm+planning,3,1093465;1125321;Birmingham/2020/05276/PA;Birmingham/2013/07175/PA
+E08000025,Birmingham,24 - 38 Hubert Croft (land between) Selly Oak B29 6DU,-1.93467,52.44254,osm+planning,2,Birmingham/2004/06778/PA
+E07000008,Cambridge,Masjid Al Ikhlas & Cambridge Islamic Centre,0.13889,52.19876,osm,1,
+E07000008,Cambridge,Abubakr Siddiq Islamic Centre,0.13621,52.20014,charity_register+osm,2,273568
+E06000016,Leicester,Masjid Al Huda,-1.12711,52.64276,charity_register+osm,2,1139994
+E06000043,Brighton and Hove,Medina Mosque,-0.15389,50.82411,osm,1,
+E06000062,West Northamptonshire,AL-Jamat-Ul-Muslimin of Bangladesh,-0.8989,52.24338,osm+planning,2,WestNorthamptonshire/N/2011/0633
+E07000195,Newcastle-under-Lyme,Keele University Islamic Centre,-2.27225,53.0053,osm,1,
+E08000035,Leeds,Makkah Masjid Mosque,-1.573,53.811,osm,1,
+E09000025,Newham,Quwwat ul Islam Masjid,0.0257,51.54442,osm,1,
+E09000025,Newham,Masjid Yousuf,0.02867,51.54649,osm,1,
+E08000025,Birmingham,Jamia Abdullah Bin Masoud,-1.85972,52.4514,osm+planning,2,Birmingham/2012/03185/PA
+E08000025,Birmingham,Sutton Coldfield Masjid,-1.82346,52.5683,osm,1,
+E06000039,Slough,Jamia Masjid and Islamic Centre,-0.59899,51.51863,charity_register+osm+planning,3,1155410;Slough/P/02784/009;Slough/P/18000/000;Slough/P/02784/012
+E08000032,Bradford,Markazi Jamia Mosque,-1.9024,53.8705,osm,1,
+E06000016,Leicester,Masjid Salahuddin,-1.12574,52.6408,charity_register+osm,2,1136065
+E08000032,Bradford,Bradford Central Mosque,-1.76014,53.79791,osm+planning,2,Bradford/10/06168/FUL
+E08000032,Bradford,Jamia Masjid Hanfia Mosque,-1.76788,53.80701,charity_register+osm,2,503945
+E07000103,Watford,North Jamia Watford Mosque,-0.40179,51.68255,osm+planning,2,Watford/06/01362/FUL;Watford/05/01066/FUL
+E08000032,Bradford,Al‐Mahdi Mosque,-1.74457,53.80104,osm,1,
+E08000032,Bradford,Jamiyat Tabligh-ul-Islam,-1.7367,53.79719,osm,1,
+E09000030,Tower Hamlets,Masjid Al-Fath,-0.02909,51.51496,osm,1,
+E07000106,Canterbury,Canterbury Islamic Centre,1.06489,51.29635,charity_register+osm,2,1064305
+E07000130,Charnwood,Shah jalal Mosque & Centre,-1.20568,52.7781,osm,1,
+S12000049,Glasgow City,Khazra Central Mosque,-4.26052,55.84049,osm+planning,2,Glasgow/12/01623/DC
+E09000033,Westminster,Islamic Centre,-0.13446,51.51331,charity_register+osm,2,274284
+S12000049,Glasgow City,,-4.26272,55.83473,osm,1,
+E06000023,"Bristol, City of",Bristol Central Mosque,-2.56271,51.46198,osm,1,
+E09000029,Sutton,Sutton Central Masjid,-0.18832,51.36244,osm,1,
+E07000226,Crawley,Crawley Mosque,-0.2139,51.09753,osm,1,
+E07000240,St Albans,St Albans Islamic Centre,-0.31667,51.75281,charity_register+osm,2,275546
+E06000030,Swindon,Hasrat Shahjal Al Mosque,-1.77887,51.56402,charity_register+osm,2,1203107
+E08000032,Bradford,The IslamBradford Centre,-1.76446,53.79813,osm,1,
+E07000078,Cheltenham,Masjid Al Madina,-2.07001,51.90018,osm,1,
+E06000045,Southampton,Bashir Ahmed Masjid,-1.39489,50.92308,osm+planning,2,Southampton/03/00997/FUL
+E08000025,Birmingham,Ad Duha Institute,-1.84704,52.43785,osm,1,
+E08000025,Birmingham,Islamic Cultural & Education Centre,-1.86324,52.44507,charity_register+osm,2,1177352
+E07000148,Norwich,Norwich Central Mosque & Islamic Community Centre,1.28679,52.64286,charity_register+osm,2,1181761
+E07000008,Cambridge,Baitul Mu'eed,0.14997,52.18221,osm,1,
+E07000041,Exeter,Exeter Mosque,-3.52506,50.7292,charity_register+osm,2,274095
+E08000025,Birmingham,Al-Bhokari Education Centre,-1.85794,52.44769,osm,1,
+E09000012,Hackney,North London Mosque,-0.06875,51.5649,charity_register+osm,2,1062409
+E08000035,Leeds,Markazi Jamia Masjid Bilal,-1.51375,53.81281,charity_register+osm,2,1148484
+E07000240,St Albans,Masjid Ar Rahman SCT,-0.3333,51.73902,osm,1,
+S12000050,North Lanarkshire,Islamic Society of Airdrie & Coatbridge,-4.00508,55.8613,osm+planning,2,NorthLanarkshire/04/00554/FUL
+E09000014,Haringey,MTO Shahmaghsoudi,-0.12529,51.57778,osm,1,
+E08000019,Sheffield,Masjid Risalah,-1.48162,53.38932,osm,1,
+E08000025,Birmingham,Makii Marjid & Madrassa,-1.93138,52.50515,osm+planning,2,Birmingham/2014/02931/PA
+E08000033,Calderdale,Jamia Masjid Madni,-1.87056,53.72314,charity_register+osm,2,1193258
+E06000016,Leicester,Baytul 'Ilm,-1.10833,52.64002,charity_register+osm,2,1141791
+E06000023,"Bristol, City of",Shah Jalal Jame Masjid,-2.56402,51.47072,osm+planning,2,Bristol/26/11637/F
+E09000015,Harrow,Harrow Central Mosque,-0.3322,51.58908,charity_register+osm,2,1071261
+E06000045,Southampton,The Abu Bakr Jamia Masjid,-1.39744,50.90992,charity_register+osm,2,296904
+E06000045,Southampton,Masjid Ar-Rahmah,-1.39238,50.91244,osm,1,
+E07000130,Charnwood,Loughborough Mosque and Islamic Cultural Association,-1.19815,52.76954,charity_register+osm,2,508706
+E07000084,Basingstoke and Deane,Basingstoke Mosque,-1.09231,51.2635,osm,1,
+E09000030,Tower Hamlets,Redcoat Community Centre and Mosque,-0.04846,51.51659,osm,1,
+E07000148,Norwich,The Ihsan Mosque and Islamic Centre,1.28904,52.6272,osm,1,
+E08000025,Birmingham,ShahJahil Jami Masjid,-1.86671,52.45793,charity_register+osm,2,1005985
+E08000033,Calderdale,Jamia Masjid Ahl-e-hadith,-1.88579,53.71976,osm+planning,2,Calderdale/08/01682/COU;Calderdale/06/01839/CON
+E06000016,Leicester,Markaz Quba,-1.117,52.62822,osm,1,
+E06000016,Leicester,Masjid Ali,-1.09421,52.63951,osm,1,
+E09000031,Waltham Forest,Dar al Aloom Qadmia Jilamia,-0.01312,51.58298,osm,1,
+E08000003,Manchester,Darul Amaan Mosque,-2.23942,53.46216,osm+planning,2,Manchester/087078/FO/2008/S1;Manchester/085931/FO/2008/S1
+E09000031,Waltham Forest,Masjid Abu Bakr,-0.02749,51.58488,charity_register+osm,2,1190878
+E08000032,Bradford,Central Jamia Mosque & Madrisa (Highfield Branch),-1.91047,53.86868,osm,1,
+E08000032,Bradford,Shahjalal Jami Masjid & Jamia Quraniah,-1.9105,53.86671,osm,1,
+E06000061,North Northamptonshire,Corby Central Masjid,-0.69764,52.48779,charity_register+osm,2,1148796
+E09000003,Barnet,Islamic Centre of Edgware,-0.27375,51.608,charity_register+osm+planning,3,270823;Barnet/W01152C/07
+E08000032,Bradford,Firdaws Mosque,-1.74816,53.78858,charity_register+osm,2,1189160
+E08000032,Bradford,Adam Masjid,-1.78291,53.79773,osm+planning,2,Bradford/03/04814/FUL;Bradford/03/00192/COU
+E08000032,Bradford,Al-Hikam Institute,-1.79608,53.79974,osm,1,
+E09000003,Barnet,North Finchley Mosque,-0.17613,51.61144,osm,1,
+E09000031,Waltham Forest,Baitul Ahad,-0.02694,51.58737,osm,1,
+E08000003,Manchester,Shahporan Masjid,-2.20168,53.45052,charity_register+osm+planning,3,1098501;Manchester/139322/FO/2024;Manchester/105133/FO/2014/N2;Manchester/092549/FO/2010/N2
+E08000003,Manchester,Manchester Jame Masjid,-2.20545,53.45708,charity_register+osm,2,1177124
+E07000177,Cherwell,Banbury Makkah Masjid,-1.3462,52.06331,osm,1,
+W06000008,Ceredigion,Aberystwyth Masjid,-4.07479,52.41277,osm,1,
+E08000008,Tameside,MADRASSA ARBIA TALEEM-UL-QURAN & MOSQUE,-2.10608,53.48612,charity_register+osm,2,1076592
+E07000202,Ipswich,Ipswich Mosque,1.16015,52.05593,charity_register+osm+planning,3,1138698;Ipswich/01/00021/FUL
+E07000172,Broxtowe,Beeston Muslim Centre,-1.20481,52.92777,osm,1,
+E07000008,Cambridge,Omar Faruque Mosque and Cultural Centre,0.13575,52.23203,osm+planning,2,Cambridge/06/1088/FUL
+E07000138,Lincoln,"Lincoln Mosque, Orchard Street, Lincoln, LN1 1XX",-0.54452,53.23059,osm+planning,2,Lincoln/2006/0025/F
+E08000034,Kirklees,Markazi Mosque,-1.62813,53.68101,osm,1,
+E08000034,Kirklees,Masjid e Zakaria,-1.63192,53.68339,osm+planning,2,Kirklees/2015/92174
+E08000026,Coventry,Jamia Mosque,-1.50185,52.41692,osm,1,
+E09000031,Waltham Forest,Faizan-e-Islam Centre,-0.00366,51.59009,osm,1,
+E07000145,Great Yarmouth,Masjid-at-Tauwheed Mosque,1.72652,52.61335,osm,1,
+E07000141,South Kesteven,Grantham Islamic Centre,-0.6415,52.9128,charity_register+osm,2,1153394
+E06000018,Nottingham,Basford Culture Centre,-1.17243,52.97942,osm,1,
+E06000018,Nottingham,Masjid Umar,-1.17814,52.96431,osm,1,
+S12000049,Glasgow City,Glasgow Central Mosque,-4.25095,55.85244,osm+planning,2,Glasgow/18/00800/FUL
+E08000025,Birmingham,MASJID AND MADRASAH FAIZ-UL-QURAN,-1.94317,52.48692,charity_register+osm,2,1047569
+E08000032,Bradford,Markaz Al-Furqaan,-1.78388,53.83105,osm,1,
+E09000030,Tower Hamlets,Shoreditch Masjid Trust,-0.07479,51.52456,charity_register+osm+planning,3,1201689;TowerHamlets/PA/17/03074/A1
+W06000011,Swansea,,-3.99053,51.61432,osm,1,
+E08000032,Bradford,Jamiyat Tabligh-Ul-Islam Mosque,-1.80716,53.81686,osm+planning,2,Bradford/07/08007/COU;Bradford/07/08007/SUB01
+E07000195,Newcastle-under-Lyme,Bright Education and Cultural Association,-2.23183,53.0125,osm,1,
+E09000008,Croydon,Shahjalal masjid,-0.10863,51.38363,osm,1,
+E08000018,Rotherham,Jemia Mosque,-1.36434,53.43107,osm,1,
+E08000025,Birmingham,Madrassa Islamia Razvia (reg),-1.82783,52.45254,osm,1,
+E07000178,Oxford,Ahlul Bayt Centre,-1.21951,51.73821,osm,1,
+E09000008,Croydon,Baitus Subhan Mosque,-0.10373,51.38398,osm,1,
+E07000094,Winchester,Winchester Islamic Centre,-1.31477,51.06938,charity_register+osm,2,1085124
+E06000018,Nottingham,Jami Masjid,-1.17383,52.97093,osm,1,
+E09000005,Brent,Masjid Imam Ali,-0.31951,51.55711,osm,1,
+S12000050,North Lanarkshire,Airdrie & Coatbridge Islamic Centre,-3.98493,55.86666,osm,1,
+E09000019,Islington,Al-Risaalah Mosque & Islington Islamic Centre,-0.12025,51.55755,charity_register+osm,2,1180914
+S12000049,Glasgow City,79 Forth Street Glasgow G41 2SP,-4.26997,55.84262,osm+planning,2,Glasgow/22/00175/FUL;Glasgow/18/02011/FUL
+E08000025,Birmingham,Kings Heath Mosque,-1.89678,52.43596,osm,1,
+E09000009,Ealing,Darus Salaam Mosque,-0.3731,51.51005,osm+planning,2,Ealing/164876CND;Ealing/175320CND;Ealing/165113CND;Ealing/165114CND
+E09000005,Brent,Faiza-e-Madinah Wembley,-0.28998,51.56222,osm,1,
+S12000049,Glasgow City,Masjid Umar,-4.36373,55.88222,osm,1,
+E06000031,Peterborough,Madina Madrassa & Spiritual Centre,-0.25438,52.57695,osm,1,
+E09000010,Enfield,Jalalia Jamme Masjeed,-0.04713,51.64595,osm,1,
+E08000025,Birmingham,Mohammedi Islamic Centre,-1.86338,52.45954,charity_register+osm,2,1124320
+E08000035,Leeds,Jamia Masjid Ghousia,-1.58594,53.79565,charity_register+osm+planning,3,1142052;Leeds/14/06644/FU
+E09000030,Tower Hamlets,East London Mosque,-0.06538,51.51738,charity_register+osm+planning,3,1122613;1124554;TowerHamlets/PA/13/02660/NC;TowerHamlets/PA/09/00159
+E06000043,Brighton and Hove,Shahjalal Mosque & Islamic Center,-0.19043,50.83372,osm,1,
+E06000018,Nottingham,Al Zahra Foundation,-1.17434,52.94741,osm,1,
+E07000148,Norwich,Rose Lane Masjid,1.30253,52.6287,osm,1,
+E09000033,Westminster,Masjid Salahuddin,-0.17153,51.51631,osm,1,
+E09000030,Tower Hamlets,Bishops Way Community Centre,-0.05431,51.5331,osm,1,
+E09000008,Croydon,Croydon Mosque & Islamic Centre,-0.11263,51.38947,charity_register+osm,2,285030
+E06000058,"Bournemouth, Christchurch and Poole",Bournemouth Jamei Mosque,-1.87705,50.74248,charity_register+osm,2,1167179
+E08000032,Bradford,Jami'ah-tul-Madinah,-1.7318,53.79416,charity_register+osm,2,505120
+E08000032,Bradford,Baitul Aman Jam-E Mosque,-1.73507,53.79454,charity_register+osm+planning,3,1135917;Bradford/07/10272/FUL;Bradford/12/03821/FUL
+E06000016,Leicester,Abu Huraira,-1.09403,52.64147,osm,1,
+E08000015,Wirral,Wirral Deen Centre,-3.03238,53.38536,charity_register+osm,2,1190333
+E08000009,Trafford,Masjid-E-Hidayah,-2.27512,53.46117,osm,1,
+E06000021,Stoke-on-Trent,Stoke-on-Trent Muslim Welfare and Community Centre,-2.18626,53.01882,osm,1,
+E06000035,Medway,Muslim Community Centre,0.53936,51.37587,osm,1,
+E07000237,Worcester,Jamia Masjid Ghousia,-2.2107,52.1935,charity_register+osm,2,1173764
+E08000028,Sandwell,Juma Jamat Mosque,-1.95945,52.48624,osm+planning,2,Sandwell/DC/25/70947
+S12000019,Midlothian,Madinah Masjid & Community Centre,-3.10501,55.87531,osm,1,
+E08000028,Sandwell,Bangladeshi Islamic Association Centre,-1.96593,52.50056,charity_register+osm+planning,3,1133871;Sandwell/DC/14/57646;Sandwell/DC/13/56513;Sandwell/DC/10/51953
+E08000028,Sandwell,Masjid-e-Baitul Amaan,-1.96783,52.50201,charity_register+osm+planning,3,1003212;Sandwell/DC/22/66487
+E08000025,Birmingham,Qadria Trust Islamic Education,-1.87366,52.45726,osm,1,
+E09000025,Newham,Al-Karam Mosque,0.03671,51.5425,osm,1,
+E07000237,Worcester,Al-Madina Jami Masjid,-2.21076,52.19644,charity_register+osm+planning,3,703065;Worcester/P13H0422
+E07000081,Gloucester,Jamia al Karim,-2.23788,51.8608,osm+planning,2,Gloucester/13/01052/FUL
+E09000025,Newham,Masjid Stratford,0.00159,51.54918,osm,1,
+E09000019,Islington,Holloway Mosque,-0.10984,51.55097,charity_register+osm,2,1132426
+E09000019,Islington,London Islamic Turkish Association,-0.08661,51.55272,osm,1,
+E08000012,Liverpool,Al-Rahma Mosque,-2.96065,53.3943,osm,1,
+E08000025,Birmingham,Surma Islamic Education Centre Madrassa & Masjid,-1.85249,52.46175,osm+planning,2,Birmingham/2015/05731/PA
+E08000025,Birmingham,Green Oak Academy (Kings Heath),-1.89269,52.42244,osm,1,
+E06000031,Peterborough,Faizan-e-Madina Mosque,-0.24898,52.58033,charity_register+osm,2,1045629
+S12000050,North Lanarkshire,Central Mosque 3 Clydesdale Street New Stevenston Motherwell North Lanarkshire M,-3.99169,55.81708,osm+planning,2,NorthLanarkshire/10/00730/FUL
+E07000236,Redditch,Masjid AlBirr,-1.93794,52.30437,osm,1,
+E07000236,Redditch,Redditch New Mosque,-1.93655,52.30064,charity_register+osm+planning,3,503752;BromsgroveRedditch/2015/201/FUL
+E08000027,Dudley,Jamia Masjid Rizvia,-2.12332,52.48315,charity_register+osm+planning,3,1146991;Dudley/P09/0003
+E08000003,Manchester,City Jamia Masjid,-2.20775,53.46192,osm,1,
+E08000031,Wolverhampton,Wolverhampton Central Mosque,-2.12996,52.59607,charity_register+osm,2,1062702
+E06000008,Blackburn with Darwen,Leamington Road Mosque,-2.50161,53.75067,osm,1,
+E08000031,Wolverhampton,Baitul Atta Mosque,-2.10155,52.58313,osm,1,
+E06000018,Nottingham,Baitul Hafeez Mosque,-1.11712,52.95595,osm,1,
+E08000034,Kirklees,Jamia Masjid Gulzar-E-Madina,-1.639,53.68943,charity_register+osm,2,1216308
+E06000018,Nottingham,Nottingham Alevi Cultural Centre & Cemevi,-1.13574,52.95521,osm,1,
+E07000227,Horsham,Madina Mosque,-0.32305,51.06092,charity_register+osm,2,1038756
+E08000028,Sandwell,Mosque & Islamic Centre,-2.07547,52.47334,charity_register+osm,2,512577
+E09000022,Lambeth,,-0.11933,51.46745,osm,1,
+E06000050,Cheshire West and Chester,Shah Jalal Mosque,-2.92449,53.19901,charity_register+osm,2,1182471
+E06000001,Hartlepool,Nasir Mosque,-1.21625,54.69306,osm,1,
+E06000021,Stoke-on-Trent,City Central Mosque,-2.17697,53.01835,osm,1,
+E09000012,Hackney,Suleymaniye Mosque,-0.07644,51.5353,osm,1,
+E08000016,Barnsley,Barnsley Muslim Community Centre,-1.50298,53.55267,charity_register+osm,2,1060298
+E07000217,Woking,Shah Jahan Mosque,-0.54455,51.32267,osm+planning,2,Woking/PLAN/2019/0159
+E09000009,Ealing,West London Islamic Centre & Greenford Mosque,-0.35192,51.5269,charity_register+osm,2,290990
+E09000009,Ealing,Jamia Masjid UKIM,-0.32627,51.51043,osm+planning,2,Ealing/P/2005/4358
+E08000030,Walsall,Aisha Mosque & Islamic Centre,-1.9839,52.57791,osm+planning,2,Walsall/25/1025
+E08000030,Walsall,Masjid Abu Bakr,-1.9895,52.57568,osm+planning,2,Walsall/02/0903/FL/W4
+E09000019,Islington,Masjid e Yusuf,-0.12072,51.56591,osm,1,
+E08000031,Wolverhampton,"Hussaini Islamic Mission & Ali (AS) Mosque, Shia Muslim Community & Welfare Centre",-2.15227,52.59539,osm,1,
+E08000035,Leeds,Masjid Ibraheem,-1.54876,53.77315,charity_register+osm,2,508738
+E06000050,Cheshire West and Chester,NMC Centre & Masjid,-2.50618,53.26225,osm,1,
+S12000008,East Ayrshire,Ayrshire Central Masjid,-4.49948,55.61564,osm,1,
+W06000004,Denbighshire,Islamic Cultural Centre,-3.4932,53.32007,charity_register+osm,2,1055015
+W06000004,Denbighshire,Galler Turkish Mosque,-3.47814,53.31561,osm,1,
+E08000027,Dudley,Baitul Ghafoor Mosque,-2.02938,52.46408,osm,1,
+E08000027,Dudley,Jamia Mosque Blackheath,-2.03519,52.47077,charity_register+osm+planning,3,1025081;Dudley/P01/1258
+E09000009,Ealing,Central Jamia Mosque,-0.38478,51.49927,charity_register+osm+planning,3,268524;Ealing/P/2009/0479
+E07000138,Lincoln,Faizan-e-Madina Lincoln Islamic Centre & Mosque,-0.50926,53.23905,osm,1,
+E06000050,Cheshire West and Chester,Ellesmere Port Masjid & Islamic Centre,-2.89529,53.28432,charity_register+osm,2,1195799
+E07000211,Reigate and Banstead,Redhill Islamic Centre,-0.17209,51.22819,charity_register+osm,2,1146489
+E06000060,Buckinghamshire,Chesham Mosque,-0.61436,51.7119,osm+planning,2,ChilternSouthBucks/CH/2003/1452/FA
+E06000021,Stoke-on-Trent,Gillani Noor Mosque,-2.12141,52.98058,charity_register+osm+planning,3,1148726;Stoke/51625/FUL;Stoke/62753/PLOB
+E09000014,Haringey,Londra Diyanet Camii,-0.11751,51.58801,osm,1,
+E06000018,Nottingham,Madni Masjid,-1.16138,52.97149,osm,1,
+E07000118,Chorley,Da'watul Islam Mosque,-2.62255,53.64957,osm,1,
+E06000008,Blackburn with Darwen,,-2.45509,53.75024,osm,1,
+E06000008,Blackburn with Darwen,Masjid e Bilaal,-2.47398,53.76285,osm,1,
+E06000023,"Bristol, City of",Jalalabad Islamic Centre,-2.55838,51.47291,charity_register+osm,2,1182658
+E06000018,Nottingham,Masjid Al-Kharza,-1.18019,52.98641,osm,1,
+E07000212,Runnymede,Surrey Muslim Centre,-0.47957,51.37443,osm,1,
+E06000018,Nottingham,Muslim Cultural Centre Wollaton,-1.1939,52.95654,osm,1,
+E08000030,Walsall,Masjid Ghausia Qasmia & Community Hub,-1.98313,52.57841,charity_register+osm+planning,3,1119364;Walsall/22/0729;Walsall/22/0519;Walsall/17/0180
+E08000030,Walsall,Jalalia Sunni Jami Masjid & Islamic Education Centre,-1.98012,52.57763,charity_register+osm+planning,3,1116186;Walsall/05/1631/FL/W7;Walsall/06/1002/FL/W6
+E08000004,Oldham,Medina Mosque & Islamic Centre,-2.11705,53.52919,charity_register+osm+planning,3,1137153;Oldham/FUL/350199/22;Oldham/PA/058305/10;Oldham/PA/057817/10
+E08000009,Trafford,Masjid-e-Noor,-2.26313,53.46075,osm,1,
+E08000009,Trafford,Masjid Imdadia,-2.26649,53.46097,osm,1,
+E08000003,Manchester,Zakaria Mosque,-2.25892,53.4481,charity_register+osm+planning,3,1045869;Manchester/132245/FO/2021;Manchester/128789/FO/2020
+E06000004,Stockton-on-Tees,Tees Valley Muslim Community Centre,-1.32487,54.54712,charity_register+osm,2,1127170
+E08000028,Sandwell,Madina Education Trust,-2.015,52.55419,osm,1,
+E06000061,North Northamptonshire,Shahjalal Jame Mosque,-0.68684,52.30288,charity_register+osm,2,1167440
+E07000149,South Norfolk,Hethersett Masjid,1.17799,52.60228,osm,1,
+E06000008,Blackburn with Darwen,LANCASHIRE COUNCIL OF MOSQUES,-2.47488,53.75785,charity_register+osm,2,1015119
+E08000018,Rotherham,Faizan E Madinah,-1.35649,53.42628,osm,1,
+E08000018,Rotherham,Jamia Masjid,-1.36846,53.43134,charity_register+osm,2,1212659
+E08000018,Rotherham,Jamia Masjid Noor-Ul-Huda,-1.38359,53.42969,osm,1,
+E07000121,Lancaster,Moorlands Islamic Centre,-2.79229,54.04629,charity_register+osm,2,1182067
+E08000018,Rotherham,Jamia Masjid,-1.35076,53.42557,osm,1,
+E08000018,Rotherham,Markazul Uloom Al Islamiyya,-1.34512,53.43406,osm,1,
+E08000018,Rotherham,Jamia Masjid Abu Bakr Mosque,-1.34961,53.43761,charity_register+osm,2,1086859
+E06000002,Middlesbrough,Dar-ul Islam Central Mosque,-1.23118,54.57049,charity_register+osm+planning,3,1137935;Middlesbrough/M/FP/0789/11/P
+E07000064,Rother,Bexhill Masjid & Islamic Centre,0.47415,50.84137,osm,1,
+E08000032,Bradford,Masjidur Raashideen,-1.78393,53.80889,osm,1,
+E09000013,Hammersmith and Fulham,Al-Muntada Al-Islami Trust,-0.20167,51.47639,osm,1,
+E06000023,"Bristol, City of",Greenbank Masjid,-2.55777,51.46785,osm,1,
+E08000037,Gateshead,Masjid Awliya Allah,-1.60335,54.9562,osm,1,
+E06000016,Leicester,Masjid us Sunnah,-1.1261,52.61689,osm,1,
+E06000016,Leicester,Masjid Umar,-1.10183,52.62423,osm,1,
+E06000023,"Bristol, City of",Tawfiq Masjid & Centre,-2.56288,51.45343,charity_register+osm+planning,3,1137291;Bristol/18/03576/COND;Bristol/17/01244/F;Bristol/10/01121/F
+E08000032,Bradford,Al-Jamia Suffa-Tul-Islam Grand Mosque,-1.76931,53.78436,charity_register+osm,2,1179463
+E08000034,Kirklees,Jamia Masjid Noor,-1.79767,53.63912,osm,1,
+E07000220,Rugby,Rugby Mosque,-1.25145,52.37454,charity_register+osm,2,503021
+E09000002,Barking and Dagenham,Al Madina Mosque Barking,0.07754,51.54419,charity_register+osm,2,1186352
+E09000002,Barking and Dagenham,Masjid Alnoor,0.08135,51.53076,osm,1,
+E07000219,Nuneaton and Bedworth,,-1.47221,52.51813,osm,1,
+E08000021,Newcastle upon Tyne,Bilal Jamia Masjid,-1.64005,54.96918,charity_register+osm+planning,3,1084434;NewcastleUponTyne/2011/0548/01/DET;NewcastleUponTyne/1999/1176/04/DCC
+E07000226,Crawley,Langley Green Islamic Centre & Mosque,-0.18644,51.13102,osm,1,
+E07000226,Crawley,Noor Mosque,-0.19267,51.12645,osm,1,
+E07000177,Cherwell,Banbury Madni Masjid,-1.32506,52.06179,charity_register+osm+planning,3,900047;Cherwell/12/01048/F
+E07000008,Cambridge,SHAH-JALAL ISLAMIC CENTRE,0.11687,52.21995,charity_register+osm,2,1146407
+E06000044,Portsmouth,Portsmouth Hafiziah Madrasah,-1.08425,50.78568,osm,1,
+E08000036,Wakefield,Al Markaz Ul Islami,-1.51537,53.67893,osm,1,
+E07000072,Epping Forest,Gilwell Mosque,0.00157,51.64987,osm,1,
+E09000032,Wandsworth,The London Mosque,-0.20736,51.45116,charity_register+osm+planning,3,299081;Wandsworth/2015/6811;Wandsworth/2011/4853
+E08000024,Sunderland,Sunderland Jami-Masjid,-1.39751,54.90261,osm,1,
+E08000036,Wakefield,Masjid Zakariya,-1.47812,53.66731,charity_register+osm+planning,3,1144019;1158401;Wakefield/05/99/27806/R;Wakefield/03/99/27806/N
+E08000036,Wakefield,Madina Masjid,-1.47942,53.66873,osm+planning,2,Wakefield/13/03329/FUL;Wakefield/08/02668/FUL
+E09000030,Tower Hamlets,Poplar Shahjalal Mosque,-0.01739,51.50948,osm+planning,2,TowerHamlets/PA/19/02033/NC;TowerHamlets/PA/14/00726/A1;TowerHamlets/PA/14/00726;TowerHamlets/PA/12/03154
+E08000023,South Tyneside,Al Azhar Mosque,-1.44004,54.99023,charity_register+osm,2,1164773
+E08000032,Bradford,Masjid Nur,-1.80359,53.81567,osm,1,
+E08000023,South Tyneside,Baitul Ma'mur Jame-E- Masjid and Islamic Center,-1.42902,55.00131,osm,1,
+E08000024,Sunderland,Masjid e Anwaar e Madinah,-1.40121,54.90585,osm,1,
+E06000065,North Yorkshire,Jame Masjid & Madrassa Salafia,-2.03173,53.95921,osm,1,
+E08000022,North Tyneside,Whitley Bay Islamic Cultural Centre and Masjid,-1.45416,55.03582,osm,1,
+E06000016,Leicester,Jame,-1.10522,52.63693,charity_register+osm+planning,3,1125931;Leicester/20000650
+E06000016,Leicester,Masjid Abu Bakr,-1.15268,52.62794,charity_register+osm,2,1052275
+E06000016,Leicester,Furqan,-1.10427,52.63147,charity_register+osm,2,1089411
+E06000016,Leicester,Masjid e Aisha,-1.11082,52.63012,charity_register+osm,2,1189917
+E06000016,Leicester,Masjid Tabuk & Evington Muslim Centre,-1.10291,52.62287,osm,1,
+E06000016,Leicester,Masjid an Noor,-1.10946,52.63499,osm,1,
+E08000021,Newcastle upon Tyne,Masjid Darul Arqam,-1.66146,54.97214,osm,1,
+E08000003,Manchester,Shair-e-Rabbani Mosque,-2.2629,53.44736,osm+planning,2,Manchester/134923/FO/2022;Manchester/120677/FO/2018;Manchester/102774/FO/2013/S1
+E06000016,Leicester,Tajdaar e Madina,-1.11687,52.63599,osm,1,
+E06000016,Leicester,Masjid e Usman,-1.11331,52.63689,charity_register+osm,2,295208
+E06000016,Leicester,Leicester Central Mosque,-1.12158,52.63229,charity_register+osm,2,1212766
+E08000003,Manchester,Madina Masjid & Community Centre,-2.19031,53.446,osm,1,
+E09000031,Waltham Forest,Faizan-e-Islam Centre,-0.00493,51.57965,osm,1,
+E08000012,Liverpool,Abdullah Quilliam Mosque,-2.96051,53.41429,osm,1,
+E08000021,Newcastle upon Tyne,Madina Masjid,-1.64882,54.98008,osm,1,
+E06000016,Leicester,Masjid Ar-Rahman,-1.11652,52.63221,osm,1,
+E08000022,North Tyneside,Baitul Ata,-1.53974,54.99259,osm,1,
+E08000021,Newcastle upon Tyne,Heaton Mosque & Islamic Centre,-1.58165,54.98581,charity_register+osm,2,514026
+E09000012,Hackney,Aziziye Mosque and Community Centre,-0.07508,51.55537,osm,1,
+E06000016,Leicester,Masjid An Noor,-1.13033,52.64119,osm,1,
+E09000030,Tower Hamlets,Darul Ummah Mosque,-0.05819,51.51241,osm,1,
+E08000035,Leeds,AhlulBayt Cultural Centre,-1.55994,53.80064,osm,1,
+E08000021,Newcastle upon Tyne,Newcasyle Central Mosque,-1.6473,54.97357,charity_register+osm,2,1115472
+E08000032,Bradford,Madni Jamia Masjid,-1.71851,53.796,osm+planning,2,Bradford/03/02124/FUL
+E07000096,Dacorum,Quwwatul Islam Markazi Jamia Mosque Mehria Ghousia,-0.45681,51.74528,osm,1,
+E06000034,Thurrock,Taleem Mosque & Community Centre,0.32483,51.4779,osm,1,
+E08000026,Coventry,Zeenat Masjid,-1.49818,52.41916,osm,1,
+E08000003,Manchester,Manchester Islamic Centre & Didsbury Mosque,-2.24667,53.4228,charity_register+osm,2,327235
+E06000047,County Durham,Islamic Prayer Rooms,-1.57584,54.7658,osm,1,
+E07000123,Preston,City Mosque Preston,-2.69841,53.76316,osm,1,
+E06000032,Luton,Zakariya Masjid,-0.49364,51.90085,charity_register+osm,2,1120762
+E06000032,Luton,Masjid-E-Ali (Shia),-0.44947,51.89224,osm+planning,2,Luton/13/00916/FUL
+E06000032,Luton,Jamia Al-Alkbaria,-0.44541,51.89586,osm,1,
+E06000032,Luton,Luton Central Mosque,-0.42991,51.88739,osm,1,
+E08000001,Bolton,Zakariyya Jaam'e Masjid,-2.4417,53.56855,charity_register+osm,2,258624;1067122
+E08000012,Liverpool,Baitul Lateef Mosque,-2.95543,53.42462,osm,1,
+E08000001,Bolton,Al-Rahman Mosque,-2.44728,53.56581,osm,1,
+E07000214,Surrey Heath,Camberley Mosque,-0.75686,51.3374,osm+planning,2,SurreyHeath/09/0598
+E08000032,Bradford,Ghousia Mosque,-1.90876,53.87322,osm,1,
+W06000004,Denbighshire,Sadiq Mosque,-3.49813,53.31491,osm,1,
+E09000030,Tower Hamlets,Burdett Estate Mosque,-0.02653,51.51709,osm,1,
+W06000011,Swansea,SWANSEA MOSQUE AND ISLAMIC COMMUNITY CENTRE,-3.9529,51.6186,charity_register+osm,2,1105355
+E08000034,Kirklees,Masjid Noorul Islam,-1.64211,53.71014,charity_register+osm,2,1077956
+E08000034,Kirklees,Masjid Hilal,-1.63504,53.70148,osm+planning,2,Kirklees/2011/91615;Kirklees/2008/91593
+E08000035,Leeds,Cemetery Lodge Prayer Room,-1.55637,53.80932,osm,1,
+E06000058,"Bournemouth, Christchurch and Poole",Poole Mosque,-1.92664,50.7279,osm+planning,2,BCP/P/25/01215/FUL
+E08000017,Doncaster,Jamia Masjid,-1.13123,53.51624,osm+planning,2,Doncaster/13/02464/FUL
+W06000008,Ceredigion,Cardigan Islamic Centre,-4.66311,52.0818,osm,1,
+E07000211,Reigate and Banstead,Masjid Al Yaqeen,-0.17049,51.24193,osm,1,
+S12000011,East Renfrewshire,Clarkston Community Centre,-4.27272,55.79501,osm,1,
+N09000003,Belfast,Belfast Islamic Centre,-5.94214,54.58242,osm,1,
+E08000007,Stockport,Cheadle Masjid,-2.22,53.35839,osm,1,
+E08000001,Bolton,Masjid-e-Noorul Islam,-2.43143,53.58975,charity_register+osm,2,1143878
+E08000001,Bolton,Makki Masjid,-2.44336,53.59118,osm+planning,2,Bolton/72420/05
+E08000001,Bolton,Sughra Mosque,-2.40115,53.55487,charity_register+osm+planning,3,1142802;Bolton/72191/05;Bolton/91314/14
+E06000038,Reading,ShahJalaal Islamic Centre,-0.98435,51.45735,osm,1,
+E08000005,Rochdale,Bilal Masjid,-2.14537,53.62092,charity_register+osm,2,1128321
+E08000001,Bolton,Jamia Madina Masjid,-2.44518,53.58305,charity_register+osm,2,1051556
+E08000035,Leeds,The Lingfield Centre,-1.54515,53.84962,osm,1,
+E08000001,Bolton,Masjid Al-Jamia Darul Quran,-2.44063,53.56583,charity_register+osm,2,1105393;1114346
+E08000001,Bolton,Makkah Masjid,-2.42865,53.56612,charity_register+osm+planning,3,515359;Bolton/07939/20;Bolton/05080/18;Bolton/97675/16
+E08000001,Bolton,Markaz e Ahlebait,-2.42921,53.56818,charity_register+osm,2,1206316
+E08000001,Bolton,Masjid Al Falah,-2.44327,53.57396,osm+planning,2,Bolton/93398/15
+E09000026,Redbridge,Ilford Central Mosque,0.0749,51.55635,charity_register+osm,2,1019462
+E08000001,Bolton,Masjid-e-Usman,-2.4361,53.59393,charity_register+osm,2,1088373
+E06000044,Portsmouth,Portsmouth Muslim Academy,-1.08732,50.80681,osm,1,
+E07000011,Huntingdonshire,,-0.18629,52.33336,osm,1,
+E07000123,Preston,Al-Huda,-2.6976,53.75568,charity_register+osm,2,1088511
+E08000001,Bolton,Jamia Alavia Bolton,-2.41606,53.5751,osm,1,
+E08000001,Bolton,Taiyabah Masjid,-2.42916,53.59291,charity_register+osm,2,1091631
+E07000239,Wyre Forest,Madinatul-Uloom Al-Islamiyah,-2.21279,52.3626,osm,1,
+E09000031,Waltham Forest,Masjid Tawhid,-0.00463,51.55313,charity_register+osm,2,1070735
+E07000138,Lincoln,Former Boultham Dairy Boultham Park Road Lincoln Lincolnshire LN6 7SA,-0.55182,53.21871,osm+planning,2,Lincoln/2012/0457/RM
+E06000023,"Bristol, City of",,-2.57877,51.46665,osm,1,
+E06000023,"Bristol, City of",Al-Baseera Bristol Centre,-2.57986,51.45916,osm,1,
+E08000001,Bolton,Masjid Al Aqsa,-2.4513,53.5758,charity_register+osm,2,1109233
+E06000016,Leicester,Leicester Mosque,-1.11353,52.62875,charity_register+osm,2,257559;1068370
+E06000016,Leicester,Masjid e Usmani,-1.09923,52.63392,osm,1,
+E06000016,Leicester,Masjid-Al-Husayn Mosque,-1.09972,52.64092,osm+planning,2,Leicester/20212995
+E06000016,Leicester,Jamia Masjid-e-Bilal,-1.10177,52.62678,charity_register+osm+planning,3,1069001;1135885;1200396;Leicester/20182713
+E06000016,Leicester,Ismaili Jamaat Khana,-1.07802,52.65912,osm,1,
+E07000135,Oadby and Wigston,Masjid al Ameen,-1.08458,52.59966,osm,1,
+E06000016,Leicester,Masjid at-Taqwa Islamic Education Centre,-1.10477,52.64186,charity_register+osm,2,1141106
+E06000016,Leicester,Taybah Islamic Centre,-1.09455,52.63172,charity_register+osm,2,1186590
+E06000016,Leicester,Hafsah Islamic Centre,-1.1057,52.63839,osm,1,
+E06000016,Leicester,Madrasa-e-Anjuman-e-Ghousia Mosque,-1.11737,52.63043,osm,1,
+E08000033,Calderdale,Majid-e-Hamza Mosque,-2.09478,53.71759,osm,1,
+E06000016,Leicester,The Peace Centre,-1.05677,52.63822,osm,1,
+E06000016,Leicester,Al Bayaan Arabic Foundation,-1.12554,52.65517,osm,1,
+E06000016,Leicester,Masjid Mu'adh ibn Jabal,-1.07206,52.63299,osm,1,
+E07000132,Hinckley and Bosworth,The Markfield Mosque,-1.27247,52.67746,osm,1,
+E06000016,Leicester,Hamidiye Camii,-1.14098,52.63592,osm,1,
+E06000016,Leicester,Noor ul Islam,-1.09937,52.6317,osm,1,
+E06000016,Leicester,Anjuman-e-Saifee,-1.11297,52.60436,osm,1,
+E08000001,Bolton,Masjid-e-Salaam,-2.43353,53.60329,charity_register+osm,2,1081944
+E06000010,"Kingston upon Hull, City of",Diyanet Mosque,-0.35639,53.74233,osm,1,
+E07000193,East Staffordshire,Central Jamia Masjid Rizvia,-1.64365,52.79697,charity_register+osm+planning,3,1139907;EastStaffordshire/P/2019/00260
+E06000060,Buckinghamshire,Townfield Totteridge Jamia Mosque,-0.74239,51.62962,osm,1,
+E07000114,Thanet,Al-Birr Community Centre and Mosque,1.38326,51.3878,osm,1,
+E08000034,Kirklees,Jame Masjid,-1.63084,53.70325,osm,1,
+E08000034,Kirklees,Jumma Masjid,-1.63057,53.70126,osm,1,
+E08000032,Bradford,Madrassa Abbassiya,-1.71845,53.80125,osm,1,
+E08000034,Kirklees,Ilaahi Masjid,-1.63795,53.69814,osm,1,
+E08000025,Birmingham,Zaouia islamiya 'alaouia,-1.90104,52.45896,osm,1,
+E08000035,Leeds,South Leeds Al Noor,-1.55697,53.77797,osm,1,
+E07000011,Huntingdonshire,Jamia Mosque,-0.16761,52.34458,osm+planning,2,Huntingdonshire/0002013FUL
+E08000003,Manchester,Mawlawi Kurdish Cultural Centre,-2.25182,53.46087,osm,1,
+E09000025,Newham,Khidmah Academy,0.01075,51.54085,osm,1,
+E08000003,Manchester,Salaam Community Centre and Masjid,-2.25174,53.45769,osm,1,
+E09000025,Newham,Faizan-e-Madina Masjid,0.0097,51.53752,osm,1,
+E07000136,Boston,Mosque Al-Noor,-0.0302,52.97763,charity_register+osm,2,1184868
+E08000035,Leeds,Al-Amin Masjid,-1.53619,53.81518,osm,1,
+E07000066,Basildon,South Essex Islamic Community Centre,0.48722,51.56039,osm,1,
+E06000023,"Bristol, City of",Hazrat Bilal Centre,-2.57763,51.46902,osm,1,
+E08000035,Leeds,Baab Ul Ilm Centre,-1.52459,53.84997,charity_register+osm,2,514781
+E08000035,Leeds,Leeds Islamic Centre,-1.52548,53.81326,charity_register+osm,2,1142605
+E07000228,Mid Sussex,Mid Sussex Islamic Centre And Masjid,-0.09966,50.9917,charity_register+osm,2,1131150
+E06000031,Peterborough,Masjid Ghousia,-0.2515,52.58542,charity_register+osm+planning,3,1131838;Peterborough/02/00469/FUL
+E07000098,Hertsmere,Jesus Son of Mary Community Centre,-0.36102,51.64412,osm,1,
+E08000005,Rochdale,Faizan-e-Madina,-2.15066,53.62605,osm+planning,2,Rochdale/13/00760/FUL
+E08000019,Sheffield,Sheffield Grand Mosque,-1.44096,53.40461,osm+planning,2,Sheffield/11/00642/FUL;Sheffield/10/03206/FULR;Sheffield/06/03268/FUL
+E06000023,"Bristol, City of",Faizan-E-Madinah,-2.53834,51.47688,osm,1,
+E09000033,Westminster,Mayfair Islamic Centre,-0.14899,51.50538,osm,1,
+E09000024,Merton,,-0.18335,51.4164,osm,1,
+E09000004,Bexley,Masjid Abu Bakar,0.17736,51.45294,charity_register+osm,2,1073906
+E06000023,"Bristol, City of",Shahporan,-2.57428,51.49515,osm,1,
+E08000012,Liverpool,Felicity House,-2.92256,53.401,osm,1,
+E06000031,Peterborough,Masjid Al-Raheem,-0.24568,52.57789,osm,1,
+E09000030,Tower Hamlets,Lansbury Mosque,-0.01817,51.51524,charity_register+osm,2,1154615
+E07000094,Winchester,Al Mahdi Centre,-1.21775,50.87633,osm,1,
+E08000035,Leeds,Shahjalal Jamia Masjid,-1.52004,53.81709,osm,1,
+E08000035,Leeds,Masjid Quba,-1.52248,53.81576,osm+planning,2,Leeds/08/04105/FU;Leeds/13/03961/FU
+E08000025,Birmingham,Handsworth Mosque & IslamicCentre,-1.94412,52.50399,charity_register+osm,2,519657
+E08000001,Bolton,Ahmadiyya Muslim Community Centre,-2.54934,53.60164,osm,1,
+E08000027,Dudley,Dudley Central Mosque,-2.07877,52.51241,charity_register+osm,2,1127373
+E07000008,Cambridge,Cambridge Central Mosque,0.15238,52.19734,charity_register+osm+planning,3,1164931;Cambridge/11/1348/FUL
+E09000031,Waltham Forest,Chingford Islamic and Cultural Centre,-0.01764,51.61104,osm,1,
+E09000031,Waltham Forest,Lea Bridge Road Mosque,-0.02152,51.57188,osm,1,
+W06000015,Cardiff,Masjid Umar,-3.16181,51.49248,charity_register+osm,2,1204534
+E09000031,Waltham Forest,Masjid-e-Usman,0.00208,51.56308,charity_register+osm,2,1062123
+E09000031,Waltham Forest,Al-Birr,-0.01703,51.56332,osm,1,
+E09000031,Waltham Forest,Leyton Jamia Masjid,-0.00968,51.56116,osm,1,
+W06000015,Cardiff,Dar Ul-Isra,-3.1753,51.48958,charity_register+osm,2,1133380
+W06000015,Cardiff,Masjid At-Tawheed,-3.18544,51.47029,osm,1,
+W06000015,Cardiff,Masjid Abubakr,-3.18185,51.46842,charity_register+osm,2,700085
+W06000015,Cardiff,Madina Mosque,-3.17573,51.49597,charity_register+osm,2,1110910
+E06000054,Wiltshire,Salisbury Central Masjid,-1.80637,51.0725,charity_register+osm,2,1059944
+E06000004,Stockton-on-Tees,Farooq-e-Azam Mosque & Islamic Centre,-1.31847,54.55968,charity_register+osm+planning,3,1165718;Stockton/22/1907/VARY;Stockton/04/3691/FUL
+E08000034,Kirklees,Central Jamia Masjid Al-Haramain,-1.67446,53.71099,charity_register+osm,2,1208163
+W06000015,Cardiff,Shah Jalal Mosque,-3.17365,51.49312,osm,1,
+E09000031,Waltham Forest,Menzil Trust Masjid,-0.00991,51.56612,osm,1,
+E08000034,Kirklees,Makki Mosque,-1.67486,53.70842,osm,1,
+E09000031,Waltham Forest,Cann Hall Masjid,0.01127,51.55516,osm+planning,2,WalthamForest/111685
+E06000023,"Bristol, City of",Qur'an Academy,-2.5309,51.47329,osm,1,
+E08000019,Sheffield,Baitul Mukarram Jame Masjid,-1.47344,53.36556,osm+planning,2,Sheffield/12/03411/FUL
+E06000010,"Kingston upon Hull, City of",Springbank Mosque,-0.35153,53.74926,osm,1,
+E06000016,Leicester,Masjid Muhammed,-1.08954,52.66391,osm+planning,2,Leicester/20162414
+E09000017,Hillingdon,Quba Masjid & Islamic Centre,-0.42283,51.5087,charity_register+osm,2,1189923
+E08000001,Bolton,Masjid E Ghosia,-2.44383,53.56514,charity_register+osm,2,1198342
+E09000008,Croydon,Masjid Uthman,-0.07313,51.39799,osm,1,
+E08000018,Rotherham,Raza-E-Mustafa Mosque,-1.32471,53.41532,osm,1,
+E08000008,Tameside,Ashton Central Mosque,-2.08664,53.49252,charity_register+osm+planning,3,1121224;Tameside/04/01580/R3D
+E08000001,Bolton,Masjid Adam Mosque,-2.47639,53.57029,osm,1,
+E09000033,Westminster,Masjid Khalil,-0.19403,51.52297,charity_register+osm,2,1113292
+E08000032,Bradford,Baitul Haleem Mosque,-1.90638,53.86401,osm,1,
+E06000038,Reading,Reading Islamic Centre,-0.94932,51.45389,osm+planning,2,Reading/PL/07/0782;Reading/070782;Reading/170365;Reading/PL/17/0365
+W06000022,Newport,Dawat E Islami Shaftesbury,-2.99615,51.59417,osm,1,
+E06000008,Blackburn with Darwen,Masjide Noorul Islam,-2.46697,53.74431,osm+planning,2,Blackburn/10/07/0015;Blackburn/10/06/0155
+E08000001,Bolton,Madinah Masjid,-2.43492,53.58149,charity_register+osm,2,1190941
+E07000122,Pendle,Masjid Nimra,-2.20648,53.84084,charity_register+osm,2,512891
+E08000030,Walsall,Darus Salam Masjid & Bangladeshi Islamic Centre,-2.02112,52.56966,charity_register+osm+planning,3,1037470;Walsall/13/0615/OL
+E07000122,Pendle,Gausia Madrassah,-2.20568,53.83736,osm,1,
+E07000122,Pendle,Labbayak Ya RasoolAllah Masjid,-2.20893,53.83249,osm,1,
+E08000001,Bolton,Masjid Ahl Al-Sunnah,-2.44254,53.59378,osm,1,
+E07000132,Hinckley and Bosworth,Madinah Masjid,-1.37752,52.53648,osm,1,
+E08000019,Sheffield,Quba Education Centre,-1.42697,53.39426,osm,1,
+S12000049,Glasgow City,Bait-Ur-Rahman Mosque,-4.29003,55.86601,osm,1,
+E08000034,Kirklees,Madina Masjid,-1.63739,53.70984,osm,1,
+E06000032,Luton,Al Furqan Mosque,-0.45641,51.90568,osm,1,
+E08000025,Birmingham,Jamia Masjid Anwara al Madina,-1.82711,52.4931,charity_register+osm,2,1099763
+E08000010,Wigan,Masjid Tooba,-2.64565,53.52883,osm,1,
+E07000122,Pendle,Markazi Jamia Ghausia Masjid,-2.21597,53.83905,osm+planning,2,Pendle/19/0752/FUL
+S12000011,East Renfrewshire,East Renfrewshire Islamic Centre,-4.33665,55.76969,osm,1,
+E09000020,Kensington and Chelsea,Islamic Universal Association,-0.2119,51.50899,osm,1,
+E09000030,Tower Hamlets,Turners Road Masjid,-0.03156,51.51664,osm,1,
+E08000032,Bradford,Jamia Masjid,-1.82247,53.80051,osm,1,
+E09000018,Hounslow,Husseini Islamic Mission,-0.34589,51.47496,osm,1,
+E07000174,Mansfield,Mansfield Jamee Masjid,-1.18914,53.14425,osm,1,
+E06000032,Luton,Al Falah Community Centre,-0.46261,51.90297,osm,1,
+E06000040,Windsor and Maidenhead,Medina Mosque,-0.63397,51.48141,osm,1,
+S12000049,Glasgow City,Tantallon Road Mosque,-4.2826,55.82565,osm+planning,2,Glasgow/13/02073/DC;Glasgow/08/01970/DC
+E09000012,Hackney,Valide Sultan Mosque,-0.08384,51.55731,osm,1,
+E09000023,Lewisham,Lewisham Islamic Centre,-0.01629,51.45179,charity_register+osm,2,1187279
+E09000025,Newham,Masjid Abdul Aziz bin Baz,0.01871,51.53646,osm,1,
+E09000017,Hillingdon,Hayes Welfare Association & Abdulla Masjid,-0.44058,51.50139,osm,1,
+W06000006,Wrexham,Wrexham Islamic Cultural Centre,-2.9973,53.04816,charity_register+osm,2,1045958
+E09000002,Barking and Dagenham,Dagenham Aishah Islamic Centre,0.1437,51.56736,osm,1,
+E08000010,Wigan,Wigan Rashida Masjid,-2.61765,53.53328,osm,1,
+E09000025,Newham,Imambargah Qasr-e-Abbas (QAS),0.01633,51.5475,osm,1,
+E08000034,Kirklees,Baitul Tauhid Mosque,-1.78558,53.6624,osm+planning,2,Kirklees/2008/92369
+E09000025,Newham,Minhaj Ul Quran Centre,0.02484,51.54604,osm,1,
+E08000019,Sheffield,Muslim Welfare House,-1.49651,53.37944,osm,1,
+E08000005,Rochdale,CENTRAL MOSQUE ROCHDALE,-2.15982,53.61005,charity_register+osm,2,1054999
+W06000011,Swansea,Bethel Chapel,-3.99009,51.62053,osm,1,
+E09000025,Newham,Masjid Isa Ibn Maryam,0.02227,51.55477,osm,1,
+E09000022,Lambeth,Hyderi Islamic Centre,-0.13654,51.42016,osm,1,
+E07000070,Chelmsford,Ali Reza Islamic Centre,0.4766,51.73816,osm,1,
+E06000060,Buckinghamshire,Southcourt Islamic Centre,-0.82526,51.81048,osm+planning,2,AylesburyVale/08/02477/APP
+E08000030,Walsall,Al Aqsa Walsall Masjid,-1.98501,52.59296,osm,1,
+E06000007,Warrington,Warrington Islamic Association,-2.61267,53.3978,osm,1,
+E07000125,Rossendale,Baitul Mukarram Mosque & Islamic Center,-2.32606,53.70706,osm,1,
+E07000228,Mid Sussex,Muslim Community Mosque,-0.13807,50.95728,charity_register+osm,2,1213162
+E06000026,Plymouth,Islamic Centre of Plymouth and Cornwall,-4.14118,50.37704,charity_register+osm,2,1048445
+E08000004,Oldham,Oldham Central Masjid and Islamic Centre,-2.12785,53.54504,charity_register+osm,2,1133257
+E08000028,Sandwell,Jamia Masjid Anwar-Ul-Uloom,-1.958,52.48972,charity_register+osm+planning,3,1103529;Sandwell/DC/02/40158
+E06000055,Bedford,Goldington Islamic Centre,-0.4526,52.14006,osm,1,
+E09000013,Hammersmith and Fulham,Shepherds Bush Mosque and Muslim Cultural Centre,-0.23136,51.50659,charity_register+osm,2,273580
+E08000008,Tameside,Masjid Ar-Raheem,-2.07995,53.49348,charity_register+osm,2,1201471
+E07000103,Watford,Watford Jamia Masjid,-0.39512,51.65246,charity_register+osm+planning,3,272539;Watford/15/00068/FUL
+E07000117,Burnley,,-2.23934,53.80016,osm,1,
+E08000003,Manchester,Shahjalal Mosque and Islamic Centre,-2.2262,53.45108,charity_register+osm+planning,3,1139992;Manchester/094276/FO/2010/S1
+E08000005,Rochdale,Golden Mosque,-2.16579,53.61828,charity_register+osm+planning,3,1084209;Rochdale/02/D40042;Rochdale/11/D55045;Rochdale/06/D47837
+E06000032,Luton,Faizan-e-Mushkil Kusha,-0.46717,51.90143,osm,1,
+W06000015,Cardiff,Madni Mosque,-3.17174,51.49585,osm,1,
+E09000025,Newham,Shah Jalal Mosque,0.05284,51.55225,osm,1,
+E06000039,Slough,Faizan-e-Madinah,-0.54188,51.49501,osm+planning,2,Slough/P/02523/011
+E09000018,Hounslow,Masjid us Sunnah,-0.407,51.4783,charity_register+osm,2,1076723
+E06000032,Luton,Hockwell Ring Masjid,-0.46883,51.90604,osm,1,
+E06000066,Somerset,Taunton and Somerset Islamic Centre,-3.1071,51.01472,charity_register+osm,2,1212592
+E07000122,Pendle,Masjid Al-Mustafa,-2.20774,53.83651,osm,1,
+E09000030,Tower Hamlets,Al Huda - Cultural Centre and Mosque,-0.05126,51.52111,charity_register+osm+planning,3,292948;TowerHamlets/PA/13/00064;TowerHamlets/PA/13/00064/EX
+E07000078,Cheltenham,Masjidul Falah,-2.08347,51.90468,charity_register+osm,2,294042
+W06000015,Cardiff,Rabbaniah Islamic Cultural Centre,-3.18689,51.47478,osm+planning,2,Cardiff/11/00892/DCI
+E07000092,Rushmoor,Harland Hall,-0.76014,51.24483,osm,1,
+E07000229,Worthing,Worthing Masjid,-0.36999,50.81928,osm,1,
+W06000016,Rhondda Cynon Taf,Islamic Centre Aberdare,-3.44761,51.72121,charity_register+osm,2,1088551
+E09000023,Lewisham,Tahir Mosque,0.00992,51.43391,osm,1,
+E09000025,Newham,The Muslim community Centre & Mosque,0.03185,51.54424,osm,1,
+E09000025,Newham,,0.0301,51.54218,osm,1,
+E09000025,Newham,,0.03317,51.53801,osm,1,
+E08000004,Oldham,Madressa Taleem-ul-Quran and Qurtaba Masjid,-2.09126,53.54159,osm,1,
+E08000005,Rochdale,Neeli Mosque,-2.15245,53.60866,osm,1,
+E07000122,Pendle,,-2.2353,53.82319,osm,1,
+E09000025,Newham,East End Islamic Centre,0.0297,51.53734,charity_register+osm,2,1050176
+E07000216,Waverley,Mubarak Mosque,-0.75102,51.19075,osm,1,
+E09000026,Redbridge,Newbury Park Masjid,0.09138,51.58132,charity_register+osm+planning,3,1118363;Redbridge/2647/09
+E09000026,Redbridge,Imamia Mission,0.08799,51.57818,osm,1,
+E06000051,Shropshire,Shrewsbury Muslim Centre,-2.73106,52.70415,osm,1,
+E09000018,Hounslow,Hounslow Muslim Centre,-0.35708,51.46942,osm,1,
+E08000032,Bradford,Salahadin Mosque,-1.75985,53.78963,charity_register+osm+planning,3,1003475;1067963;1217711;Bradford/07/02536/LBC
+E06000059,Dorset,Weymouth and Dorchester Islamic Centre,-2.45318,50.60796,osm,1,
+E07000061,Eastbourne,Eastbourne Mosque,0.28691,50.7727,osm+planning,2,Eastbourne/100228;Eastbourne/100462
+E08000019,Sheffield,Al-Huda Islamic Centre,-1.48328,53.37544,charity_register+osm,2,1140270
+E06000049,Cheshire East,Shahjalal Mosque,-2.44309,53.09394,charity_register+osm+planning,3,1215723;CheshireEast/09/0589N
+E09000030,Tower Hamlets,Locksley Estate Mosque,-0.03304,51.51393,osm,1,
+E09000022,Lambeth,Brixton Mosque,-0.11274,51.46533,charity_register+osm,2,1168959
+E09000032,Wandsworth,Idara-e-Jaaferiya,-0.16143,51.42516,charity_register+osm,2,260968
+E09000009,Ealing,Acton Mosque,-0.27032,51.50663,charity_register+osm+planning,3,291264;Ealing/P/2006/2255;Ealing/P/2003/3733
+E07000008,Cambridge,Muslim Prayer Room,0.11024,52.20106,osm,1,
+E09000008,Croydon,Alhidaya Croydon,-0.11312,51.39344,osm,1,
+E06000008,Blackburn with Darwen,Baitul Rasheed,-2.50438,53.74416,osm,1,
+E07000123,Preston,Jamea Masjid,-2.6918,53.75519,charity_register+osm,2,515749
+E09000011,Greenwich,Greenwich Islamic Centre,0.08267,51.49032,charity_register+osm,2,271301;1142285
+E09000025,Newham,Plaistow Jamia Islamia,0.02382,51.52809,osm,1,
+E08000032,Bradford,Baitul Hamd,-1.73006,53.79242,osm,1,
+E08000019,Sheffield,Baitul Afiyat Mosque,-1.45096,53.38768,osm,1,
+E08000034,Kirklees,Baitul Atta Mosque,-1.65526,53.70632,osm,1,
+E09000017,Hillingdon,Baitul Aman Mosque,-0.46609,51.52337,osm,1,
+E06000016,Leicester,Baitul Ikram Mosque,-1.11929,52.61451,osm,1,
+E09000024,Merton,Baitul Ehsan,-0.16512,51.39108,osm,1,
+E07000222,Warwick,Baitul Ehsan Mosque,-1.54125,52.28859,osm,1,
+E09000018,Hounslow,Baitul Wahid Mosque,-0.40285,51.43074,osm,1,
+E09000025,Newham,Baitul Ahad Mosque,0.03907,51.53386,osm,1,
+E07000178,Oxford,Oxford Mosque Society,-1.2404,51.75155,charity_register+osm,2,262773
+E06000030,Swindon,Swindon Ismaili Jamatkhana,-1.78453,51.55542,osm,1,
+E09000025,Newham,Masjid Al Habib,0.01787,51.52032,osm,1,
+E09000025,Newham,Masjid-al-Falah,0.02843,51.5251,osm,1,
+E08000019,Sheffield,Jamia Masjid Ghausia,-1.44958,53.40816,osm+planning,2,Sheffield/08/03669/LBC;Sheffield/08/03668/FUL
+E09000025,Newham,Masjid Ibrahim,0.03615,51.53032,osm+planning,2,Newham/06/01654/OUT
+E09000010,Enfield,Palmers Green Mosque,-0.10474,51.6153,charity_register+osm,2,1156440
+E08000019,Sheffield,Anjuma E Haideria,-1.47685,53.36808,osm,1,
+E08000004,Oldham,Jamia Mosque Noor-E-Islam,-2.13217,53.53441,osm,1,
+E08000004,Oldham,Werneth Jamia Mosque,-2.13311,53.53268,charity_register+osm,2,1137058
+E09000026,Redbridge,Masjid-e-Owais-e-Qarni,0.05612,51.56527,charity_register+osm,2,1062761;1142310
+E09000002,Barking and Dagenham,Darul Ummah Goresbrook,0.1135,51.53425,osm,1,
+E07000245,West Suffolk,Haverhill Mosque,0.43161,52.08228,osm,1,
+E09000025,Newham,Jamia Masjid Newham,0.05094,51.54165,osm,1,
+E06000043,Brighton and Hove,Al Quds Mosque,-0.15058,50.83473,charity_register+osm,2,1122974
+E06000020,Telford and Wrekin,Telford Central Mosque,-2.51148,52.69936,osm+planning,2,Telford/TWC/2012/0871
+E09000025,Newham,,0.05256,51.54767,osm,1,
+E08000010,Wigan,Masjid al-Furqan (Leigh Mosque),-2.51406,53.49805,osm,1,
+E08000003,Manchester,Al-Masjid al-Nur,-2.19302,53.44866,osm+planning,2,Manchester/079788/FO/2006/N2;Manchester/076768/FO/2005/N2;Manchester/068189/FO/2003/N2
+E08000024,Sunderland,Hendon Jami Masjid,-1.37686,54.90209,osm,1,
+E08000032,Bradford,Al-Amin Jame Masjid & Madrasha,-1.72227,53.79796,osm+planning,2,Bradford/16/08760/FUL
+E09000018,Hounslow,Heathrow Jamia Masjid,-0.41549,51.48118,osm,1,
+E09000018,Hounslow,Islamic Integration Community Centre,-0.3897,51.46273,osm,1,
+E09000017,Hillingdon,Jamia Masjid,-0.47436,51.5095,charity_register+osm,2,1178127
+E09000017,Hillingdon,Al Falah Islamic Education Centre,-0.47543,51.51273,osm,1,
+E09000017,Hillingdon,Uxbridge Muslim Community Centre,-0.48392,51.5379,osm,1,
+E09000017,Hillingdon,Uxbridge Eyup Sultan Masjid,-0.48033,51.54787,osm,1,
+E07000213,Spelthorne,Ashford & Staines Community Centre,-0.45836,51.44702,osm,1,
+E09000018,Hounslow,Feltham Hira Centre,-0.40417,51.45397,osm,1,
+E08000004,Oldham,Oldham Mosque & Islamic Centre,-2.1263,53.54268,osm,1,
+E08000004,Oldham,Al-Khasra Masjid,-2.12263,53.54632,osm,1,
+E09000016,Havering,,0.17953,51.57327,osm,1,
+E08000034,Kirklees,Baitus Samad,-1.77977,53.65094,osm,1,
+E07000103,Watford,Bait-ul-Hadi,-0.41894,51.64234,osm,1,
+E09000005,Brent,Markaz Us-Sunnah,-0.29516,51.53906,osm,1,
+E09000018,Hounslow,Faizan-E-Jumu'ah Masjid,-0.36945,51.46481,charity_register+osm,2,295078
+E06000012,North East Lincolnshire,Grimsby Islamic Centre,-0.08002,53.55408,osm,1,
+E08000019,Sheffield,Masjid Mohammed,-1.45815,53.39101,osm,1,
+E09000021,Kingston upon Thames,Kingston Mosque,-0.2979,51.41602,charity_register+osm+planning,3,274503;Kingston/00/03366
+E08000004,Oldham,Jamia Islamia Ghousia Masjid,-2.13564,53.53226,osm,1,
+E06000002,Middlesbrough,Hussainiat Al Zahra,-1.24264,54.57538,osm,1,
+E08000004,Oldham,Madrassa Taleemul Islam Markazi Masjid,-2.13894,53.53254,osm,1,
+E06000032,Luton,Bury Park Masjid,-0.42608,51.88477,osm+planning,2,Luton/11/00791/FUL
+E06000032,Luton,Masjid Al-Ghurabaa,-0.42716,51.88594,charity_register+osm,2,1042630
+E06000055,Bedford,Daarul Huda,-0.47137,52.12492,osm,1,
+E08000013,St. Helens,St Michaels Mount (inman Trust),-2.73129,53.42689,osm,1,
+E06000034,Thurrock,Grays Park Masjid,0.32915,51.4783,osm,1,
+E06000062,West Northamptonshire,Baital Ma'mur Jami Masjid,-0.9179,52.24102,charity_register+osm,2,1153915
+E08000032,Bradford,Jamia Masjid Ya Rasool Allah,-1.71458,53.79963,osm+planning,2,Bradford/11/04821/FUL
+E08000004,Oldham,Bilal Jamia Mosque,-2.08839,53.54209,osm+planning,2,Oldham/PA/056696/09
+E07000178,Oxford,Madina Masjid,-1.23699,51.74215,osm,1,
+W06000011,Swansea,,-3.95735,51.61503,osm,1,
+E08000028,Sandwell,Central Jamia Mosque,-2.05803,52.52306,osm+planning,2,Sandwell/DC/13/55631
+E08000028,Sandwell,Masjid Shah Jalal,-2.05432,52.52563,osm,1,
+E06000016,Leicester,Faiz e Raza,-1.10773,52.64173,osm,1,
+E06000037,West Berkshire,Newbury Jamme Masjid,-1.32836,51.39662,osm,1,
+E07000063,Lewes,Peacehaven Mosque,-0.00757,50.79226,osm,1,
+E08000026,Coventry,Faizen E Islam,-1.50351,52.43113,osm,1,
+E07000178,Oxford,Baitus Shakoor,-1.22935,51.74507,osm,1,
+E07000193,East Staffordshire,Baitul Saboor Mosque,-1.60698,52.80609,osm,1,
+E08000028,Sandwell,Jami Masjie Islam Centre,-2.01744,52.55329,charity_register+osm+planning,3,1025551;Sandwell/DC/03/40210
+E08000002,Bury,"JAMIA KHIZRA MOSQUE AND ISLAMIC CENTRE, BURY",-2.287,53.59226,charity_register+osm,2,1092049
+E08000004,Oldham,Masjid Hayat Un Nabi,-2.12776,53.534,charity_register+osm,2,1172406
+E08000012,Liverpool,Masjid Omar Mukhtar,-2.95793,53.3957,charity_register+osm,2,1188610
+E08000017,Doncaster,Baitul Baseer,-1.18855,53.4849,osm,1,
+E08000004,Oldham,Ross Street Masjid,-2.12389,53.53565,charity_register+osm+planning,3,1196066;Oldham/PA/339154/16;Oldham/PA/330749/11
+E08000028,Sandwell,Sandwell Grand Masjid,-1.9996,52.5204,osm,1,
+E06000031,Peterborough,Salahaddin Community Centre,-0.24944,52.56515,osm,1,
+E08000028,Sandwell,Markazi Jamia Masjid Gulzar-e-Habib Mosque,-2.00266,52.52146,charity_register+osm+planning,3,700654;Sandwell/DC/24/68966
+E09000006,Bromley,Al-Emaan Centre,0.03803,51.36752,osm,1,
+E07000135,Oadby and Wigston,Masjid Adam,-1.08115,52.59694,osm,1,
+E08000004,Oldham,Jamay Masjid Muhammadia Saifia,-2.10302,53.53697,charity_register+osm,2,1141065
+E08000004,Oldham,Greengate Jamia Mosque,-2.10188,53.53908,osm,1,
+E09000030,Tower Hamlets,Stepney Shahjalal Mosque & Cultural Centre,-0.04078,51.51996,osm+planning,2,TowerHamlets/PA/09/00676/A1;TowerHamlets/PA/09/00676;TowerHamlets/PA/04/01173
+E07000120,Hyndburn,Raza Jamia Masjid,-2.37948,53.7518,charity_register+osm+planning,3,702991;Hyndburn/11/10/0443
+E08000004,Oldham,Shahjalal Mosque & Islamic Centre,-2.12128,53.53424,charity_register+osm+planning,3,1189107;Oldham/PA/059360/11;Oldham/PA/049596/05
+E08000004,Oldham,Masjid-Ul-Asqa and Islamic Centre,-2.12374,53.53249,charity_register+osm,2,1179403
+E06000008,Blackburn with Darwen,Makki Masjid,-2.48399,53.75512,osm,1,
+E06000008,Blackburn with Darwen,Masjid Al-Hidayah,-2.48069,53.75511,osm,1,
+E06000008,Blackburn with Darwen,Masjid Tauheedul Islam,-2.48547,53.7533,charity_register+osm,2,700817
+E06000008,Blackburn with Darwen,SHIA ISLAMIC CENTRE BLACKBURN,-2.4985,53.74956,charity_register+osm,2,512680
+W06000009,Pembrokeshire,Hamad Bin Khalifa Islamic Centre,-5.03114,51.7123,charity_register+osm,2,1180090
+E08000032,Bradford,Muhammadi Masjid,-1.7647,53.80339,osm,1,
+E08000032,Bradford,Imam Yusuf Motala Academy,-1.73255,53.81025,osm,1,
+E08000032,Bradford,Masjid As-Sunnah,-1.78377,53.78116,charity_register+osm,2,1013733
+E07000237,Worcester,Turkish Community Centre,-2.2192,52.19729,osm,1,
+E07000237,Worcester,Jalalabad Muslim Association,-2.21275,52.19132,charity_register+osm+planning,3,1216230;Worcester/P18D0362;Worcester/23/00478/FUL
+E07000239,Wyre Forest,Kidderminster Madani Masjid,-2.2459,52.39195,charity_register+osm,2,1210705
+E07000062,Hastings,Hastings Mosque,0.55748,50.85222,osm,1,
+E08000027,Dudley,Netherton Islamic Trust Masjid,-2.08605,52.4955,osm,1,
+E06000016,Leicester,Masjid E Abdullah ibn Mas'ud,-1.13989,52.60394,osm,1,
+E08000034,Kirklees,Hanfia Masjid,-1.79759,53.63249,osm,1,
+E08000033,Calderdale,AICP Sunniyy Centre,-1.87485,53.72205,osm,1,
+E08000004,Oldham,Jamia Mohl-Ul-Islam Siddiquia,-2.1147,53.5316,osm,1,
+E07000072,Epping Forest,,0.00275,51.65833,osm,1,
+E08000004,Oldham,Oldham Madani Academy,-2.12661,53.54885,osm,1,
+W06000015,Cardiff,Al-Ikhlas Centre,-3.15475,51.48806,osm,1,
+E08000004,Oldham,Al-Madina Islamic Educational and Cultural Centre,-2.10052,53.5361,charity_register+osm,2,1143153
+E08000004,Oldham,Madina Masjid & Islamic Centre,-2.12182,53.5496,charity_register+osm+planning,3,1143844;1213174;Oldham/PA/341776/18
+E07000243,Stevenage,Stevenage Muslim Community Centre and Mosque,-0.18166,51.91596,charity_register+osm,2,1199880
+E06000055,Bedford,Al-Haramain Mosque and Education Centre,-0.4674,52.13031,osm,1,
+E08000004,Oldham,Nusratul Islam Masjid,-2.09672,53.53743,osm,1,
+E07000068,Brentwood,Brentwood Mosque,0.29926,51.61259,osm,1,
+E06000002,Middlesbrough,Masjid Maryam,-1.24921,54.55162,osm,1,
+E06000002,Middlesbrough,Jamia Masjid Al-Madina,-1.2311,54.5683,osm+planning,2,Middlesbrough/M/FP/0646/00/P
+E08000031,Wolverhampton,Jamia Masjid Faridia,-2.12442,52.56826,osm+planning,2,Wolverhampton/24/01106/FUL
+E09000030,Tower Hamlets,Wapping Noorani Masjid & Cultural Centre,-0.05655,51.50617,charity_register+osm,2,1050036
+E08000004,Oldham,Madinatul Ilm,-2.09655,53.5387,osm,1,
+E08000028,Sandwell,Hazrat Sultan Bahu Trust Sandwell (Langley Masjid),-2.00089,52.49144,osm,1,
+E08000004,Oldham,Markazi Jamia Masjid Mohra Sharif,-2.11104,53.52946,osm,1,
+E08000004,Oldham,Shahparan Chadderton Central Mosque,-2.13325,53.55009,charity_register+osm,2,1202591
+E08000033,Calderdale,Elland Masjid,-1.83835,53.68282,osm,1,
+E07000245,West Suffolk,,0.71097,52.24054,osm,1,
+E08000032,Bradford,Masjid Nimrah,-1.75832,53.80078,osm,1,
+E08000032,Bradford,Shahjalal Masjid,-1.75875,53.78654,osm,1,
+E08000032,Bradford,Jamia Masjid Faizan E Attar,-1.74167,53.79498,osm,1,
+E08000032,Bradford,Tawakkulia Jamia Masjid & Islamia Madrasa,-1.75814,53.80257,osm+planning,2,Bradford/23/03210/FUL;Bradford/18/00233/FUL;Bradford/16/03172/MAF
+E08000032,Bradford,Masjid Nusrat Ul Islam,-1.77076,53.79443,osm+planning,2,Bradford/07/03052/FUL;Bradford/07/03057/LBC
+E08000032,Bradford,Central Jamia Mosque,-1.76702,53.80406,osm,1,
+E08000032,Bradford,Ghausia Chistia,-1.7398,53.80316,osm,1,
+E08000032,Bradford,Jamia Muhammadiyah Qadriyah,-1.74308,53.80287,osm,1,
+E08000032,Bradford,Masjid Noorul Islam,-1.77655,53.78868,charity_register+osm+planning,3,500506;Bradford/22/03678/MAF;Bradford/06/00278/FUL
+E08000032,Bradford,Tabligh-ul-Islam Mosque,-1.78965,53.78795,osm,1,
+E08000032,Bradford,Al Huda Masjid,-1.77784,53.79113,charity_register+osm+planning,3,1198311;Bradford/05/06552/COU
+E08000032,Bradford,Jamia Masjid Milat E Islamia,-1.7761,53.78643,osm+planning,2,Bradford/03/01739/FUL
+E08000032,Bradford,UKIM Byron Masjid,-1.73352,53.79736,osm,1,
+E08000032,Bradford,Masjid Bilal,-1.77268,53.80273,osm,1,
+E08000032,Bradford,Jamia Abu Hanifa Mosque,-1.73531,53.80256,osm,1,
+E08000032,Bradford,Al Mahadul Islami,-1.76494,53.77862,charity_register+osm,2,1136524
+E08000032,Bradford,Madni Masjid,-1.75621,53.77748,osm,1,
+E08000032,Bradford,Jamiyat Tabligh-ul-Islam Mosque,-1.7356,53.78248,osm,1,
+E08000032,Bradford,Jamia Mosque Tabbligh-Ul-Islam,-1.75889,53.7768,osm,1,
+E08000032,Bradford,Jamiya Masjid Tabligh-Ul-Islam,-1.7616,53.77567,osm+planning,2,Bradford/04/03722/FUL
+E08000032,Bradford,Sultan Bahu Masjid,-1.78113,53.7815,osm,1,
+E08000032,Bradford,Masjid-E-Umar,-1.78569,53.80186,charity_register+osm+planning,3,1216528;Bradford/12/03428/MAF;Bradford/10/03772/MAF
+E08000032,Bradford,Masjid Umar,-1.77272,53.7764,osm+planning,2,Bradford/03/04691/FUL
+E08000032,Bradford,Jamiyat Tabligh-Ul-Islam Mosque,-1.78161,53.80723,osm,1,
+E08000032,Bradford,Mazhar E-Islam Ghousia,-1.78214,53.77893,osm+planning,2,Bradford/11/02354/FUL;Bradford/11/02354/SUB01
+E08000032,Bradford,Umm ul Qura Islamic Centre,-1.72003,53.79327,osm+planning,2,Bradford/08/01875/PCE
+E08000032,Bradford,Madrassah Misbahul Uloom,-1.7793,53.81072,osm,1,
+E08000032,Bradford,Islamic Center Auradey Naziria,-1.78872,53.80527,osm,1,
+E08000032,Bradford,Iqra Masjid,-1.74806,53.81758,osm,1,
+E08000032,Bradford,Sayyidah Aminah Jamia Masjid,-1.7212,53.80697,osm,1,
+E08000032,Bradford,Jamia Usmania Mosque,-1.78307,53.81279,osm+planning,2,Bradford/20/02593/OUT;Bradford/05/03704/FUL
+E08000032,Bradford,Noor-ul-Islam Mosque,-1.71861,53.80589,osm,1,
+E08000032,Bradford,Masjid Ibraheem Education Center,-1.71066,53.79614,charity_register+osm,2,1128472
+E08000032,Bradford,Shipley Masjid,-1.77416,53.82193,charity_register+osm+planning,3,1090464;Bradford/05/04541/FUL;Bradford/04/05458/COU
+E08000032,Bradford,Masjid-At-Taqwa,-1.79558,53.77534,osm,1,
+E08000032,Bradford,Faizan E Raza Masjid,-1.7881,53.76848,osm+planning,2,Bradford/20/05807/FUL
+E08000032,Bradford,Masjid Ayesha,-1.75448,53.82858,osm,1,
+E08000032,Bradford,Hussain Islamic Academy,-1.81586,53.80241,osm,1,
+E08000032,Bradford,Al Abrar Academy Masjid,-1.74255,53.79767,osm+planning,2,Bradford/16/01874/FUL
+E08000032,Bradford,Bayt Al Qaim Centre,-1.74573,53.81137,osm,1,
+E08000032,Bradford,Jamia Masjid Naqshbandia Aslamia,-1.77653,53.80239,osm+planning,2,Bradford/08/00508/FUL;Bradford/08/00508/SUB01;Bradford/15/00872/FUL
+E08000032,Bradford,Anjuman e Haideria,-1.77109,53.80818,osm,1,
+E08000032,Bradford,Masjid E Hamza,-1.76206,53.80939,osm+planning,2,Bradford/18/04639/FUL
+E08000032,Bradford,Mohiuddin Institute,-1.76257,53.80132,osm,1,
+E08000032,Bradford,Sufat-ul-Islam Association,-1.76291,53.79575,osm,1,
+E08000032,Bradford,Bradford Islamic Centre,-1.76393,53.80508,osm,1,
+E08000032,Bradford,Madrasah Abdullah Bin Masood,-1.7733,53.81975,osm,1,
+E08000032,Bradford,Jamia Muhammadia,-1.72275,53.79475,charity_register+osm,2,1115612
+E08000032,Bradford,Jamia Islamia Rizvia Mosque,-1.77815,53.77681,charity_register+osm,2,1057961
+E08000032,Bradford,Hussainia Islamic Mission,-1.77185,53.78542,osm,1,
+E08000032,Bradford,Madrasah Baitul Ilm,-1.73711,53.78631,osm,1,
+E06000010,"Kingston upon Hull, City of",Jame Masjid,-0.3535,53.75762,osm,1,
+E06000010,"Kingston upon Hull, City of",Al-Salam Mosque,-0.36473,53.73863,charity_register+osm,2,1193962
+E06000010,"Kingston upon Hull, City of",Hull Mosque,-0.35403,53.75398,osm,1,
+E06000065,North Yorkshire,Scarborough Islamic Centre,-0.41052,54.27906,osm,1,
+E06000002,Middlesbrough,Al-Mustafa Centre,-1.25425,54.57041,osm,1,
+E06000002,Middlesbrough,Masjid-E-Ali Ibn Abu Talib,-1.23845,54.56799,osm,1,
+E06000003,Redcar and Cleveland,Masjid-E-Nomira,-1.17869,54.57963,osm+planning,2,Redcar/R/2014/0538/FF;Redcar/R/2005/1107/FF
+E06000002,Middlesbrough,Madrisa Zia-Ul-Quran,-1.24311,54.57049,osm,1,
+E06000003,Redcar and Cleveland,South Bank Mosque,-1.17382,54.57827,osm,1,
+E08000017,Doncaster,Jamia Sulthainia Mosque,-1.11541,53.51535,osm+planning,2,Doncaster/16/02251/FULM
+E08000019,Sheffield,Firth Park Mosque,-1.44573,53.4188,osm,1,
+E08000018,Rotherham,Masjid Uthman,-1.346,53.43791,osm,1,
+E08000018,Rotherham,Masjid Al-Salam,-1.34238,53.43992,osm,1,
+E08000018,Rotherham,Ferham Islamic Cultural Centre,-1.37693,53.42798,osm,1,
+E08000019,Sheffield,Al-Shafeey Centre,-1.41935,53.38817,charity_register+osm,2,515884
+E08000019,Sheffield,Madni Jamia Masjid,-1.43601,53.4073,osm,1,
+E08000019,Sheffield,Masjid Sunnah,-1.45504,53.39247,osm,1,
+E08000019,Sheffield,Masjid Noor,-1.46097,53.40373,osm,1,
+E08000032,Bradford,Al-Amin Masjid,-1.91523,53.86174,osm,1,
+E08000035,Leeds,Makki Masjid,-1.56884,53.80843,osm,1,
+E08000034,Kirklees,Pakistan Muslim Welfare Society,-1.62933,53.71074,osm,1,
+E08000034,Kirklees,Jamia Masjid Ghausia,-1.79195,53.63619,charity_register+osm+planning,3,505870;1190404;Kirklees/2013/91700;Kirklees/2015/92336
+E08000034,Kirklees,Islam Dewsbury,-1.64882,53.68246,osm,1,
+E08000034,Kirklees,Raza Education Centre,-1.63789,53.67164,charity_register+osm,2,1171469
+E08000034,Kirklees,Masjid Bilal,-1.63019,53.67305,charity_register+osm+planning,3,1145497;1191671;Kirklees/2016/91784;Kirklees/2013/92620
+E08000032,Bradford,AlHikmah Project Keighley,-1.91845,53.88103,osm,1,
+E08000034,Kirklees,Masjid Usman,-1.78945,53.64652,osm,1,
+E08000034,Kirklees,Masjid Al Hidayah,-1.63161,53.67952,osm+planning,2,Kirklees/2006/91543
+E08000034,Kirklees,Masjid Heera,-1.63748,53.67885,osm,1,
+E08000034,Kirklees,Madrassah Islamiyah,-1.63056,53.68104,osm,1,
+E08000033,Calderdale,Makki Masjid,-1.87846,53.71888,osm,1,
+E08000035,Leeds,Faizan e Madina,-1.52824,53.81359,osm+planning,2,Leeds/13/02412/FU
+E08000034,Kirklees,Markazi Jamia Masjid Anwar-e-Madina,-1.7824,53.65819,charity_register+osm,2,1101647
+E08000034,Kirklees,Naqshbandiyya Mujaddadiyya Aslamiy,-1.6692,53.68228,charity_register+osm,2,1189075
+E08000034,Kirklees,Jamia Ghausia Madressa,-1.64122,53.70701,osm,1,
+E08000032,Bradford,Abuzahra Mosque,-1.91203,53.86813,osm,1,
+E08000034,Kirklees,Masjid Omar,-1.78935,53.65861,charity_register+osm+planning,3,1182378;Kirklees/2011/90576
+E08000034,Kirklees,Masjid e Umar,-1.62737,53.68356,osm,1,
+E08000034,Kirklees,Masjid Iman,-1.79051,53.64948,osm,1,
+E08000033,Calderdale,Madrasah Ghosia,-1.87864,53.72525,osm,1,
+E08000034,Kirklees,Jamia Al Saeed,-1.62526,53.7036,osm,1,
+E08000033,Calderdale,Jami' Masjid Noorani,-1.89021,53.72102,osm,1,
+E08000034,Kirklees,Masjid Quba,-1.62337,53.67073,osm,1,
+E08000034,Kirklees,Masjid Taqwa Park Road,-1.62986,53.71562,osm,1,
+E08000034,Kirklees,Jamia Masjid Ghausia,-1.66498,53.67979,charity_register+osm+planning,3,515278;Kirklees/2021/92140
+E08000032,Bradford,Al-Hidaayah Foundation,-1.91154,53.86504,osm,1,
+E08000034,Kirklees,The Eden Centre,-1.81384,53.63157,osm,1,
+E06000008,Blackburn with Darwen,Khanqah,-2.46387,53.75838,osm,1,
+E09000025,Newham,Darul Arqam Muslim Community Centre,0.02255,51.52115,charity_register+osm,2,1215385
+E07000111,Sevenoaks,Sevenoaks Muslim Centre,0.19365,51.28229,charity_register+osm,2,1203337
+E09000009,Ealing,Abu Bakr Masjid,-0.38383,51.51208,osm,1,
+E07000149,South Norfolk,Siddiqa Nawaz Mosque & Community Centre,1.45975,52.47164,osm,1,
+E08000004,Oldham,"Jamia Mosque, Dar-ul-Aloom Naqshbandia and Community Welfare Centre",-2.09511,53.53596,charity_register+osm,2,1193863
+E06000032,Luton,Masjid As-Sunnah,-0.44417,51.88896,osm,1,
+E06000030,Swindon,Al-Habib Islamic Centre,-1.77447,51.57169,osm,1,
+E07000177,Cherwell,Banbury Sheikh Bin Baaz Masjid,-1.34982,52.06211,osm,1,
+E09000015,Harrow,,-0.36003,51.58675,osm,1,
+E08000034,Kirklees,Masjid Quba,-1.64871,53.71245,osm,1,
+E08000034,Kirklees,Dawatal Islam Mosque,-1.62238,53.71358,osm,1,
+E06000032,Luton,Farley Hill Jame Masjid,-0.42896,51.87121,osm,1,
+E06000016,Leicester,Baytul Ihsaan,-1.06714,52.66018,osm,1,
+E07000241,Welwyn Hatfield,Welwyn Islamic Society,-0.19157,51.80204,osm,1,
+E06000044,Portsmouth,Portsmouth Central Masjid,-1.07735,50.79793,osm,1,
+E06000044,Portsmouth,Portsmouth Jami Mosque,-1.07986,50.79414,charity_register+osm,2,1145914
+E06000066,Somerset,Yeovil Islamic Centre,-2.62314,50.94406,charity_register+osm,2,1070349
+E06000042,Milton Keynes,Milton Keynes Muslim Association,-0.74335,52.02646,charity_register+osm,2,1121142
+E07000099,North Hertfordshire,Hitchin Mosque,-0.27101,51.9556,osm,1,
+E07000071,Colchester,Colchester Jamia Masjid,0.90498,51.88772,osm,1,
+E08000032,Bradford,Al-Mustaqeem Centre,-1.7664,53.78039,osm,1,
+E07000121,Lancaster,Lancaster Islamic Society,-2.80461,54.04754,osm,1,
+E06000008,Blackburn with Darwen,Kurdish Community Blackburn,-2.48813,53.75177,osm,1,
+E06000032,Luton,Saints Area Mosque,-0.43521,51.90029,osm,1,
+E08000026,Coventry,Islamic Prayer Hall,-1.56125,52.38069,osm,1,
+E07000146,King's Lynn and West Norfolk,West Norfolk Islamic Centre,0.40152,52.74966,osm+planning,2,KingsLynn/12/00175/CU
+E08000032,Bradford,Wibsey Musalla Jummah Salaah,-1.76589,53.76642,osm,1,
+E08000032,Bradford,Musalla Salaam,-1.80361,53.78323,osm,1,
+E08000032,Bradford,Al Hidaya Academy,-1.82339,53.77058,osm,1,
+E07000217,Woking,WOKING MOSQUE FUND AND SIR SALAR JUNG MEMORIAL HOUSE,-0.54758,51.32174,charity_register,1,241402
+E09000022,Lambeth,SOUTH LONDON ISLAMIC CENTRE,-0.13227,51.42841,charity_register+planning,2,263535;Lambeth/18/01093/FUL
+E09000011,Greenwich,CHARLTON MOSQUE COMMITTEE,0.03509,51.4876,charity_register,1,269161
+E07000226,Crawley,CRAWLEY ISLAMIC CENTRE AND MASJID,-0.1863,51.13313,charity_register,1,274153
+E07000109,Gravesham,GRAVESEND AND DARTFORD MUSLIM ASSOCIATION,0.38097,51.44115,charity_register+planning,2,279014;Gravesham/20200078
+E06000032,Luton,MASJID-E-ALI (A.S),-0.45096,51.89386,charity_register,1,280440
+E09000028,Southwark,SOUTH EAST MUSLIM ASSOCIATION,-0.07583,51.44975,charity_register,1,283597
+E09000026,Redbridge,SEVEN KINGS MUSLIM EDUCATIONAL TRUST,0.09831,51.56458,charity_register+planning,2,286459;Redbridge/1870/15
+E09000015,Harrow,THE KHOJA SHIA ITHNAASHERI MUSLIM COMMUNITY OF LONDON,-0.31681,51.62668,charity_register,1,288356
+E07000084,Basingstoke and Deane,BASINGSTOKE MUSLIM WELFARE ASSOCIATION,-1.08276,51.28175,charity_register,1,288454
+E09000012,Hackney,MUSLIM CULTURAL SOCIETY OF THE UNITED KINGDOM,-0.07319,51.55995,charity_register,1,289380
+E09000029,Sutton,MUSLIM CULTURAL AND WELFARE ASSOCIATION OF SUTTON,-0.15802,51.36328,charity_register,1,291533
+E09000005,Brent,ISLAMIC CENTRE KINGSBURY,-0.25933,51.58946,charity_register,1,292566
+E09000028,Southwark,SOUTH-EAST LONDON BAITUL AZIZ (MASJID AND MADRASSA) ISLAMIC CULTURAL TRUST,-0.09439,51.49753,charity_register+planning,2,292922;Southwark/16/AP/0508
+E09000009,Ealing,EALING MUSLIM WELFARE ASSOCIATION (MASJID-E-AYSHA),-0.32912,51.5112,charity_register,1,293092
+E09000005,Brent,THE AHL UL-BAYT (A S ) ISLAMIC CENTRE,-0.22656,51.53985,charity_register,1,293187
+E09000025,Newham,Forest Gate Central Masjid,0.03361,51.5475,charity_register+planning,2,293676;Newham/23/01216/VAR;Newham/18/02191/FUL
+E09000008,Croydon,THE SOUTH INDIAN MUSLIM WELFARE ASSOCIATION (UK),-0.11088,51.38414,charity_register,1,294394
+E07000171,Bassetlaw,JAMIA AL-KARAM (ISLAMIC EDUCATIONAL AND CULTURAL TRUST),-0.93166,53.29533,charity_register,1,294460
+E09000020,Kensington and Chelsea,GOLBORNE MOSQUE TRUST,-0.20899,51.52177,charity_register,1,294588
+E06000042,Milton Keynes,KSI MUSLIM COMMUNITY OF MILTON KEYNES,-0.74031,52.00917,charity_register,1,294808
+E09000025,Newham,MARKAZ UD DAWAT WAL IRSHAD LONDON UK MUSLIM COMMUNITY CENTRE,0.04312,51.53865,charity_register+planning,2,295836;Newham/01/0894
+E06000032,Luton,JAMIA ISLAMIA GHOUSIA,-0.43351,51.88781,charity_register+planning,2,297279;Luton/09/00679/FUL;Luton/08/00377/FUL;Luton/05/00554/COU
+E07000073,Harlow,Harlow Islamic Centre,0.08269,51.74888,charity_register+planning,2,298944;Harlow/HW/FUL/20/00436
+E09000019,Islington,THE MUSLIM EDUCATIONAL TRUST,-0.11179,51.56936,charity_register,1,313192
+E08000030,Walsall,THE SIMLAK MUSLIM WELFARE SOCIETY,-2.03598,52.57046,charity_register,1,326022
+E06000008,Blackburn with Darwen,"THE KOKNI MUSLIM ASSOCIATION, SHAFAYEE MAZHAB",-2.46293,53.74733,charity_register+planning,2,504924;Blackburn/10/19/0352;Blackburn/10/01/0692
+E08000018,Rotherham,ROTHERHAM MOSQUE,-1.34378,53.42507,charity_register,1,505942
+E06000021,Stoke-on-Trent,ISLAMIC CENTRE,-2.17731,53.01147,charity_register,1,508671
+E08000002,Bury,THE NOOR-UL-ISLAM MOSQUE,-2.28817,53.59364,charity_register+planning,2,508677;Bury/67515
+E06000021,Stoke-on-Trent,THE STOKE ON TRENT MUSLIM WELFARE AND COMMUNITY ASSOCIATION,-2.19299,53.02151,charity_register,1,508861
+E06000013,North Lincolnshire,SCUNTHORPE MOSQUE COMMITTEE,-0.65183,53.59244,charity_register,1,508954
+E08000026,Coventry,THE HILLFIELDS MUSLIM ASSOCIATION,-1.49454,52.41294,charity_register,1,512053
+E08000008,Tameside,THE HYDE JAMIA MOSQUE AND ISLAMIC CENTRE,-2.08165,53.45025,charity_register,1,513337
+E08000025,Birmingham,JAM-E-MASJID QIBLAH HADHRAT SAHIB GULHAR SHAREEF BIRMINGHAM,-1.83526,52.54028,charity_register,1,513447
+E08000034,Kirklees,THE HUDDERSFIELD MUSLIM WELFARE KHATIM-E-NABUWAT ASSOCIATION,-1.80996,53.66082,charity_register,1,514101
+E08000002,Bury,THE BURY ISLAMIC CENTRE,-2.28485,53.59674,charity_register,1,514601
+E08000025,Birmingham,KOKNI MUSLIM ASSOCIATION BIRMINGHAM,-1.89968,52.50836,charity_register+planning,2,516587;Birmingham/2008/04194/PA;Birmingham/2005/07992/PA;Birmingham/2004/03219/PA
+E06000021,Stoke-on-Trent,GHAUSIA MOSQUE,-2.18999,53.03894,charity_register+planning,2,516787;Stoke/66614/FUL
+E07000125,Rossendale,MASJID BILAL AND ISLAMIC CENTRE,-2.32375,53.70441,charity_register,1,516867
+E07000194,Lichfield,MARKAZI JAMIA MASJID GULZAR-E-HABIB,-1.85068,52.63893,charity_register,1,517191
+E08000027,Dudley,GHAUSIA MOSQUE AND WELFARE ASSOCIATION,-2.11634,52.45794,charity_register+planning,2,517388;Dudley/P08/1911
+E07000132,Hinckley and Bosworth,JAMIA ISLAMIA (ISLAMIC STUDIES CENTRE) TRUST,-1.42359,52.54686,charity_register+planning,2,517456;Hinckley/18/01070/FUL
+E08000010,Wigan,MASJID TOOBA,-2.62916,53.55454,charity_register,1,518554
+E07000123,Preston,THE PRESTON MUSLIM CULTURAL CENTRE,-2.7121,53.75399,charity_register,1,518584
+E06000008,Blackburn with Darwen,JAMIA GHOSIA ASSOCIATION,-2.47051,53.74693,charity_register,1,518757
+W06000015,Cardiff,THE SOUTH WALES ISLAMIC CENTRE,-3.16889,51.46778,charity_register,1,519043
+E06000021,Stoke-on-Trent,NAQSHBANDIA MOSQUE,-2.16963,53.02737,charity_register,1,519399
+E06000014,York,YORK MUSLIM ASSOCIATION,-1.05955,53.96225,charity_register,1,519999
+E07000123,Preston,THE PRESTON MUSLIM SOCIETY QUWWATUL ISLAM MASJID,-2.68794,53.76654,charity_register,1,700936
+E09000007,Camden,MUSLIM WELFARE BOARD,-0.12362,51.5149,charity_register,1,1000185
+E08000001,Bolton,BOLTON MUSLIM WELFARE TRUST,-2.43165,53.56679,charity_register,1,1005715
+E07000240,St Albans,THE MAURITIAN MUSLIM WELFARE(ST ALBANS) ASSOCIATION,-0.30832,51.74117,charity_register,1,1008145
+E08000033,Calderdale,CALDERDALE BRITISH MUSLIM ASSOCIATION,-1.88216,53.7207,charity_register,1,1015200
+E09000029,Sutton,SUTTON ISLAMIC CENTRE,-0.18883,51.36983,charity_register,1,1023402
+E08000028,Sandwell,OLDBURY JAMIA MOSQUE,-1.99338,52.50261,charity_register+planning,2,1025209;Sandwell/DC/23/68752
+E06000058,"Bournemouth, Christchurch and Poole",BOURNEMOUTH ISLAMIC CENTRE AND CENTRAL MOSQUE (BICCM),-1.88323,50.72286,charity_register,1,1032058
+E09000018,Hounslow,MUSLIM COMMUNITY CARE WEST LONDON,-0.34979,51.46348,charity_register,1,1034475
+E09000015,Harrow,IDARA SAUT-UL-QURAN,-0.35963,51.56949,charity_register,1,1038094
+E06000060,Buckinghamshire,JAMIA REHMANIA EDUCATIONAL AND CULTURAL TRUST HIGH WYCOMBE,-0.77971,51.62785,charity_register+planning,2,1038192;Wycombe/18/07150/FUL
+E08000025,Birmingham,THE GAUSIA MOSQUE AND ISLAMIC COMMUNITY CENTRE,-1.85882,52.4913,charity_register,1,1040011
+E09000005,Brent,JAMIA AL-HAFSAH (ISLAMIC EDUCATIONAL AND CULTURAL TRUST),-0.23697,51.56755,charity_register,1,1044016
+E08000026,Coventry,THE COVENTRY MUSLIM COMMUNITY ASSOCIATION LIMITED,-1.49481,52.42029,charity_register,1,1044601
+E09000026,Redbridge,EAST LONDON MUSLIM WELFARE SOCIETY,0.12382,51.57547,charity_register,1,1051906
+W06000013,Bridgend,GLAMORGAN MUSLIM COMMUNITY ASSOCIATION,-3.59833,51.53975,charity_register,1,1056151
+E06000027,Torbay,TORBAY ISLAMIC CENTRE,-3.5449,50.47132,charity_register,1,1056312
+E09000030,Tower Hamlets,SHAHPORAN MASJID AND ISLAMIC CENTRE TRUST,-0.06023,51.53185,charity_register+planning,2,1057627;TowerHamlets/PA/07/03207/A1;TowerHamlets/PA/07/03207;TowerHamlets/PA/07/03256
+E06000008,Blackburn with Darwen,MASJIDE E IRFAN,-2.49174,53.75607,charity_register+planning,2,1058291;Blackburn/10/14/1277/NEW;Blackburn/10/14/1277
+E08000035,Leeds,JAMIA TUL BATUL MIRA TUL ISLAM TRUST,-1.51696,53.8177,charity_register,1,1058465
+E08000034,Kirklees,MASJID BAIT-ATTAWHEED AND DAR-E-ARQAM MUSLIM WELFARE TRUST,-1.63299,53.67119,charity_register,1,1059005
+E09000033,Westminster,THE MUSLIM CULTURAL HERITAGE CENTRE (MCHC) TRUST,-0.20439,51.5218,charity_register,1,1059085
+E07000123,Preston,THE PRESTON MUSLIM SOCIETY MASJID-E-FALAH,-2.69961,53.76828,charity_register+planning,2,1059104;Preston/06/2004/0453
+E09000025,Newham,JAMIA DARUS SUNNAH LONDON,0.02544,51.55091,charity_register,1,1059837
+E07000174,Mansfield,NORTH NOTTINGHAMSHIRE MUSLIM WELFARE ASSOCIATION,-1.20397,53.14354,charity_register,1,1060433
+E07000105,Ashford,ASHFORD MUSLIM ASSOCIATION,0.87457,51.13927,charity_register,1,1071045
+E09000030,Tower Hamlets,ASIAN MUSLIM CULTURAL ASSOCIATION,-0.05506,51.51176,charity_register,1,1069987
+E09000032,Wandsworth,THE SUNNI MUSLIM ASSOCIATION (SOUTH LONDON),-0.15843,51.43523,charity_register,1,1061233
+E08000005,Rochdale,BILAL JAMIA MASJID AND BILAL ISLAMIC TEACHING CENTRE,-2.12458,53.63647,charity_register,1,1082901
+E08000034,Kirklees,THE INDIAN MUSLIM WELFARE SOCIETY,-1.64231,53.70312,charity_register,1,1067746
+E08000003,Manchester,AL JAMIA AL KARIMIA (ISLAMIC EDUCATIONAL AND CULTURAL TRUST),-2.23008,53.44959,charity_register,1,1071201
+E08000005,Rochdale,MUSTAFA ISLAMIC CENTRE,-2.14644,53.61118,charity_register+planning,2,1062261;Rochdale/00/D38078
+E08000033,Calderdale,"CENTRAL JAMIA MOSQUE MADNI AND EDUCATION CENTRE, HALIFAX",-1.85877,53.71938,charity_register,1,1063058
+E06000008,Blackburn with Darwen,MADINA MOSQUE AND ISLAMIC CENTRE,-2.46526,53.69471,charity_register+planning,2,1073452;Blackburn/10/16/0965
+E06000008,Blackburn with Darwen,MUSLIM WELFARE INSTITUTE,-2.46696,53.75159,charity_register,1,1066665
+E07000066,Basildon,BASILDON ISLAMIC CENTRE,0.49784,51.56534,charity_register,1,1069353
+E08000009,Trafford,IDARA ISHA-ATUL ISLAM,-2.26426,53.45707,charity_register,1,1067922
+E06000042,Milton Keynes,AL-KARAM SUNNI MUSLIM COMMUNITY TRUST OF MILTON KEYNES,-0.72948,52.03156,charity_register,1,1068209
+E07000242,East Hertfordshire,HERTS & ESSEX MOSQUE & ISLAMIC CULTURAL CENTRE,0.14677,51.81064,charity_register,1,1070820
+E09000030,Tower Hamlets,BOW MUSLIM COMMUNITY CENTRE,-0.02986,51.53312,charity_register,1,1075401
+E07000125,Rossendale,THE PAKISTAN ISLAMIC CENTRE,-2.28349,53.70063,charity_register,1,1077411
+E08000012,Liverpool,THE LIVERPOOL MOSQUE AND ISLAMIC INSTITUTE,-2.91885,53.3891,charity_register,1,1071951
+E09000015,Harrow,OVERSEAS SRI LANKAN MUSLIM EDUCATIONAL TRUST(OSMET),-0.29758,51.61793,charity_register,1,1072780
+E09000030,Tower Hamlets,MADINATUL ULOOM MADRASA AND ISLAMIC ADVICE CENTRE,-0.06034,51.51567,charity_register,1,1076220
+E06000023,"Bristol, City of",SHAHJALAL JAME MOSQUE TRUST,-2.58183,51.47391,charity_register,1,1076388
+E07000193,East Staffordshire,JAMIA HANFIA GHOSIA MOSQUE AND PRINCESS STREET RESOURCE CENTRE,-1.64254,52.81016,charity_register,1,1079117
+E06000008,Blackburn with Darwen,MASJID - E - NOOR (BLACKBURN),-2.50168,53.74885,charity_register+planning,2,1084170;Blackburn/10/03/0667
+E09000030,Tower Hamlets,BOW COMMON MASJID AND CULTURAL TRUST,-0.02021,51.52033,charity_register,1,1127023;1126359
+E08000009,Trafford,ALTRINCHAM AND HALE MUSLIM ASSOCIATION,-2.32727,53.38056,charity_register,1,1101378
+E06000058,"Bournemouth, Christchurch and Poole",THE BOURNEMOUTH JAMEI MOSQUE TRUST,-1.87942,50.75032,charity_register,1,1080078
+E09000026,Redbridge,REDBRIDGE ISLAMIC CENTRE,0.06552,51.57786,charity_register,1,1081870
+E06000059,Dorset,DORCHESTER ISLAMIC CENTRE,-2.44571,50.71509,charity_register,1,1081646
+E07000067,Braintree,AL- FALAH BRAINTREE ISLAMIC CENTRE LTD,0.55018,51.87781,charity_register,1,1086210
+E09000012,Hackney,SOUTH TOTTENHAM MUSLIM COMMUNITY ASSOCIATION,-0.06782,51.57584,charity_register+planning,2,1093400;Haringey/HGY/2025/1735
+E07000197,Stafford,STAFFORD MUSLIM COMMUNITY CENTRE,-2.11672,52.81452,charity_register,1,1087413
+E09000006,Bromley,JAMIYA MASJID & ISLAMIC CENTRE,0.02307,51.39854,charity_register,1,1089986
+E08000025,Birmingham,MUSLIM EDUCATIONAL CONSULTATIVE COMMITTEE,-1.89474,52.45943,charity_register,1,1093457
+E06000030,Swindon,JAMIA MOHAMMADIA,-1.83462,51.5657,charity_register,1,1087057
+W06000012,Neath Port Talbot,THE MUSLIM WELFARE ASSOCIATION OF PORT TALBOT,-3.77913,51.59261,charity_register,1,1087430
+E06000016,Leicester,MASJID ALI CHARITABLE TRUST,-1.10758,52.65529,charity_register,1,1093940
+E09000014,Haringey,ASSUNNAH ISLAMIC CENTRE,-0.0692,51.59544,charity_register,1,1097565
+E08000025,Birmingham,SHAH PORAN ISLAMIC JAMI MOSQUE AND COMMUNITY TRUST,-1.86963,52.47011,charity_register,1,1093509
+E09000009,Ealing,JAMIA MASJID ISLAMIC CENTRE (TOWNSEND ROAD),-0.38593,51.50902,charity_register+planning,2,1090425;Ealing/PP/2011/0633
+E09000005,Brent,IDARA-E-TALEEM-O-AAGAHI PUBLIC TRUST UK. CENTRE FOR EDUCATION AND CONSCIOUSNESS,-0.25068,51.5817,charity_register,1,1093485
+E08000026,Coventry,MASJID AD-DAWAH ILA ALLAAH,-1.49556,52.43449,charity_register,1,1099009
+E06000008,Blackburn with Darwen,MASJID AND MADRESSA TALEEM-UL-ISLAM,-2.48228,53.74953,charity_register,1,1098101
+E09000030,Tower Hamlets,BOW MUSLIM CULTURAL CENTRE,-0.0573,51.51932,charity_register,1,1108433
+E09000018,Hounslow,MADRASATUNNUR EDUCATIONAL TRUST,-0.39359,51.49479,charity_register,1,1101074
+E09000022,Lambeth,THE AL-MADINA ISLAMIC CENTRE OF SOUTH LONDON,-0.12138,51.43889,charity_register,1,1105258
+E09000011,Greenwich,INDONESIAN ISLAMIC CENTRE,0.05499,51.43033,charity_register,1,1105685
+E08000025,Birmingham,MASJID HAZRAT SHAHJALAL TRUST,-1.90389,52.50339,charity_register+planning,2,1108276;Birmingham/2004/05341/PA
+E07000202,Ipswich,IPSWICH AND SUFFOLK BANGLADESHI MUSLIM COMMUNITY CENTRE AND MOSQUE,1.18192,52.05284,charity_register,1,1104877
+E08000027,Dudley,QUEENS CROSS MOSQUE AND COMMUNITY CENTRE,-2.09361,52.5058,charity_register+planning,2,1112676;Dudley/P02/0221
+E07000117,Burnley,QUEENSGATE ISLAMIC CENTRE,-2.2338,53.80742,charity_register,1,1106932
+E06000045,Southampton,KUTCHI MUSLIM ASSOCIATION,-1.39293,50.91022,charity_register,1,1107805
+E08000001,Bolton,BOLTON COUNCIL OF MOSQUES,-2.44208,53.57028,charity_register,1,1114004
+E09000003,Barnet,EDGWARE MUSLIM COMMUNITY CENTRE,-0.27719,51.61015,charity_register,1,1109296
+E09000009,Ealing,MALAYALEE MUSLIM CULTURAL AND WELFARE ASSOCIATION (UK),-0.35982,51.55274,charity_register,1,1110774
+E06000039,Slough,SRI LANKA MUSLIM ASSOCIATION (UK),-0.59355,51.5139,charity_register,1,1111447
+E09000030,Tower Hamlets,THE BRICK LANE JAMME MASJID TRUST (LONDON) LIMITED,-0.0722,51.52089,charity_register+planning,2,1111582;TowerHamlets/PA/01/00443
+E09000024,Merton,MORDEN ISLAMIC CENTRE,-0.19627,51.4009,charity_register,1,1112379
+E09000033,Westminster,VICTORIA (WESTMINSTER) MUSLIM WELFARE TRUST,-0.14999,51.49218,charity_register,1,1116731
+E06000039,Slough,MARKAZ MUAADH IBN JABAL ISLAMIC CENTRE,-0.61044,51.50405,charity_register,1,1119843
+E09000025,Newham,UGANDA MUSLIM COMMUNITY IN UNITED KINGDOM,0.0407,51.54153,charity_register,1,1115442
+E09000009,Ealing,Muslim Association for Spirituality and Engagement,-0.2552,51.5166,charity_register,1,1115446
+E08000025,Birmingham,AL-MEDINA ISLAMIC CENTRE,-1.81443,52.44426,charity_register,1,1115123
+E07000008,Cambridge,OMAR FARUQUE MOSQUE AND CULTURAL CENTRE,0.12546,52.23053,charity_register,1,1117040
+E09000002,Barking and Dagenham,BARAWA AL-RAHMA SOMALI ISLAMIC CENTRE,0.10985,51.55031,charity_register,1,1120753
+E07000034,Chesterfield,THE MUSLIM WELFARE ASSOCIATION OF CHESTERFIELD AND NORTH DERBYSHIRE,-1.43056,53.23818,charity_register,1,1117487
+E06000023,"Bristol, City of",BRISTOL MUSLIM CULTURAL SOCIETY,-2.56763,51.4621,charity_register,1,1121092
+E06000015,Derby,ISLAMIC CENTRE DERBY MOSQUE TRUST,-1.50513,52.88896,charity_register,1,1116427
+E08000025,Birmingham,MADRASAH-E-ASHRAFUL ULOOM,-1.85373,52.47898,charity_register,1,1119829
+W06000015,Cardiff,JALALIA MOSQUE AND ISLAMIC EDUCATION CENTRE,-3.19117,51.47841,charity_register+planning,2,1119082;1204619;Cardiff/23/00588/FUL
+E07000219,Nuneaton and Bedworth,NUNEATON MUSLIM EDUCATIONAL TRUST,-1.47592,52.52134,charity_register,1,1121521;1141663
+W06000002,Gwynedd,BANGOR ISLAMIC CENTRE,-4.13046,53.22364,charity_register,1,1119727
+E06000042,Milton Keynes,SRI LANKAN MUSLIM COMMUNITY FOUNDATION OF MILTON KEYNES,-0.74837,52.03573,charity_register,1,1120439
+E09000010,Enfield,EIC AL-MASJID TRUST,-0.06282,51.61368,charity_register+planning,2,1121179;Enfield/TP/05/0629
+E09000005,Brent,BH ISLAMIC CENTRE LONDON,-0.21361,51.55503,charity_register,1,1121087
+E09000017,Hillingdon,HILLINGDON BOROUGH CENTRAL MOSQUE AND COMMUNITY SERVICES,-0.42343,51.50049,charity_register,1,1120634
+E07000193,East Staffordshire,CRESCENT LEARNING CENTRE (MAKKI MASJID TRUST),-1.64264,52.81444,charity_register,1,1129470
+E09000002,Barking and Dagenham,THAMES VIEW MUSLIM ASSOCIATION,0.10416,51.52887,charity_register,1,1124027
+E09000024,Merton,BRITISH MUSLIM ASSOCIATION OF MERTON,-0.19406,51.41888,charity_register,1,1126769
+E08000001,Bolton,MADRASA IBRAHIM,-2.41929,53.56368,charity_register,1,1126042
+E07000214,Surrey Heath,SURREY HEATH MUSLIM ASSOCIATION,-0.73393,51.34839,charity_register,1,1126441
+E08000025,Birmingham,MADINATUL ULOOM JAMI MASJID TRUST,-1.89573,52.50636,charity_register,1,1126551
+E09000002,Barking and Dagenham,DAGENHAM ISLAMIC WELFARE ASSOCIATION & MOSQUE,0.1449,51.54689,charity_register,1,1129870
+E09000026,Redbridge,WEST AFRICAN MUSLIM ASSOCIATION IN UK LIMITED,0.06747,51.55649,charity_register,1,1127671
+E08000025,Birmingham,DAARUL JANNAH COMMUNITY CENTRE AND MASJID,-1.83638,52.46391,charity_register,1,1127718
+E06000059,Dorset,WEYMOUTH AND DORCHESTER ISLAMIC CENTRE,-2.47451,50.61153,charity_register,1,1134365
+E08000025,Birmingham,GREEN MASJID AND MADRASSAH,-1.87845,52.44572,charity_register,1,1127380
+E09000002,Barking and Dagenham,BECONTREE HEATH ISLAMIC SOCIETY (DAGENHAM CENTRAL MOSQUE) LIMITED,0.1359,51.55976,charity_register,1,1131215
+E09000025,Newham,PLAISTOW JAMIA ISLAMIA (PJI),0.05038,51.55283,charity_register,1,1129431
+E09000025,Newham,SRI LANKAN MUSLIM COMMUNITY OF EAST LONDON,0.05197,51.53468,charity_register,1,1131486
+E06000057,Northumberland,MADINA MASJID COMMUNITY CENTRE,-1.50632,55.12417,charity_register,1,1131395
+E09000012,Hackney,JAMEA HUSSAINIA IDRISIA MADRASA TRUST,-0.06384,51.55958,charity_register,1,1132274
+E08000025,Birmingham,MASJID - E- BILAL TRUST,-1.93632,52.5054,charity_register,1,1138370
+E09000025,Newham,SOUTH KILBURN MUSLIM COMMUNITY ASSOCIATION,0.02405,51.54888,charity_register,1,1136946
+E09000005,Brent,LONDON MUSLIM CULTURAL AND RECREATIONAL CHARITY,-0.29507,51.57069,charity_register,1,1138733
+E08000019,Sheffield,JAMIA - AL - FURQAAN,-1.48541,53.35488,charity_register,1,1136250
+E06000010,"Kingston upon Hull, City of",MASJID ASSAHABAH AND ISLAMIC CULTURAL CENTRE,-0.34822,53.75969,charity_register,1,1139793
+E09000031,Waltham Forest,EAST AFRICAN MUSLIM CULTURAL GROUP,0.01512,51.59997,charity_register,1,1140317
+E06000042,Milton Keynes,MILTON KEYNES JAMEE MASJID,-0.73437,51.99233,charity_register+planning,2,1126470;MiltonKeynes/02/00314/FUL
+E06000062,West Northamptonshire,DAVENTRY MUSLIM ASSOCIATION,-1.17569,52.27339,charity_register,1,1133432
+E09000026,Redbridge,HAINAULT & CHIGWELL MUSLIM ASSOCIATION,0.11631,51.61042,charity_register,1,1135397
+E09000007,Camden,LATIN MUSLIM ASSOCIATION,-0.16461,51.54413,charity_register,1,1141111
+E08000035,Leeds,LINCOLN GREEN MOSQUE & EDUCATION CENTRE LEEDS,-1.56012,53.85008,charity_register,1,1136935
+E07000123,Preston,ZAKARIYYA MASJID,-2.67272,53.76992,charity_register,1,1137962
+E08000036,Wakefield,MARKAZI JAMIA MOSQUE WAKEFIELD,-1.51304,53.67809,charity_register,1,1143480
+E08000032,Bradford,MADRASAH NUR UL QUR'AN,-1.74738,53.7741,charity_register,1,1139549
+E06000050,Cheshire West and Chester,FLINTSHIRE MUSLIM CULTURAL SOCIETY,-2.92597,53.17188,charity_register,1,1140478
+E08000031,Wolverhampton,TAYYABA MASJID & MUSLIM EDUCATIONAL TRUST,-2.14182,52.58156,charity_register,1,1140625
+E08000003,Manchester,IKHLASS MASJID,-2.23114,53.51383,charity_register,1,1141284
+E09000003,Barnet,MADINA ISLAMIC CENTRE,-0.19903,51.56286,charity_register,1,1140585
+E09000030,Tower Hamlets,REDCOAT COMMUNITY CENTRE AND MOSQUE,-0.04597,51.51659,charity_register,1,1140526
+E06000039,Slough,ABU HURAIRA ISLAMIC CENTRE,-0.5855,51.50337,charity_register,1,1141459
+E08000034,Kirklees,JAMIA MASJID ABU-BAKR AND ISLAMIC CENTRE,-1.79345,53.64464,charity_register,1,1143581
+E07000117,Burnley,SHAH JALAL MASJID & BURNLEY ISLAMIC CULTURAL CENTRE,-2.22797,53.81388,charity_register,1,1142360
+E06000040,Windsor and Maidenhead,WINDSOR MUSLIM ASSOCIATION,-0.61271,51.48192,charity_register,1,1143769
+E08000003,Manchester,ECOMOSQUE,-2.25994,53.44181,charity_register,1,1143268
+E09000008,Croydon,SHAJALAL MOSQUE & ISLAMIC CULTURAL CENTRE,-0.10857,51.38217,charity_register,1,1145075
+E09000022,Lambeth,PENGE ISLAMIC CENTRE,-0.124,51.43578,charity_register,1,1144992
+E09000026,Redbridge,THE BARDOLI MUSLIM WELFARE SOCIETY UK,0.07602,51.56702,charity_register,1,1145341
+E09000012,Hackney,JAFFNA MUSLIM ASSOCIATION - UK,-0.08889,51.5273,charity_register,1,1143032
+E09000005,Brent,JAMIA DAR-UL-ULOOM AL-ISLAMIAH,-0.27257,51.54882,charity_register,1,1146135
+E09000007,Camden,IBN ABBAS ISLAMIC CENTRE,-0.15327,51.54863,charity_register,1,1147289
+E07000241,Welwyn Hatfield,HATFIELD MASJID & ISLAMIC CULTURAL CENTRE,-0.22118,51.76495,charity_register,1,1147854
+E09000026,Redbridge,MUSLIM COMMUNITY OF ESSEX,0.08785,51.57418,charity_register,1,1143799
+E09000025,Newham,IJABA MOSQUE AND CULTURAL CENTRE,0.05465,51.54554,charity_register,1,1144542
+E08000026,Coventry,MADRASATUL AQSAA COVENTRY(SUPPLEMENTARY SCHOOL),-1.49128,52.42083,charity_register,1,1148412
+E09000005,Brent,KILBURN & HAMPSTEAD MASJID LIMITED,-0.19925,51.54266,charity_register,1,1147336
+E09000007,Camden,YORK WAY MASJID AND COMMUNITY CENTRE,-0.14498,51.53929,charity_register,1,1151255
+E06000016,Leicester,THE CUTCHI SUNNI MUSLIM ASSOCIATION,-1.11633,52.66019,charity_register,1,1146742
+E08000005,Rochdale,ROCHDALE COUNCIL OF MOSQUES,-2.14878,53.61155,charity_register,1,1148918
+E07000135,Oadby and Wigston,GRANGE MUSLIM ASSOCIATION,-1.0538,52.59161,charity_register,1,1147305
+E07000225,Chichester,Chichester Jamia Centre,-0.76132,50.83319,charity_register,1,1148130
+E07000123,Preston,"PRESTON MUSLIM SOCIETY, MASJID-E-SALAAM",-2.68809,53.79478,charity_register,1,1148437
+E07000122,Pendle,JAMIA MASJID MADINA COLNE,-2.17207,53.85581,charity_register,1,1149265
+E09000007,Camden,KILBURN ISLAMIC CENTRE LTD,-0.20036,51.5442,charity_register,1,1149705
+E09000002,Barking and Dagenham,ISTIQAMA MUSLIM COMMUNITY OF BRITAIN,0.10228,51.53691,charity_register,1,1149352
+E09000021,Kingston upon Thames,Surrey Islamic Centre,-0.283,51.41237,charity_register,1,1150907
+E08000025,Birmingham,IDARA FEZAN UL QURAN,-1.82415,52.44506,charity_register,1,1150406
+E08000024,Sunderland,ISLAMIC EDUCATION CENTRE AND MOSQUE,-1.38326,54.88732,charity_register,1,1150827
+E09000023,Lewisham,LAMBETH MASJID & PROGRESSIVE COMMUNITY CENTRE,-0.01826,51.46015,charity_register,1,1149173
+E06000062,West Northamptonshire,MUSLIM WELFARE TRUST,-0.83913,52.27315,charity_register,1,1149188
+E09000009,Ealing,ISLAMIA ISLAMIC CENTRE,-0.28433,51.53745,charity_register,1,1152648
+E06000020,Telford and Wrekin,JAMIA MASJID GOUSIA (TELFORD),-2.50683,52.69816,charity_register,1,1151050
+E07000122,Pendle,JAMIA REHMANIA RAZWIYYAH,-2.21695,53.83118,charity_register,1,1150395
+E09000020,Kensington and Chelsea,CHELSEA MUSLIM COMMUNITY HUB,-0.17844,51.48132,charity_register,1,1150710
+E08000025,Birmingham,AFGHAN CULTURAL AND ISLAMIC CENTRE,-1.87682,52.46237,charity_register,1,1151166
+E08000034,Kirklees,JAMIA MUHAMMADIYAH,-1.78255,53.65558,charity_register,1,1152105
+E08000025,Birmingham,UNION MASJID AND EDUCATION CENTRE,-1.88503,52.55408,charity_register,1,1152347
+E09000022,Lambeth,ERITREAN MUSLIM COMMUNITY ASSOCIATION UK,-0.12945,51.47767,charity_register,1,1155751
+E07000120,Hyndburn,MASJID AS-SUNNAH (ACCRINGTON),-2.3795,53.75356,charity_register,1,1152671
+E08000007,Stockport,SOUTH MANCHESTER MUSLIM COMMUNITY ASSOCIATION,-2.18257,53.43431,charity_register,1,1153535
+E08000025,Birmingham,EUROPE MUSLIM ASSOCIATION,-1.82348,52.48387,charity_register,1,1153589
+E09000029,Sutton,WEST NORWOOD MUSLIM COMMUNITY PROJECT,-0.16486,51.37971,charity_register,1,1154134
+E09000002,Barking and Dagenham,JAMIA MAZAHIRULULUM HAJIPUR TRUST,0.16453,51.54839,charity_register,1,1156474
+E09000002,Barking and Dagenham,LIMEHOUSE ISLAMIC CENTRE,0.15686,51.53291,charity_register,1,1158533
+E06000063,Cumberland,Carlisle Islamic Centre,-2.9229,54.88764,charity_register,1,1154717
+W06000015,Cardiff,MADNI MUSLIM COMMUNITY CENTRE TRUST,-3.15925,51.48722,charity_register,1,1155972
+E08000025,Birmingham,JAMIA ALFURQAN LIMITED,-1.87673,52.4562,charity_register,1,1157121
+E09000026,Redbridge,WOODFORD MUSLIM CULTURAL CENTRE LTD,0.03879,51.60784,charity_register,1,1157664
+E09000019,Islington,INCLUSIVE MOSQUE INITIATIVE,-0.12213,51.53274,charity_register,1,1161730
+E09000007,Camden,BRITISH ALBANIAN MUSLIM COMMUNITY,-0.19669,51.55209,charity_register,1,1159724
+E09000031,Waltham Forest,HUDHAYFAH BIN AL YAMAAN ISLAMIC CENTRE,0.00874,51.56214,charity_register,1,1159316
+E07000096,Dacorum,Hertfordshire Muslim Welfare Association,-0.47313,51.75117,charity_register,1,1159513
+E08000019,Sheffield,JAMIA ABDULLAH BIN MASOOD (RA),-1.43041,53.38851,charity_register,1,1160379
+E07000141,South Kesteven,STAMFORD MASJID AND CULTURAL CENTRE,-0.49104,52.66163,charity_register,1,1166450
+E09000029,Sutton,SIRHIND ISLAMIC CENTRE,-0.18842,51.38307,charity_register,1,1159294
+E08000009,Trafford,SALE MUSLIM ASSOCIATION,-2.35059,53.4152,charity_register,1,1159192
+E07000123,Preston,GUJARATI SUNNI MUSLIM COMMUNITY CENTRE (GSMCC),-2.71036,53.77179,charity_register,1,1161868
+E06000060,Buckinghamshire,ALMUHASSIN MOSQUE,-0.56497,51.55792,charity_register,1,1164693
+E08000030,Walsall,JAMIA ASHRAFUL ULOOM TRUST,-2.02142,52.56683,charity_register,1,1160601
+E09000031,Waltham Forest,HIGHAM HILL MUSLIM COMMUNITY TRUST,-0.0353,51.59846,charity_register,1,1162392
+E08000001,Bolton,ASHRAFIA MOSQUE TRUST,-2.47941,53.568,charity_register,1,1163170
+E06000062,West Northamptonshire,NURULLAHI MUSLIM COMMUNITY NORTHAMPTON,-0.84197,52.27234,charity_register,1,1165800
+E07000216,Waverley,WAVERLEY & RUSHMOOR MUSLIM ASSOCIATION,-0.78944,51.22977,charity_register,1,1163264
+E08000031,Wolverhampton,WOLVERHAMPTON ISLAMIC CENTRE,-2.15055,52.59776,charity_register,1,1163271
+E09000017,Hillingdon,YEADING MASJID & AL MADINA ISLAMIC CENTRE,-0.39845,51.52723,charity_register,1,1163746
+E09000030,Tower Hamlets,JAMIA ISLAMIA KHADIJATUL KUBRA (RA),-0.03492,51.53363,charity_register,1,1168065
+E08000034,Kirklees,MASJID TALHA,-1.64127,53.69562,charity_register,1,1166030
+E08000025,Birmingham,AL AQSA MASJID & COMMUNITY TRUST,-1.831,52.46936,charity_register,1,1165107
+E08000003,Manchester,MOSTON MUSLIM COMMUNITY CENTRE,-2.19778,53.51381,charity_register,1,1168322
+E06000023,"Bristol, City of",SHAHPORAN ISLAMIC CENTRE BRISTOL,-2.59879,51.49747,charity_register,1,1169391
+E06000060,Buckinghamshire,AYLESBURY VALE ISLAMIC CENTRE,-0.83261,51.82232,charity_register,1,1167242
+E09000025,Newham,MASJID AL-HUMERA,0.00857,51.5428,charity_register,1,1168594
+E08000028,Sandwell,KANZ UL IMAN CENTRAL JAMI'A MOSQUE,-2.05883,52.5252,charity_register,1,1171255
+E08000032,Bradford,BAYT AL QAIM ISLAMIC CENTRE,-1.7814,53.78292,charity_register,1,1171666
+E07000120,Hyndburn,RAZA JAMIA MASJID AND ISLAMIC CENTRE,-2.38284,53.75174,charity_register,1,1171018
+E08000003,Manchester,AL-SUNNAH MOSQUE,-2.24531,53.50652,charity_register,1,1170791
+E06000043,Brighton and Hove,BRIGHTON ISLAMIC CENTRE LTD,-0.07955,50.83711,charity_register,1,1172526
+E06000018,Nottingham,NOTTINGHAM SUDANESE ISLAMIC CENTRE,-1.17155,52.97399,charity_register,1,1173853
+E07000193,East Staffordshire,Eton Mosque & Education Centre Burton,-1.63308,52.8185,charity_register,1,1173793
+E08000005,Rochdale,JAMIA MASJID AYESHA EDUCATION CENTRE,-2.15604,53.62465,charity_register,1,1173095
+E06000062,West Northamptonshire,NORTHAMPTON  MOSQUE AND ISLAMIC  CENTRE,-0.8884,52.24353,charity_register,1,1174312
+E06000008,Blackburn with Darwen,Islamic Cultural Centre (Jaame Masjid),-2.4661,53.74578,charity_register,1,1173723
+E09000002,Barking and Dagenham,MARKS GATE MUSLIM COMMUNITY,0.13539,51.58451,charity_register,1,1174585
+E06000021,Stoke-on-Trent,KURDISH ISLAMIC CENTER AND MASJID SALAHUDDIN,-2.17398,53.02999,charity_register,1,1177758
+E08000003,Manchester,UGANDA MUSLIM COMMUNITY (UMC) MANCHESTER TWALE,-2.27762,53.37408,charity_register,1,1177180
+E07000115,Tonbridge and Malling,TONBRIDGE & MALLING MUSLIM COMMUNITY TRUST,0.27151,51.1831,charity_register,1,1176381
+E06000042,Milton Keynes,CENTRAL JAMIA MOSQUE AND ISLAMIC EDUCATIONAL CENTRE,-0.80912,52.06252,charity_register,1,1176965
+E07000110,Maidstone,MAIDSTONE ISLAMIC CENTER LIMITED,0.52741,51.27057,charity_register,1,1178668
+E08000034,Kirklees,THE HUDDERSFIELD ISLAMIC CENTRE,-1.79601,53.66275,charity_register,1,1180124
+E07000175,Newark and Sherwood,NEWARK ISLAMIC CENTRE,-0.80134,53.08124,charity_register,1,1182578
+E09000026,Redbridge,MUSLIM COMMUNITY CENTRE WANSTEAD (''MCCW''),0.02544,51.57231,charity_register,1,1179910
+E08000001,Bolton,ISLAMIC EDUCATION CENTRE MADANI MASJID,-2.43366,53.58626,charity_register,1,1181648
+E09000026,Redbridge,REDBRIDGE MUSLIM COMMUNITY CENTRE,0.08282,51.57341,charity_register,1,1180015
+E07000086,Eastleigh,EASTLEIGH MASJID AND ISLAMIC CENTRE,-1.35472,50.96928,charity_register,1,1180877
+E08000026,Coventry,COVENTRY SOMALI MUSLIM COMMUNITY TRUST,-1.49494,52.42681,charity_register,1,1180647
+E06000018,Nottingham,BILBOROUGH ISLAMIC CENTRE TRUST,-1.21755,52.96663,charity_register,1,1180717
+E09000026,Redbridge,JAMIA NOOR UL QURAN AND COMMUNITY CENTRE,0.09039,51.55877,charity_register,1,1181643
+E06000064,Westmorland and Furness,SOUTH LAKES ISLAMIC CENTRE,-3.16475,54.16369,charity_register,1,1182304
+E08000025,Birmingham,BIRMINGHAM COUNCIL OF MOSQUES (BCM),-1.89412,52.4579,charity_register,1,1182830
+E09000026,Redbridge,MADRASA ABU HURAYRA LTD,0.0805,51.56305,charity_register,1,1184214
+E08000032,Bradford,JAMIA SHARFIA BHERAKHALI FOUNDATION,-1.76407,53.812,charity_register,1,1183422
+E08000026,Coventry,SRI LANKA MUSLIM ASSOCIATION WESTMIDLANDS,-1.52238,52.4178,charity_register,1,1182932
+E09000011,Greenwich,DARUL-ULUM SURIKANDI QOUMI MADRASAH,0.10152,51.48298,charity_register,1,1183568
+E06000039,Slough,SHER-E-RABBANI ISLAMIC CENTRE,-0.58001,51.51416,charity_register,1,1187149
+E08000025,Birmingham,MASJID ABU BAKR TRUST,-1.87305,52.42435,charity_register,1,1185364
+E06000015,Derby,HAZRAT HAMZA MASJID TRUST,-1.47174,52.90331,charity_register,1,1182802
+E06000018,Nottingham,NOTTINGHAM COUNCIL OF MOSQUES,-1.15765,52.96825,charity_register,1,1189899
+E08000025,Birmingham,THAQWA MASJID AND MADRASAH,-1.84759,52.4749,charity_register,1,1184330
+E09000006,Bromley,BROMLEY MUSLIM ASSOCIATION,-0.01035,51.40643,charity_register,1,1184996
+E08000026,Coventry,SRI LANKAN MUSLIM COMMUNITY COVENTRY,-1.50085,52.43544,charity_register,1,1186946
+E08000019,Sheffield,JAMIA MASJID AND USMANIA EDUCATION CENTRE,-1.48225,53.35755,charity_register+planning,2,1185555;Sheffield/18/00331/FUL
+E09000008,Croydon,AL FATIHAH MOSQUE AND ISLAMIC CENTRE,-0.06165,51.36486,charity_register,1,1187629
+E09000025,Newham,MASJID & IMAMBARGAH SHUHDAE KARBALA,0.02492,51.52353,charity_register,1,1187832
+W06000009,Pembrokeshire,HAVERFORDWEST CENTRAL MOSQUE,-4.96557,51.8046,charity_register+planning,2,1187819;Pembrokeshire/21/0978/PA
+E08000034,Kirklees,THE SRI LANKAN MUSLIM WELFARE ASSOCIATION OF WEST YORKSHIRE,-1.63406,53.69816,charity_register,1,1189362
+E09000009,Ealing,NORTHOLT ISLAMIC CENTRE,-0.37637,51.54326,charity_register,1,1189047
+E07000245,West Suffolk,MUSLIM COMMUNITY ASSOCIATION HAVERHILL UK,0.43404,52.08253,charity_register,1,1188646
+E06000049,Cheshire East,MACCLESFIELD MUSLIM COMMUNITY CENTRE,-2.12326,53.26032,charity_register,1,1188556
+E07000103,Watford,WATFORD ISLAMIC CENTRE,-0.40065,51.67033,charity_register,1,1189644
+E07000139,North Kesteven,SLEAFORD ISLAMIC CENTRE,-0.41147,52.99573,charity_register,1,1190092
+E09000030,Tower Hamlets,CHIGWELL ISLAMIC CENTRE,-0.05362,51.51369,charity_register,1,1189149
+E08000026,Coventry,NIGERIAN MUSLIM ASSOCIATION IN COVENTRY (NIMAC) WELFARE TRUST,-1.46831,52.38882,charity_register,1,1190093
+E08000025,Birmingham,JAMIA MASJID AND ISLAMIC STUDY CENTRE,-1.8512,52.49626,charity_register+planning,2,1192141;Birmingham/2010/06837/PA
+E08000025,Birmingham,CUTCHI SUNNI MUSLIM ASSOCIATION (BIRMINGHAM),-1.91752,52.52073,charity_register,1,1191942
+E06000031,Peterborough,FAIZAN-E-QURAN MASJID,-0.22521,52.5782,charity_register,1,1191659
+E09000025,Newham,MASJID-E-QUBA ASSOCIATION LTD,0.01796,51.54486,charity_register,1,1191829
+E06000021,Stoke-on-Trent,MASJID IBRAHEEM,-2.19069,53.02058,charity_register,1,1191497
+E08000004,Oldham,MOHAMMADIA MASJID AND ISLAMIC CENTRE,-2.09415,53.57461,charity_register,1,1193999
+E06000016,Leicester,BRITANNIA ISLAMIC CENTRE FOR EDUCATION AND WELFARE,-1.12919,52.64947,charity_register,1,1192090
+E08000008,Tameside,ASHTON JAME MOSQUE AND ISLAMIC CENTRE,-2.10118,53.48942,charity_register+planning,2,1193326;Tameside/19/00893/FUL
+E06000021,Stoke-on-Trent,MEDINA MOSQUE STOKE,-2.18814,53.03598,charity_register,1,1192457
+E09000008,Croydon,THORNTON HEATH ISLAMIC CENTRE,-0.09704,51.3975,charity_register,1,1193471
+E08000008,Tameside,GREENGATE JAMIA MASJID,-2.10968,53.47687,charity_register,1,1199805
+E07000195,Newcastle-under-Lyme,NEWCASTLE-UNDER-LYME ISLAMIC CENTRE,-2.23303,53.00017,charity_register,1,1193202
+E09000029,Sutton,COMPANIONS OF THE MOSQUE,-0.19078,51.36659,charity_register,1,1194653
+E08000005,Rochdale,GREATER MANCHESTER COUNCIL OF MOSQUES,-2.15428,53.61552,charity_register,1,1199038
+E09000012,Hackney,MASJID ILYAS TRUST,-0.07361,51.56433,charity_register,1,1195802
+E09000002,Barking and Dagenham,AKANJEE FOUNDATION MASJID & ISLAMIC CENTRE,0.08459,51.54134,charity_register+planning,2,1196680;Barking/13/00891/FUL
+E08000025,Birmingham,MASJID AISHA HANDSWORTH WOOD,-1.92792,52.52327,charity_register,1,1196555
+E08000001,Bolton,BODHAN MUSLIM WELFARE ASSOCIATION,-2.4576,53.55919,charity_register,1,1198292
+E07000068,Brentwood,BRENTWOOD MOSQUE,0.27662,51.61111,charity_register,1,1196314
+E06000008,Blackburn with Darwen,MASJID AL MOMINEEN,-2.47015,53.75754,charity_register,1,1197643
+E08000025,Birmingham,SOUTH BIRMINGHAM MUSLIM COMMUNITY ASSOCIATION,-1.96424,52.42503,charity_register,1,1197554
+E07000209,Guildford,RUSHMOOR MUSLIM ASSOCIATION,-0.73073,51.23371,charity_register,1,1197669
+E08000025,Birmingham,MAHMUD SABIR MASJID,-1.84812,52.44833,charity_register,1,1197269
+E08000025,Birmingham,BIRMINGHAM MASJID AND DAWAH CENTRE,-1.90578,52.50091,charity_register,1,1197916
+E06000015,Derby,JAMIA NIZAMIA CHARITY,-1.47829,52.90488,charity_register,1,1197846
+E07000085,East Hampshire,ALTON ISLAMIC CENTRE LTD,-0.97754,51.1492,charity_register,1,1198014
+E09000026,Redbridge,THE GREATER LONDON MOSQUE,0.10596,51.56412,charity_register,1,1200242
+E09000025,Newham,BRITAIN KERALA MUSLIM CULTURAL CENTRE,0.05114,51.53808,charity_register,1,1199929
+E09000030,Tower Hamlets,MILE END BENGALI MUSLIM COMMUNITY ASSOCIATION,-0.03379,51.52336,charity_register,1,1199395
+E09000021,Kingston upon Thames,NEW MALDEN MUSLIM ASSOCIATION,-0.25292,51.38764,charity_register,1,1201736
+E09000029,Sutton,CHEAM MUSLIM WELFARE SERVICES LIMITED,-0.21423,51.35469,charity_register,1,1198897
+E07000179,South Oxfordshire,SOUTH OXFORDSHIRE MUSLIM ASSOCIATION,-1.24127,51.60644,charity_register,1,1200193
+E07000240,St Albans,LONDON COLNEY ISLAMIC CENTRE,-0.29565,51.72418,charity_register,1,1199426
+E08000006,Salford,CADISHEAD & IRLAM ISLAMIC CENTRE,-2.43263,53.43208,charity_register+planning,2,1199197;Salford/22/80281/FUL
+E08000008,Tameside,WESTEND EDUCATIONAL CENTRE AND MASJID AT-TAQWA,-2.11149,53.48501,charity_register+planning,2,1199041;Tameside/23/00970/FUL
+E09000016,Havering,COLLIER ROW MASJID,0.17276,51.60122,charity_register,1,1199442
+E09000017,Hillingdon,ALMI IDARA TANZEEM UL ISLAM,-0.43633,51.51742,charity_register,1,1202840
+E07000193,East Staffordshire,DARUL ULOOM JAMIA ISLAMIA GHAUSIA (BURTON-UK),-1.63672,52.81547,charity_register+planning,2,1199848;EastStaffordshire/P/2012/00667
+E09000002,Barking and Dagenham,BARKING AND DAGENHAM MUSLIM ASSOCIATION,0.10286,51.54025,charity_register,1,1201033
+E06000016,Leicester,DIU MUSLIM COMMUNITY LIMITED,-1.11877,52.65581,charity_register,1,1203212
+E09000010,Enfield,SOUTHGATE MOSQUE AND COMMUNITY CENTRE LTD,-0.1295,51.63041,charity_register,1,1201327
+E07000143,Breckland,AL-HUDA ISLAMIC CENTER,0.95902,52.67711,charity_register,1,1203492
+E06000050,Cheshire West and Chester,WINSFORD COMMUNITY CENTRE AND MASJID,-2.52285,53.19261,charity_register,1,1207332
+E08000035,Leeds,West Leeds Jamia Masjid,-1.59846,53.7974,charity_register,1,1204572
+E08000025,Birmingham,HALL GREEN MOSQUE (HALL GREEN MUSLIM ASSOCIATION),-1.83893,52.42735,charity_register,1,1203770
+E09000008,Croydon,SOUTH CROYDON ISLAMIC CENTRE,-0.06245,51.34239,charity_register,1,1204199
+E08000025,Birmingham,JAMIA BHOPAL TRUST,-1.89336,52.50724,charity_register,1,1203147
+E09000031,Waltham Forest,CHINGFORD MOSQUE,-0.01483,51.60583,charity_register,1,1203134
+E09000002,Barking and Dagenham,BEAM PARK ISLAMIC CENTRE,0.16853,51.52608,charity_register,1,1202725
+E09000026,Redbridge,MILL LANE MUSLIM ASSOCIATION,0.12767,51.5769,charity_register,1,1204287
+E09000030,Tower Hamlets,HIND GROVE MASJID & CULTURAL CENTRE,-0.02546,51.51293,charity_register+planning,2,1204802;TowerHamlets/PA/17/01547/NC;TowerHamlets/PA/17/01547/A1;TowerHamlets/PA/17/01547
+E08000025,Birmingham,RAHMANIA MASJID & COMMUNITY CENTRE,-1.85067,52.47327,charity_register,1,1204005
+E07000148,Norwich,NORFOLK MUSLIM COMMUNITY ASSOCIATION,1.25718,52.63772,charity_register,1,1205465
+E06000041,Wokingham,Muslim Community Connect Wokingham,-0.86603,51.42401,charity_register,1,1203941
+E08000035,Leeds,MASJID AL KHAIF ARMLEY,-1.60297,53.79576,charity_register,1,1204449
+E07000123,Preston,SALAHADDIN MOSQUE PRESTON,-2.68644,53.76304,charity_register+planning,2,1204357;Preston/06/2025/0768
+E07000220,Rugby,RUGBY MUSLIM ASSOCIATION,-1.30061,52.37944,charity_register,1,1206216
+E06000055,Bedford,AL HARAMAIN MOSQUE AND EDUCATION CENTRE,-0.48745,52.13091,charity_register,1,1204848
+E06000016,Leicester,ALBANIAN MIDLANDS MUSLIM COMMUNITY,-1.08126,52.6442,charity_register,1,1206211
+E07000065,Wealden,BAITUL MAMUR MOSQUE TRUST,0.25601,50.8629,charity_register,1,1205092
+E07000179,South Oxfordshire,CAVERSHAM MUSLIM ASSOCIATION,-0.95168,51.4671,charity_register,1,1206131
+E09000002,Barking and Dagenham,AL NOOR MASJID AND EDUCATION TRUST,0.13614,51.58885,charity_register,1,1205066
+E06000023,"Bristol, City of",BRISTOL BAITUL MUKARRAM ISLAMIC CENTRE,-2.58013,51.49767,charity_register,1,1209620
+E09000017,Hillingdon,SHAH JALAL MUSLIM CENTRE AND MASJID,-0.4715,51.51119,charity_register,1,1206256
+E08000025,Birmingham,EAST BIRMINGHAM CENTRAL MASJID,-1.79236,52.48913,charity_register,1,1207118
+E08000028,Sandwell,MUSLIM WELFARE ORGANISATION,-2.07793,52.47422,charity_register,1,1206796
+E09000011,Greenwich,PLUMSTEAD ISLAMIC CENTRE,0.07277,51.48177,charity_register,1,1206899
+E09000024,Merton,SOUTH LONDON MUSLIM ASSOCIATION - SLMA LIMITED,-0.18554,51.41589,charity_register+planning,2,1208297;Merton/23/P1706;Merton/23/P1706/INVALID;Merton/19/P3751
+E06000061,North Northamptonshire,WELLINGBOROUGH MUSLIM COMMUNITY,-0.72755,52.30136,charity_register,1,1207737
+E09000030,Tower Hamlets,CHIGWELL MUSLIM COMMUNITY CENTRE,-0.0049,51.51018,charity_register,1,1207295
+E09000008,Croydon,AR-RAYYAAN TAMIL MUSLIM COMMUNITY CENTRE,-0.10484,51.39484,charity_register,1,1208576
+E09000025,Newham,MASJID SILVERTOWN,0.04098,51.50074,charity_register,1,1207969
+E06000031,Peterborough,MASJID E-QUBA,-0.23415,52.58088,charity_register,1,1210248;1213669
+E08000025,Birmingham,MASJID QUBA TRUST,-1.92059,52.51269,charity_register,1,1209256
+E06000015,Derby,DERBYSHIRE ISLAMIC CENTRE,-1.47232,52.89917,charity_register,1,1208958
+E06000041,Wokingham,WOKINGHAM ISLAMIC CENTRE,-0.87318,51.42922,charity_register,1,1209794
+E08000008,Tameside,HAMIYUDDEN HAMIYUSSUNNAH MASJID AND MADRASHA,-2.06922,53.44916,charity_register,1,1210216
+E06000042,Milton Keynes,MILTON KEYNES EAST MUSLIM COMMUNITY (MKEMC),-0.65897,52.03451,charity_register,1,1210287
+E06000034,Thurrock,PURFLEET COMMUNITY CENTRE AND MASJID,0.23221,51.48499,charity_register,1,1210723
+E08000025,Birmingham,JAMIA ISLAMIA BHARAN SULTANPUR HAFIZIA & WOMEN MADRASAH,-1.81691,52.47844,charity_register,1,1209951
+E06000064,Westmorland and Furness,MUSLIM COMMUNITY IN KENDAL,-2.74606,54.32271,charity_register,1,1209371
+E07000062,Hastings,HASTINGS AND ST LEONARDS ISLAMIC CENTRE,0.5793,50.88212,charity_register,1,1209945
+E07000117,Burnley,USMANIA ISLAMIC CENTRE,-2.23016,53.80608,charity_register,1,1210002
+E07000192,Cannock Chase,CANNOCK ISLAMIC CENTRE,-1.98107,52.68881,charity_register,1,1209642
+E07000072,Epping Forest,LOUGHTON MUSLIM ASSOCIATION,0.07593,51.64757,charity_register,1,1210165
+E06000023,"Bristol, City of",AL-NEELAIN ISLAMIC CENTRE BRISTOL,-2.61186,51.46022,charity_register,1,1211672
+E09000025,Newham,MASJID UL-SAHABA & ISLAMIC CENTRE,0.02446,51.53824,charity_register,1,1210227
+E09000004,Bexley,BEXLEY ISLAMIC CENTRE,0.11601,51.46044,charity_register,1,1211089
+E08000017,Doncaster,DONCASTOR BILAL MOSQUE,-1.14406,53.49865,charity_register,1,1210258
+E08000003,Manchester,ALMUHSINOON ISLAMIC CENTRE,-2.21041,53.48478,charity_register,1,1210623
+E09000002,Barking and Dagenham,SDK ISLAMIC CENTRE,0.0741,51.53892,charity_register,1,1215874
+E08000032,Bradford,BD5 MASJID,-1.76481,53.77491,charity_register,1,1211411
+E08000025,Birmingham,MUSLIM STUDENTS HOUSE MASJID & COMMUNITY CENTRE,-1.8855,52.45893,charity_register,1,1211556
+E06000023,"Bristol, City of",MASJID BILAL AND CENTRE BRISTOL,-2.5688,51.46669,charity_register,1,1213418
+E08000018,Rotherham,MADINA ISLAMIC CENTRE TRUST ROTHERHAM,-1.34837,53.43604,charity_register,1,1211952
+E09000031,Waltham Forest,ALBANIAN MUSLIM COMMUNITY LONDON,-0.03933,51.59113,charity_register,1,1212790
+E06000010,"Kingston upon Hull, City of",EAST HULL MASJID AND COMMUNITY CENTRE,-0.26304,53.76476,charity_register,1,1213110
+E06000002,Middlesbrough,MIDDLESBROUGH KURDISH ISLAMIC CENTRE,-1.24336,54.56177,charity_register,1,1213550
+E08000025,Birmingham,DARUL ULOOM SONA PUR RUPAPUR MADRASAH TRUST,-1.85307,52.46994,charity_register,1,1216990
+E09000015,Harrow,ARABIC ISLAMIC CENTRE LIMITED,-0.3351,51.57934,charity_register,1,1214525
+E06000045,Southampton,MASJID AS-SALAAM,-1.41251,50.91265,charity_register,1,1212793
+E09000025,Newham,Stratford Muslim Association,-0.00321,51.5393,charity_register,1,1213298
+E07000085,East Hampshire,ALTON ISLAMIC CENTRE,-0.97791,51.1452,charity_register,1,1212899
+E09000012,Hackney,WOODBERRY DOWN MUSLIM COMMUNITY,-0.0915,51.57054,charity_register,1,1212536
+E07000092,Rushmoor,ALDERSHOT ISLAMIC CENTRE,-0.76097,51.24915,charity_register,1,1214576
+E08000025,Birmingham,JAME-UL-ULOOM TRUST UK,-1.88778,52.44149,charity_register,1,1213181
+W06000011,Swansea,SKETTY MOSQUE AND COMMUNITY CENTRE,-3.99052,51.61699,charity_register,1,1214336
+E07000082,Stroud,STROUD DISTRICT ISLAMIC CENTER,-2.25137,51.73964,charity_register,1,1213990
+E08000025,Birmingham,SELLY PARK COMMUNITY MOSQUE,-1.91906,52.43525,charity_register,1,1215678
+E08000003,Manchester,JAMIA DAAR E ZAINAB,-2.17748,53.45332,charity_register,1,1215577
+E06000013,North Lincolnshire,SCUNTHORPE CENTRAL MOSQUE TRUST,-0.65446,53.59341,charity_register+planning,2,1215677;NorthLincs/PA/2025/428
+E06000018,Nottingham,NOTTINGHAM EAST AFRICAN MUSLIM COMMUNITY,-1.15204,52.95502,charity_register,1,1216327
+E06000064,Westmorland and Furness,PENRITH MUSLIM COMMUNITY CENTRE,-2.75237,54.66268,charity_register,1,1215849
+E07000073,Harlow,BOLTON NIGERIAN MUSLIM COMMUNITY,0.09224,51.77086,charity_register,1,1216612
+E07000222,Warwick,LEAMINGTON SPA ISLAMIC CENTRE,-1.54454,52.26012,charity_register,1,1215512
+E08000030,Walsall,WALSALL MASJID AND DAWAH CENTRE,-1.98199,52.58121,charity_register,1,1217486
+E09000023,Lewisham,WORLD ISLAMIC CENTRE,-0.02896,51.47075,charity_register,1,1217566
+E06000021,Stoke-on-Trent,HAZRAT BELAL (RA) MASJID,-2.19285,53.04109,charity_register,1,1215748
+E09000015,Harrow,HATCH END ISLAMIC CENTRE,-0.35183,51.56474,charity_register,1,1215482
+E08000002,Bury,MASJID BILAL PRESTWICH LTD,-2.2605,53.52096,charity_register+planning,2,1218552;Bury/71422
+E09000017,Hillingdon,HILLINGDON MUSLIM COMMUNITY HUB,-0.44893,51.54714,charity_register,1,1216094
+E09000018,Hounslow,OSTERLEY MUSLIM ASSOCIATION,-0.34937,51.48156,charity_register,1,1216660
+E06000032,Luton,MASJID IRSHAD,-0.45586,51.88531,charity_register,1,1217738
+E08000025,Birmingham,MASJID SALAAM BIRMINGHAM,-1.85163,52.48249,charity_register,1,1219113
+E07000040,East Devon,EXMOUTH ISLAMIC CENTRE,-3.38997,50.63429,charity_register,1,1218823
+E06000031,Peterborough,"106, Star Road, Peterborough",-0.22839,52.57517,planning,1,Peterborough/26/002355/FUL;Peterborough/10/00907/FUL;Peterborough/12/00284/FUL
+E09000030,Tower Hamlets,"Teviot Estate, London, E14 6QU",-0.01149,51.52023,planning,1,Greenwich/24/2016/K
+E08000025,Birmingham,27 Putney Road Handsworth Birmingham B20 3PP,-1.90857,52.51035,planning,1,Birmingham/2024/06572/PA
+E06000013,North Lincolnshire,"130 Sheffield Street West, Scunthorpe, DN15 7LY",-0.65685,53.59499,planning,1,NorthLincs/PA/2014/0090
+E09000018,Hounslow,"114 THE GEORGE INN TWICKENHAM ROAD, ISLEWORTH, TW7 7DJ",-0.32878,51.46887,planning,1,Hounslow/P/2021/2151
+E06000013,North Lincolnshire,"53 Cliff Closes Road, Scunthorpe, DN15 7HT",-0.67373,53.5863,planning,1,NorthLincs/PA/2015/1207
+E09000019,Islington,"152A Tottenham Road, Hackney, London, N1 4DY",-0.08213,51.54582,planning,1,Hackney/2025/1566
+E09000028,Southwark,Muslim Association Of Nigeria 365 Old Kent Road London Southwark SE1 5JH,-0.07508,51.4877,planning,1,Southwark/21/AP/0814;Southwark/21/AP/0818;Southwark/21/AP/0819;Southwark/21/AP/0794
+E07000123,Preston,"Sharoe Green Hospital, Sharoe Green Lane, Fulwood, Preston, Lancashire, PR2 8DU",-2.70116,53.78019,planning,1,Preston/06/2012/0655
+E06000038,Reading,Reading College Of Arts & Design Crescent Road Reading RG1 5RQ,-0.93977,51.44788,planning,1,Wokingham/062340;Reading/010603;Reading/PL/01/0603
+E08000003,Manchester,Wythenshawe Masjid 7 Moor End Manchester M22 4JQ,-2.26146,53.40604,planning,1,Manchester/144032/FO/2025
+E06000066,Somerset,8A Westminster Street Yeovil Somerset BA20 1AE,-2.63454,50.94167,planning,1,SouthSomerset/10/04831/FUL
+E06000008,Blackburn with Darwen,Jamia Syeda Fatima Al-zahra Bank Lane Blackburn BB1 2AP,-2.44432,53.74656,planning,1,Blackburn/10/24/0884
+E08000034,Kirklees,"Mohaddis E Azam Education Centre And Masjid E Madani, 225C, Ravenshouse Road, De",-1.65651,53.68771,planning,1,Kirklees/2025/91914;Kirklees/2023/91715
+E08000034,Kirklees,"Springfield House, 49, Halifax Road, Dewsbury, WF13 2JN",-1.63505,53.69517,planning,1,Kirklees/2016/93483;Kirklees/2013/91851
+E08000034,Kirklees,"Fartown Village Hall, Ball Royd Road, Fartown, Huddersfield, HD2 1AN",-1.77761,53.6638,planning,1,Kirklees/2025/91019
+E06000055,Bedford,Pakistan Mosque Committee 10 - 12 Iddesleigh Road Bedford Bedfordshire MK40 4LW,-0.48275,52.13413,planning,1,Bedford/09/02961/AOC;Bedford/09/02962/AOC;Bedford/09/02958/AOC;Bedford/09/00874/FUL
+E07000217,Woking,Buckinghams Albert House Albert Drive Sheerwater Woking Surrey GU21 5JZ,-0.53583,51.32757,planning,1,Woking/PLAN/2025/0353
+E08000032,Bradford,Jamiyat Tabligh Ul Islam Mosque 133 Toller Lane Bradford West Yorkshire BD8 9HL,-1.78374,53.80539,planning,1,Bradford/25/00839/FUL
+E08000026,Coventry,"75 Smith Street, Coventry, CV6 5DX",-1.4939,52.41885,planning,1,Coventry/PL/2023/0002406/FUL
+E06000008,Blackburn with Darwen,Former Emerald Street Nursery Emerald Street Blackburn BB1 9QJ,-2.47808,53.76977,planning,1,Blackburn/10/25/0048
+S12000040,West Lothian,"St Davids House, Retail Unit And Cafe 20-24 South Bridge Street Bathgate West Lo",-3.6429,55.90172,planning,1,WestLothian/0899/FUL/24
+E09000016,Havering,135 New Road Rainham RM13 8ES,0.17477,51.52463,planning,1,Havering/P1716.18
+E08000001,Bolton,66 Chorley Street Bolton BL1 4AL,-2.43752,53.58071,planning,1,Bolton/19425/24
+E06000015,Derby,"6, 6A, 6B, 7 And 7A Hastings Street Derby DE23 6QQ",-1.48142,52.90649,planning,1,Derby/19/00958/FUL
+S12000040,West Lothian,Mosque Craigshill East Road Craigshill Livingston West Lothian EH54 5JQ,-3.4982,55.90195,planning,1,WestLothian/0946/FUL/17;WestLothian/LIVE/0886/FUL/05
+E07000122,Pendle,Jamia Masjid Usman Ghani Mosque Stanley Street Brierfield Lancashire BB9 5DL,-2.23195,53.82433,planning,1,Pendle/23/0833/FUL
+E08000035,Leeds,27 Stratford Street Leeds 11,-1.54744,53.77505,planning,1,Leeds/21/130/00/FU
+E09000031,Waltham Forest,"711-713-715,high Road Leyton,leyton,london, E10 6RA",-0.00871,51.57082,planning,1,WalthamForest/070697
+E09000030,Tower Hamlets,"2A Ettrick Street, London, E14 0PU",-0.00529,51.51435,planning,1,TowerHamlets/PA/23/02332/NC
+S12000049,Glasgow City,425 Paisley Road West Glasgow G51 1PZ,-4.29884,55.85077,planning,1,Glasgow/18/00038/FUL
+E08000009,Trafford,"14 Moss Road, Stretford.",-2.30999,53.45117,planning,1,Trafford/H/65641
+S12000005,Clackmannanshire,97 Whins Road Alloa Clackmannanshire FK10 3RF,-3.78168,56.12006,planning,1,Clackmannanshire/23/00150/FULL
+E07000216,Waverley,"Islamabad, Sheephatch Lane, Tilford, Farnham, Surrey, GU10 2AQ",-0.75602,51.19342,planning,1,Waverley/WA/2015/0075
+E08000030,Walsall,"39 Slaney Road,Walsall,WS2 9AF WS2 9AF",-2.00359,52.57041,planning,1,Walsall/BC56922P
+E08000037,Gateshead,1A Villa Place Gateshead NE8 1RY,-1.6074,54.95585,planning,1,Gateshead/DC/12/00149/COU;Gateshead/DC/09/01485/COU;Gateshead/DC/09/00189/COU;Gateshead/DC/08/00203/COU
+E07000122,Pendle,Former Spring Bank Hotel Manchester Road Nelson Lancashire BB9 7AH,-2.22224,53.83302,planning,1,Pendle/13/08/0115P;Pendle/13/08/0119P
+E07000122,Pendle,Employment Service Unemployment Benefit Office Seldon Street Nelson Lancashire B,-2.20799,53.83854,planning,1,Pendle/13/03/0805P
+S12000047,Fife,The Kings Hotel 1 St Marys Road Kirkcaldy Fife KY1 2RQ,-3.15425,56.11556,planning,1,Fife/06/02331/CFULL
+E09000030,Tower Hamlets,"Land at Robin Hood Gardens, east of Cotton Street, west of Bullivant Street and ",-0.00777,51.50936,planning,1,TowerHamlets/PA/12/02567;TowerHamlets/PA/12/02567/NC
+S12000008,East Ayrshire,16 Ayr Road Cumnock East Ayrshire KA18 1DW,-4.26537,55.45298,planning,1,EastAyrshire/22/0666/PP
+E06000036,Bracknell Forest,Unit C Cookham Road Bracknell Berkshire RG12 1RB,-0.77448,51.41525,planning,1,Bracknell/22/00779/FUL;Bracknell/19/00753/FUL
+E08000025,Birmingham,The Brookhill Tavern 484 Alum Rock Road Alum Rock Birmingham B8 3HX,-1.83927,52.48783,planning,1,Birmingham/2021/10528/PA
+E08000003,Manchester,96-98 Heywood Street Manchester M8 0DT,-2.23934,53.50201,planning,1,Manchester/134400/FO/2022;Manchester/099517/FO/2012/N1;Manchester/084237/FO/2007/N1
+E08000023,South Tyneside,Site of Former The Bizz Bar 96 - 98 Ocean Road South Shields,-1.42837,54.99946,planning,1,SouthTyneside/ST/0287/22/OUT
+E07000236,Redditch,Redditch Mosque 28 Easemore Road Redditch Worcestershire B98 8HA,-1.93781,52.30866,planning,1,BromsgroveRedditch/21/00589/FUL
+E07000120,Hyndburn,Land adjacent 44 A Higher Antley Street Accrington BB5 0SN,-2.37301,53.74854,planning,1,Hyndburn/11/22/0012;Hyndburn/11/09/0451
+E08000032,Bradford,The Newby Square Bowling Old Lane Bradford West Yorkshire BD5 7TD,-1.75424,53.78083,planning,1,Bradford/21/02916/MAF
+E08000025,Birmingham,The Loft College Court 1 College Road Springfield Birmingham B13 9LS,-1.85794,52.44305,planning,1,Birmingham/2021/03478/PA;Birmingham/2020/01120/PA
+E08000001,Bolton,4 Norris Street Bolton BL3 6HQ,-2.43711,53.57185,planning,1,Bolton/10608/21
+S12000047,Fife,125 Woodmill Road Dunfermline Fife KY11 4AE,-3.43578,56.06995,planning,1,Fife/20/01483/FULL;Fife/14/02613/FULL
+E08000025,Birmingham,Land at junction of Highgate Road & Stratford Road and land at Stoney Lane Spark,-1.8744,52.45942,planning,1,Birmingham/2018/08593/PA
+E09000008,Croydon,63 Whytecliffe Road South Purley CR8 2AZ,-0.11348,51.33911,planning,1,Croydon/19/02109/FUL
+S12000036,City of Edinburgh,1 House O'Hill Road Edinburgh EH4 2AJ,-3.25732,55.96101,planning,1,Edinburgh/15/01713/ADV
+S12000029,South Lanarkshire,48 Greenhill Road Rutherglen G73 2SS,-4.21283,55.82679,planning,1,SouthLanarkshire/P/18/0480
+E08000026,Coventry,"Coventry Muslim Swahili Association, 88 Paynes Lane, Coventry, CV1 5LJ",-1.49255,52.41067,planning,1,Coventry/FUL/2019/0075
+E07000117,Burnley,4-6 Clegg Street Burnley Lancashire BB10 1AX,-2.24125,53.7987,planning,1,Burnley/APP/2018/0477;Burnley/APP/2006/1001
+E08000032,Bradford,38 Hilton Road Bradford BD7 2ED,-1.78239,53.7892,planning,1,Bradford/08/02643/FUL
+E08000003,Manchester,Iklhass Masjid Mosque Halliwell Lane Manchester M8 9DR,-2.24724,53.50791,planning,1,Manchester/117640/FO/2017
+E09000026,Redbridge,"Police Station, 14, Wangey Road, Chadwell Heath, Romford, RM6 4AJ",0.12911,51.5699,planning,1,Redbridge/0848/14/03;Redbridge/0848/14
+E06000008,Blackburn with Darwen,45 Railway Road Darwen BB3 2RJ,-2.46522,53.6973,planning,1,Blackburn/10/16/1124/NEW;Blackburn/10/16/1124
+E06000008,Blackburn with Darwen,52 Tontine Street Blackburn BB1 7ED,-2.48413,53.75118,planning,1,Blackburn/10/16/1300;Blackburn/10/16/1300/NEW;Blackburn/10/12/1131
+S12000049,Glasgow City,161 Nithsdale Road Glasgow G41 5QS,-4.27804,55.83998,planning,1,Glasgow/16/02553/DC;Glasgow/16/02554/DC
+E07000171,Bassetlaw,34 Watson Road Worksop Nottinghamshire,-1.12169,53.30371,planning,1,Bassetlaw/16/01272/COU
+W06000009,Pembrokeshire,"4, Albert Street, Haverfordwest, Pembrokeshire, SA61 1TB",-4.97584,51.79838,planning,1,Pembrokeshire/16/0457/PA
+E08000025,Birmingham,75 Rookery Road Handsworth Wood Birmingham B21 9QU,-1.94081,52.50723,planning,1,Birmingham/2016/00797/PA
+E09000026,Redbridge,"2A, Ashgrove Road, Goodmayes, Ilford, IG3 9XE",0.10974,51.56504,planning,1,Redbridge/2217/10/07;Redbridge/2217/10/05;Redbridge/2217/10/04;Redbridge/2217/10/03
+E09000026,Redbridge,"2-4, Connaught Mews, Connaught Road, Ilford, Essex, IG1 1RN",0.08498,51.55929,planning,1,Redbridge/4134/14
+S12000020,Moray,78 South Street Elgin Moray IV30 1JG,-3.31792,57.64691,planning,1,Moray/14/02325/APP
+E09000002,Barking and Dagenham,"Masjid E Umar Essex Islamic Academy, 343 Ripple Road, Barking, IG11 7RJ",0.09327,51.53572,planning,1,Barking/14/00831/FUL;Barking/12/00973/FUL
+E08000005,Rochdale,Sparth Islamic Centre Albion Road Rochdale OL11 4HQ,-2.1699,53.6128,planning,1,Rochdale/14/00621/FUL
+E07000099,North Hertfordshire,27 Bury Mead Road Hitchin SG5 1RT,-0.27274,51.95958,planning,1,NorthHertfordshire/13/02916/1
+E06000059,Dorset,"H M PRISON, THE VERNE, PORTLAND, DT5 1EQ",-2.43668,50.56126,planning,1,DorsetCouncil/WP/13/00800/LBC
+E09000030,Tower Hamlets,"2A Buckfast Street, London, E2 6EY",-0.06627,51.52604,planning,1,TowerHamlets/PA/13/02860/NC;TowerHamlets/PA/13/02860
+E06000041,Wokingham,De Boves House London Road Earley Reading RG6 1BN,-0.93925,51.45478,planning,1,Wokingham/130983
+E08000025,Birmingham,"2A, B and C Showell Green Lane Sparkhill Birmingham B11 4JP",-1.86655,52.45089,planning,1,Birmingham/2013/06508/PA
+E07000113,Swale,"Crown Hotel, 148 High Street, Sheerness, Kent, ME12 1UB",0.76364,51.43847,planning,1,MidKent/SW/12/1348
+E06000014,York,York Mosque And Islamic Centre Bull Lane York YO10 3EN,-1.06353,53.95638,planning,1,York/12/02273/FUL
+E08000026,Coventry,452 Stoney Stanton Road Coventry CV6 5DG,-1.49511,52.42447,planning,1,Coventry/FUL/2012/0062
+E06000008,Blackburn with Darwen,107 Cherry Street Blackburn BB1 1NT,-2.45796,53.74707,planning,1,Blackburn/10/12/0050;Blackburn/10/10/0936
+E06000002,Middlesbrough,7& 9 Park Road North Middlesbrough TS1 3LF,-1.23915,54.56635,planning,1,Middlesbrough/M/FP/0121/12/P
+S12000047,Fife,Fife Islamic Centre Cumbrae Terrace Kirkcaldy Fife KY2 6SG,-3.17456,56.13034,planning,1,Fife/11/00029/FULL
+E08000025,Birmingham,818 Alum Rock Road Ward End Birmingham B8 2TX,-1.82818,52.49014,planning,1,Birmingham/2011/06631/PA;Birmingham/2007/07046/PA
+S12000042,Dundee City,Land To West Of 110 Blackness Road Wilkies Lane Dundee,-2.98644,56.45964,planning,1,Dundee/11/00460/FULL
+E09000026,Redbridge,"117, Hampton Road, Ilford, IG1 1PU",0.07914,51.55247,planning,1,Redbridge/1369/11
+E08000025,Birmingham,38 Manor Farm Road Tyseley Birmingham B11 2HU,-1.84926,52.45406,planning,1,Birmingham/2011/02165/PA
+E06000004,Stockton-on-Tees,Marlborough House 30 - 32 Yarm Road Stockton-on-Tees TS18 3NG,-1.32295,54.55953,planning,1,Stockton/11/0758/COU
+S12000020,Moray,9A Moss Street Elgin Moray IV30 1LU,-3.31301,57.64771,planning,1,Moray/10/01841/LBC;Moray/10/01840/APP
+E06000039,Slough,"339-341, Bath Road, Slough, SL1 5PR",-0.6386,51.52025,planning,1,Slough/P/00191/005
+E07000148,Norwich,University Of East Anglia Earlham Road Norwich NR4 7TJ,1.23259,52.62201,planning,1,Norwich/09/00655/F
+E08000004,Oldham,The Mill Back Gladstone Street Oldham OL4 1BB,-2.09369,53.53845,planning,1,Oldham/PA/056762/09
+E08000001,Bolton,"WESTON HOUSE, WESTON STREET, BOLTON, BL3 2AR",-2.4242,53.56562,planning,1,Bolton/82660/09
+E09000030,Tower Hamlets,"208 Devons Road, London, E3 3PN",-0.01933,51.52185,planning,1,TowerHamlets/PA/08/02535/NC;TowerHamlets/PA/08/02535
+E07000242,East Hertfordshire,"Millars Two, Southmill Road, Bishops Stortford, Herts, CM23 3DH",0.16407,51.86438,planning,1,EastHertfordshire/3/09/0059/LB;EastHertfordshire/3/09/0058/FP
+E08000001,Bolton,"53-55 NUGENT ROAD, BOLTON, BL3 3DE",-2.43286,53.56062,planning,1,Bolton/81153/08;Bolton/78674/07
+E09000005,Brent,"TIVERTON Y & C CENTRE, Wrentham Avenue, London, NW10 3HN",-0.21714,51.53697,planning,1,Brent/08/1509;Brent/07/0340
+E08000025,Birmingham,Icknield Street/Hingeston Street land at Hockley Birmingham B16 8SP,-1.92284,52.47322,planning,1,Birmingham/2007/05912/PA
+E08000015,Wirral,"Beechcroft, Whetstone Lane, Tranmere, CH41 2SW",-3.02804,53.38631,planning,1,Wirral/APP/06/06920
+E07000121,Lancaster,Lancaster University Bailrigg Lane Lancaster Lancashire LA1 1TF,-2.78259,54.00712,planning,1,Lancaster/06/01212/FUL
+E08000032,Bradford,475 Leeds Road Thornbury Bradford West Yorkshire BD3 9ND,-1.7277,53.79248,planning,1,Bradford/06/01487/FUL
+E08000032,Bradford,Land At Croftlands Skipton Road Keighley West Yorkshire,-1.90871,53.87475,planning,1,Bradford/05/05753/FUL
+E08000032,Bradford,Oakleigh Hotel 4 Oak Avenue Manningham Bradford West Yorkshire BD8 7AQ,-1.76677,53.80948,planning,1,Bradford/04/05328/COU
+E08000032,Bradford,Victor Street Mosque Victor Street Heaton Bradford West Yorkshire BD9 4RB,-1.77636,53.81011,planning,1,Bradford/04/04844/LBC;Bradford/04/04843/FUL;Bradford/03/03946/FUL
+E08000003,Manchester,92 Duncan Road Longsight,-2.20253,53.45238,planning,1,Manchester/073328/FO/2004/N2
+E08000022,North Tyneside,3 Abbotsford Park Whitley Bay Tyne And Wear NE25 8AT,-1.45642,55.04015,planning,1,NorthTyneside/03/02718/FUL;NorthTyneside/02/01414/FUL
+E08000028,Sandwell,41 St Pauls Road Smethwick West Midlands B66 1EH,-1.98135,52.49954,planning,1,Sandwell/DC/03/40991
+N09000002,"Armagh City, Banbridge and Craigavon","Adjacent to 32 Cranny Road, Bleary.",-6.36636,54.42596,planning,1,ArmaghBanbridgeCraigavon/N/2002/0843/RM
+E08000025,Birmingham,78 Hutton Road Handsworth B20 3RD,-1.9115,52.5126,planning,1,Birmingham/2002/05609/PA
+E07000240,St Albans,Posh Wash 236 High Street London Colney Al2 1Hp,-0.29769,51.7262,planning,1,StAlbans/5/2001/0535
+E06000008,Blackburn with Darwen,Moss Street Blackburn,-2.46575,53.75449,planning,1,Blackburn/10/00/0751
+E06000032,Luton,95 & 95A Biscot Road Luton LU3 1AN,-0.4292,51.8912,planning,1,Luton/00/00249/COU
+E06000031,Peterborough,169-175 Gladstone Street Peterborough PE1 2BN,-0.24201,52.57146,planning,1,Peterborough/00/00028/FUL

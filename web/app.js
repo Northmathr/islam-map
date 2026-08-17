@@ -50,6 +50,8 @@ const GAIN = { new_build: 1, use_to: 1, use_away: -1, demolition: -1 };
 const METRICS = {
   mq:    { label: "Mosques", short: "mosques", dp: 0,
            get: d => d.mq },
+  mqc:   { label: "Mosques confirmed by 2+ sources", short: "confirmed", dp: 0,
+           get: d => d.mqc },
   gain:  { label: "Mosques approved, running total", short: "approved to date", dp: 0,
            diverging: true, get: d => cum(d.code).net },
   apps:  { label: "Planning applications that year", short: "applications", dp: 0,
@@ -187,6 +189,17 @@ function setYear(y) {
 
 /* ---------------- headline figures ---------------- */
 
+// No source dates most mosques, so the estate as it stood in a past year cannot
+// be shown directly. Subtracting approved gains gives an indication and is
+// labelled as one — never presented as a count.
+function backcast() {
+  const last = YEARS[YEARS.length - 1];
+  if (state.year >= last) return " · OpenStreetMap, charity register, planning";
+  const est = MOSQUES.points.length - nationalCum().net;
+  return ` · roughly <strong>${fmt(est)}</strong> in ${state.year}, working back
+    from approved planning decisions`;
+}
+
 function renderStats() {
   const nat = nationalCum();
   const pending = APPS.records.filter(r => r.s === "pending").length;
@@ -197,7 +210,7 @@ function renderStats() {
       <p class="q"><span class="swatch" style="background:${css("--mosque")}"></span>
         How many mosques are there?</p>
       <div class="v num">${fmt(MOSQUES.points.length)}</div>
-      <p class="n">mapped in England &amp; Wales today · OpenStreetMap</p>
+      <p class="n">identified today across three sources${backcast()}</p>
     </div>
     <div class="stat">
       <p class="q">How has that changed?</p>
@@ -303,9 +316,11 @@ function drawOverlays() {
     const r = Math.max(1.8, 2.3 * k);
     ctx.fillStyle = css("--mosque");
     ctx.globalAlpha = .85;
-    for (const [lon, lat] of MOSQUES.points) {
+    for (const [lon, lat, , nsrc] of MOSQUES.points) {
       const p = project(lon, lat);
       if (!p || p[0] < -5 || p[1] < -5 || p[0] > w + 5 || p[1] > h + 5) continue;
+      // corroborated locations read solid; single-source ones sit back
+      ctx.globalAlpha = (nsrc || 1) >= 2 ? .95 : .55;
       ctx.beginPath(); ctx.arc(p[0], p[1], r, 0, 6.283); ctx.fill();
     }
     ctx.globalAlpha = 1;
@@ -346,7 +361,7 @@ function renderLegend() {
   }
   if (state.overlays.mosques)
     html += `<div class="ln"><i class="dot" style="background:${css("--mosque")}"></i>
-      each mosque (${fmt(MOSQUES.points.length)})</div>`;
+      each mosque (${fmt(MOSQUES.points.length)}) · solid = 2+ sources</div>`;
   if (state.overlays.applications)
     html += `<div class="ln">${["approved", "refused", "pending"].map(s =>
       `<i class="dia" style="background:${statusColor(s)}"></i>${STATUS_LABEL[s]}`).join(" ")}</div>`;
@@ -354,14 +369,19 @@ function renderLegend() {
 }
 
 function renderMethod() {
+  const b = DATA.baselines.prov;
   $("method").innerHTML = `
-    <b>Mosque locations</b> come from OpenStreetMap and are a floor, not a
-    register — small or shared premises are often unmapped.
-    <b>Change over time</b> is measured from planning decisions, because no one
-    publishes a historical count of mosques; earlier years are thinner because
-    planning records are less complete the further back you go.
-    <b>Population</b> is the 2021 census. An approved application is a decision,
-    not a finished building.`;
+    <b>Mosque locations</b> merge three sources — OpenStreetMap, mosque
+    charities on the Charity Commission register, and approved planning
+    applications — deduplicated to 150 m. ${fmt(b.mqc)} of ${fmt(b.mq)} are
+    confirmed by more than one source. OpenStreetMap alone finds 1,336, so
+    roughly a quarter of these are places it does not have.
+    <b>The map shows today's locations</b>: no source dates most mosques, so the
+    slider moves the planning record rather than the buildings.
+    <b>Change over time</b> comes from planning decisions, because nobody
+    publishes a historical count; earlier years are thinner because planning
+    records are less complete the further back you go, not because less was
+    happening. An approved application is a decision, not a finished building.`;
 }
 
 /* ---------------- panel ---------------- */
@@ -411,10 +431,11 @@ function renderPanel() {
 
     <div class="p-sec">
       <h3>Mosques</h3>
-      <div class="figure"><span class="v num">${fmt(d.mq)}</span><span class="u">mapped here</span></div>
+      <div class="figure"><span class="v num">${fmt(d.mq)}</span><span class="u">identified here</span></div>
       <p class="note">${d.ratio != null
-        ? `About <strong>${fmt(d.ratio)}</strong> Muslim residents for each one.`
-        : "No mosques mapped in this area."}</p>
+        ? `About <strong>${fmt(d.ratio)}</strong> Muslim residents for each one.
+           ${fmt(d.mqc)} confirmed by more than one source.`
+        : "None identified in this area."}</p>
     </div>
 
     <div class="p-sec">
