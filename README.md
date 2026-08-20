@@ -209,6 +209,19 @@ rather than answers.
 applications coloured by decision. Applications accumulate up to the selected
 year, with that year's highlighted.
 
+**Sources and method live on their own page** (`web/method.html`), not in the
+footer. The map carries one line — that it shows today's locations and that the
+slider moves the planning record — because that is the caveat that stops it
+being misread; everything else is a click away where there is room to explain
+it. On a phone the footer sheds even the provenance sentence.
+
+**Mobile layout.** The three headline figures sit three-across rather than
+stacked, on short labels, and shed the fixed half of their sub-notes so only the
+part that moves with the slider survives. Together with a compressed header,
+tools and legend, the map keeps roughly 58% of the viewport instead of being
+pushed off the bottom. The detail panel gets a close button, since it covers the
+map and tapping the district again is not reachable.
+
 **Detail panel** — plain-language answers for the selected district: mosques,
 residents per mosque, net change, a per-year sparkline, what is awaiting a
 decision, and the recent applications with links to the planning record. Muslim

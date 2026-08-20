@@ -71,6 +71,9 @@ const OVERLAYS = [
 
 const STATUS_LABEL = { approved: "Approved", refused: "Refused",
                        withdrawn: "Withdrawn", pending: "Awaiting decision" };
+// Legend-only abbreviations for narrow screens; the panel keeps the full words.
+const STATUS_SHORT = { approved: "Approved", refused: "Refused",
+                       withdrawn: "Withdrawn", pending: "Pending" };
 const statusColor = s => ({ approved: css("--ok"), refused: css("--up"),
                             withdrawn: css("--ink-3"), pending: css("--warn") }[s] || css("--ink-3"));
 
@@ -191,38 +194,54 @@ function setYear(y) {
 
 // No source dates most mosques, so the estate as it stood in a past year cannot
 // be shown directly. Subtracting approved gains gives an indication and is
-// labelled as one — never presented as a count.
+// labelled as one -- never presented as a count.
 function backcast() {
-  const last = YEARS[YEARS.length - 1];
-  if (state.year >= last) return " · OpenStreetMap, charity register, planning";
+  // At the latest year the headline is simply today's count and needs no
+  // qualifier -- the fixed half of the note already says where it comes from.
+  if (state.year >= YEARS[YEARS.length - 1]) return "";
   const est = MOSQUES.points.length - nationalCum().net;
-  return ` · roughly <strong>${fmt(est)}</strong> in ${state.year}, working back
-    from approved planning decisions`;
+  // "roughly" carries the caveat on a phone; the reasoning is on method.html
+  return `roughly <strong>${fmt(est)}</strong> in ${state.year}<span class="n-full">,
+    working back from approved planning decisions</span>`;
 }
 
+// Each note is split in two. The "full" half is fixed explanation and is hidden
+// on narrow screens; the "live" half moves with the year slider and is always
+// shown, so a scrubbed-back figure never appears on a phone without its label.
 function renderStats() {
   const nat = nationalCum();
   const pending = APPS.records.filter(r => r.s === "pending").length;
   const thisYear = Object.values(byYear[state.year] || {}).reduce((a, o) => a + o.n, 0);
+  const back = backcast();
 
-  $("stats").innerHTML = `
+  const stat = (o) => `
     <div class="stat">
-      <p class="q"><span class="swatch" style="background:${css("--mosque")}"></span>
-        How many mosques are there?</p>
-      <div class="v num">${fmt(MOSQUES.points.length)}</div>
-      <p class="n">identified today across three sources${backcast()}</p>
-    </div>
-    <div class="stat">
-      <p class="q">How has that changed?</p>
-      <div class="v num">${nat.net > 0 ? "+" : ""}${fmt(nat.net)}</div>
-      <p class="n">net mosques approved in planning, ${FIRST_YEAR}–${state.year}</p>
-    </div>
-    <div class="stat">
-      <p class="q"><span class="swatch" style="background:${css("--accent")}"></span>
-        What is in planning now?</p>
-      <div class="v num">${fmt(pending)}</div>
-      <p class="n">awaiting a decision · ${fmt(thisYear)} applications in ${state.year}</p>
+      <p class="q">${o.sw ? `<span class="swatch" style="background:${o.sw}"></span>` : ""}
+        <span class="q-full">${o.q}</span><span class="q-short">${o.short}</span></p>
+      <div class="v num">${o.v}</div>
+      <p class="n"><span class="n-full">${o.nfull}</span><span class="n-live">${o.nlive}</span></p>
     </div>`;
+
+  $("stats").innerHTML =
+    stat({
+      sw: css("--mosque"), q: "How many mosques are there?", short: "Mosques",
+      v: fmt(MOSQUES.points.length),
+      nfull: "identified today across OpenStreetMap, the charity register and "
+             + "planning" + (back ? " · " : ""),
+      nlive: back,
+    }) +
+    stat({
+      q: "How has that changed?", short: "Net change",
+      v: `${nat.net > 0 ? "+" : ""}${fmt(nat.net)}`,
+      nfull: "net mosques approved in planning, ",
+      nlive: `${FIRST_YEAR}–${state.year}`,
+    }) +
+    stat({
+      sw: css("--accent"), q: "What is in planning now?", short: "In planning",
+      v: fmt(pending),
+      nfull: "awaiting a decision · ",
+      nlive: `${fmt(thisYear)} applications in ${state.year}`,
+    });
 }
 
 /* ---------------- map ---------------- */
@@ -359,29 +378,33 @@ function renderLegend() {
       .map(i => `<i style="background:${colorScale(a + (b - a) * i / 25)}"></i>`).join("")}</div>
       <div class="ticks"><span>${fmt(Math.round(a))}</span><span>${fmt(Math.round(b))}</span></div>`;
   }
+  // The long-form keys are hidden on a phone, where the legend was taking a
+  // third of the map to explain symbols the chips above already name.
   if (state.overlays.mosques)
-    html += `<div class="ln"><i class="dot" style="background:${css("--mosque")}"></i>
-      each mosque (${fmt(MOSQUES.points.length)}) · solid = 2+ sources</div>`;
+    html += `<div class="ln"><span class="kv"><i class="dot" style="background:${css("--mosque")}"></i>
+      <span class="l-full">each mosque (${fmt(MOSQUES.points.length)}) · solid = 2+ sources</span>
+      <span class="l-short">mosque</span></span></div>`;
   if (state.overlays.applications)
     html += `<div class="ln">${["approved", "refused", "pending"].map(s =>
-      `<i class="dia" style="background:${statusColor(s)}"></i>${STATUS_LABEL[s]}`).join(" ")}</div>`;
+      // keep the swatch and its word together, or the line wraps between them
+      `<span class="kv"><i class="dia" style="background:${statusColor(s)}"></i>` +
+      `<span class="l-full">${STATUS_LABEL[s]}</span>` +
+      `<span class="l-short">${STATUS_SHORT[s]}</span></span>`).join("")}</div>`;
   $("legend").innerHTML = html;
 }
 
+// One line, not a wall. The caveat that stops the map being misread stays --
+// everything else lives on method.html, one click away, where there is room to
+// explain it properly.
 function renderMethod() {
   const b = DATA.baselines.prov;
   $("method").innerHTML = `
-    <b>Mosque locations</b> merge three sources — OpenStreetMap, mosque
-    charities on the Charity Commission register, and approved planning
-    applications — deduplicated to 150 m. ${fmt(b.mqc)} of ${fmt(b.mq)} are
-    confirmed by more than one source. OpenStreetMap alone finds 1,336, so
-    roughly a quarter of these are places it does not have.
-    <b>The map shows today's locations</b>: no source dates most mosques, so the
-    slider moves the planning record rather than the buildings.
-    <b>Change over time</b> comes from planning decisions, because nobody
-    publishes a historical count; earlier years are thinner because planning
-    records are less complete the further back you go, not because less was
-    happening. An approved application is a decision, not a finished building.`;
+    <span class="m-full">Merged from OpenStreetMap, the Charity Commission
+    register and planning records — ${fmt(b.mqc)} of ${fmt(b.mq)} confirmed by
+    more than one source.</span>
+    <span><b>The map shows today's locations</b>; the slider moves the planning
+    record.</span>
+    <a class="methodlink" href="method.html">Sources &amp; method &rarr;</a>`;
 }
 
 /* ---------------- panel ---------------- */
@@ -425,6 +448,7 @@ function renderPanel() {
 
   $("panel-body").innerHTML = `
     <div class="p-head">
+      <button id="p-close" aria-label="Close">&times;</button>
       <h2>${esc(d.n)}</h2>
       <p class="where">Local authority district</p>
     </div>
@@ -479,6 +503,10 @@ function renderPanel() {
       <ul class="apps">${list}</ul>
       ${recs.length > 10 ? `<p class="note">${recs.length - 10} more up to ${state.year}.</p>` : ""}
     </div>` : ""}`;
+
+  // the panel covers the map on a phone, so tapping the district again to
+  // deselect is not reachable -- give it an explicit way out
+  $("p-close").onclick = () => select(state.selected);
 }
 
 /* ---------------- controls ---------------- */

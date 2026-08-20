@@ -4,7 +4,7 @@
 [build]
   publish = "web"
   # Stamp asset URLs with the commit SHA so browsers never mix old and new files
-  command = 'sed -i "s/__BUILD__/${COMMIT_REF:0:12}/g" web/index.html'
+  command = 'sed -i "s/__BUILD__/${COMMIT_REF:0:12}/g" web/index.html web/method.html'
 
 # The JSON payloads are regenerated whenever the pipeline re-runs, and a stale
 # districts.json fails as a missing key deep inside a render rather than as an

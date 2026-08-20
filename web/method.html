@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sources &amp; method — Mosques in England &amp; Wales</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=__BUILD__">
+<script>
+  document.documentElement.dataset.theme =
+    localStorage.getItem("theme") ||
+    (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+</script>
+</head>
+<body class="doc">
+
+<header id="topbar">
+  <div class="brand">
+    <h1>Sources &amp; method</h1>
+    <p class="sub">How the mosque count is put together, and what it cannot tell you</p>
+  </div>
+  <a class="backlink" href="./">&larr; Back to the map</a>
+</header>
+
+<article class="prose">
+
+  <p class="lede">This map answers three counting questions: how many mosques
+  there are, how that has changed, and what is in planning now. Everything below
+  is what sits behind those three numbers, including the parts that are
+  uncertain.</p>
+
+  <h2>There is no official register of mosques</h2>
+
+  <p>Nobody publishes one. No government body maintains a list of places of
+  worship by faith, so any figure you see — including this one — is assembled
+  from sources that were collected for other reasons. That is the single most
+  important thing to know before reading any mosque count, here or elsewhere.</p>
+
+  <p>It also means <b>&ldquo;mosque&rdquo; is not a fixed category</b>. A
+  purpose-built mosque with a dome and a minaret is obviously one. A converted
+  terraced house used for daily prayer, a unit on an industrial estate, a
+  university prayer room — different sources draw that line in different places,
+  and that definitional spread is a real part of the gap between published
+  estimates. It is not all missing data.</p>
+
+  <h2>Three sources, merged</h2>
+
+  <p>Each source misses something different, so the map takes the union of all
+  three and deduplicates locations within 150 metres of one another.</p>
+
+  <div class="srcgrid">
+    <div class="src">
+      <h4>OpenStreetMap <span class="muted">via Overpass</span></h4>
+      <p><b>Good at</b> Precise coordinates — a mapped building, not an
+        approximation.</p>
+      <p><b>Falls short</b> Volunteer-made and incomplete. Carries no opening
+        dates.</p>
+    </div>
+    <div class="src">
+      <h4>Charity Commission <span class="muted">bulk register</span></h4>
+      <p><b>Good at</b> Official and citable: every entry has a registered
+        charity number you can look up.</p>
+      <p><b>Falls short</b> The address is a <b>contact</b> address. Usually the
+        mosque, sometimes a trustee&rsquo;s home or an accountant&rsquo;s
+        office.</p>
+    </div>
+    <div class="src">
+      <h4>Planning applications <span class="muted">via PlanIt</span></h4>
+      <p><b>Good at</b> Official, dated, and the only source that carries a
+        timeline.</p>
+      <p><b>Falls short</b> Only covers premises that needed permission, and an
+        approval is a decision rather than a finished building.</p>
+    </div>
+  </div>
+
+  <h3>Why not just OpenStreetMap?</h3>
+
+  <p>Because it holds roughly 60–75% of them. OpenStreetMap alone finds
+  <b>1,336</b> mosques in England and Wales, well short of the ~1,800 usually
+  cited for the UK. Widening the query — relations, <code>building=mosque</code>,
+  name matching, prayer rooms — adds only 55 elements, so the gap is coverage
+  rather than a bad query. Two independent checks measure it:</p>
+
+  <table>
+    <thead><tr><th>Check</th><th>Result</th></tr></thead>
+    <tbody>
+      <tr><td>Planning applications approved to build or convert a mosque</td>
+          <td>only <b>73%</b> have an OpenStreetMap mosque within 250&nbsp;m</td></tr>
+      <tr><td>Mosque charities on the Charity Commission register</td>
+          <td>only <b>58%</b> have an OpenStreetMap mosque within 300&nbsp;m</td></tr>
+    </tbody>
+  </table>
+
+  <h3>How the merge works</h3>
+
+  <p>Points within <b>150 metres</b> are treated as the same place. That
+  distance is set by the weakest input: postcode centroids are accurate to
+  roughly 100 metres, so anything tighter would split one mosque into several,
+  and anything much looser would start merging genuinely separate mosques in
+  dense inner-city areas. Where sources disagree on position, the OpenStreetMap
+  coordinate wins, because it is a mapped building rather than a postcode
+  centroid.</p>
+
+  <p>Merging gives <b>1,741 distinct locations</b>:</p>
+
+  <table>
+    <thead><tr><th>Sources vouching for a location</th><th class="r">n</th></tr></thead>
+    <tbody>
+      <tr><td>OpenStreetMap only</td><td class="r num">720</td></tr>
+      <tr><td>Charity register only</td><td class="r num">388</td></tr>
+      <tr><td>Charity register + OpenStreetMap</td><td class="r num">246</td></tr>
+      <tr><td>OpenStreetMap + planning</td><td class="r num">126</td></tr>
+      <tr><td>Planning only</td><td class="r num">112</td></tr>
+      <tr><td>All three</td><td class="r num">107</td></tr>
+      <tr><td>Charity register + planning</td><td class="r num">43</td></tr>
+    </tbody>
+  </table>
+
+  <p><b>522 locations are corroborated by more than one source.</b> That
+  distinction is kept rather than averaged away: on the map, corroborated
+  locations are drawn solid and single-source ones sit back, so you can see how
+  well attested each point is instead of being shown uniform confidence that
+  does not exist.</p>
+
+  <h2>What the year slider actually moves</h2>
+
+  <p class="callout">The map shows <b>today&rsquo;s</b> locations. No source
+  dates most mosques, so the slider moves the planning record rather than the
+  buildings.</p>
+
+  <p>OpenStreetMap has no build dates. The charity register has registration
+  dates, which are not opening dates. Planning covers only premises that needed
+  permission. So a genuine year-by-year stock of mosques cannot be built from
+  these sources, and pretending otherwise would be the easiest way to mislead
+  with this map.</p>
+
+  <p>What the slider does instead is drive the planning series: applications
+  lodged in that year, and the running total of approved gains. When you scrub
+  back, the headline offers a <b>back-cast</b> — today&rsquo;s count minus the
+  net approvals since — and labels it as an indication rather than a count. It
+  is conservative in a known direction: if planning misses some openings, real
+  growth was larger and the past count lower than shown.</p>
+
+  <p><b>Earlier years are thinner because records are thinner.</b> Planning
+  coverage improves over time, so the rise in applications through the series is
+  partly better record-keeping and not purely more activity. The 2023 figure in
+  particular looks like a backfill artefact rather than a real spike.</p>
+
+  <h3>Classifying applications</h3>
+
+  <p>Applications are sorted by what they would do to the count, read from the
+  description text. Ordering alone is not enough: <i>&ldquo;demolition of
+  existing building and erection of a mosque&rdquo;</i> is a replacement, and a
+  naive demolition-first rule classified the majority of redevelopments as
+  losses — 123 of 148 apparent demolitions were actually rebuilds.</p>
+
+  <table>
+    <thead><tr><th>Kind</th><th class="r">n</th></tr></thead>
+    <tbody>
+      <tr><td>New build or replacement</td><td class="r num">541</td></tr>
+      <tr><td>Change of use to worship</td><td class="r num">313</td></tr>
+      <tr><td>Extension / alteration <span class="muted">(does not change the count)</span></td><td class="r num">259</td></tr>
+      <tr><td>Conditions / amendments <span class="muted">(does not change the count)</span></td><td class="r num">199</td></tr>
+      <tr><td>Other / unclassified</td><td class="r num">191</td></tr>
+      <tr><td>Change of use away from worship</td><td class="r num">108</td></tr>
+      <tr><td>Demolition without replacement</td><td class="r num">57</td></tr>
+    </tbody>
+  </table>
+
+  <p>Of 1,668 applications since 2000: 1,203 approved, 214 refused, 178
+  withdrawn, 73 awaiting a decision. Net effect of approved decisions:
+  <b>+503</b>.</p>
+
+  <h2>Census figures</h2>
+
+  <p>Population context comes from the ONS Census — <b>TS030</b> for 2021 and
+  <b>KS209EW</b> for 2011, both via Nomis, at local authority district level
+  (April 2023 boundaries, 318 areas).</p>
+
+  <p><b>Religion is the only voluntary question on the census.</b> Around 6% of
+  people leave it blank, and non-response varies by area, so the panel states
+  the local blank rate alongside every figure.</p>
+
+  <p>The 2011 table is only published on pre-April-2015 boundaries, so it is
+  summed onto 2023 successors before any change is computed — 41 abolished codes
+  are reconciled, and the resulting 2011 population matches the published figure
+  for England and Wales exactly. Areas are always joined on GSS code, never on
+  name: sources disagree on &ldquo;Bristol, City of&rdquo; versus
+  &ldquo;Bristol&rdquo;, and a name join drops them silently.</p>
+
+  <p>Census disclosure control perturbs individual cells, so reconciliation
+  checks assert a small tolerance rather than exact equality — the 318 districts
+  sum to a 2021 population of 59,597,567 against a published 59,597,540.</p>
+
+  <p>Mosques and applications are placed into districts by <b>point-in-polygon
+  on coordinates</b>, never by the name a source supplies: PlanIt&rsquo;s area
+  name is the planning authority, which is not always the district.</p>
+
+  <h2>Known limitations</h2>
+
+  <ul>
+    <li><b>Charity contact addresses are the weakest input.</b> A charity-only
+      location is a lead rather than a confirmed building — which is why
+      single-source points are drawn faded.</li>
+    <li><b>Planning coverage is uneven</b> across authorities and improves over
+      time, so the series understates earlier years.</li>
+    <li><b>Approval is not completion.</b> Some approved schemes are never
+      built; some are built years later.</li>
+    <li><b>England and Wales only.</b> Scotland uses a separate census run by
+      National Records of Scotland and is not yet included.</li>
+    <li><b>No prayer-room census.</b> Small musallas inside other buildings are
+      inconsistently captured by every source used here.</li>
+  </ul>
+
+  <h2>Getting a better number</h2>
+
+  <p>The one thing that would turn the slider into a real history of buildings
+  is a source of <b>establishment dates</b>. Muslims in Britain has historically
+  tracked founding years; using it would be a licensing conversation rather than
+  a scrape. Until then, change over time here means planning decisions, and the
+  map says so.</p>
+
+  <p class="foot">Every location in the register carries the sources that vouch
+  for it, and charity entries carry their registered charity number, so any
+  single entry can be checked against the public register.</p>
+
+</article>
+
+</body>
+</html>

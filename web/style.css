@@ -193,6 +193,7 @@ select:hover { border-color: var(--accent); }
 #legend .ln { margin-top: 9px; display: flex; align-items: center; flex-wrap: wrap;
   gap: 4px 10px; font-size: 11.5px; }
 #legend .ln i { width: 9px; height: 9px; flex: none; }
+#legend .kv { display: inline-flex; align-items: center; gap: 5px; }
 #legend .ln i.dot { border-radius: 999px; }
 #legend .ln i.dia { transform: rotate(45deg); }
 
@@ -254,6 +255,7 @@ select:hover { border-color: var(--accent); }
 .method {
   margin: 0; padding: 4px 26px 14px; font-size: 12px; line-height: 1.55;
   color: var(--ink-3); background: var(--surface);
+  display: flex; align-items: baseline; gap: 16px; justify-content: space-between;
 }
 .method b { color: var(--ink-2); font-weight: 500; }
 
@@ -318,6 +320,24 @@ select:hover { border-color: var(--accent); }
   font-size: 12px; line-height: 1.55; color: var(--ink-2);
 }
 
+/* Short labels exist for narrow screens only; the full question is the default. */
+.q-short, .l-short { display: none; }
+
+#p-close {
+  position: absolute; right: 12px; top: 14px; z-index: 2;
+  width: 32px; height: 32px; cursor: pointer; font-size: 20px; line-height: 1;
+  border: 1px solid var(--line); border-radius: 999px;
+  background: var(--surface); color: var(--ink-2);
+}
+#p-close:hover { border-color: var(--accent); color: var(--ink); }
+.p-head { position: relative; padding-right: 54px; }
+
+.methodlink {
+  flex: none; color: var(--accent); text-decoration: none; font-weight: 500;
+  white-space: nowrap;
+}
+.methodlink:hover { text-decoration: underline; }
+
 /* ---------- responsive ---------- */
 
 @media (max-width: 1080px) {
@@ -330,11 +350,163 @@ select:hover { border-color: var(--accent); }
   #panel:not(.empty) { transform: none; }
   #panel.empty { pointer-events: none; }
 }
+/* On a phone the chrome has to earn its pixels: whatever the header, the
+   figures and the controls take, the map does not get. Everything above the
+   map is compressed to roughly a third of the viewport so the map keeps the
+   rest -- it is the product. */
 @media (max-width: 720px) {
-  #stats { grid-template-columns: 1fr; }
-  .brand h1 { font-size: 18px; }
+  #topbar { padding: 10px 16px; gap: 12px; }
+  .brand h1 { font-size: 17px; }
   .brand .sub { display: none; }
-  #maptools { gap: 12px; }
-  select { min-width: 0; width: 100%; }
-  .ctl { flex: 1 1 100%; }
+  #theme { width: 34px; height: 34px; }
+
+  /* three across, not three stacked -- stacking pushed the map off-screen */
+  #stats { grid-template-columns: repeat(3, 1fr); }
+  .stat { padding: 9px 10px 10px; }
+  .stat .q { font-size: 11px; gap: 5px; margin-bottom: 3px; line-height: 1.3; }
+  .stat .swatch { width: 7px; height: 7px; }
+  .stat .v { font-size: 23px; }
+  .stat .n { font-size: 10.5px; line-height: 1.35; margin-top: 2px; }
+  .q-full, .n-full { display: none; }
+  .q-short { display: inline; }
+
+  #maptools { gap: 8px; padding: 9px 16px; }
+  /* min-width:0 or the row refuses to shrink below its content and the select
+     runs off the right edge -- a flex item's automatic minimum is min-content. */
+  .ctl { flex: 1 1 100%; min-width: 0; gap: 8px; }
+  .ctl > span { font-size: 12px; }
+  select { min-width: 0; width: 100%; flex: 1 1 0; padding: 7px 9px; }
+  .chip { padding: 6px 11px 6px 9px; font-size: 12.5px; }
+
+  #legend {
+    left: 10px; bottom: 10px; padding: 7px 9px; font-size: 10px;
+    max-width: 46%; border-radius: 7px;
+  }
+  #legend .title { font-size: 10.5px; margin-bottom: 4px; }
+  #legend .ticks { font-size: 9.5px; margin-top: 3px; }
+  #legend .ln { font-size: 10px; margin-top: 6px; gap: 3px 7px; }
+  #legend .ramp { height: 7px; }
+  .l-full { display: none; }
+  .l-short { display: inline; }
+  #zoomctl { right: 10px; top: 10px; gap: 5px; }
+  #zoomctl button { width: 30px; height: 30px; font-size: 14px; }
+
+  #timebar { gap: 10px; padding: 10px 16px 2px; }
+  #play { width: 32px; height: 32px; }
+  #yearlabel { font-size: 19px; min-width: 50px; }
+  #ticks { font-size: 10px; }
+
+  /* Only the caveat that stops the map being misread stays; the provenance
+     sentence is a click away on method.html. */
+  /* Block, not flex: the link then flows on with the sentence instead of
+     claiming a row of its own. */
+  .method {
+    display: block; padding: 4px 16px 10px; font-size: 11px; line-height: 1.45;
+  }
+  .method .methodlink { margin-left: 6px; }
+  .m-full { display: none; }
+
+  #panel { width: min(340px, 92%); }
+}
+
+/* Very short viewports (landscape phones): drop the sub-notes entirely rather
+   than let the map collapse to a strip. */
+@media (max-height: 560px) and (max-width: 900px) {
+  .stat .n { display: none; }
+  .brand .sub { display: none; }
+}
+
+/* Mobile browser chrome makes 100% height taller than what is actually
+   visible, which pushed the year slider under the URL bar. */
+@supports (height: 100dvh) {
+  html, body { height: 100dvh; }
+  body.doc { height: auto; min-height: 100dvh; }
+}
+
+/* ---------- methodology page ---------- */
+
+/* The map body is a fixed, non-scrolling shell; a document is the opposite. */
+body.doc { overflow: auto; height: auto; min-height: 100%; display: block; }
+body.doc #topbar { position: sticky; top: 0; z-index: 10; }
+
+.backlink {
+  flex: none; font-size: 13px; color: var(--accent); text-decoration: none;
+  border: 1px solid var(--line); border-radius: 999px; padding: 8px 14px;
+  white-space: nowrap;
+}
+.backlink:hover { border-color: var(--accent); background: var(--surface-2); }
+
+.prose {
+  max-width: 720px; margin: 0 auto; padding: 34px 26px 80px;
+  font-size: 15.5px; line-height: 1.65; color: var(--ink-2);
+}
+.prose h2 {
+  font-size: 21px; color: var(--ink); margin: 40px 0 12px;
+  padding-top: 22px; border-top: 1px solid var(--line);
+}
+.prose h3 { font-size: 17px; color: var(--ink); margin: 30px 0 10px; }
+.prose p { margin: 0 0 15px; }
+.prose b { color: var(--ink); font-weight: 600; }
+.prose code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px;
+  background: var(--surface-2); border-radius: 4px; padding: 1px 5px;
+}
+.prose .lede { font-size: 17.5px; line-height: 1.6; color: var(--ink); }
+.prose .muted { color: var(--ink-3); font-weight: 400; }
+.prose ul { margin: 0 0 15px; padding-left: 20px; }
+.prose li { margin-bottom: 9px; }
+
+.prose .callout {
+  background: var(--surface); border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 4px; padding: 14px 16px; margin: 0 0 18px;
+}
+.prose .foot {
+  margin-top: 30px; padding-top: 18px; border-top: 1px solid var(--line-soft);
+  font-size: 13.5px; color: var(--ink-3);
+}
+
+/* Three source profiles, not a numeric table -- as a 3-column table the cells
+   wrapped to four words a line on a phone. Cards side by side on a wide screen,
+   stacked on a narrow one. */
+.srcgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 22px; }
+.src {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: 9px; padding: 14px 15px;
+}
+.src h4 {
+  margin: 0 0 9px; font-family: Inter, sans-serif; font-size: 14px;
+  font-weight: 600; color: var(--ink); line-height: 1.35;
+}
+.src h4 .muted { display: block; font-size: 12px; font-weight: 400; }
+.src p { margin: 0 0 9px; font-size: 13.5px; line-height: 1.55; }
+.src p:last-child { margin-bottom: 0; }
+.src p > b:first-child {
+  display: block; font-size: 10.5px; font-weight: 600; letter-spacing: .07em;
+  text-transform: uppercase; color: var(--ink-3); margin-bottom: 1px;
+}
+
+/* Wide tables scroll inside themselves rather than pushing the page sideways. */
+.prose table {
+  width: 100%; border-collapse: collapse; margin: 0 0 20px;
+  font-size: 14px; display: block; overflow-x: auto;
+}
+.prose th, .prose td {
+  text-align: left; padding: 10px 14px 10px 0;
+  border-bottom: 1px solid var(--line-soft); vertical-align: top;
+}
+.prose th {
+  font-size: 11px; font-weight: 600; letter-spacing: .07em;
+  text-transform: uppercase; color: var(--ink-3);
+  border-bottom-color: var(--line);
+}
+.prose td.r, .prose th.r { text-align: right; padding-right: 0; }
+.prose td.num { font-variant-numeric: tabular-nums; color: var(--ink); }
+
+@media (max-width: 720px) {
+  .srcgrid { grid-template-columns: 1fr; gap: 10px; }
+  .prose { padding: 24px 18px 60px; font-size: 15px; }
+  .prose .lede { font-size: 16.5px; }
+  .prose h2 { font-size: 19px; margin-top: 32px; }
+  body.doc #topbar { padding: 12px 18px; }
 }
