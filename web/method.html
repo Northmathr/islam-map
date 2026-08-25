@@ -3,15 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sources &amp; method — Mosques in England &amp; Wales</title>
+<title>Sources &amp; method — Mosques in the United Kingdom</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=__BUILD__">
 <script>
   document.documentElement.dataset.theme =
     localStorage.getItem("theme") ||
     (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  var v = "__BUILD__";
+  if (v === "__" + "BUILD__") v = Date.now();
+  document.write('<link rel="stylesheet" href="style.css?v=' + v + '">');
 </script>
 </head>
 <body class="doc">
@@ -30,6 +32,13 @@
   there are, how that has changed, and what is in planning now. Everything below
   is what sits behind those three numbers, including the parts that are
   uncertain.</p>
+
+  <p>It covers the whole United Kingdom, which means stitching three censuses
+  together. England and Wales were counted by the ONS in March 2021, Northern
+  Ireland by NISRA in March 2021, and Scotland by NRS in March 2022 — a year
+  later, on its own timetable, with its own categories. Any UK-wide population
+  figure here is therefore a sum across two reference dates, and the panel
+  states which year a district's numbers come from.</p>
 
   <h2>There is no official register of mosques</h2>
 
@@ -104,22 +113,22 @@
   coordinate wins, because it is a mapped building rather than a postcode
   centroid.</p>
 
-  <p>Merging gives <b>1,746 distinct locations</b> in England and Wales:</p>
+  <p>Merging gives <b>1,842 distinct locations</b> across the UK:</p>
 
   <table>
     <thead><tr><th>Sources vouching for a location</th><th class="r">n</th></tr></thead>
     <tbody>
-      <tr><td>OpenStreetMap only</td><td class="r num">623</td></tr>
-      <tr><td>Charity register only</td><td class="r num">428</td></tr>
-      <tr><td>Charity register + OpenStreetMap</td><td class="r num">328</td></tr>
-      <tr><td>All three</td><td class="r num">132</td></tr>
-      <tr><td>OpenStreetMap + planning</td><td class="r num">94</td></tr>
-      <tr><td>Planning only</td><td class="r num">87</td></tr>
-      <tr><td>Charity register + planning</td><td class="r num">54</td></tr>
+      <tr><td>OpenStreetMap only</td><td class="r num">678</td></tr>
+      <tr><td>Charity register only</td><td class="r num">484</td></tr>
+      <tr><td>Charity register + OpenStreetMap</td><td class="r num">372</td></tr>
+      <tr><td>All three</td><td class="r num">115</td></tr>
+      <tr><td>OpenStreetMap + planning</td><td class="r num">73</td></tr>
+      <tr><td>Planning only</td><td class="r num">74</td></tr>
+      <tr><td>Charity register + planning</td><td class="r num">47</td></tr>
     </tbody>
   </table>
 
-  <p><b>608 locations are corroborated by more than one source.</b> That
+  <p><b>607 locations are corroborated by more than one source.</b> That
   distinction is kept rather than averaged away: on the map, corroborated
   locations are drawn solid and single-source ones sit back, so you can see how
   well attested each point is instead of being shown uniform confidence that
@@ -162,11 +171,21 @@
   mandirs by the hundred. The land test is worth using because 73% of charities
   whose name says mosque hold land, against 33% of the register at large.</p>
 
-  <p>The result is <b>1,066</b> matched charities and <b>993</b> distinct
-  geocoded locations, against the Ayaan Institute&rsquo;s 1,179 for the whole
-  UK. Since the Charity Commission covers England and Wales only — Scotland has
-  OSCR and Northern Ireland has CCNI — those two figures are close to
-  consistent.</p>
+  <p>In England and Wales that gives <b>1,066</b> matched charities and 993
+  distinct geocoded locations, against the Ayaan Institute&rsquo;s 1,179 for the
+  whole UK — close to consistent, since the Charity Commission covers England
+  and Wales only.</p>
+
+  <p>Scotland is covered separately, from OSCR&rsquo;s Scottish Charity
+  Register. It is a different schema with no classification codes, so the
+  &ldquo;advancement of religion&rdquo; charitable purpose stands in for the
+  Religious Activities classification, and there is no equivalent of the land
+  flag — the inferred tier there rests on two signals rather than three and is
+  correspondingly weaker. That adds <b>80</b> matched charities and 76
+  locations, for a UK total of <b>1,069</b>.</p>
+
+  <p>Northern Ireland has no equivalent. CCNI publishes no open bulk download,
+  so mosques there rest on OpenStreetMap and planning alone.</p>
 
   <h3>How this compares with published counts</h3>
 
@@ -177,26 +196,39 @@
   <table>
     <thead><tr><th>Source</th><th>Scope</th><th class="r">Count</th></tr></thead>
     <tbody>
-      <tr><td><b>This register</b></td><td>England &amp; Wales, all types</td><td class="r num">1,746</td></tr>
+      <tr><td><b>This register</b></td><td>UK, all types</td><td class="r num">1,842</td></tr>
       <tr><td>MuslimsInBritain directory<br><span class="muted">&ldquo;actual masjids&rdquo;</span></td><td>UK</td><td class="r num">1,895</td></tr>
       <tr><td>MuslimsInBritain directory<br><span class="muted">all premises for worship</span></td><td>UK</td><td class="r num">2,187</td></tr>
-      <tr><td>MuslimsInBritain directory<br><span class="muted">all premises, England + Wales</span></td><td>England &amp; Wales</td><td class="r num">2,077</td></tr>
       <tr><td>Ayaan Institute, <i>Mosques in Britain</i></td><td>UK</td><td class="r num">1,884</td></tr>
     </tbody>
   </table>
 
-  <p>The comparison that matters is like for like. MuslimsInBritain place 95% of
-  UK premises in England and Wales, which puts their &ldquo;actual masjid&rdquo;
-  count at roughly <b>1,800</b> for England and Wales against this
-  register&rsquo;s <b>1,746</b> — within about 3%. Measured instead against
-  every premises where Muslims gather to pray, 2,077, this register is
-  <b>16% short</b>.</p>
+  <p>Against the count of actual masjids the register is within <b>2%</b>, and
+  it lands close nation by nation, which is a stronger test than one national
+  total that could hide offsetting errors:</p>
 
-  <p class="callout">That gap is the definitional problem in numbers. The
-  missing 300-odd are hired halls, dedicated prayer rooms, chaplaincies and
-  temporary premises — exactly the categories a mapped building, a registered
-  charity and a planning application all fail to capture. This register counts
-  mosques as premises; it does not count every place a congregation prays.</p>
+  <table>
+    <thead><tr><th>Nation</th><th class="r">This register</th><th class="r">MuslimsInBritain</th></tr></thead>
+    <tbody>
+      <tr><td>England</td><td class="r num">1,682</td><td class="r num">2,031*</td></tr>
+      <tr><td>Scotland</td><td class="r num">106</td><td class="r num">102*</td></tr>
+      <tr><td>Wales</td><td class="r num">49</td><td class="r num">46*</td></tr>
+      <tr><td>Northern Ireland</td><td class="r num">5</td><td class="r num">5*</td></tr>
+    </tbody>
+  </table>
+
+  <p class="muted">* MuslimsInBritain&rsquo;s per-nation figures count all
+  premises, including hired halls and prayer rooms, so they are the higher
+  basis. Scotland, Wales and Northern Ireland come out close on that basis;
+  England does not, which is where the missing 300-odd premises are.</p>
+
+  <p class="callout">Measured against every premises where Muslims gather to
+  pray, 2,187, this register is <b>15% short</b>. That gap is the definitional
+  problem in numbers: the missing ones are hired halls, dedicated prayer rooms,
+  chaplaincies and temporary premises — exactly the categories a mapped
+  building, a registered charity and a planning application all fail to
+  capture. This register counts mosques as premises; it does not count every
+  place a congregation prays.</p>
 
   <p>The Ayaan Institute report is the most detailed public study of mosque
   finances and governance, and its <b>1,884</b> UK estimate is close to the
@@ -220,22 +252,28 @@
 
   <h2>What the year slider actually moves</h2>
 
-  <p class="callout">The map shows <b>today&rsquo;s</b> locations. No source
-  dates most mosques, so the slider moves the planning record rather than the
-  buildings.</p>
+  <p class="callout">There is no source that dates most mosques. What the slider
+  moves is <b>documentary evidence</b>: the year a location first appears in a
+  charity register or a planning approval.</p>
 
-  <p>OpenStreetMap has no build dates. The charity register has registration
-  dates, which are not opening dates. Planning covers only premises that needed
-  permission. So a genuine year-by-year stock of mosques cannot be built from
-  these sources, and pretending otherwise would be the easiest way to mislead
-  with this map.</p>
+  <p>Two of the three sources carry dates. A charity registration is not an
+  opening date — congregations often register years after they start meeting —
+  and a planning approval is a decision rather than a finished building. Both
+  are nonetheless real evidence that a mosque was there by then, and together
+  they date <b>1,093</b> of the register&rsquo;s 1,842 locations. OpenStreetMap
+  carries no dates at all.</p>
 
-  <p>What the slider does instead is drive the planning series: applications
-  lodged in that year, and the running total of approved gains. When you scrub
-  back, the headline offers a <b>back-cast</b> — today&rsquo;s count minus the
-  net approvals since — and labels it as an indication rather than a count. It
-  is conservative in a known direction: if planning misses some openings, real
-  growth was larger and the past count lower than shown.</p>
+  <p>So the headline count at a past year is <b>today&rsquo;s locations, minus
+  the ones first recorded since</b>. Locations with no dated record are counted
+  in every year, because nothing is known about when they appeared and dropping
+  them would understate the past far more than keeping them overstates it. Any
+  year before the present is marked <i>est.</i> for that reason.</p>
+
+  <p>Read it as a floor rather than a count. It is conservative in a known
+  direction: registration and planning both lag the congregation, so a mosque
+  that opened in 1990 and registered as a charity in 2005 appears here in 2005.
+  Real growth over the period was larger than the curve shows, and the early
+  years are higher than the true figure.</p>
 
   <p><b>Earlier years are thinner because records are thinner.</b> Planning
   coverage improves over time, so the rise in applications through the series is
@@ -253,25 +291,45 @@
   <table>
     <thead><tr><th>Kind</th><th class="r">n</th></tr></thead>
     <tbody>
-      <tr><td>New build or replacement</td><td class="r num">541</td></tr>
-      <tr><td>Change of use to worship</td><td class="r num">313</td></tr>
-      <tr><td>Extension / alteration <span class="muted">(does not change the count)</span></td><td class="r num">259</td></tr>
-      <tr><td>Conditions / amendments <span class="muted">(does not change the count)</span></td><td class="r num">199</td></tr>
-      <tr><td>Other / unclassified</td><td class="r num">191</td></tr>
-      <tr><td>Change of use away from worship</td><td class="r num">108</td></tr>
+      <tr><td>Extension / alteration <span class="muted">(does not change the count)</span></td><td class="r num">444</td></tr>
+      <tr><td>New build or replacement</td><td class="r num">351</td></tr>
+      <tr><td>Change of use to worship</td><td class="r num">314</td></tr>
+      <tr><td>Other / unclassified</td><td class="r num">201</td></tr>
+      <tr><td>Conditions / amendments <span class="muted">(does not change the count)</span></td><td class="r num">196</td></tr>
+      <tr><td>Change of use away from worship</td><td class="r num">105</td></tr>
       <tr><td>Demolition without replacement</td><td class="r num">57</td></tr>
     </tbody>
   </table>
 
   <p>Of 1,668 applications since 2000: 1,203 approved, 214 refused, 178
   withdrawn, 73 awaiting a decision. Net effect of approved decisions:
-  <b>+503</b>.</p>
+  <b>+349</b>.</p>
+
+  <p>A second ordering trap sat behind the first. &ldquo;Erection of a single
+  storey extension to the mosque&rdquo; matches the build rule as surely as
+  &ldquo;erection of a mosque&rdquo; does, so 190 extensions, minarets, new
+  roofs and re-laid car parks were being counted as brand new mosques. An
+  addition to a building that is already a mosque is now recognised as an
+  extension whatever verb the description uses, which moved the net effect of
+  approved decisions from +503 to +349.</p>
 
   <h2>Census figures</h2>
 
-  <p>Population context comes from the ONS Census — <b>TS030</b> for 2021 and
+  <p>England and Wales come from the ONS Census — <b>TS030</b> for 2021 and
   <b>KS209EW</b> for 2011, both via Nomis, at local authority district level
   (April 2023 boundaries, 318 areas).</p>
+
+  <p>Scotland comes from National Records of Scotland, table <b>UV205</b> of the
+  2022 census, by council area. Northern Ireland comes from NISRA&rsquo;s 2021
+  census by local government district. NISRA&rsquo;s headline religion table
+  does not break Muslims out at all — it stops at &ldquo;other religions&rdquo;,
+  because the question there is built around the Catholic and Protestant
+  division — so the six-category aggregate is used instead. Neither nation has a
+  2011 comparison here, so the change figures are England and Wales only.</p>
+
+  <p>Both devolved figures reconcile against their published totals: Scotland
+  5,439,843 residents and 119,878 Muslims (2.20%), Northern Ireland 1,903,177
+  and 10,871 (0.57%).</p>
 
   <p><b>Religion is the only voluntary question on the census.</b> Around 6% of
   people leave it blank, and non-response varies by area, so the panel states
@@ -302,8 +360,17 @@
       time, so the series understates earlier years.</li>
     <li><b>Approval is not completion.</b> Some approved schemes are never
       built; some are built years later.</li>
-    <li><b>England and Wales only.</b> Scotland uses a separate census run by
-      National Records of Scotland and is not yet included.</li>
+    <li><b>Northern Ireland has no charity source.</b> CCNI publishes no open
+      bulk download, so its mosques rest on OpenStreetMap and planning alone.
+      MuslimsInBritain list five in the province, so the exposure is small, but
+      it is not equivalent coverage.</li>
+    <li><b>Planning is thinner outside England.</b> PlanIt aggregates local
+      authority registers unevenly: 1,565 of the applications here are English,
+      65 Scottish, 37 Welsh and one Northern Irish.</li>
+    <li><b>Three censuses, two dates.</b> Scotland was counted in 2022 and the
+      rest of the UK in 2021, and Northern Ireland does not publish a Muslim
+      figure in its headline religion table at all — the six-category aggregate
+      is used instead.</li>
     <li><b>No prayer-room census.</b> Small musallas inside other buildings are
       inconsistently captured by every source used here.</li>
   </ul>

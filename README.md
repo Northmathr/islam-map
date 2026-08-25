@@ -1,14 +1,20 @@
 # islam-census-map
 
-**Mosques in England &amp; Wales** — an interactive map answering three counting
+**Mosques in the United Kingdom** — an interactive map answering three counting
 questions:
 
 1. **How many mosques are there, and where?**
 2. **How has that changed over time?**
 3. **What is in planning now?**
 
-Census population sits underneath as context. Local authority district level.
-See [DESIGN.md](DESIGN.md) for the full design.
+Census population sits underneath as context. Local authority district level,
+all four nations. See [DESIGN.md](DESIGN.md) for the full design.
+
+Covering the UK means stitching three censuses together: ONS for England and
+Wales (March 2021), NISRA for Northern Ireland (March 2021) and NRS for Scotland
+(March **2022**). The reference dates differ by a year for Scotland, so any
+UK-wide population total spans two of them and the map says which year each
+district is on.
 
 **Status:** Working build, reframed around the three questions above. One map
 render, raw counts, a year slider, light and dark themes.
@@ -31,6 +37,13 @@ and looks exactly like disclosure blocking.
 
 - **TS030** religion, 2021, Nomis `NM_2049_1` at `TYPE424` (April 2023
   district/unitary, 318 areas in E&W).
+- **Scotland**, NRS Census 2022 table `UV205` by council area (32), and
+  **Northern Ireland**, NISRA Census 2021 by local government district (11).
+  NISRA's headline religion table has no Muslim category at all — it stops at
+  "other religions" — so the six-category aggregate is used. Neither has a 2011
+  comparison here, so change figures remain England and Wales only. Both
+  reconcile against published totals: Scotland 5,439,843 residents / 119,878
+  Muslims, Northern Ireland 1,903,177 / 10,871.
 - **KS209EW** religion, 2011, Nomis `NM_616_1`. Only published on pre-April-2015
   boundaries, so it is summed onto 2023 successors via `ingest/lgr.py` before the
   change series is computed. 41 abolished codes; reconciled 2011 population
@@ -43,14 +56,17 @@ and looks exactly like disclosure blocking.
   preferred over Nomis RM118's 9. Under-16 share is exact; median age is
   interpolated within the containing band and labelled as banded-derived.
 - **Mosque register** — a merge of three sources, deduplicated at 150 m, giving
-  **1,746 distinct locations** in England and Wales, of which 608 are
-  corroborated by more than one. See "Why not just OpenStreetMap" below.
+  **1,842 distinct locations** across the UK (England 1,682, Scotland 106,
+  Wales 49, Northern Ireland 5), of which 607 are corroborated by more than one
+  and 1,093 carry a dated record. See "Why not just OpenStreetMap" below.
 - **Places of worship**, OpenStreetMap via Overpass — every faith from the same
   query, which is what makes the church comparison possible. 1,336 mosques and
   35,737 churches placed across the UK; 1,314 of the mosques fall in England and
   Wales, which is the figure to compare against the merged register.
-- **Mosque charities**, Charity Commission bulk register — **1,066 matched
-  charities, 993 geocoded** via postcodes.io. Matching combines the name, the
+- **Mosque charities**, Charity Commission (England & Wales) and OSCR
+  (Scotland) — **1,146 matched charities, 1,069 geocoded** via postcodes.io.
+  Northern Ireland has no open bulk register, so its mosques rest on OSM and
+  planning alone. Matching combines the name, the
   charity's own activity description and its registered classification, because
   name matching alone found only 884 (see "Identifying mosque charities").
   Official and citable by charity number, but the postcode is a *contact*
@@ -84,17 +100,17 @@ elements:
 | Mosque charities on the Charity Commission register | only **58%** have an OSM mosque within 300 m |
 
 So OSM holds roughly 60–75% of mosques. Triangulating three sources that miss
-different things gives 1,746 locations:
+different things gives 1,842 locations:
 
 | Sources vouching for a location | n |
 |---|---|
-| OSM only | 623 |
-| Charity register only | 428 |
-| Charity register + OSM | 328 |
-| All three | 132 |
-| OSM + planning | 94 |
-| Planning only | 87 |
-| Charity register + planning | 54 |
+| OSM only | 678 |
+| Charity register only | 484 |
+| Charity register + OSM | 372 |
+| All three | 115 |
+| OSM + planning | 73 |
+| Planning only | 74 |
+| Charity register + planning | 47 |
 
 ### Identifying mosque charities
 
@@ -127,19 +143,28 @@ Result: **1,066 matched charities, 993 geocoded locations**, against Ayaan's
 
 | Source | Scope | Count |
 |---|---|---|
-| **This register** | England & Wales, all types | **1,746** |
+| **This register** | UK, all types | **1,842** |
 | MuslimsInBritain, "actual masjids" | UK | 1,895 |
 | MuslimsInBritain, all premises for worship | UK | 2,187 |
-| MuslimsInBritain, all premises, England + Wales | England & Wales | 2,077 |
 | Ayaan Institute, *Mosques in Britain* (2026) | UK | 1,884 |
 
-MuslimsInBritain place 95% of UK premises in England and Wales, which puts their
-"actual masjid" count at roughly **1,800** for England and Wales against this
-register's **1,746** — within about 3%. Against every premises where Muslims
-gather to pray (2,077) the register is **16% short**, and the missing categories
-are named: hired halls, dedicated prayer rooms, chaplaincies and temporary
-premises, none of which a mapped building, a registered charity or a planning
-application reliably captures.
+Within **2%** of the actual-masjid count, and close nation by nation, which is a
+stronger test than a single national total that could hide offsetting errors:
+
+| Nation | This register | MuslimsInBritain (all premises) |
+|---|---|---|
+| England | 1,682 | 2,031 |
+| Scotland | 106 | 102 |
+| Wales | 49 | 46 |
+| Northern Ireland | 5 | 5 |
+
+Scotland, Wales and Northern Ireland land close even against the wider
+all-premises basis. England does not, which is where the missing premises are.
+
+Against every premises where Muslims gather to pray (2,187) the register is
+**15% short**, and the missing categories are named: hired halls, dedicated
+prayer rooms, chaplaincies and temporary premises, none of which a mapped
+building, a registered charity or a planning application reliably captures.
 
 The Ayaan report also exposed a real defect here, since fixed: it identified
 **1,179** mosques registered as charities UK-wide, where name matching found only
@@ -162,23 +187,33 @@ between published estimates.
 
 Change 2011→2021: 2,706,066 → 3,868,130, up 1,162,064 (+42.9%).
 
-**Provision**, England & Wales: 2,944 Muslims per mosque against 821 Christians
-per church. Both from the same OSM query, both undercounts.
+**Provision**, UK: 2,171 Muslims per mosque. The church comparison stays on
+England and Wales, where the census religion breakdown behind it exists, and
+comes from the same OSM query -- both are undercounts, and the mosque side is no
+longer OSM alone, so the two are not like for like.
 
 **Planning**, 1,668 applications since 2000:
 
 | Kind | n |
 |---|---|
-| New build or replacement | 541 |
-| Change of use to worship | 313 |
-| Extension / alteration *(does not change the count)* | 259 |
-| Conditions / amendments *(does not change the count)* | 199 |
-| Other / unclassified | 191 |
-| Change of use away from worship | 108 |
+| Extension / alteration *(does not change the count)* | 444 |
+| New build or replacement | 351 |
+| Change of use to worship | 314 |
+| Other / unclassified | 201 |
+| Conditions / amendments *(does not change the count)* | 196 |
+| Change of use away from worship | 105 |
 | Demolition without replacement | 57 |
 
 1,203 approved, 214 refused, 178 withdrawn, 73 awaiting a decision. Net effect
-of approved decisions: **+503 mosques**. 1,442 of 1,668 matched the search in
+of approved decisions: **+349 mosques**.
+
+The classifier had a second ordering trap behind the demolition one: "erection
+of a single storey extension to the mosque" matches the build rule exactly as
+"erection of a mosque" does, so 190 extensions, minarets, roofs and car parks
+were counted as new mosques. An addition to a building already a mosque is now
+recognised as an extension whatever verb is used, moving the net from +503 to
++349. `fetch_planning.py --reclassify` rebuilds every derived output from the
+stored snapshot, so a classifier change never needs a refetch. 1,442 of 1,668 matched the search in
 the description rather than only the address.
 
 ## Run

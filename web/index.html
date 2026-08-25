@@ -3,23 +3,31 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mosques in England &amp; Wales</title>
+<title>Mosques in the United Kingdom</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=__BUILD__">
 <script>
   // set the theme before first paint so there is no flash of the wrong palette
   document.documentElement.dataset.theme =
     localStorage.getItem("theme") ||
     (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+
+  // Asset version. netlify.toml substitutes the commit SHA at deploy time, so
+  // browsers never mix old and new files. Left unsubstituted it is local dev,
+  // where a constant URL means an edit is invisible until the cache expires --
+  // so fall back to a per-load value there.
+  window.__ASSETS__ = "__BUILD__";
+  if (window.__ASSETS__ === "__" + "BUILD__") window.__ASSETS__ = Date.now();
+  document.write(
+    '<link rel="stylesheet" href="style.css?v=' + window.__ASSETS__ + '">');
 </script>
 </head>
 <body>
 
 <header id="topbar">
   <div class="brand">
-    <h1>Mosques in England &amp; Wales</h1>
+    <h1>Mosques in the United Kingdom</h1>
     <p class="sub">Where they are, how the number has changed, and what is in planning</p>
   </div>
   <button id="theme" aria-label="Switch between light and dark"><span></span></button>
@@ -68,6 +76,6 @@
 </main>
 
 <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-<script src="app.js?v=__BUILD__"></script>
+<script>document.write('<script src="app.js?v=' + window.__ASSETS__ + '"><\/script>');</script>
 </body>
 </html>

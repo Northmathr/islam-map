@@ -73,6 +73,12 @@ RE_FROM_WORSHIP = re.compile(
 RE_EXTEND = re.compile(
     r"\b(extension|extend|alteration|storey|dormer|porch|canopy|refurbish|"
     r"internal|external works|elevation|fenestration|roof|car park)\b", re.I)
+# Erecting something ONTO a mosque that is already there. Without this, every
+# "erection of single storey extension to mosque" matched RE_BUILD first and was
+# counted as a brand new mosque, inflating the running total of gains.
+RE_ADDITION = re.compile(
+    r"\b(to|at)\b[^.;]{0,60}?\b(the\s+)?(existing\s+)?"
+    r"(mosque|masjid|islamic cent\w*|prayer hall)\b", re.I)
 
 STATUS = {
     "permitted": "approved", "conditions": "approved", "approved": "approved",
@@ -109,6 +115,12 @@ def classify(desc: str) -> str:
             return "use_away"
         if RE_TO_WORSHIP.search(d):
             return "use_to"
+    # An addition to a mosque that already exists is an extension, whatever verb
+    # the description uses. Checked before the build rule because "erection of a
+    # rear extension to the mosque" satisfies both, and only one of them is
+    # right. Demolition-and-replace is excluded: that really is a new building.
+    if build and not demolish and RE_ADDITION.search(d):
+        return "extension"
     if build:
         return "new_build"
     if RE_EXTEND.search(d):
@@ -145,10 +157,39 @@ def fetch(term, since):
     return out
 
 
+def from_csv():
+    """Re-read the last snapshot instead of the API.
+
+    PlanIt is the least reliable source in this pipeline, and a change to
+    classify() should not need a refetch that might come back short. This
+    re-runs the classifier over the stored descriptions and rebuilds every
+    derived output from them.
+    """
+    path = os.path.join(OUT_DATA, "planning_applications.csv")
+    with open(path) as fh:
+        rows = list(csv.DictReader(fh))
+    changed = 0
+    for r in rows:
+        kind = classify(r["description"])
+        if kind != r["kind"]:
+            changed += 1
+        r["kind"] = kind
+        r["lon"], r["lat"] = float(r["lon"]), float(r["lat"])
+    print(f"re-read {len(rows):,} applications from {os.path.relpath(path)}")
+    print(f"  reclassified: {changed:,}")
+    return rows
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--since", default=SINCE_DEFAULT)
+    ap.add_argument("--reclassify", action="store_true",
+                    help="rebuild outputs from the stored snapshot, no API calls")
     args = ap.parse_args()
+
+    if args.reclassify:
+        rows = from_csv()
+        return emit(rows, args.since)
 
     print(f"fetching planning applications since {args.since} ...")
     raw = {}
@@ -190,8 +231,12 @@ def main():
             "lon": round(lon, 5), "lat": round(lat, 5),
             "url": r.get("link", ""),
         })
-    print(f"  {len(rows):,} placed | {outside:,} outside E&W | {nogeo:,} without coordinates")
+    print(f"  {len(rows):,} placed | {outside:,} outside any UK district | "
+          f"{nogeo:,} without coordinates")
+    return emit(rows, args.since)
 
+
+def emit(rows, since):
     os.makedirs(OUT_DATA, exist_ok=True)
     os.makedirs(OUT_WEB, exist_ok=True)
 
@@ -239,7 +284,7 @@ def main():
     with open(path, "w") as fh:
         json.dump({
             "fetched": time.strftime("%Y-%m-%d"),
-            "since": args.since,
+            "since": since,
             "records": [{
                 "r": r["ref"], "c": r["area_code"], "k": r["kind"],
                 "s": r["status"], "d": r["date"], "q": r["confidence"],

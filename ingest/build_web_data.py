@@ -36,6 +36,10 @@ def num(v, cast=float):
 
 def main():
     religion = read("religion_ltla23.csv")
+    # Scotland (NRS 2022) and Northern Ireland (NISRA 2021) come from their own
+    # censuses and carry no 2011 comparison here, so they are merged in as a
+    # second block rather than pretending to be rows of the E&W table.
+    devolved = read("religion_devolved.csv")
     long_rows = read("religion_ltla23_long.csv")
     age = read("age_by_religion_ltla23.csv")
     cob = read("uk_born_share_ltla23.csv")
@@ -102,13 +106,43 @@ def main():
                        if n_ch else None,
         }
 
+    for r in devolved:
+        code = r["area_code"]
+        mr = mreg.get(code, {})
+        n_mq = int(mr.get("mosques", 0) or 0)
+        muslims = int(r["count"])
+        districts[code] = {
+            "n": r["area_name"],
+            "pop": int(r["population"]),
+            "resp": int(r["respondents"]),
+            "na": int(r["not_answered"]),
+            "nrp": num(r["nonresponse_pct"]),
+            "c": muslims,
+            "sa": num(r["share_all_pct"]),
+            "sr": num(r["share_resp_pct"]),
+            "k": num(r["per_10k_resp"]),
+            # no 2011 comparison: a different census on a different timetable
+            "c11": None, "p11": None, "sr11": None, "dpp": None, "drel": None,
+            "med": None, "u16": None, "ukb": None, "eth": [],
+            "sup": r["rate_suppressed"],
+            "f": {},
+            "yr": int(r["census_year"]),   # 2022 for Scotland, 2021 for NI
+            "mq": n_mq,
+            "mqc": int(mr.get("corroborated", 0) or 0),
+            "mqch": 0,
+            "ratio": round(muslims / n_mq) if n_mq else None,
+            "mq100": round(n_mq / muslims * 1e5, 1) if muslims >= 1000 else None,
+            "chratio": None,
+        }
+
     # National baselines. A rate is uninterpretable without one, so the panel
     # shows these beside every district figure.
-    tot_pop = sum(d["pop"] for d in districts.values())
-    tot_na = sum(d["na"] for d in districts.values())
-    tot_focus = sum(d["c"] for d in districts.values())
-    tot_focus11 = sum(d["c11"] or 0 for d in districts.values())
-    tot_pop11 = sum(d["p11"] or 0 for d in districts.values())
+    ew = [d for code, d in districts.items() if code[0] in ("E", "W")]
+    tot_pop = sum(d["pop"] for d in ew)
+    tot_na = sum(d["na"] for d in ew)
+    tot_focus = sum(d["c"] for d in ew)
+    tot_focus11 = sum(d["c11"] or 0 for d in ew)
+    tot_pop11 = sum(d["p11"] or 0 for d in ew)
 
     def national(faith):
         a = [r for r in age if r["area_code"] and r["faith_category"] == faith]
@@ -135,14 +169,20 @@ def main():
         "drel": round((tot_focus / tot_focus11 - 1) * 100, 1),
         "faiths": {f: national(f) for f in [FOCUS] + COMPARISON},
     }
+    # Mosque totals are UK-wide because the register now is; the church ratio
+    # stays on E&W, where the census religion breakdown behind it exists.
     tot_mq = sum(d["mq"] for d in districts.values())
     tot_conf = sum(d["mqc"] for d in districts.values())
-    tot_ch = sum(d["mqch"] for d in districts.values())
-    tot_christian = sum(int(d["f"].get("Christian", 0)) for d in districts.values())
+    tot_ch = sum(d["mqch"] for d in ew)
+    tot_christian = sum(int(d["f"].get("Christian", 0)) for d in ew)
+    uk_pop = sum(d["pop"] for d in districts.values())
+    uk_focus = sum(d["c"] for d in districts.values())
+    baselines["uk"] = {"pop": uk_pop, "c": uk_focus,
+                       "sa": round(uk_focus / uk_pop * 100, 2)}
     baselines["prov"] = {
         "mq": tot_mq,
         "mqc": tot_conf,
-        "ratio": round(tot_focus / tot_mq) if tot_mq else None,
+        "ratio": round(uk_focus / tot_mq) if tot_mq else None,
         "ch": tot_ch,
         "chratio": round(tot_christian / tot_ch) if tot_ch else None,
         "tier": "merged",

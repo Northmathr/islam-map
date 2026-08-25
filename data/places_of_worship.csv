@@ -17,6 +17,7 @@ E08000032,Bradford,Muslim,node,301609106,Jamia Mosque Tabligh-ul-Islam,,-1.77125
 E08000021,Newcastle upon Tyne,Muslim,node,306463490,Kotku Mosque,sunni,-1.64863,54.97057,osm
 E08000019,Sheffield,Muslim,node,322694965,Noor Al Hadi Mosque,,-1.42744,53.38968,osm
 E07000123,Preston,Muslim,node,355564504,,,-2.67905,53.76131,osm
+S12000036,City of Edinburgh,Muslim,node,361266226,Idara Taleem Ul Quran Trust,,-3.21823,55.93842,osm
 E06000039,Slough,Muslim,node,373837499,Jamia Masjid Ghausia,,-0.57864,51.50989,osm
 E06000042,Milton Keynes,Muslim,node,403630765,Al Karam Trust Mosque,,-0.78921,52.06524,osm
 E06000018,Nottingham,Muslim,node,424533523,Shah Jahan Mosque,,-1.16807,52.9656,osm
@@ -38,6 +39,7 @@ E07000120,Hyndburn,Muslim,node,637576669,Ghousia Masjid mosque,,-2.39863,53.7856
 E08000025,Birmingham,Muslim,node,653179278,Fountain of Knowledge Islamic Centre,,-1.87813,52.45268,osm
 E06000004,Stockton-on-Tees,Muslim,node,694152692,Thornaby Mosque,,-1.29876,54.55292,osm
 E06000022,Bath and North East Somerset,Muslim,node,710176513,Bath Islamic Centre and Mosque,,-2.35733,51.38,osm
+S12000040,West Lothian,Muslim,node,722514457,Sarajia Islamic Center,,-3.6422,55.90067,osm
 E08000029,Solihull,Muslim,node,727795295,Manarat Foundation,,-1.79225,52.45396,osm
 E06000005,Darlington,Muslim,node,785648904,Jamie Mosque & Islamic Society of Darlington,,-1.55658,54.52974,osm
 E08000030,Walsall,Muslim,node,823774072,Central Mosque,,-1.97045,52.58323,osm
@@ -121,7 +123,6 @@ E06000018,Nottingham,Muslim,node,4715712714,QMC Prayer Room Level 3,,-1.18545,52
 E07000034,Chesterfield,Muslim,node,4793526384,Chesterfield Muslim Association,sunni,-1.42837,53.23973,osm
 E07000178,Oxford,Muslim,node,4851854319,Oxford University Islamic Society Prayer Room,,-1.25602,51.75897,osm
 E07000211,Reigate and Banstead,Muslim,node,4894142621,Gatwick Muslim Centre,,-0.16119,51.17323,osm
-E06000062,West Northamptonshire,Muslim,node,4929529636,Northampton Central Mosque,,-0.87702,52.24758,osm
 E06000056,Central Bedfordshire,Muslim,node,5238118522,Cranfield University Mosque,,-0.62708,52.07438,osm
 E06000016,Leicester,Muslim,node,5435406439,Masjid al Quba,sunni,-1.12167,52.63869,osm
 E06000016,Leicester,Muslim,node,5455339712,Beaumont Leys Muslims,,-1.15238,52.66158,osm
@@ -182,6 +183,7 @@ E09000025,Newham,Muslim,node,10226096081,Masjid & Imambargah Shuhdae Karbala,shi
 E09000025,Newham,Muslim,node,10258104530,Central Park Community Centre,,0.05759,51.52303,osm
 E09000025,Newham,Muslim,node,10268709237,Masjid Bilal & Islamic Centre,,0.05132,51.53269,osm
 E09000025,Newham,Muslim,node,10270184270,Jamia Masjid,,0.0438,51.53109,osm
+S12000017,Highland,Muslim,node,10693365094,Inverness Masjid,,-4.23068,57.48336,osm
 E08000004,Oldham,Muslim,node,10756670909,European Islamic Centre & Mosque,sunni,-2.13483,53.52826,osm
 E08000021,Newcastle upon Tyne,Muslim,node,10761152105,Gosforth Prayer Hall,,-1.61461,55.00978,osm
 E07000009,East Cambridgeshire,Muslim,node,10819771400,Ely Islamic Centre,sunni,0.26741,52.39681,osm
@@ -191,6 +193,7 @@ E09000030,Tower Hamlets,Muslim,node,11021803764,Docklands Community Centre,,-0.0
 E09000030,Tower Hamlets,Muslim,node,11035645265,Globe Town Mosque,,-0.04828,51.52863,osm
 E09000030,Tower Hamlets,Muslim,node,11037392585,,,-0.057,51.51593,osm
 E08000003,Manchester,Muslim,node,11042947468,Arrahman ManchesterIslamic Cultural Association,,-2.24851,53.45437,osm
+S12000036,City of Edinburgh,Muslim,node,11181555589,Muslim Prayer Room,,-3.32234,55.91072,osm
 E09000022,Lambeth,Muslim,node,11223080879,Lambeth Masjid Progressive Community Centre,,-0.10113,51.46651,osm
 E09000003,Barnet,Muslim,node,11451316537,Hendon Mosque & Islamic Centre,,-0.23909,51.57769,osm
 E09000026,Redbridge,Muslim,node,11543657111,Chadwell Heath Muslim Centre,,0.1245,51.5696,osm
@@ -210,15 +213,19 @@ E08000004,Oldham,Muslim,node,12085425161,Westwood Mosque,sunni,-2.13309,53.54398
 S12000049,Glasgow City,Muslim,node,12093684687,Zia Ul Quran Centre,sunni,-4.27367,55.83937,osm
 W06000008,Ceredigion,Muslim,node,12127744798,Lampeter Campus Mosque,,-4.07711,52.11486,osm
 E08000003,Manchester,Muslim,node,12133584181,Markaz Al-Takwa,sunni,-2.2136,53.46132,osm
+S12000036,City of Edinburgh,Muslim,node,12149876353,Shahjalal Mosque,,-3.18332,55.96031,osm
 E09000005,Brent,Muslim,node,12169889359,Iqraa Ethiopian Muslim Centre,,-0.2508,51.53918,osm
 W06000022,Newport,Muslim,node,12227799229,Newport Diyanet Education Community Centre,,-2.99046,51.57282,osm
 E07000107,Dartford,Muslim,node,12292045553,Dartford Masjid,,0.21573,51.44655,osm
 W06000022,Newport,Muslim,node,12457438935,Dawat-e-Islami Faizan-e-Madina,muslim,-2.98339,51.59083,osm
+S12000036,City of Edinburgh,Muslim,node,12509126586,Niddrie Masjid,,-3.12993,55.93592,osm
+S12000048,Perth and Kinross,Muslim,node,12556162026,Perth Mosque,,-3.44112,56.39975,osm
 E06000016,Leicester,Muslim,node,12569715600,The Hamilton Hub,sunni,-1.06792,52.65349,osm
 W06000022,Newport,Muslim,node,12609664004,Jaima Ala Abba Community Center,,-2.97981,51.58968,osm
 E06000060,Buckinghamshire,Muslim,node,12686164774,,,-0.77946,51.62929,osm
 S12000026,Scottish Borders,Muslim,node,12731995999,Borders Islamic Society,,-2.81288,55.6187,osm
 E07000137,East Lindsey,Muslim,node,12735267728,Skegness Mosque,,0.33862,53.14706,osm
+S12000048,Perth and Kinross,Muslim,node,12827792826,Perth Central Mosque,,-3.4358,56.39597,osm
 E09000005,Brent,Muslim,node,12830228966,Indonesian Islamic Centre,,-0.24693,51.55783,osm
 E06000031,Peterborough,Muslim,node,12942391044,,sunni,-0.2464,52.58245,osm
 E07000208,Epsom and Ewell,Muslim,node,12999022001,Epsom & Ewell Islamic Society,sunni,-0.26681,51.33883,osm
@@ -290,12 +297,13 @@ E09000026,Redbridge,Muslim,node,14019871418,Clayhall Islamic Centre,,0.06203,51.
 E08000011,Knowsley,Muslim,node,14060339701,Jummah Salah in Sanctuary,,-2.78557,53.42121,osm
 E07000224,Arun,Muslim,node,14070737495,The Shahjahal Muslim Society & Islamic Centre,,-0.67302,50.7886,osm
 E06000008,Blackburn with Darwen,Muslim,node,14071098144,Musalla Maryam,,-2.48716,53.76002,osm
-E09000033,Westminster,Muslim,way,5983916,London Central Mosque,sunni,-0.16505,51.52896,osm
+E09000033,Westminster,Muslim,way,5983916,London Central Mosque,sunni,-0.16507,51.52899,osm
 E09000018,Hounslow,Muslim,way,10695654,Hounslow Jamia Masjid & Islamic Centre,sunni,-0.37492,51.4592,osm
 E09000018,Hounslow,Muslim,way,23548668,Feltham Masjid,,-0.41417,51.44306,osm
 E08000034,Kirklees,Muslim,way,26554233,Masjid e Mahmoodiya,sunni,-1.63208,53.70943,osm
 W06000015,Cardiff,Muslim,way,27629313,Baitur Raheem Mosque,ahmadiyya,-3.21369,51.47943,osm
 E09000031,Waltham Forest,Muslim,way,28836269,Leytonstone Mosque,,0.01284,51.56825,osm
+S12000036,City of Edinburgh,Muslim,way,30971801,Edinburgh Central Mosque,sunni,-3.18584,55.94501,osm
 E09000024,Merton,Muslim,way,33790628,Baitul Futuh Mosque,ahmadiyya,-0.19928,51.39671,osm
 E08000035,Leeds,Muslim,way,34174831,Abu Huraira Masjid,,-1.55246,53.77527,osm
 E09000033,Westminster,Muslim,way,34832137,Islamic Centre of England,shia,-0.18899,51.53543,osm
@@ -314,6 +322,7 @@ E06000015,Derby,Muslim,way,54615647,Jamia Mosque Derby,,-1.47644,52.9101,osm
 E06000015,Derby,Muslim,way,54638017,Masjid Al-Farooq,sunni,-1.48056,52.91374,osm
 W06000011,Swansea,Muslim,way,54683415,,,-3.97742,51.60998,osm
 E06000015,Derby,Muslim,way,55070265,Islamic Centre Derby,,-1.47631,52.91724,osm
+S12000040,West Lothian,Muslim,way,55592696,Anware Madina Mosque,,-3.49864,55.90181,osm
 E09000019,Islington,Muslim,way,55856263,Finsbury Park Mosque,sunni,-0.10568,51.56358,osm
 E06000015,Derby,Muslim,way,56187058,Masjid Salaam,sunni,-1.4783,52.90789,osm
 E08000030,Walsall,Muslim,way,58117113,Zia-E-Medina,sunni,-2.02531,52.56949,osm
@@ -339,8 +348,10 @@ E06000015,Derby,Muslim,way,70433440,,,-1.48706,52.90709,osm
 E08000030,Walsall,Muslim,way,70457256,Minhaj-ul-Quran,sunni,-2.0066,52.5775,osm
 E08000025,Birmingham,Muslim,way,70463600,Hazrat Mujaddid Alf-e Sanni,,-1.87393,52.45209,osm
 E07000108,Dover,Muslim,way,70931702,Dover Masjid,,1.30935,51.12907,osm
+S12000036,City of Edinburgh,Muslim,way,71020311,IQRA Academy,,-3.16784,55.93014,osm
 E07000178,Oxford,Muslim,way,71223414,Central Oxford Mosque,,-1.23076,51.74766,osm
 E08000025,Birmingham,Muslim,way,71782085,Jamia Mosque Amir-e-Millat,,-1.86596,52.45539,osm
+S12000033,Aberdeen City,Muslim,way,71958446,Foresterhill Mosque,,-2.1314,57.15432,osm
 E08000025,Birmingham,Muslim,way,73415577,Amanah Masjid,,-1.87662,52.4673,osm
 E09000028,Southwark,Muslim,way,73496699,New Peckham Mosque,,-0.07615,51.48446,osm
 E08000025,Birmingham,Muslim,way,73996111,Ukim Jamia Masjid,,-1.86303,52.46269,osm
@@ -398,13 +409,16 @@ E08000025,Birmingham,Muslim,way,84589962,Qamarul Islam Mosque,,-1.83231,52.47175
 E09000012,Hackney,Muslim,way,84820247,Shacklewell Lane Mosque,,-0.07403,51.551,osm
 E08000036,Wakefield,Muslim,way,85712328,Jamia Mosque,,-1.49243,53.68763,osm
 E06000038,Reading,Muslim,way,86482552,Jamme Masjid Reading,,-0.95226,51.44823,osm
+S12000020,Moray,Muslim,way,86915148,Elgin Mosque,,-3.31792,57.64687,osm
 E06000055,Bedford,Muslim,way,88046838,Jamia Masjid Hanfia Ghousia,,-0.48329,52.13261,osm
 E08000029,Solihull,Muslim,way,88857317,Solihull Central Masjid and Community Centre,,-1.76139,52.40899,osm
 E08000029,Solihull,Muslim,way,89453536,The Olton Project,sunni,-1.80915,52.43699,osm
 W06000015,Cardiff,Muslim,way,90330500,Imam Ali Centre,,-3.16708,51.46551,osm
 E06000033,Southend-on-Sea,Muslim,way,90439479,Essex Jamme Masjid Trust,,0.7033,51.5459,osm
+S12000036,City of Edinburgh,Muslim,way,90524311,Mohiuddin Jamia Masjid & Education Centre,sufi,-3.17521,55.97219,osm
 E09000026,Redbridge,Muslim,way,91302691,Qurani Murkuz,,0.02861,51.59293,osm
 E08000019,Sheffield,Muslim,way,93168445,Wybourn Islamic Centre,,-1.447,53.38313,osm
+S12000036,City of Edinburgh,Muslim,way,93234815,Anwar-E-Madina Mosque and Community Centre,sunni,-3.18527,55.96056,osm
 E09000031,Waltham Forest,Muslim,way,94346915,Masjid-e-Umer,sunni,-0.02328,51.57845,osm
 E08000031,Wolverhampton,Muslim,way,95131530,,,-2.14667,52.59359,osm
 E08000019,Sheffield,Muslim,way,95252712,Makki Jamia Mosque,,-1.47312,53.35867,osm
@@ -417,6 +431,7 @@ E07000074,Maldon,Muslim,way,98345540,Maldon District Islamic Cultural Associatio
 E09000007,Camden,Muslim,way,99509751,Kentish Town Baitul Aman Masjid,,-0.15051,51.55008,osm
 E09000030,Tower Hamlets,Muslim,way,100623138,Markazi Mosque,,-0.06435,51.5117,osm
 E08000034,Kirklees,Muslim,way,100723597,Upper Soothill Islamic Centre,,-1.59367,53.71593,osm
+S12000036,City of Edinburgh,Muslim,way,101594312,Dar Al-Arqam,,-3.20015,55.94449,osm
 E07000148,Norwich,Muslim,way,101883103,Norwich and Norfolk Community Centre,sunni,1.26683,52.63541,osm
 E08000034,Kirklees,Muslim,way,101939993,Masjid Salahuddin,,-1.62767,53.69416,osm
 E08000019,Sheffield,Muslim,way,101992058,Aaliyah Mosque,,-1.43266,53.39145,osm
@@ -477,6 +492,7 @@ E09000025,Newham,Muslim,way,144357797,Masjid Yousuf,,0.02867,51.54649,osm
 E08000025,Birmingham,Muslim,way,144755744,Jamia Abdullah Bin Masoud,sunni,-1.85972,52.4514,osm
 E08000025,Birmingham,Muslim,way,144931123,Sutton Coldfield Masjid,,-1.82346,52.5683,osm
 E06000039,Slough,Muslim,way,146989588,Jamia Masjid and Islamic Centre,,-0.59899,51.51863,osm
+S12000030,Stirling,Muslim,way,149605558,Central Scotland Islamic Centre,,-3.933,56.11346,osm
 E08000032,Bradford,Muslim,way,151655147,Markazi Jamia Mosque,,-1.9024,53.8705,osm
 E06000016,Leicester,Muslim,way,152178608,Masjid Salahuddin,sunni,-1.12719,52.6411,osm
 E08000032,Bradford,Muslim,way,152323079,Bradford Central Mosque,,-1.76014,53.79791,osm
@@ -507,6 +523,7 @@ E07000041,Exeter,Muslim,way,175319483,Exeter Mosque,,-3.52506,50.7292,osm
 E08000025,Birmingham,Muslim,way,175768606,Al-Bhokari Education Centre,,-1.85794,52.44769,osm
 E09000012,Hackney,Muslim,way,177511977,North London Mosque,,-0.06875,51.5649,osm
 E08000035,Leeds,Muslim,way,178352103,Markazi Jamia Masjid Bilal,,-1.51375,53.81281,osm
+S12000036,City of Edinburgh,Muslim,way,178552469,Shia Community Centre Edinburgh,shia,-3.17612,55.97378,osm
 E07000240,St Albans,Muslim,way,180756469,Masjid Ar Rahman SCT,,-0.3333,51.73902,osm
 S12000050,North Lanarkshire,Muslim,way,183066031,Islamic Society of Airdrie & Coatbridge,,-4.00508,55.8613,osm
 E09000014,Haringey,Muslim,way,183069320,MTO Shahmaghsoudi,,-0.12529,51.57778,osm
@@ -590,6 +607,7 @@ E06000043,Brighton and Hove,Muslim,way,241754389,Shahjalal Mosque & Islamic Cent
 E06000018,Nottingham,Muslim,way,241950400,Al Zahra Foundation,,-1.17352,52.94724,osm
 E07000148,Norwich,Muslim,way,242049090,Rose Lane Masjid,sunni,1.30253,52.6287,osm
 E09000033,Westminster,Muslim,way,242168914,Masjid Salahuddin,,-0.17153,51.51631,osm
+S12000036,City of Edinburgh,Muslim,way,243007668,Broomhouse Mosque,,-3.27709,55.92841,osm
 E09000030,Tower Hamlets,Muslim,way,244636915,Bishops Way Community Centre,,-0.05431,51.5331,osm
 E09000008,Croydon,Muslim,way,245252962,Croydon Mosque & Islamic Centre,,-0.11263,51.38947,osm
 E06000058,"Bournemouth, Christchurch and Poole",Muslim,way,248635628,Bournemouth Jamei Mosque,,-1.87705,50.74248,osm
@@ -615,6 +633,7 @@ E09000025,Newham,Muslim,way,270418360,Masjid Stratford,,0.00159,51.54918,osm
 E09000019,Islington,Muslim,way,270765051,Holloway Mosque,sunni,-0.10984,51.55097,osm
 E09000019,Islington,Muslim,way,270770714,London Islamic Turkish Association,,-0.08661,51.55272,osm
 E08000012,Liverpool,Muslim,way,271731109,Al-Rahma Mosque,,-2.96065,53.3943,osm
+S12000047,Fife,Muslim,way,273916864,Green Dome Mosque,sunni,-3.46067,56.07068,osm
 E08000025,Birmingham,Muslim,way,275263095,Surma Islamic Education Centre Madrassa & Masjid,,-1.85249,52.46175,osm
 E08000025,Birmingham,Muslim,way,277030928,Green Oak Academy (Kings Heath),sunni,-1.89269,52.42244,osm
 E06000031,Peterborough,Muslim,way,277148064,Faizan-e-Madina Mosque,sunni,-0.24898,52.58033,osm
@@ -678,6 +697,7 @@ E08000004,Oldham,Muslim,way,361926795,Medina Mosque & Islamic Centre,sunni,-2.11
 E08000009,Trafford,Muslim,way,362937226,Masjid-e-Noor,,-2.26313,53.46075,osm
 E08000009,Trafford,Muslim,way,362937229,Masjid Imdadia,,-2.26649,53.46097,osm
 E08000003,Manchester,Muslim,way,364987768,Zakaria Mosque,,-2.25892,53.4481,osm
+S12000036,City of Edinburgh,Muslim,way,369555538,Portobello Masjid,sunni,-3.11919,55.95524,osm
 E06000004,Stockton-on-Tees,Muslim,way,370689714,Tees Valley Muslim Community Centre,,-1.32487,54.54712,osm
 E08000025,Birmingham,Muslim,way,371345671,Madrassa Majadidia Taleem-ul-quran,,-1.8415,52.46959,osm
 E08000028,Sandwell,Muslim,way,372940812,Madina Education Trust,sunni,-2.015,52.55419,osm
@@ -703,7 +723,9 @@ E08000032,Bradford,Muslim,way,402966795,Masjid Usman,sunni,-1.73601,53.79376,osm
 E06000016,Leicester,Muslim,way,404115764,Masjid us Sunnah,,-1.1261,52.61689,osm
 E06000016,Leicester,Muslim,way,405292731,Masjid Umar,sunni,-1.10183,52.62423,osm
 E06000023,"Bristol, City of",Muslim,way,405371866,Tawfiq Masjid & Centre,,-2.56288,51.45343,osm
+S12000036,City of Edinburgh,Muslim,way,406990786,Blackhall Mosque,,-3.2576,55.96124,osm
 E08000032,Bradford,Muslim,way,413080443,Al-Jamia Suffa-Tul-Islam Grand Mosque,,-1.76931,53.78436,osm
+S12000047,Fife,Muslim,way,413903618,Kirkcaldy Central Mosque,,-3.1751,56.13089,osm
 E08000034,Kirklees,Muslim,way,414599833,Jamia Masjid Noor,sunni,-1.79767,53.63912,osm
 E07000220,Rugby,Muslim,way,415337806,Rugby Mosque,,-1.25145,52.37454,osm
 E09000002,Barking and Dagenham,Muslim,way,415634281,Al Madina Mosque Barking,,0.07754,51.54419,osm
@@ -736,6 +758,7 @@ E06000016,Leicester,Muslim,way,459225246,Furqan,sunni,-1.10615,52.63146,osm
 E06000016,Leicester,Muslim,way,459225247,Masjid e Aisha,sunni,-1.10969,52.63095,osm
 E06000016,Leicester,Muslim,way,459225250,Masjid Tabuk & Evington Muslim Centre,,-1.10291,52.62287,osm
 E06000016,Leicester,Muslim,way,459225251,Masjid an Noor,sunni,-1.11014,52.63426,osm
+S12000050,North Lanarkshire,Muslim,way,460379599,Islamic Education Trust Cumbernauld,,-4.01204,55.95876,osm
 E08000021,Newcastle upon Tyne,Muslim,way,460912873,Masjid Darul Arqam,sunni,-1.66146,54.97214,osm
 E08000003,Manchester,Muslim,way,461424900,Shair-e-Rabbani Mosque,,-2.2629,53.44736,osm
 E06000016,Leicester,Muslim,way,461639566,Masjid al Falah & Islamic Educational Trust,sunni,-1.11501,52.6352,osm
@@ -746,6 +769,7 @@ E08000003,Manchester,Muslim,way,462680212,Madina Masjid & Community Centre,sunni
 E09000031,Waltham Forest,Muslim,way,462698083,Faizan-e-Islam Centre,,-0.00493,51.57965,osm
 E08000012,Liverpool,Muslim,way,464339045,Abdullah Quilliam Mosque,sunni,-2.96051,53.41429,osm
 E08000021,Newcastle upon Tyne,Muslim,way,465374293,Madina Masjid,,-1.64882,54.98008,osm
+S12000014,Falkirk,Muslim,way,467493315,Falkirk Central Mosque,sunni,-3.78071,55.99796,osm
 E06000016,Leicester,Muslim,way,467544872,Masjid Ar-Rahman,sunni,-1.11652,52.63221,osm
 E08000022,North Tyneside,Muslim,way,469006887,Baitul Ata,ahmadiyya,-1.53974,54.99259,osm
 E08000021,Newcastle upon Tyne,Muslim,way,469398148,Heaton Mosque & Islamic Centre,sunni,-1.58165,54.98581,osm
@@ -753,11 +777,12 @@ E09000012,Hackney,Muslim,way,469563756,Aziziye Mosque and Community Centre,,-0.0
 E06000016,Leicester,Muslim,way,469922088,Masjid An Noor,sunni,-1.13033,52.64119,osm
 E09000030,Tower Hamlets,Muslim,way,472381416,Darul Ummah Mosque,sunni,-0.05819,51.51241,osm
 E08000035,Leeds,Muslim,way,474017231,AhlulBayt Cultural Centre,,-1.55994,53.80064,osm
+S12000040,West Lothian,Muslim,way,475361970,Livingston Masjid & Islamic Centre,,-3.56758,55.90128,osm
 E08000021,Newcastle upon Tyne,Muslim,way,480309977,Newcasyle Central Mosque,,-1.6473,54.97357,osm
 E08000032,Bradford,Muslim,way,483704137,Madni Jamia Masjid,,-1.71851,53.796,osm
 E07000096,Dacorum,Muslim,way,490108453,Quwwatul Islam Markazi Jamia Mosque Mehria Ghousia,sunni,-0.45681,51.74528,osm
 E06000034,Thurrock,Muslim,way,491992823,Taleem Mosque & Community Centre,sunni,0.32483,51.4779,osm
-E08000026,Coventry,Muslim,way,495850586,Zeenat Masjid,sunni,-1.49818,52.41916,osm
+E08000026,Coventry,Muslim,way,495850586,Masjid Zeenat-Ul-Islam,sunni,-1.49818,52.41913,osm
 E08000026,Coventry,Muslim,way,496623389,The Islamic Brotherhood Pakistan And Kashmir Family Centre,sunni,-1.50185,52.41692,osm
 E08000003,Manchester,Muslim,way,496752790,Manchester Islamic Centre & Didsbury Mosque,sunni,-2.24667,53.4228,osm
 E06000047,County Durham,Muslim,way,502300435,Islamic Prayer Rooms,,-1.57584,54.7658,osm
@@ -854,6 +879,7 @@ E09000025,Newham,Muslim,way,612376729,Khidmah Academy,,0.01075,51.54085,osm
 E08000003,Manchester,Muslim,way,612408581,Salaam Community Centre and Masjid,,-2.25174,53.45769,osm
 E09000025,Newham,Muslim,way,613917998,Faizan-e-Madina Masjid,,0.0097,51.53752,osm
 E07000136,Boston,Muslim,way,614121834,Mosque Al-Noor,,-0.0302,52.97763,osm
+S12000013,Na h-Eileanan Siar,Muslim,way,615374401,Stornoway Masjid,sunni,-6.38401,58.20794,osm
 E08000035,Leeds,Muslim,way,616095449,Al-Amin Masjid,,-1.53619,53.81518,osm
 E07000066,Basildon,Muslim,way,616755825,South Essex Islamic Community Centre,,0.48722,51.56039,osm
 E06000023,"Bristol, City of",Muslim,way,618081392,Hazrat Bilal Centre,sunni,-2.57763,51.46902,osm
@@ -876,6 +902,7 @@ E09000030,Tower Hamlets,Muslim,way,654221998,Lansbury Mosque,sunni,-0.01817,51.5
 E07000094,Winchester,Muslim,way,654524908,Al Mahdi Centre,,-1.21775,50.87633,osm
 E08000035,Leeds,Muslim,way,655150264,Shahjalal Jamia Masjid,,-1.52004,53.81709,osm
 E08000035,Leeds,Muslim,way,655166459,Masjid Quba,,-1.52248,53.81576,osm
+S12000047,Fife,Muslim,way,659677692,Dunfermline Islamic Centre,,-3.43561,56.06998,osm
 E08000025,Birmingham,Muslim,way,663862459,Handsworth Mosque & IslamicCentre,,-1.94412,52.50399,osm
 E08000001,Bolton,Muslim,way,665272593,Ahmadiyya Muslim Community Centre,ahmadiyya,-2.54934,53.60164,osm
 E08000027,Dudley,Muslim,way,666953430,Dudley Central Mosque,,-2.07877,52.51241,osm
@@ -903,6 +930,7 @@ E08000019,Sheffield,Muslim,way,699461366,Baitul Mukarram Jame Masjid,,-1.47344,5
 E06000010,"Kingston upon Hull, City of",Muslim,way,702400789,Springbank Mosque,,-0.35153,53.74926,osm
 E06000016,Leicester,Muslim,way,705792558,Masjid Muhammed,,-1.08954,52.66391,osm
 E09000017,Hillingdon,Muslim,way,706357193,Quba Masjid & Islamic Centre,,-0.42283,51.5087,osm
+S12000033,Aberdeen City,Muslim,way,707225873,Aberdeen Mosque & Islamic Centre,sunni,-2.09154,57.15039,osm
 E08000001,Bolton,Muslim,way,708093765,Masjid E Ghosia,,-2.44383,53.56514,osm
 E09000008,Croydon,Muslim,way,712224478,Masjid Uthman,,-0.07313,51.39799,osm
 E08000018,Rotherham,Muslim,way,712311313,Raza-E-Mustafa Mosque,,-1.32471,53.41532,osm
@@ -919,6 +947,7 @@ E08000001,Bolton,Muslim,way,733224254,Madinah Masjid,,-2.43492,53.58149,osm
 E07000122,Pendle,Muslim,way,733391375,Masjid Nimra,,-2.20648,53.84084,osm
 E08000030,Walsall,Muslim,way,737425840,Darus Salam Masjid & Bangladeshi Islamic Centre,sunni,-2.02112,52.56966,osm
 E07000122,Pendle,Muslim,way,738035581,Gausia Madrassah,,-2.20568,53.83736,osm
+S12000042,Dundee City,Muslim,way,740811749,Dundee Central Mosque,,-2.98085,56.46181,osm
 E07000122,Pendle,Muslim,way,741237831,Labbayak Ya RasoolAllah Masjid,,-2.20893,53.83249,osm
 E08000001,Bolton,Muslim,way,741950152,Masjid Ahl Al-Sunnah,,-2.44254,53.59378,osm
 E07000132,Hinckley and Bosworth,Muslim,way,756032582,Madinah Masjid,,-1.37752,52.53648,osm
@@ -938,6 +967,7 @@ E08000032,Bradford,Muslim,way,816519969,Jamia Masjid,,-1.82247,53.80051,osm
 E09000018,Hounslow,Muslim,way,818250610,Husseini Islamic Mission,shia,-0.34589,51.47496,osm
 E07000174,Mansfield,Muslim,way,824308788,Mansfield Jamee Masjid,,-1.18914,53.14425,osm
 E06000032,Luton,Muslim,way,828805026,Al Falah Community Centre,,-0.46261,51.90297,osm
+S12000042,Dundee City,Muslim,way,838318222,Al-Maktoum Mosque,sunni,-2.98639,56.45954,osm
 E06000040,Windsor and Maidenhead,Muslim,way,840606911,Medina Mosque,,-0.63397,51.48141,osm
 S12000049,Glasgow City,Muslim,way,843641877,Tantallon Road Mosque,,-4.2826,55.82565,osm
 E09000012,Hackney,Muslim,way,845013501,Valide Sultan Mosque,,-0.08384,51.55731,osm
@@ -966,6 +996,8 @@ E07000228,Mid Sussex,Muslim,way,912392832,Muslim Community Mosque,,-0.13807,50.9
 E08000034,Kirklees,Muslim,way,915723683,Madressa Islamiyah (Old Madressah),sunni,-1.63739,53.70984,osm
 E06000026,Plymouth,Muslim,way,919104649,Islamic Centre of Plymouth and Cornwall,sunni,-4.14118,50.37704,osm
 E08000004,Oldham,Muslim,way,922284660,Oldham Central Masjid and Islamic Centre,sunni,-2.12785,53.54504,osm
+S12000033,Aberdeen City,Muslim,way,922483191,Syed Shah Mustafa Jame Masjid,sufi,-2.10094,57.14322,osm
+S12000033,Aberdeen City,Muslim,way,922483193,Masjid Alhikmah & Community Centre,sunni,-2.0974,57.1541,osm
 E08000028,Sandwell,Muslim,way,925348846,Jamia Masjid Anwar-Ul-Uloom,,-1.958,52.48972,osm
 E06000055,Bedford,Muslim,way,925372524,Goldington Islamic Centre,,-0.4526,52.14006,osm
 E09000013,Hammersmith and Fulham,Muslim,way,931657731,Shepherds Bush Mosque and Muslim Cultural Centre,sunni,-0.23136,51.50659,osm
@@ -993,6 +1025,7 @@ E08000033,Calderdale,Muslim,way,978240528,Jamia Masjid Ghousia,,-1.87056,53.7231
 E07000229,Worthing,Muslim,way,981055365,Worthing Masjid,,-0.36999,50.81928,osm
 E08000025,Birmingham,Muslim,way,983152467,,sunni,-1.86382,52.47022,osm
 W06000016,Rhondda Cynon Taf,Muslim,way,988938724,Islamic Centre Aberdare,,-3.44761,51.72121,osm
+S12000042,Dundee City,Muslim,way,992540021,Jamia Masjid Bilal,sunni,-2.96098,56.47027,osm
 E09000023,Lewisham,Muslim,way,996024660,Tahir Mosque,ahmadiyya,0.00992,51.43391,osm
 E09000025,Newham,Muslim,way,1006768786,The Muslim community Centre & Mosque,sunni,0.03185,51.54424,osm
 E09000025,Newham,Muslim,way,1007335939,,,0.0301,51.54218,osm
@@ -1006,6 +1039,7 @@ E07000216,Waverley,Muslim,way,1017045465,Mubarak Mosque,ahmadiyya,-0.75102,51.19
 E08000003,Manchester,Muslim,way,1019735403,Makki Masjid,,-2.2016,53.45033,osm
 E08000003,Manchester,Muslim,way,1019735404,Makki Masjid,,-2.20168,53.45052,osm
 E09000026,Redbridge,Muslim,way,1022422251,Newbury Park Masjid,,0.09138,51.58132,osm
+N09000005,Derry City and Strabane,Muslim,way,1022479016,Peace Islamic Centre,sunni,-7.32453,55.01303,osm
 E09000026,Redbridge,Muslim,way,1022553897,Imamia Mission,shia,0.08799,51.57818,osm
 E06000051,Shropshire,Muslim,way,1033818137,Shrewsbury Muslim Centre,,-2.73106,52.70415,osm
 E09000018,Hounslow,Muslim,way,1035381947,Hounslow Muslim Centre,,-0.35708,51.46942,osm
@@ -1057,7 +1091,9 @@ E09000025,Newham,Muslim,way,1153261460,,,0.05256,51.54767,osm
 E08000010,Wigan,Muslim,way,1155830039,Masjid al-Furqan (Leigh Mosque),muslim,-2.51406,53.49805,osm
 E08000003,Manchester,Muslim,way,1157492354,Al-Masjid al-Nur,shia,-2.19252,53.4478,osm
 E08000003,Manchester,Muslim,way,1157492860,Al Raza Foundation,shia,-2.19302,53.44866,osm
+S12000042,Dundee City,Muslim,way,1157727092,Broughty Ferry Mosque,,-2.90407,56.47157,osm
 E08000024,Sunderland,Muslim,way,1158181483,Hendon Jami Masjid,,-1.37686,54.90209,osm
+S12000042,Dundee City,Muslim,way,1158277414,Baitul Mahmood Mosque,ahmadiyya,-2.96892,56.47248,osm
 E08000032,Bradford,Muslim,way,1168803099,Al-Amin Jame Masjid & Madrasha,,-1.72402,53.79751,osm
 E09000018,Hounslow,Muslim,way,1172463833,Heathrow Jamia Masjid,sunni,-0.41549,51.48118,osm
 E09000018,Hounslow,Muslim,way,1172465627,Islamic Integration Community Centre,,-0.3897,51.46273,osm
@@ -1070,7 +1106,7 @@ E09000018,Hounslow,Muslim,way,1172473704,Feltham Hira Centre,sunni,-0.40417,51.4
 E08000004,Oldham,Muslim,way,1180514091,Oldham Mosque & Islamic Centre,sunni,-2.1263,53.54268,osm
 E08000004,Oldham,Muslim,way,1184888096,Al-Khasra Masjid,sunni,-2.12198,53.54608,osm
 E08000030,Walsall,Muslim,way,1189895128,Syeda Fatima Zahra Centre,sunni,-1.99164,52.5876,osm
-E09000016,Havering,Muslim,way,1191838651,,,0.17953,51.57327,osm
+E09000016,Havering,Muslim,way,1191838651,Havering Islamic Cultural Centre,,0.17953,51.57327,osm
 E08000034,Kirklees,Muslim,way,1202566756,Baitus Samad,ahmadiyya,-1.77977,53.65094,osm
 E07000103,Watford,Muslim,way,1202658419,Bait-ul-Hadi,ahmadiyya,-0.41894,51.64234,osm
 E09000005,Brent,Muslim,way,1209143228,Markaz Us-Sunnah,sunni,-0.29516,51.53906,osm
@@ -1124,6 +1160,7 @@ E08000004,Oldham,Muslim,way,1334871948,Jalalabad Jamay Masjid,,-2.10302,53.53697
 E09000032,Wandsworth,Muslim,way,1335352747,,,-0.17024,51.46765,osm
 E08000004,Oldham,Muslim,way,1336972845,Greengate Jamia Mosque,sunni,-2.10188,53.53908,osm
 E09000030,Tower Hamlets,Muslim,way,1337477990,Stepney Shahjalal Mosque & Cultural Centre,,-0.04078,51.51996,osm
+S12000005,Clackmannanshire,Muslim,way,1340664240,Alloa Mosque,sunni,-3.78171,56.12,osm
 E07000120,Hyndburn,Muslim,way,1340804783,Raza Jamia Masjid,sunni,-2.37948,53.7518,osm
 E08000004,Oldham,Muslim,way,1342980638,Shahjalal Mosque & Islamic Centre,sunni,-2.12128,53.53424,osm
 E08000004,Oldham,Muslim,way,1344399615,Masjid-Ul-Asqa and Islamic Centre,sunni,-2.12374,53.53249,osm
@@ -1140,8 +1177,10 @@ E07000237,Worcester,Muslim,way,1350701215,Turkish Community Centre,,-2.2192,52.1
 E07000237,Worcester,Muslim,way,1350706539,Jalalabad Muslim Association,,-2.21275,52.19132,osm
 E07000239,Wyre Forest,Muslim,way,1350707723,Kidderminster Madani Masjid,,-2.2459,52.39195,osm
 E07000062,Hastings,Muslim,way,1352899761,Hastings Mosque,,0.55748,50.85222,osm
+S12000042,Dundee City,Muslim,way,1356769144,Tayside Islamic Centre,sunni,-2.96585,56.46651,osm
 E06000043,Brighton and Hove,Muslim,way,1357536031,Al Quds Mosque,sunni,-0.15058,50.83473,osm
 E08000027,Dudley,Muslim,way,1359922541,Netherton Islamic Trust Masjid,,-2.08605,52.4955,osm
+S12000041,Angus,Muslim,way,1360465610,Arbroath Islamic Community Centre,,-2.57943,56.56687,osm
 E06000016,Leicester,Muslim,way,1361292936,Masjid E Abdullah ibn Mas'ud,,-1.13989,52.60394,osm
 E08000034,Kirklees,Muslim,way,1362305144,Hanfia Masjid,,-1.79759,53.63249,osm
 E08000033,Calderdale,Muslim,way,1362710451,AICP Sunniyy Centre,,-1.87483,53.72157,osm
@@ -1326,6 +1365,7 @@ E08000034,Kirklees,Muslim,way,1513936187,Markazi Jamia Masjid Riza Islamic Centr
 E07000071,Colchester,Muslim,way,1521446074,Colchester Jamia Masjid,sunni,0.90498,51.88772,osm
 E08000032,Bradford,Muslim,way,1524412540,Al-Mustaqeem Centre,,-1.7664,53.78039,osm
 E08000032,Bradford,Muslim,way,1524437717,Madrassah Noorul Islam,,-1.77655,53.78868,osm
+S12000014,Falkirk,Muslim,way,1524829882,Falkirk Islamic Centre,sunni,-3.78102,55.99824,osm
 E07000121,Lancaster,Muslim,way,1525799826,Lancaster Islamic Society,,-2.80461,54.04754,osm
 E06000008,Blackburn with Darwen,Muslim,way,1527493777,Kurdish Community Blackburn,,-2.48813,53.75177,osm
 E06000032,Luton,Muslim,way,1529319513,Saints Area Mosque,sunni,-0.43521,51.90029,osm
@@ -1335,6 +1375,7 @@ E08000032,Bradford,Muslim,way,1543175566,Wibsey Musalla Jummah Salaah,,-1.76589,
 E08000032,Bradford,Muslim,way,1543176865,Musalla Salaam,,-1.80361,53.78323,osm
 E08000032,Bradford,Muslim,way,1547273911,Al Hidaya Academy,,-1.82339,53.77058,osm
 E06000021,Stoke-on-Trent,Muslim,way,1548287215,Markaz At-Tawheed (Stoke on Trent City Centre Mosque),,-2.18626,53.01882,osm
+E06000062,West Northamptonshire,Muslim,way,1550321799,Northampton Central Mosque,,-0.877,52.24759,osm
 E06000055,Bedford,Christian,node,4118141,Bunyan Meeting Free Church,baptist,-0.46402,52.1368,osm
 E06000055,Bedford,Christian,node,7398224,Kempston East Methodist Church,methodist,-0.49378,52.11981,osm
 E06000050,Cheshire West and Chester,Christian,node,8087078,Caldy Valley Neighbourhood Church,,-2.85487,53.18695,osm

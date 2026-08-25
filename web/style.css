@@ -95,14 +95,33 @@ h1, h2, h3, .serif {
   background: var(--surface-2); display: grid; place-items: center;
 }
 #theme:hover { border-color: var(--accent); }
+/* The button shows the mode it switches TO. In light mode that is a crescent
+   moon; in dark mode a sun, which was a plain filled circle and read as an
+   orange status light rather than as "switch to light". The rays are drawn with
+   background gradients on two pseudo-elements -- four cardinal on one, the same
+   four rotated 45 degrees on the other -- so no extra markup is needed. */
 #theme span {
+  position: relative;
   width: 15px; height: 15px; border-radius: 999px;
   background: var(--ink-2);
   box-shadow: inset -5px -3px 0 0 var(--surface-2);
 }
+
 :root[data-theme="dark"] #theme span {
-  background: var(--warn); box-shadow: none;
+  width: 11px; height: 11px;
+  background: var(--warn);
+  box-shadow: none;
 }
+:root[data-theme="dark"] #theme span::before,
+:root[data-theme="dark"] #theme span::after {
+  content: ""; position: absolute; inset: -6px;
+  background:
+    linear-gradient(var(--warn), var(--warn)) 50% 0    / 2px 4px no-repeat,
+    linear-gradient(var(--warn), var(--warn)) 50% 100% / 2px 4px no-repeat,
+    linear-gradient(var(--warn), var(--warn)) 0    50% / 4px 2px no-repeat,
+    linear-gradient(var(--warn), var(--warn)) 100% 50% / 4px 2px no-repeat;
+}
+:root[data-theme="dark"] #theme span::after { transform: rotate(45deg); }
 
 /* ---------- headline figures ---------- */
 
@@ -121,6 +140,13 @@ h1, h2, h3, .serif {
   font-variant-numeric: tabular-nums;
 }
 .stat .n { margin: 4px 0 0; font-size: 12px; color: var(--ink-3); }
+/* Marks a scrubbed-back figure as an estimate without a sentence of caveat --
+   the reasoning lives on the method page the card links to. */
+.stat .est {
+  font-family: Inter, sans-serif; font-style: normal;
+  font-size: 12px; font-weight: 500; color: var(--ink-3);
+  letter-spacing: 0; margin-left: 4px; vertical-align: 2px;
+}
 .stat .swatch {
   width: 9px; height: 9px; border-radius: 999px; flex: none;
 }

@@ -58,7 +58,7 @@ const METRICS = {
            get: d => (byYear[state.year] || {})[d.code]?.n || 0 },
   live:  { label: "Applications awaiting a decision", short: "awaiting decision", dp: 0,
            get: d => d.pending },
-  pop:   { label: "Muslim residents (2021 census)", short: "Muslim residents", dp: 0,
+  pop:   { label: "Muslim residents (census)", short: "Muslim residents", dp: 0,
            get: d => d.c },
   per:   { label: "Muslim residents per mosque", short: "residents per mosque", dp: 0,
            get: d => d.ratio },
@@ -72,6 +72,7 @@ const OVERLAYS = [
 const STATUS_LABEL = { approved: "Approved", refused: "Refused",
                        withdrawn: "Withdrawn", pending: "Awaiting decision" };
 // Legend-only abbreviations for narrow screens; the panel keeps the full words.
+const NATION = { E: "England", W: "Wales", S: "Scotland", N: "Northern Ireland" };
 const STATUS_SHORT = { approved: "Approved", refused: "Refused",
                        withdrawn: "Withdrawn", pending: "Pending" };
 const statusColor = s => ({ approved: css("--ok"), refused: css("--up"),
@@ -192,27 +193,32 @@ function setYear(y) {
 
 /* ---------------- headline figures ---------------- */
 
-// No source dates most mosques, so the estate as it stood in a past year cannot
-// be shown directly. Subtracting approved gains gives an indication and is
-// labelled as one -- never presented as a count.
-function backcast() {
-  // At the latest year the headline is simply today's count and needs no
-  // qualifier -- the fixed half of the note already says where it comes from.
-  if (state.year >= YEARS[YEARS.length - 1]) return "";
-  const est = MOSQUES.points.length - nationalCum().net;
-  // "roughly" carries the caveat on a phone; the reasoning is on method.html
-  return `roughly <strong>${fmt(est)}</strong> in ${state.year}<span class="n-full">,
-    working back from approved planning decisions</span>`;
+// The register carries a first-recorded year per location, from a charity
+// registration or a planning approval. Neither is an opening date -- a
+// congregation often registers years after it starts meeting, and an approval
+// is a decision rather than a building -- but both are documentary evidence
+// that a mosque was there by then, which is the most that can honestly be said.
+//
+// Locations with no dated record at all (OpenStreetMap has no dates) are
+// counted in every year: nothing is known about when they appeared, and
+// dropping them would understate the past far more than keeping them overstates
+// it. So this is today's estate minus what is known to have arrived since, and
+// it is labelled as an estimate whenever it is not the present day.
+function knownBy(year) {
+  let n = 0;
+  for (const p of MOSQUES.points) {
+    const since = p[4] || 0;
+    if (!since || since <= year) n++;
+  }
+  return n;
 }
 
-// Each note is split in two. The "full" half is fixed explanation and is hidden
-// on narrow screens; the "live" half moves with the year slider and is always
-// shown, so a scrubbed-back figure never appears on a phone without its label.
+const isPresent = () => state.year >= YEARS[YEARS.length - 1];
+
 function renderStats() {
   const nat = nationalCum();
   const pending = APPS.records.filter(r => r.s === "pending").length;
   const thisYear = Object.values(byYear[state.year] || {}).reduce((a, o) => a + o.n, 0);
-  const back = backcast();
 
   const stat = (o) => `
     <div class="stat">
@@ -225,10 +231,8 @@ function renderStats() {
   $("stats").innerHTML =
     stat({
       sw: css("--mosque"), q: "How many mosques are there?", short: "Mosques",
-      v: fmt(MOSQUES.points.length),
-      nfull: "identified today across OpenStreetMap, the charity register and "
-             + "planning" + (back ? " · " : ""),
-      nlive: back,
+      v: fmt(knownBy(state.year)) + (isPresent() ? "" : ' <i class="est">est.</i>'),
+      nfull: "", nlive: '<a class="methodlink" href="method.html">See Sources &amp; method &rarr;</a>',
     }) +
     stat({
       q: "How has that changed?", short: "Net change",
@@ -335,7 +339,10 @@ function drawOverlays() {
     const r = Math.max(1.8, 2.3 * k);
     ctx.fillStyle = css("--mosque");
     ctx.globalAlpha = .85;
-    for (const [lon, lat, , nsrc] of MOSQUES.points) {
+    for (const [lon, lat, , nsrc, since] of MOSQUES.points) {
+      // hide what is known to have arrived after the selected year, so the map
+      // and the headline figure agree
+      if (since && since > state.year) continue;
       const p = project(lon, lat);
       if (!p || p[0] < -5 || p[1] < -5 || p[0] > w + 5 || p[1] > h + 5) continue;
       // corroborated locations read solid; single-source ones sit back
@@ -382,7 +389,7 @@ function renderLegend() {
   // third of the map to explain symbols the chips above already name.
   if (state.overlays.mosques)
     html += `<div class="ln"><span class="kv"><i class="dot" style="background:${css("--mosque")}"></i>
-      <span class="l-full">each mosque (${fmt(MOSQUES.points.length)}) · solid = 2+ sources</span>
+      <span class="l-full">each mosque (${fmt(knownBy(state.year))}) · solid = 2+ sources</span>
       <span class="l-short">mosque</span></span></div>`;
   if (state.overlays.applications)
     html += `<div class="ln">${["approved", "refused", "pending"].map(s =>
@@ -399,11 +406,11 @@ function renderLegend() {
 function renderMethod() {
   const b = DATA.baselines.prov;
   $("method").innerHTML = `
-    <span class="m-full">Merged from OpenStreetMap, the Charity Commission
-    register and planning records — ${fmt(b.mqc)} of ${fmt(b.mq)} confirmed by
-    more than one source.</span>
-    <span><b>The map shows today's locations</b>; the slider moves the planning
-    record.</span>
+    <span class="m-full">Merged from OpenStreetMap, the charity registers and
+    planning records — ${fmt(b.mqc)} of ${fmt(b.mq)} confirmed by more than one
+    source.</span>
+    <span><b>The slider moves documentary evidence</b>, not opening dates: a
+    location appears once a charity register or planning approval records it.</span>
     <a class="methodlink" href="method.html">Sources &amp; method &rarr;</a>`;
 }
 
@@ -445,6 +452,7 @@ function renderPanel() {
     </li>`).join("");
 
   const growth = d.c11 ? d.c - d.c11 : null;
+  const cy = d.yr || 2021;   // Scotland counted in 2022, E&W and NI in 2021
 
   $("panel-body").innerHTML = `
     <div class="p-head">
@@ -488,14 +496,17 @@ function renderPanel() {
     <div class="p-sec">
       <h3>People</h3>
       <div class="rows">
-        <span class="k">Muslim residents, 2021</span><span class="v num">${fmt(d.c)}</span>
-        <span class="k">Muslim residents, 2011</span><span class="v num">${d.c11 ? fmt(d.c11) : "—"}</span>
-        <span class="k">Change</span>
-        <span class="v num">${growth == null ? "—" : (growth > 0 ? "+" : "") + fmt(growth)}</span>
-        <span class="k">All residents, 2021</span><span class="v num">${fmt(d.pop)}</span>
+        <span class="k">Muslim residents, ${cy}</span><span class="v num">${fmt(d.c)}</span>
+        ${d.c11 ? `<span class="k">Muslim residents, 2011</span>
+          <span class="v num">${fmt(d.c11)}</span>
+          <span class="k">Change</span>
+          <span class="v num">${growth == null ? "—" : (growth > 0 ? "+" : "") + fmt(growth)}</span>` : ""}
+        <span class="k">All residents, ${cy}</span><span class="v num">${fmt(d.pop)}</span>
       </div>
       <div class="caveat">The census asks about religion only once a decade, and
-        answering is voluntary — ${d.nrp}% of people here left it blank.</div>
+        answering is voluntary — ${d.nrp}% of people here left it blank.${
+          d.yr ? ` ${NATION[d.code[0]]} runs its own census: these are ${cy}
+          figures, and there is no comparable 2011 series here.` : ""}</div>
     </div>
 
     ${recs.length ? `<div class="p-sec">
