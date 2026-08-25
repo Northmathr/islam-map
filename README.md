@@ -93,6 +93,31 @@ different things gives 1,741 locations:
 | All three | 107 |
 | Charity register + planning | 43 |
 
+### Cross-check against published counts
+
+| Source | Scope | Count |
+|---|---|---|
+| **This register** | England & Wales, all types | **1,741** |
+| MuslimsInBritain, "actual masjids" | UK | 1,895 |
+| MuslimsInBritain, all premises for worship | UK | 2,187 |
+| MuslimsInBritain, all premises, England + Wales | England & Wales | 2,077 |
+| Ayaan Institute, *Mosques in Britain* (2026) | UK | 1,884 |
+
+MuslimsInBritain place 95% of UK premises in England and Wales, which puts their
+"actual masjid" count at roughly **1,800** for England and Wales against this
+register's **1,741** — within about 3%. Against every premises where Muslims
+gather to pray (2,077) the register is **16% short**, and the missing categories
+are named: hired halls, dedicated prayer rooms, chaplaincies and temporary
+premises, none of which a mapped building, a registered charity or a planning
+application reliably captures.
+
+The Ayaan report also exposes a real weakness here: it identified **1,179**
+mosques registered as charities UK-wide, where `fetch_charities.py` name matching
+finds only **884** in England and Wales alone. Mosques registered as "Islamic
+Association", "Anjuman", "Markazi" or "Dar ul Uloom" fall through the pattern. A
+widened pattern finds roughly 1,230 in England and Wales, so the charity input is
+a known undercount and fixing it is the next improvement.
+
 **There is still no single true number**, and not only because of coverage:
 "mosque" is not a fixed category. Purpose-built mosques, converted terraces,
 industrial units and university prayer rooms are counted differently by
