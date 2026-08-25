@@ -1,12 +1,13 @@
 """Merge three sources into one mosque register, with provenance per location.
 
-Why this exists: OpenStreetMap on its own reports 1,336 mosques in England and
-Wales, which is well short of the ~1,800 usually cited for the UK. Two
-independent checks show why, and both are reproducible from this repo:
+Why this exists: OpenStreetMap on its own reports 1,314 mosques in England and
+Wales, which is well short of the ~1,800 "actual masjids" the MuslimsInBritain
+directory lists. Two independent checks show why, and both are reproducible from
+this repo:
 
   * Of 608 planning applications approved to build or convert a mosque, only
     73% have an OSM mosque within 250 m.
-  * Of 820 mosque-charity locations on the Charity Commission register, only
+  * Of the mosque-charity locations on the Charity Commission register, only
     58% have an OSM mosque within 300 m.
 
 Widening the Overpass query barely helps (+55 elements), so the gap is OSM's
@@ -119,11 +120,19 @@ def main():
         print(f"  {k:<34}{v:>5}")
 
     d = geo.Districts()
-    rows, outside = [], 0
+    rows, outside, out_of_scope = [], 0, 0
     for c in merged:
         code, name = d.assign(c["lon"], c["lat"])
         if not code:
             outside += 1
+            continue
+        # The boundary file covers the whole UK and the Overpass query was
+        # UK-wide, so Scottish and Northern Irish mosques get assigned a real
+        # district. This map is England and Wales -- the census tables behind it
+        # are E&W only -- so they are dropped here rather than inflating a
+        # headline the rest of the pipeline cannot account for.
+        if code[0] not in ("E", "W"):
+            out_of_scope += 1
             continue
         rows.append({
             "area_code": code, "area_name": name,
@@ -133,7 +142,8 @@ def main():
             "n_sources": len(c["sources"]),
             "refs": ";".join(c["refs"][:4]),
         })
-    print(f"\nplaced in England & Wales: {len(rows):,} ({outside} outside)")
+    print(f"\nplaced in England & Wales: {len(rows):,} "
+          f"({out_of_scope} in Scotland or NI, {outside} outside any district)")
 
     confirmed = sum(1 for r in rows if r["n_sources"] >= 2)
     print(f"  corroborated by 2+ sources: {confirmed:,}")

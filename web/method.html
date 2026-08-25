@@ -77,11 +77,12 @@
 
   <h3>Why not just OpenStreetMap?</h3>
 
-  <p>Because it holds roughly 60–75% of them. OpenStreetMap alone finds
-  <b>1,336</b> mosques in England and Wales, well short of the ~1,800 usually
-  cited for the UK. Widening the query — relations, <code>building=mosque</code>,
-  name matching, prayer rooms — adds only 55 elements, so the gap is coverage
-  rather than a bad query. Two independent checks measure it:</p>
+  <p>Because it holds roughly three quarters of them. OpenStreetMap alone finds
+  <b>1,314</b> mosques in England and Wales, well short of the ~1,800 the
+  MuslimsInBritain directory lists. Widening the query — relations,
+  <code>building=mosque</code>, name matching, prayer rooms — adds only 55
+  elements, so the gap is coverage rather than a bad query. Two independent
+  checks measure it:</p>
 
   <table>
     <thead><tr><th>Check</th><th>Result</th></tr></thead>
@@ -103,26 +104,69 @@
   coordinate wins, because it is a mapped building rather than a postcode
   centroid.</p>
 
-  <p>Merging gives <b>1,741 distinct locations</b>:</p>
+  <p>Merging gives <b>1,746 distinct locations</b> in England and Wales:</p>
 
   <table>
     <thead><tr><th>Sources vouching for a location</th><th class="r">n</th></tr></thead>
     <tbody>
-      <tr><td>OpenStreetMap only</td><td class="r num">720</td></tr>
-      <tr><td>Charity register only</td><td class="r num">388</td></tr>
-      <tr><td>Charity register + OpenStreetMap</td><td class="r num">246</td></tr>
-      <tr><td>OpenStreetMap + planning</td><td class="r num">126</td></tr>
-      <tr><td>Planning only</td><td class="r num">112</td></tr>
-      <tr><td>All three</td><td class="r num">107</td></tr>
-      <tr><td>Charity register + planning</td><td class="r num">43</td></tr>
+      <tr><td>OpenStreetMap only</td><td class="r num">623</td></tr>
+      <tr><td>Charity register only</td><td class="r num">428</td></tr>
+      <tr><td>Charity register + OpenStreetMap</td><td class="r num">328</td></tr>
+      <tr><td>All three</td><td class="r num">132</td></tr>
+      <tr><td>OpenStreetMap + planning</td><td class="r num">94</td></tr>
+      <tr><td>Planning only</td><td class="r num">87</td></tr>
+      <tr><td>Charity register + planning</td><td class="r num">54</td></tr>
     </tbody>
   </table>
 
-  <p><b>522 locations are corroborated by more than one source.</b> That
+  <p><b>608 locations are corroborated by more than one source.</b> That
   distinction is kept rather than averaged away: on the map, corroborated
   locations are drawn solid and single-source ones sit back, so you can see how
   well attested each point is instead of being shown uniform confidence that
   does not exist.</p>
+
+  <h3 id="charity-matching">How mosque charities are identified</h3>
+
+  <p>Almost every mosque in England and Wales is a registered charity, but you
+  cannot find them by name alone. Searching the register for
+  &ldquo;mosque&rdquo;, &ldquo;masjid&rdquo; and similar returns 884 charities
+  and misses hundreds that register as an association or a trust. Widening the
+  pattern overshoots in both directions at once: &ldquo;Sunninghill Parochial
+  Charities&rdquo; matches on &ldquo;sunni&rdquo;, and the Islamic Medical
+  Association is not a place of worship.</p>
+
+  <p>So three signals are combined, and every entry records which one caught
+  it:</p>
+
+  <table>
+    <thead><tr><th>Evidence</th><th>Test</th><th class="r">n</th></tr></thead>
+    <tbody>
+      <tr><td><b>Name</b></td>
+          <td>The name contains mosque, masjid or musalla. Unambiguous.</td>
+          <td class="r num">411</td></tr>
+      <tr><td><b>Activity</b></td>
+          <td>The charity&rsquo;s own description of its work says it runs a
+              mosque — &ldquo;Acton&rsquo;s main mosque providing daily
+              prayers&rdquo;. Catches the ones named after an association.</td>
+          <td class="r num">173</td></tr>
+      <tr><td><b>Inferred</b></td>
+          <td>An Islamic name, registered under Religious Activities, holding
+              land, and not an umbrella body. Weaker, so it is tiered
+              separately.</td>
+          <td class="r num">409</td></tr>
+    </tbody>
+  </table>
+
+  <p>The activity test deliberately ignores the phrase &ldquo;place of
+  worship&rdquo;, which is faith-neutral and matched churches, synagogues and
+  mandirs by the hundred. The land test is worth using because 73% of charities
+  whose name says mosque hold land, against 33% of the register at large.</p>
+
+  <p>The result is <b>1,066</b> matched charities and <b>993</b> distinct
+  geocoded locations, against the Ayaan Institute&rsquo;s 1,179 for the whole
+  UK. Since the Charity Commission covers England and Wales only — Scotland has
+  OSCR and Northern Ireland has CCNI — those two figures are close to
+  consistent.</p>
 
   <h3>How this compares with published counts</h3>
 
@@ -133,7 +177,7 @@
   <table>
     <thead><tr><th>Source</th><th>Scope</th><th class="r">Count</th></tr></thead>
     <tbody>
-      <tr><td><b>This register</b></td><td>England &amp; Wales, all types</td><td class="r num">1,741</td></tr>
+      <tr><td><b>This register</b></td><td>England &amp; Wales, all types</td><td class="r num">1,746</td></tr>
       <tr><td>MuslimsInBritain directory<br><span class="muted">&ldquo;actual masjids&rdquo;</span></td><td>UK</td><td class="r num">1,895</td></tr>
       <tr><td>MuslimsInBritain directory<br><span class="muted">all premises for worship</span></td><td>UK</td><td class="r num">2,187</td></tr>
       <tr><td>MuslimsInBritain directory<br><span class="muted">all premises, England + Wales</span></td><td>England &amp; Wales</td><td class="r num">2,077</td></tr>
@@ -144,7 +188,7 @@
   <p>The comparison that matters is like for like. MuslimsInBritain place 95% of
   UK premises in England and Wales, which puts their &ldquo;actual masjid&rdquo;
   count at roughly <b>1,800</b> for England and Wales against this
-  register&rsquo;s <b>1,741</b> — within about 3%. Measured instead against
+  register&rsquo;s <b>1,746</b> — within about 3%. Measured instead against
   every premises where Muslims gather to pray, 2,077, this register is
   <b>16% short</b>.</p>
 
@@ -163,15 +207,16 @@
   itself as addressing myths about mosque expansion; its figures are
   nonetheless the best public benchmark available and are used here as one.</p>
 
-  <p>The report also exposes a real weakness in this pipeline. Ayaan identified
-  <b>1,179</b> mosques registered as charities across the UK; the name matching
-  used here found only <b>884</b> in England and Wales alone. The regex misses
-  the many mosques registered as &ldquo;Islamic Association&rdquo;,
-  &ldquo;Anjuman&rdquo;, &ldquo;Markazi&rdquo;, &ldquo;Dar ul Uloom&rdquo; and
-  similar without the word mosque or masjid in the name. A widened pattern finds
-  roughly 1,230 in England and Wales, which is in the right region — so the
-  charity input here is understood to be an undercount, and correcting it is the
-  next improvement to the register.</p>
+  <p>The report also exposed a real defect in this pipeline, since corrected.
+  Ayaan identified <b>1,179</b> mosques registered as charities across the UK;
+  matching on the name alone found only <b>884</b> in England and Wales. Mosques
+  that register as &ldquo;Newham North Islamic Association&rdquo; or
+  &ldquo;Gloucestershire Islamic Trust&rdquo; carry no worship word in the name
+  at all. Matching now combines three signals — the name, the charity&rsquo;s own
+  description of its activities, and its registered classification — described
+  under <a href="#charity-matching">how mosque charities are identified</a>
+  below. That lifted the charity input from 820 usable locations to
+  <b>993</b>.</p>
 
   <h2>What the year slider actually moves</h2>
 
