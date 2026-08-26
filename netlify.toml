@@ -4,7 +4,10 @@
 [build]
   publish = "web"
   # Stamp asset URLs with the commit SHA so browsers never mix old and new files
-  command = 'sed -i "s/__BUILD__/${COMMIT_REF:0:12}/g" web/index.html web/method.html'
+  command = 'sed -i "s/__BUILD__/${COMMIT_REF:0:12}/g" web/*.html'
+  # Functions are dependency-free ES modules -- no package.json, no install
+  # step. See netlify/functions/subscribe.mjs for why that is deliberate.
+  functions = "netlify/functions"
 
 # The JSON payloads are regenerated whenever the pipeline re-runs, and a stale
 # districts.json fails as a missing key deep inside a render rather than as an
@@ -13,6 +16,13 @@
   for = "/data/*"
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
+
+# The sign-up endpoint takes an email address. Nothing about it should be
+# cached anywhere, by anyone.
+[[headers]]
+  for = "/.netlify/functions/*"
+  [headers.values]
+    Cache-Control = "no-store"
 
 [[headers]]
   for = "/*"

@@ -411,6 +411,7 @@ function renderMethod() {
     source.</span>
     <span><b>The slider moves documentary evidence</b>, not opening dates: a
     location appears once a charity register or planning approval records it.</span>
+    <a class="methodlink" href="alerts.html">Get planning alerts &rarr;</a>
     <a class="methodlink" href="method.html">Sources &amp; method &rarr;</a>`;
 }
 

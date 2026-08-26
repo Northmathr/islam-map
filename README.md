@@ -216,6 +216,71 @@ recognised as an extension whatever verb is used, moving the net from +503 to
 stored snapshot, so a classifier change never needs a refetch. 1,442 of 1,668 matched the search in
 the description rather than only the address.
 
+## Planning alerts
+
+Optional email notifications: one message when a mosque planning application
+appears in the register for a council the subscriber chose.
+
+```
+web/alerts.html            sign-up page (council picker, double opt-in)
+web/privacy.html           privacy notice -- HAS A TODO, see below
+netlify/functions/         subscribe, confirm, unsubscribe (no dependencies)
+db/schema.sql              subscribers, sent_alerts, send_log, RLS
+ingest/notify.py           diff and send
+ingest/test_notify.py      gate tests, no credentials needed
+.github/workflows/         nightly refresh, dry-run by default
+```
+
+Four gates stand between the diff and the outbox, each for a failure this
+pipeline has actually shown:
+
+| Gate | Why |
+|---|---|
+| Recency, 60 days | PlanIt backfills — its 2023 figure is 248 against ~50 a year either side. "New to our snapshot" is not "newly lodged", and one backfill would otherwise mail everyone about applications from years ago. |
+| Short-fetch floor, 90% | PlanIt rate-limits and 500s. A partial fetch now becomes a flood of false "new" alerts on the next full one. |
+| Already-sent | `sent_alerts` is keyed on (subscriber, ref), so no application reaches the same person twice whatever the diff believes. |
+| Confidence | 226 of 1,668 applications matched on the address rather than the description. Excluded by default. |
+
+`ingest/test_notify.py` asserts all four against the real snapshot and needs no
+network, database or credentials:
+
+```bash
+cd ingest && ../.venv/bin/python test_notify.py
+```
+
+Dry run against the real data, no accounts required:
+
+```bash
+cd ingest && ../.venv/bin/python notify.py --dry-run
+```
+
+**Order matters in the workflow.** `notify.py` diffs the fresh snapshot against
+the one committed at `HEAD`, so the send must happen *before* the commit.
+Committing first makes every diff empty, which fails silently and looks exactly
+like a quiet night.
+
+### Before this can go live
+
+- **`web/privacy.html` names no data controller and gives no contact address.**
+  It says so in a box at the top of the page. A privacy notice without those
+  does not meet UK GDPR, and nothing should be collected until they are filled
+  in.
+- Run `db/schema.sql` against the database. It enables row level security with
+  no policy for `anon` — without that block, the key shipped to browsers could
+  read the whole subscriber list.
+- Set on Netlify: `SUPABASE_URL`, `SUPABASE_SERVICE_KEY`, `POSTMARK_TOKEN`,
+  `POSTMARK_FROM`, `UNSUB_SECRET`, `SITE_URL`.
+- Set the same as GitHub Actions secrets, plus `SITE_URL` as a repository
+  variable.
+- `UNSUB_SECRET` must be **identical** in both places. The unsubscribe token is
+  an HMAC computed by `notify.py` in Python and verified by
+  `unsubscribe.mjs` in Node; if they differ, every unsubscribe link silently
+  fails, which is the worst failure mode available here.
+- Verify the sending domain with the email provider (SPF, DKIM) before the
+  first real send.
+- The workflow defaults to a dry run on manual dispatch. Leave it that way for
+  the first few nights and read the logs.
+
 ## Run
 
 ```bash

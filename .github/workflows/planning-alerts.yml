@@ -1,0 +1,94 @@
+# Nightly planning refresh and alert send.
+#
+# The order matters and is not arbitrary. notify.py compares the freshly
+# written snapshot against the one committed at HEAD, so the send must happen
+# BEFORE the commit -- commit first and the diff is empty every time, which
+# fails silently and looks exactly like a quiet night.
+
+name: Planning alerts
+
+on:
+  schedule:
+    - cron: "17 6 * * *"      # 06:17 UTC daily, off the hour to avoid the rush
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Report what would be sent without sending"
+        type: boolean
+        default: true
+
+concurrency:
+  group: planning-alerts       # never let two sends overlap
+  cancel-in-progress: false
+
+permissions:
+  contents: write              # to commit the refreshed snapshot
+
+jobs:
+  refresh-and-notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2       # notify.py reads HEAD:data/planning_applications.csv
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Check the alert gates still hold
+        run: python ingest/test_notify.py
+        working-directory: .
+
+      - name: Refresh planning applications
+        id: fetch
+        working-directory: ingest
+        run: python fetch_planning.py
+        continue-on-error: true
+
+      # A failed or short fetch must not reach the send step. notify.py refuses
+      # to diff below its own floor, but stopping here keeps the reason legible
+      # in the run log rather than buried in a Python traceback.
+      - name: Stop if the fetch failed
+        if: steps.fetch.outcome != 'success'
+        run: |
+          echo "::warning::PlanIt fetch failed; skipping send and commit."
+          exit 1
+
+      - name: Send alerts
+        working-directory: ingest
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          POSTMARK_TOKEN: ${{ secrets.POSTMARK_TOKEN }}
+          POSTMARK_FROM: ${{ secrets.POSTMARK_FROM }}
+          UNSUB_SECRET: ${{ secrets.UNSUB_SECRET }}
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python notify.py --dry-run
+          else
+            python notify.py --send
+          fi
+
+      # Only now is the snapshot allowed to become the new baseline.
+      - name: Rebuild derived data
+        working-directory: ingest
+        run: |
+          python build_mosque_register.py
+          python build_web_data.py
+
+      - name: Commit the refreshed snapshot
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name  "Matthias"
+          git config user.email "wmj6dsj4nd@privaterelay.appleid.com"
+          git add data web/data
+          if git diff --cached --quiet; then
+            echo "no change"
+          else
+            git commit -m "Nightly planning refresh"
+            git push
+          fi

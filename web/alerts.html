@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Planning alerts — Mosques in the United Kingdom</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script>
+  document.documentElement.dataset.theme =
+    localStorage.getItem("theme") ||
+    (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  var v = "__BUILD__";
+  if (v === "__" + "BUILD__") v = Date.now();
+  document.write('<link rel="stylesheet" href="style.css?v=' + v + '">');
+</script>
+</head>
+<body class="doc">
+
+<header id="topbar">
+  <div class="brand">
+    <h1>Planning alerts</h1>
+    <p class="sub">An email when a mosque planning application appears in your council</p>
+  </div>
+  <a class="backlink" href="./">&larr; Back to the map</a>
+</header>
+
+<article class="prose">
+
+  <p class="lede">Planning applications are public records. This sends you an
+  email when one relating to a mosque appears in the register for a council you
+  choose, with a link to the council&rsquo;s own record.</p>
+
+  <p class="callout">Read the volume before you sign up: there were <b>170</b>
+  such applications across the whole United Kingdom in 2026. For most councils
+  that is a few a year, and for many it is none. This is not a newsletter and
+  there is no schedule — quiet months are the normal case.</p>
+
+  <form id="signup" novalidate>
+    <div class="field">
+      <label for="email">Your email address</label>
+      <input type="email" id="email" name="email" autocomplete="email"
+             placeholder="you@example.com" required>
+    </div>
+
+    <!-- Bots fill every field they find. A human never sees this one. -->
+    <div class="hp" aria-hidden="true">
+      <label for="website">Leave this blank</label>
+      <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+    </div>
+
+    <div class="field">
+      <label for="search">Councils to watch <span class="muted">(up to 20)</span></label>
+      <input type="search" id="search" placeholder="Start typing a council name…"
+             autocomplete="off" aria-describedby="picked-note">
+      <div id="picked" class="picked" aria-live="polite"></div>
+      <p id="picked-note" class="hint">None chosen yet.</p>
+      <ul id="results" class="results" role="listbox" aria-label="Matching councils"></ul>
+    </div>
+
+    <label class="consent">
+      <input type="checkbox" id="consent" required>
+      <span>I want these emails, and I understand my address is stored so they
+        can be sent. Every email has an unsubscribe link, and using it deletes
+        my address. <a href="privacy.html">What is stored</a>.</span>
+    </label>
+
+    <button type="submit" id="go">Send me a confirmation link</button>
+    <p id="msg" class="msg" role="status" aria-live="polite"></p>
+  </form>
+
+  <h2>What you will and will not get</h2>
+  <ul>
+    <li><b>One email per council, when something appears.</b> Not a digest on a
+      schedule.</li>
+    <li><b>Only applications matched in their description</b>, not ones that
+      merely mention a mosque in the address as a landmark. That excludes 226 of
+      the 1,668 applications on record, and it is why you will occasionally hear
+      nothing about something you spot yourself.</li>
+    <li><b>Nothing about conditions and amendments.</b> Those are paperwork
+      attached to a permission that already exists, and they read as new
+      applications when they are not.</li>
+    <li><b>Nothing older than 60 days</b>, even when it is new to this project.
+      The source backfills: its 2023 figure is 248 against roughly 50 a year
+      either side, which is record-keeping catching up rather than a spike in
+      activity. Without that cut-off one backfill would mail you about
+      applications from years ago.</li>
+  </ul>
+
+  <h2>Coverage is uneven, and silence is not proof</h2>
+
+  <p>The planning source aggregates local authority registers unevenly. Of the
+  1,668 applications on record, <b>1,565 are English, 65 Scottish, 37 Welsh and
+  one Northern Irish</b>. If you subscribe to a council outside England you may
+  hear nothing for a long time, and that is at least partly the record rather
+  than the activity. Check the council&rsquo;s own planning portal if something
+  matters to you.</p>
+
+  <p>An alert means an application exists in the public register. It is not a
+  decision, and an approval is not a building. The
+  <a href="method.html">sources and method</a> page sets out what each source
+  can and cannot show.</p>
+
+</article>
+
+<script>
+(function () {
+  var picked = [], ALL = [], MAX = 20;
+  var $ = function (id) { return document.getElementById(id); };
+  var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) {
+    return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]; }); };
+
+  // Council list comes from the map's own payload, so it can never drift out
+  // of step with the areas the alerts are actually keyed on.
+  fetch("data/districts.json", { cache: "no-cache" })
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      ALL = Object.keys(d.districts)
+        .map(function (code) { return { code: code, name: d.districts[code].n }; })
+        .sort(function (a, b) { return a.name.localeCompare(b.name); });
+    })
+    .catch(function () {
+      $("msg").textContent =
+        "Could not load the council list. Reload the page and try again.";
+      $("msg").className = "msg bad";
+    });
+
+  function renderPicked() {
+    $("picked").innerHTML = picked.map(function (p) {
+      return '<button type="button" class="chip-x" data-code="' + esc(p.code) +
+        '">' + esc(p.name) + ' <span aria-hidden="true">&times;</span>' +
+        '<span class="sr">remove</span></button>';
+    }).join("");
+    $("picked-note").textContent = picked.length
+      ? picked.length + " chosen" + (picked.length >= MAX ? " (maximum)" : "")
+      : "None chosen yet.";
+  }
+
+  function renderResults(q) {
+    if (!q || q.length < 2) { $("results").innerHTML = ""; return; }
+    var needle = q.toLowerCase();
+    var hits = ALL.filter(function (a) {
+      return a.name.toLowerCase().indexOf(needle) !== -1 &&
+        !picked.some(function (p) { return p.code === a.code; });
+    }).slice(0, 8);
+    $("results").innerHTML = hits.length
+      ? hits.map(function (h) {
+          return '<li><button type="button" data-code="' + esc(h.code) + '" ' +
+            'data-name="' + esc(h.name) + '">' + esc(h.name) + '</button></li>';
+        }).join("")
+      : '<li class="none">No council matches that.</li>';
+  }
+
+  $("search").addEventListener("input", function (e) { renderResults(e.target.value); });
+
+  $("results").addEventListener("click", function (e) {
+    var b = e.target.closest("button[data-code]");
+    if (!b) return;
+    if (picked.length >= MAX) return;
+    picked.push({ code: b.dataset.code, name: b.dataset.name });
+    $("search").value = "";
+    renderResults("");
+    renderPicked();
+  });
+
+  $("picked").addEventListener("click", function (e) {
+    var b = e.target.closest("button[data-code]");
+    if (!b) return;
+    picked = picked.filter(function (p) { return p.code !== b.dataset.code; });
+    renderPicked();
+  });
+
+  $("signup").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var msg = $("msg");
+    var email = $("email").value.trim();
+
+    if (!email || email.indexOf("@") === -1) {
+      msg.textContent = "Enter an email address."; msg.className = "msg bad"; return;
+    }
+    if (!picked.length) {
+      msg.textContent = "Choose at least one council."; msg.className = "msg bad"; return;
+    }
+    if (!$("consent").checked) {
+      msg.textContent = "Tick the box to confirm you want these emails.";
+      msg.className = "msg bad"; return;
+    }
+
+    $("go").disabled = true;
+    msg.textContent = "Sending…"; msg.className = "msg";
+
+    fetch("/.netlify/functions/subscribe", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email: email,
+        areas: picked.map(function (p) { return p.code; }),
+        website: $("website").value,
+      }),
+    })
+      .then(function (r) {
+        // A gateway error or an outage answers with an HTML page, and letting
+        // r.json() reject shows the person a JSON parser message.
+        return r.text().then(function (t) {
+          var body;
+          try { body = JSON.parse(t); }
+          catch (_) { body = { error: "The sign-up service is not responding. Try again shortly." }; }
+          return { ok: r.ok, b: body };
+        });
+      })
+      .then(function (res) {
+        if (!res.ok) throw new Error(res.b.error || "That did not work. Try again shortly.");
+        msg.textContent = res.b.message || "Check your inbox for a confirmation link.";
+        msg.className = "msg good";
+        $("signup").reset();
+        picked = []; renderPicked();
+      })
+      .catch(function (err) {
+        msg.textContent = err.message;
+        msg.className = "msg bad";
+      })
+      .finally(function () { $("go").disabled = false; });
+  });
+})();
+</script>
+</body>
+</html>

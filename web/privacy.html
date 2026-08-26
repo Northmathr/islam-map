@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What is stored — Mosques in the United Kingdom</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script>
+  document.documentElement.dataset.theme =
+    localStorage.getItem("theme") ||
+    (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  var v = "__BUILD__";
+  if (v === "__" + "BUILD__") v = Date.now();
+  document.write('<link rel="stylesheet" href="style.css?v=' + v + '">');
+</script>
+</head>
+<body class="doc">
+
+<header id="topbar">
+  <div class="brand">
+    <h1>What is stored</h1>
+    <p class="sub">Privacy notice for planning alerts</p>
+  </div>
+  <a class="backlink" href="./">&larr; Back to the map</a>
+</header>
+
+<article class="prose">
+
+  <p class="lede">The map itself stores nothing about you. This page is about
+  the <a href="alerts.html">planning alerts</a>, which need an email address to
+  work.</p>
+
+  <p class="callout"><b>TODO before launch:</b> name the data controller and
+  give a contact address below, and confirm the processors named here are the
+  ones actually used. A privacy notice without a controller and a contact route
+  does not meet UK GDPR, and the rest of this page is worth nothing without
+  them.</p>
+
+  <h2>What is collected</h2>
+
+  <table>
+    <thead><tr><th>What</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td>Your email address</td><td>To send the alerts. There is no other way.</td></tr>
+      <tr><td>The councils you chose</td><td>To know which applications concern you. Stored as GSS codes.</td></tr>
+      <tr><td>The date and time you signed up, your IP address and browser string</td>
+          <td>The record that consent was given, which UK GDPR requires to be
+              demonstrable rather than merely asserted.</td></tr>
+      <tr><td>Which applications you have been sent</td>
+          <td>So the same one is never sent twice. Stored as a reference number
+              against your row, never the message itself.</td></tr>
+    </tbody>
+  </table>
+
+  <p>Nothing else. No name, no location beyond the councils you pick, no
+  tracking pixel in the emails, no analytics on this site, and no attempt to
+  work out anything about you from your choices.</p>
+
+  <h2>The lawful basis is your consent</h2>
+
+  <p>You ask for these emails and confirm by clicking a link, which is why
+  nothing is sent until you do. An unconfirmed request is deleted after seven
+  days. You can withdraw consent at any time, and withdrawing it is as easy as
+  giving it.</p>
+
+  <h2>Unsubscribing deletes your address</h2>
+
+  <p>Every email carries an unsubscribe link, and your mail client&rsquo;s own
+  unsubscribe button works too. Using either <b>deletes your row</b> — address,
+  councils, consent record and send history — rather than flagging it as
+  suppressed. Many senders keep a suppression list at that point; this does not,
+  because the request was to be gone.</p>
+
+  <p>The consequence is worth stating: if you unsubscribe by mistake, there is
+  nothing to restore and you would sign up again.</p>
+
+  <h2>Who else sees it</h2>
+
+  <ul>
+    <li><b>The email provider</b> handles delivery, so it necessarily processes
+      your address, and keeps its own delivery logs.</li>
+    <li><b>The database host</b> stores the table.</li>
+    <li><b>The site host</b> runs the sign-up, confirm and unsubscribe
+      endpoints.</li>
+  </ul>
+
+  <p>Nobody is sent your address for any other purpose. It is not sold, shared,
+  or used to build a profile, and the list is not published in any form —
+  including as a count broken down in a way that could identify a small
+  council&rsquo;s subscribers.</p>
+
+  <h2>How long it is kept</h2>
+
+  <ul>
+    <li><b>Unconfirmed sign-ups:</b> seven days, then deleted.</li>
+    <li><b>Confirmed subscriptions:</b> until you unsubscribe.</li>
+    <li><b>Send history:</b> deleted with your subscription.</li>
+    <li><b>Addresses that hard-bounce repeatedly</b> are removed, because an
+      address that does not exist is not a subscriber.</li>
+  </ul>
+
+  <h2>Your rights</h2>
+
+  <p>Under UK GDPR you can ask for a copy of what is held about you, ask for it
+  to be corrected, ask for it to be deleted, and complain to the Information
+  Commissioner&rsquo;s Office. Given how little is stored, deletion is the
+  unsubscribe link and a copy is your address plus the councils you chose.</p>
+
+  <h2>Security</h2>
+
+  <p>The subscriber table has row level security enabled with no policy granting
+  public access, so the key shipped to the browser cannot read it — only the
+  server-side endpoints can. Unsubscribe links are signed rather than guessable.
+  Nothing about subscribers is committed to the project&rsquo;s public
+  repository.</p>
+
+  <p class="foot">This page describes the alerts only. The mosque and census
+  data behind the map comes from public registers and published census tables
+  and contains no personal data — see <a href="method.html">sources and
+  method</a>.</p>
+
+</article>
+</body>
+</html>

@@ -26,3 +26,18 @@ def get(url: str, timeout: int = 120) -> bytes:
 
 def get_json(url: str, timeout: int = 120):
     return json.loads(get(url, timeout))
+
+
+def post_json(url: str, payload, headers=None, timeout: int = 60):
+    """POST JSON, return parsed JSON (or None for an empty 2xx body).
+
+    Used for the Supabase REST API and Postmark. Both are plain JSON over
+    HTTPS, so no SDK is needed and this file stays the only HTTP surface.
+    """
+    body = json.dumps(payload).encode()
+    h = {"User-Agent": UA, "Content-Type": "application/json"}
+    h.update(headers or {})
+    req = urllib.request.Request(url, data=body, headers=h, method="POST")
+    with urllib.request.urlopen(req, timeout=timeout, context=_CTX) as resp:
+        raw = resp.read()
+    return json.loads(raw) if raw else None
