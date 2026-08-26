@@ -56,7 +56,8 @@ export default async (req) => {
   try {
     const cutoff = new Date(Date.now() - TOKEN_TTL_DAYS * 864e5).toISOString();
     const rows = await rest(
-      `subscribers?select=id,confirmed,confirm_sent_at&confirm_token=eq.${token}`);
+      "subscribers?select=id,confirmed,confirm_sent_at,pending_areas" +
+      `&confirm_token=eq.${token}`);
 
     if (!rows?.length) {
       return page("Link not recognised",
@@ -65,16 +66,52 @@ export default async (req) => {
         "again</a> — it is harmless to repeat.</p>", 404);
     }
     const row = rows[0];
-    if (row.confirmed) {
-      return page("Already confirmed",
-        "<p>These alerts are already active. Nothing more to do.</p>");
-    }
-    if (row.confirm_sent_at && row.confirm_sent_at < cutoff) {
+    const expired = row.confirm_sent_at && row.confirm_sent_at < cutoff;
+
+    // Expiry is handled before anything else, and what expires depends on what
+    // the row is. An unconfirmed row is a request nobody completed, so it goes.
+    // A confirmed row is a live subscription with a stale CHANGE attached --
+    // deleting it there would unsubscribe someone for not answering a request
+    // they may never have made.
+    if (expired) {
+      if (row.confirmed) {
+        await rest(`subscribers?id=eq.${row.id}`, {
+          method: "PATCH",
+          prefer: "return=minimal",
+          body: { pending_areas: null, confirm_token: null },
+        });
+        return page("Link expired",
+          `<p>That was a request to change your councils, and requests last ` +
+          `${TOKEN_TTL_DAYS} days. <b>Your existing alerts are untouched.</b> ` +
+          `<a href="/alerts.html">Ask again</a> if you still want the ` +
+          `change.</p>`, 410);
+      }
       await rest(`subscribers?id=eq.${row.id}`, { method: "DELETE" });
       return page("Link expired",
         `<p>Confirmation links last ${TOKEN_TTL_DAYS} days and this one has ` +
         `passed that, so the request has been deleted. ` +
         `<a href="/alerts.html">Sign up again</a> if you still want alerts.</p>`, 410);
+    }
+
+    // An already-confirmed subscriber holding a live token is confirming a
+    // CHANGE to their councils, requested by whoever filled the form. This
+    // click, from inside the mailbox, is what makes it theirs.
+    if (row.confirmed) {
+      if (!row.pending_areas) {
+        return page("Already confirmed",
+          "<p>These alerts are already active. Nothing more to do.</p>");
+      }
+      await rest(`subscribers?id=eq.${row.id}`, {
+        method: "PATCH",
+        prefer: "return=minimal",
+        body: { areas: row.pending_areas, pending_areas: null,
+                confirm_token: null },
+      });
+      return page("Alerts updated",
+        `<p>Your alerts now cover ${row.pending_areas.length} council` +
+        `${row.pending_areas.length === 1 ? "" : "s"}.</p>` +
+        "<p><a href='/'>Back to the map</a> &middot; " +
+        "<a href='/privacy.html'>What is stored</a></p>");
     }
 
     await rest(`subscribers?id=eq.${row.id}`, {

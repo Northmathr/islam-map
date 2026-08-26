@@ -23,6 +23,12 @@ create table if not exists subscribers (
   confirm_sent_at timestamptz,
   confirmed_at    timestamptz,
 
+  -- A change requested by whoever filled the form, held here until it is
+  -- confirmed from the address itself. Without this, re-submitting an address
+  -- that is already subscribed would let a stranger rewrite -- or switch off --
+  -- someone else's alerts, since the form cannot know who is typing.
+  pending_areas   text[],
+
   -- The consent record. UK GDPR asks you to show *when* and *how* consent was
   -- given, not merely to assert that it was.
   created_at      timestamptz not null default now(),

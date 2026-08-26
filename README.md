@@ -281,6 +281,18 @@ like a quiet night.
 - The workflow defaults to a dry run on manual dispatch. Leave it that way for
   the first few nights and read the logs.
 
+### Changing councils, and why it is not a simple update
+
+Anyone can type anyone's address into the sign-up form. So re-submitting an
+address that is already confirmed does **not** touch the live subscription: the
+new councils are parked in `pending_areas` and only applied when the
+confirmation link is clicked, from inside that mailbox. Without that, a stranger
+could rewrite — or silence — someone else's alerts by submitting their address.
+
+For the same reason a confirmation email is not re-sent to an address written to
+in the last ten minutes, and the endpoint answers identically whether or not the
+address is already on the list, so it cannot be used to probe membership.
+
 ## Run
 
 ```bash
